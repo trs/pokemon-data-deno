@@ -19,7 +19,7 @@ export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
   const resp = await fetch(url.href);
   const html = await resp.text();
 
-  const dom = new DOMParser()
+  const dom = new DOMParser();
   const doc = dom.parseFromString(html, 'text/html')!;
 
   const entries = doc.querySelectorAll('#pokedex tbody tr');

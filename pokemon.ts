@@ -19,7 +19,7 @@ export async function getPokemon(path: string): Promise<Pokemon> {
   const resp = await fetch(url.href);
   const html = await resp.text();
 
-  const dom = new DOMParser()
+  const dom = new DOMParser();
   const doc = dom.parseFromString(html, 'text/html')!;
 
   const name = doc.querySelector('#main > h1')?.textContent!;

@@ -16,7 +16,7 @@ export async function * getMoves(): AsyncGenerator<Move> {
   const resp = await fetch(url.href);
   const html = await resp.text();
 
-  const dom = new DOMParser()
+  const dom = new DOMParser();
   const doc = dom.parseFromString(html, 'text/html')!;
 
   for (const moveNode of doc.querySelectorAll('#moves tbody tr')) {

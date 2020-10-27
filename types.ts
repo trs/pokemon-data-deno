@@ -2,55 +2,46 @@ import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
 import {API_URL} from './const.ts';
 
-const TYPE_DESC_REGEX = /(\w+) → (\w+) = ([\w-]+)/
+const TYPE_DESC_REGEX = /^\w+ → (\w+) = ([\w- ]+$)/
 
-interface Effectiveness {
-  type: string;
-  effectiveness: string;
-  value: number;
+export interface TypeEffectiveness {
+  multiplier: number;
+  description: string;
 }
 
-export async function getTypeEffectiveness() {
-  const url = new URL('/type', API_URL);
+export interface Type {
+  name: string;
+  effectiveness: Map<string, TypeEffectiveness>;
+}
+
+export async function * getTypes(): AsyncGenerator<Type> {
+  const url = new URL('/go/type', API_URL);
   const resp = await fetch(url.href);
   const html = await resp.text();
 
-  const dom = new DOMParser()
+  const dom = new DOMParser();
   const doc = dom.parseFromString(html, 'text/html')!;
 
-  const attackerTypes = new Map<string, Effectiveness[]>();
-  const defenderTypes = new Map<string, Effectiveness[]>();
-
   for (const row of doc.querySelectorAll('.type-table tbody tr')) {
+    const name = row.children[0].textContent;
+    const effectiveness = new Map<string, TypeEffectiveness>();
+
     for (const col of row.children) {
-      const desc = col.attributes.getNamedItem('title').value;
-      if (!desc) continue;
+      const title = col.attributes.getNamedItem('title').value;
+      if (!title) continue;
 
-      const value = (() => {
-        switch (col.textContent) {
-          case '½': return 0.5;
-          case '': return 1;
-          default: return Number(col.textContent);
-        }
-      })();
+      const [, defender, description] = TYPE_DESC_REGEX.exec(title)!;
+      const multiplier = Number(col.textContent);
 
-      const [, attacker, defender, effectiveness] = TYPE_DESC_REGEX.exec(desc)!;
-
-      if (!attackerTypes.has(attacker)) attackerTypes.set(attacker, []);
-      if (!defenderTypes.has(defender)) defenderTypes.set(defender, []);
-
-      attackerTypes.set(attacker, [...attackerTypes.get(attacker)!, {type: defender, effectiveness, value}]);
-      defenderTypes.set(defender, [...defenderTypes.get(defender)!, {type: attacker, effectiveness, value}]);
+      effectiveness.set(defender, {
+        description,
+        multiplier
+      });
     }
+
+    yield {
+      name,
+      effectiveness
+    };
   }
-
-  return {
-    attackerTypes,
-    defenderTypes
-  };
 }
-
-const result = await getTypeEffectiveness();
-
-console.log(Object.fromEntries(result.attackerTypes.entries()));
-console.log(Object.fromEntries(result.defenderTypes.entries()));
