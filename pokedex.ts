@@ -1,6 +1,19 @@
-import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
+import { DOMParser, Element } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
 import {API_URL} from './const.ts';
+
+export interface Moveset {
+  name: string;
+  type: 'charge' | 'fast';
+}
+
+export interface Stats {
+  attack: number;
+  defence: number;
+  hp: number;
+  catchPct: number;
+  fleePct: number;
+}
 
 export interface PokedexEntry {
   id: number;
@@ -8,10 +21,9 @@ export interface PokedexEntry {
   name: string;
   variant: string | null;
   types: string[];
-  attack: number;
-  defence: number;
-  hp: number;
-  url: string;
+  path: string;
+  stats: Stats;
+  moves: Moveset[];
 }
 
 export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
@@ -29,7 +41,6 @@ export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
     const name = entry.children[1].querySelector('.ent-name')?.textContent!;
     const variant = entry.children[1].querySelector('.text-muted')?.textContent ?? null;
     const path = entry.children[1].querySelector('.ent-name')?.attributes.getNamedItem('href').value!;
-    const url = new URL(path, API_URL).href;
 
     let types = [];
     for (const typeNode of entry.children[2].querySelectorAll('.type-icon')) {
@@ -37,8 +48,30 @@ export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
     }
 
     const attack = Number(entry.children[3].textContent);
-    const defence = Number(entry.children[3].textContent);
-    const hp = Number(entry.children[3].textContent);
+    const defence = Number(entry.children[4].textContent);
+    const hp = Number(entry.children[5].textContent);
+    const catchPct = parseInt(entry.children[6].textContent);
+    const fleePct = parseInt(entry.children[7].textContent);
+
+    const stats: Stats = {
+      attack,
+      defence,
+      hp,
+      catchPct,
+      fleePct
+    }
+
+    const parseMoves = (type: 'fast' | 'charge', node: Element): Moveset[] => node.innerHTML.split('<br>')
+      .filter((move) => move && !move.startsWith('<'))
+      .map((name) => ({
+        name,
+        type
+      }))
+
+    const moves = [
+      ...parseMoves('fast', entry.children[8]),
+      ...parseMoves('charge', entry.children[9])
+    ];
 
     yield {
       id,
@@ -46,10 +79,9 @@ export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
       name,
       variant,
       types,
-      attack,
-      defence,
-      hp,
-      url
+      stats,
+      path,
+      moves
     };
   }
 }
