@@ -23,7 +23,7 @@ export interface Moveset {
 }
 
 export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
-  const url = new URL('pokemon.shtml', URL_SEREBII);
+  const url = new URL('pokemongo/pokemon.shtml', URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
 
@@ -38,7 +38,7 @@ export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
 }
 
 async function * getPokedexPath(path: string): AsyncGenerator<PokedexEntry> {
-  const url = new URL(path, URL_SEREBII);
+  const url = new URL(`pokemongo/${path}`, URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
 

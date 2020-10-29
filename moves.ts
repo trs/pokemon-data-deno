@@ -15,7 +15,7 @@ export interface Move {
 }
 
 export async function * getMoves(): AsyncGenerator<any> {
-  const url = new URL('moves.shtml', URL_SEREBII);
+  const url = new URL('pokemongo/moves.shtml', URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
 
