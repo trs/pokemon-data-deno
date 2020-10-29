@@ -31,7 +31,7 @@ export async function * getTypes(): AsyncGenerator<Type> {
       if (!title) continue;
 
       const [, defender, description] = TYPE_DESC_REGEX.exec(title)!;
-      const multiplier = Number(col.textContent);
+      const multiplier = Number(col.textContent || '1');
 
       effectiveness.set(defender, {
         description,
