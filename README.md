@@ -6,8 +6,6 @@
 
 `getPokedex(): AsyncGenerator<PokedexEntry>`
 
-`getPokemon(path: string): Promise<Pokemon>`
-
 `getMoves(): AsyncGenerator<Move>`
 
 `getTypes(): AsyncGenerator<Type>`

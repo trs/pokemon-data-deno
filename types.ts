@@ -1,6 +1,6 @@
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-import {API_URL} from './const.ts';
+import {URL_PKMNDB} from './const.ts';
 
 const TYPE_DESC_REGEX = /^\w+ → (\w+) = ([\w- ]+$)/
 
@@ -15,7 +15,7 @@ export interface Type {
 }
 
 export async function * getTypes(): AsyncGenerator<Type> {
-  const url = new URL('/go/type', API_URL);
+  const url = new URL('/go/type', URL_PKMNDB);
   const resp = await fetch(url.href);
   const html = await resp.text();
 

@@ -1,86 +1,78 @@
-import { DOMParser, Element } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
+import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-import {API_URL} from './const.ts';
-
-export interface Moveset {
-  name: string;
-  type: 'charge' | 'fast';
-}
-
-export interface Stats {
-  attack: number;
-  defence: number;
-  hp: number;
-  catchPct: number;
-  fleePct: number;
-}
+import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX} from './const.ts';
 
 export interface PokedexEntry {
   id: number;
-  sprite: string;
   name: string;
-  variant: string | null;
+  image: string;
   types: string[];
-  path: string;
   stats: Stats;
   moves: Moveset[];
 }
 
+export interface Stats {
+  hp: number;
+  attack: number;
+  defence: number;
+}
+
+export interface Moveset {
+  category: MoveCategory;
+  name: string;
+}
+
 export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
-  const url = new URL('/go/pokedex', API_URL);
+  const url = new URL('pokemon.shtml', URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
 
   const dom = new DOMParser();
   const doc = dom.parseFromString(html, 'text/html')!;
 
-  const entries = doc.querySelectorAll('#pokedex tbody tr');
-  for (const entry of entries) {
-    const id = Number(entry.children[0].querySelector('.infocard-cell-data')?.textContent!);
-    const sprite = entry.children[0].querySelector('.infocard-cell-img .icon-pkmn')?.attributes.getNamedItem('data-src').value!;
-    const name = entry.children[1].querySelector('.ent-name')?.textContent!;
-    const variant = entry.children[1].querySelector('.text-muted')?.textContent ?? null;
-    const path = entry.children[1].querySelector('.ent-name')?.attributes.getNamedItem('href').value!;
+  for (const dex of doc.querySelectorAll('table td.pkmn')) {
+    const path = dex.children[0].attributes.getNamedItem('href').value;
 
-    let types = [];
-    for (const typeNode of entry.children[2].querySelectorAll('.type-icon')) {
-      types.push(typeNode.textContent);
-    }
+    yield * getPokedexPath(path);
+  }
+}
 
-    const attack = Number(entry.children[3].textContent);
-    const defence = Number(entry.children[4].textContent);
-    const hp = Number(entry.children[5].textContent);
-    const catchPct = parseInt(entry.children[6].textContent);
-    const fleePct = parseInt(entry.children[7].textContent);
+async function * getPokedexPath(path: string): AsyncGenerator<PokedexEntry> {
+  const url = new URL(path, URL_SEREBII);
+  const resp = await fetch(url.href);
+  const html = await resp.text();
 
+  const dom = new DOMParser();
+  const doc = dom.parseFromString(html, 'text/html')!;
+
+  for (const row of doc.querySelectorAll('table:nth-child(5) > tbody > tr:not(:first-child)')) {
+    const id = Number(row.children[0].textContent.trim().slice(1));
+    const image = new URL(row.children[1].querySelector('img')?.getAttribute('src')!, URL_SEREBII).href;
+    const name = row.children[2].querySelector('a')?.textContent.trim()!;
+    const types = [...row.children[3].querySelectorAll('a')].map((a) => TYPE_IMG_SRC_REGEX.exec(a.children[0].getAttribute('src')!)![1]);
+
+    const statDoc = row.children[4].querySelectorAll('table tr');
     const stats: Stats = {
-      attack,
-      defence,
-      hp,
-      catchPct,
-      fleePct
-    }
+      hp: Number(statDoc[0].children[1].textContent.trim()),
+      attack: Number(statDoc[0].children[1].textContent.trim()),
+      defence: Number(statDoc[0].children[1].textContent.trim())
+    };
 
-    const parseMoves = (type: 'fast' | 'charge', node: Element): Moveset[] => node.innerHTML.split('<br>')
-      .filter((move) => move && !move.startsWith('<'))
-      .map((name) => ({
-        name,
-        type
-      }))
+    const fastMoves = [...row.children[5].querySelectorAll('a')].map((a) => a.children[0].textContent);
+    const chargeMoves = [...row.children[6].querySelectorAll('a')].map((a) => a.children[0].textContent);
 
+    const mapMoves = (category: MoveCategory) => (name: string) => ({category, name});
     const moves = [
-      ...parseMoves('fast', entry.children[8]),
-      ...parseMoves('charge', entry.children[9])
+      ...fastMoves.map(mapMoves('fast')),
+      ...chargeMoves.map((mapMoves('charge')))
     ];
 
     yield {
       id,
-      sprite,
+      image,
       name,
-      variant,
       types,
       stats,
-      path,
       moves
     };
   }
