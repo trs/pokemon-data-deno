@@ -6,6 +6,8 @@ on:
 jobs:
   bundle:
     runs-on: ubuntu-latest
+    outputs:
+      hash: ${{ steps.commit.outputs.hash }}
     steps:
     - uses: actions/checkout@v2
     - uses: denolib/setup-deno@v2
@@ -14,24 +16,31 @@ jobs:
     - name: Bundle
       run: |
         deno --version
-        deno bundle mod.ts bundle.ts
-    - name: Create Release
+        mkdir bundle
+        deno bundle mod.ts bundle/mod.ts
+    - name: Commit
+      id: commit
+      run: |
+        git config --local user.email "hello@tylerstewart.ca"
+        git config --local user.name "Tyler Stewart"
+        git add bundle
+        git commit -m "publish"
+        git branch -D x & git subtree split --prefix bundle -b x
+        git push -f origin x:x
+        git fetch origin x
+        echo "::set-output name=hash::$(git log -1 --format='%H' origin/x)"
+  tag:
+    runs-on: ubuntu-latest
+    needs: bundle
+    steps:
+    - name: Release
       id: release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        release_name: ${{ github.ref }}
         draft: false
         prerelease: false
-    - name: Upload Asset
-      id: asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.release.outputs.upload_url }}
-        asset_path: ./bundle.ts
-        asset_name: mod.ts
-        asset_content_type: text/x-typescript
+        commitish: ${{ needs.bundle.outputs.hash }}
