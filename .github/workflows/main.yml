@@ -33,16 +33,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: bundle
     steps:
-    - run: |
-        git checkout x
-    - name: Release
-      id: release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
       with:
-        tag_name: ${{ github.ref }}
-        release_name: ${{ github.ref }}
-        draft: false
-        prerelease: false
-        commitish: ${{ needs.bundle.outputs.hash }}
+        ref: ${{ needs.bundle.outputs.hash }}
+    - run: |
+        git tag -a ${{ github.ref }} -m "${{ github.ref }}"
+        git push origin --tags
