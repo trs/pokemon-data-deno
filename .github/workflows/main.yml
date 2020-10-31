@@ -1,0 +1,37 @@
+name: Release
+on:
+  push:
+    tags:
+    - 'v*'
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: denolib/setup-deno@v2
+      with:
+        deno-version: v1.x
+    - name: Bundle
+      run: |
+        deno --version
+        deno bundle mod.ts bundle.ts
+    - name: Create Release
+      id: release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+    - name: Upload Asset
+      id: asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.release.outputs.upload_url }}
+        asset_path: ./bundle.ts
+        asset_name: mod.ts
+        asset_content_type: text/x-typescript
