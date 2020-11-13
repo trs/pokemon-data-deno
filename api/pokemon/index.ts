@@ -1,8 +1,5 @@
-import { ServerRequest } from 'https://deno.land/std@0.77.0/http/mod.ts';
-import * as path from 'https://deno.land/std@0.77.0/path/mod.ts';
-
+import {allowCors} from '../_cors.ts';
 import {DATA_PATH} from '../_const.ts';
-import type {Pokemon} from '../../mod.ts';
 
 interface PokedexEntry {
   id: number;
@@ -11,19 +8,14 @@ interface PokedexEntry {
   types: string[];
 }
 
-export default async (req: ServerRequest) => {
-  const headers = new Headers();
+export default allowCors(async (headers, req) => {
   headers.set('Content-Type', 'application/json; charset=utf8');
   headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
-
-  for await (const {name} of Deno.readDir(path.resolve('./api'))) {
-    console.log(name)
-  }
 
   try {
     const pokedex: PokedexEntry[] = [];
     for await (const {name} of Deno.readDir(DATA_PATH)) {
-      const pokemon = JSON.parse(await Deno.readTextFile(`${DATA_PATH}/${name}`)) as Pokemon;
+      const pokemon = JSON.parse(await Deno.readTextFile(`${DATA_PATH}/${name}`));
       pokedex.push({
         id: pokemon.id,
         image: pokemon.image,
@@ -45,4 +37,4 @@ export default async (req: ServerRequest) => {
       headers
     });
   }
-};
+});

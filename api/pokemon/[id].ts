@@ -1,9 +1,7 @@
-import { ServerRequest } from 'https://deno.land/std@0.77.0/http/mod.ts';
-
+import {allowCors} from '../_cors.ts';
 import {DATA_PATH} from '../_const.ts';
 
-export default async (req: ServerRequest) => {
-  const headers = new Headers();
+export default allowCors(async (headers, req) => {
   headers.set('Content-Type', 'application/json; charset=utf8');
   headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
 
@@ -19,7 +17,6 @@ export default async (req: ServerRequest) => {
     }
 
     const pokemonFilePath = `${DATA_PATH}/${id}.json`;
-    console.log(pokemonFilePath)
 
     const exists = await Deno.stat(pokemonFilePath)
       .then((info) => info.isFile)
@@ -48,4 +45,4 @@ export default async (req: ServerRequest) => {
       headers
     });
   }
-};
+});
