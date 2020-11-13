@@ -1,5 +1,8 @@
 {
 	"functions": {
+		"api/index.js": {
+      "includeFiles": "_data/**"
+		},
 		"api/**/*.ts": {
 			"runtime": "vercel-deno@0.7.5"
 		}

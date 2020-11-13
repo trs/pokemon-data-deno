@@ -1,6 +1,6 @@
 import { ServerRequest } from 'https://deno.land/std@0.77.0/http/mod.ts';
 
-import {DATA_PATH} from '../../src/utils.ts';
+import {DATA_PATH} from '../_const.ts';
 
 export default async (req: ServerRequest) => {
   const headers = new Headers();
@@ -32,7 +32,7 @@ export default async (req: ServerRequest) => {
       return;
     }
 
-    const pokemonFile = await Deno.readFile(pokemonFilePath);
+    const pokemonFile = await Deno.readTextFile(pokemonFilePath);
 
     req.respond({
       status: 200,
