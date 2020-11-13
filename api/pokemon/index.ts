@@ -26,7 +26,7 @@ export default allowCors(async (headers, req) => {
 
     req.respond({
       status: 200,
-      body: JSON.stringify(pokedex),
+      body: JSON.stringify(pokedex.sort((a, b) => a.id - b.id)),
       headers
     });
   } catch (err) {
