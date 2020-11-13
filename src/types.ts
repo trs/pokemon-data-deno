@@ -11,7 +11,7 @@ export interface TypeEffectiveness {
 
 export interface Type {
   name: string;
-  effectiveness: Map<string, TypeEffectiveness>;
+  effectiveness: Record<string, TypeEffectiveness>;
 }
 
 export async function * getTypes(): AsyncGenerator<Type> {
@@ -41,7 +41,7 @@ export async function * getTypes(): AsyncGenerator<Type> {
 
     yield {
       name,
-      effectiveness
+      effectiveness: Object.fromEntries(effectiveness.entries())
     };
   }
 }

@@ -54,8 +54,8 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
     const statDoc = row.children[4].querySelectorAll('table tr');
     const stats: Stats = {
       hp: Number(statDoc[0].children[1].textContent.trim()),
-      attack: Number(statDoc[0].children[1].textContent.trim()),
-      defence: Number(statDoc[0].children[1].textContent.trim())
+      attack: Number(statDoc[1].children[1].textContent.trim()),
+      defence: Number(statDoc[2].children[1].textContent.trim())
     };
 
     const fastMoves = [...row.children[5].querySelectorAll('a')].map((a) => a.children[0].textContent);

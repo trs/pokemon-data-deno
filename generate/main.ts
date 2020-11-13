@@ -9,7 +9,7 @@ await Deno.mkdir(outputDir, {recursive: true});
 async function mapTypes() {
   const types = new Map<string, Type>();
   for await (const type of getTypes()) {
-    types.set(type.name, type);
+    types.set(type.name.toLocaleLowerCase(), type);
   }
   return types;
 }
@@ -42,7 +42,7 @@ const movesMap = new Map<MoveCategory, Map<string, Move>>([
 ]);
 
 for await (const pokemon of getPokedex()) {
-  const moves = pokemon.moves.map((move) => movesMap.get(move.category));
+  const moves = pokemon.moves.map((move) => movesMap.get(move.category)?.get(move.name));
   const types = pokemon.types.map((type) => typesMap.get(type));
 
   const pokemonData = {
@@ -51,8 +51,8 @@ for await (const pokemon of getPokedex()) {
     types
   };
 
-  await Deno.writeFile(
+  await Deno.writeTextFile(
     `${outputDir}/${pokemon.id}.json`,
-    new TextEncoder().encode(JSON.stringify(pokemonData))
+    JSON.stringify(pokemonData)
   );
 }

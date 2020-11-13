@@ -16,15 +16,9 @@ export default async (req: ServerRequest) => {
   headers.set('Content-Type', 'application/json; charset=utf8');
   headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
 
-  const dir = path.resolve(DATA_PATH);
-
   for await (const {name} of Deno.readDir(path.resolve('./api'))) {
     console.log(name)
   }
-
-  console.log('dir', dir);
-
-
 
   try {
     const pokedex: PokedexEntry[] = [];
@@ -44,7 +38,7 @@ export default async (req: ServerRequest) => {
       headers
     });
   } catch (err) {
-    console.log(err)
+    console.error(err);
     req.respond({
       status: 500,
       body: JSON.stringify(err),

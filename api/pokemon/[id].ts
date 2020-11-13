@@ -8,8 +8,8 @@ export default async (req: ServerRequest) => {
   headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
 
   try {
-    const url = new URL(req.url);
-    const id = url.searchParams.get('id');
+    const params = new URLSearchParams(req.url.split('?')?.[1] ?? '');
+    const id = params.get('id');
     if (!id) {
       req.respond({
         status: 400,
@@ -19,6 +19,7 @@ export default async (req: ServerRequest) => {
     }
 
     const pokemonFilePath = `${DATA_PATH}/${id}.json`;
+    console.log(pokemonFilePath)
 
     const exists = await Deno.stat(pokemonFilePath)
       .then((info) => info.isFile)
@@ -40,6 +41,7 @@ export default async (req: ServerRequest) => {
       headers
     });
   } catch (err) {
+    console.error(err);
     req.respond({
       status: 500,
       body: JSON.stringify(err),
