@@ -1,4 +1,4 @@
-import { DOMParser, HTMLDocument } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
+import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
 import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX} from './const.ts';
 
@@ -14,7 +14,12 @@ export interface Move {
   category: MoveCategory;
 }
 
-export async function * getMoves(): AsyncGenerator<any> {
+export async function * getMoves(): AsyncGenerator<Move> {
+  yield * getFastMoves();
+  yield * getChargeMoves();
+}
+
+export async function * getFastMoves(): AsyncGenerator<Move> {
   const url = new URL('pokemongo/moves.shtml', URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
@@ -22,11 +27,6 @@ export async function * getMoves(): AsyncGenerator<any> {
   const dom = new DOMParser();
   const doc = dom.parseFromString(html, 'text/html')!;
 
-  yield * getFastMoves(doc);
-  yield * getChargeMoves(doc);
-}
-
-async function * getFastMoves(doc: HTMLDocument): AsyncGenerator<Move> {
   for (const row of doc.querySelectorAll('#moves li[title="VCurrent"] table:nth-of-type(1) > tbody > tr:not(:nth-child(1))')) {
     const name = row.children[0].textContent.trim();
     const type = TYPE_IMG_SRC_REGEX.exec(row.children[1].children[0].children[0].getAttribute('src')!)?.[1]!;
@@ -51,7 +51,14 @@ async function * getFastMoves(doc: HTMLDocument): AsyncGenerator<Move> {
   }
 }
 
-async function * getChargeMoves(doc: HTMLDocument): AsyncGenerator<Move> {
+export async function * getChargeMoves(): AsyncGenerator<Move> {
+  const url = new URL('pokemongo/moves.shtml', URL_SEREBII);
+  const resp = await fetch(url.href);
+  const html = await resp.text();
+
+  const dom = new DOMParser();
+  const doc = dom.parseFromString(html, 'text/html')!;
+
   for (const row of doc.querySelectorAll('#moves li[title="VCurrent"] table:nth-of-type(2) > tbody > tr:not(:nth-child(1))')) {
     const name = row.children[0].textContent.trim();
     const type = TYPE_IMG_SRC_REGEX.exec(row.children[1].children[0].children[0].getAttribute('src')!)?.[1]!;

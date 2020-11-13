@@ -2,7 +2,7 @@ import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
 import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX} from './const.ts';
 
-export interface PokedexEntry {
+export interface Pokemon {
   id: number;
   name: string;
   image: string;
@@ -22,7 +22,7 @@ export interface Moveset {
   name: string;
 }
 
-export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
+export async function * getPokedex(): AsyncGenerator<Pokemon> {
   const url = new URL('pokemongo/pokemon.shtml', URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
@@ -37,7 +37,7 @@ export async function * getPokedex(): AsyncGenerator<PokedexEntry> {
   }
 }
 
-async function * getPokedexPath(path: string): AsyncGenerator<PokedexEntry> {
+async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
   const url = new URL(`pokemongo/${path}`, URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
