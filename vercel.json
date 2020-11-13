@@ -1,4 +1,14 @@
 {
+	"routes": [
+		{
+			"src": "/api/pokemon/(?<id>[^/]+).png",
+			"dest": "/api/_data/$id.png",
+			"methods": ["GET"],
+      "headers": {
+				"cache-control": "s-maxage=604800"
+			}
+		}
+	],
 	"functions": {
 		"api/**/*.ts": {
 			"runtime": "vercel-deno@0.7.5",
