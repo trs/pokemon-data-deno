@@ -6,7 +6,6 @@ install_deno:
 	curl -fsSL https://deno.land/x/install/install.sh | sh
 
 generate_data:
-	${HOME}/.deno/bin/deno run --allow-net --allow-read --allow-write ./generate/main.ts ./api/_data
-	mkdir ./public
+	${HOME}/.deno/bin/deno run --allow-net --allow-read --allow-write ./generate/main.ts ./api/data
 
 .DEFAULT_GOAL := all

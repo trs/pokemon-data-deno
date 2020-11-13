@@ -1,8 +1,6 @@
 import { ServerRequest } from 'https://deno.land/std@0.77.0/http/mod.ts';
 
-import {__dirname} from './_utils.ts';
-
-const DATA_PATH = `${__dirname}/_data`;
+import {DATA_PATH} from '../src/utils.ts';
 
 export default async (req: ServerRequest) => {
   try {
