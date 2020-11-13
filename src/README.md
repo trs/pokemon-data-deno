@@ -9,3 +9,7 @@
 `getMoves(): AsyncGenerator<Move>`
 
 `getTypes(): AsyncGenerator<Type>`
+
+## Development
+
+- [Deno VSCode extension](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno)
