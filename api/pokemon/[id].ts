@@ -3,6 +3,10 @@ import { ServerRequest } from 'https://deno.land/std@0.77.0/http/mod.ts';
 import {DATA_PATH} from '../../src/utils.ts';
 
 export default async (req: ServerRequest) => {
+  const headers = new Headers();
+  headers.set('Content-Type', 'application/json; charset=utf8');
+  headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
+
   try {
     const url = new URL(req.url);
     const id = url.searchParams.get('id');
@@ -33,12 +37,13 @@ export default async (req: ServerRequest) => {
     req.respond({
       status: 200,
       body: pokemonFile,
-      headers: new Headers({'content-type': 'application/json'})
+      headers
     });
   } catch (err) {
     req.respond({
       status: 500,
-      body: JSON.stringify(err)
+      body: JSON.stringify(err),
+      headers
     });
   }
 };

@@ -1,11 +1,13 @@
-.PHONY: all install_deno generate_data
+# .PHONY: all install_deno generate_data
 
-all: install_deno generate_data
+# all: install_deno generate_data
 
-install_deno:
-	curl -fsSL https://deno.land/x/install/install.sh | sh
+# install_deno:
+# 	# curl -fsSL https://deno.land/x/install/install.sh | sh
 
-generate_data:
-	${HOME}/.deno/bin/deno run --allow-net --allow-read --allow-write ./generate/main.ts ./api/data
+# generate_data:
+# 	# ${HOME}/.deno/bin/deno run --allow-net --allow-read --allow-write ./generate/main.ts ./api/data
 
-.DEFAULT_GOAL := all
+# .DEFAULT_GOAL := all
+
+Nothing:
