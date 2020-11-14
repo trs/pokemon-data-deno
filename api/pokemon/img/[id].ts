@@ -1,5 +1,5 @@
-import {allowCors} from '../_cors.ts';
-import {API_DIR} from '../../const.ts';
+import {allowCors} from '../../_cors.ts';
+import {IMG_DIR} from '../../../const.ts';
 
 export default allowCors(async (headers, req) => {
   try {
@@ -13,9 +13,9 @@ export default allowCors(async (headers, req) => {
       return;
     }
 
-    const pokemonFilePath = `${API_DIR}/${id}.json`;
+    const pokemonImagePath = `${IMG_DIR}/${id}.png`;
 
-    const exists = await Deno.stat(pokemonFilePath)
+    const exists = await Deno.stat(pokemonImagePath)
       .then((info) => info.isFile)
       .catch(() => false);
 
@@ -27,13 +27,14 @@ export default allowCors(async (headers, req) => {
       return;
     }
 
-    const pokemonFile = await Deno.readTextFile(pokemonFilePath);
+    const pokemonImage = await Deno.readFile(pokemonImagePath);
 
-    headers.set('Content-Type', 'application/json; charset=utf8');
-    headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
+    headers.set('Content-Type', 'image/png; charset=utf8');
+    headers.set('Cache-Control', 's-maxage=86400');
+
     req.respond({
       status: 200,
-      body: pokemonFile,
+      body: pokemonImage,
       headers
     });
   } catch (err) {

@@ -1,18 +1,18 @@
 {
-	"routes": [
+	"redirects": [
 		{
-			"src": "/api/pokemon/(?<id>[^/]+).png",
-			"dest": "/api/_data/$id.png",
-			"methods": ["GET"],
-      "headers": {
-				"cache-control": "s-maxage=604800"
-			}
+			"source": "/api/pokemon/:id.png",
+			"destination": "/api/pokemon/img/:id"
 		}
 	],
 	"functions": {
+		"api/pokemon/img/*.ts": {
+			"runtime": "vercel-deno@0.7.5",
+      "includeFiles": "api/pokemon/img/_data/**"
+		},
 		"api/**/*.ts": {
 			"runtime": "vercel-deno@0.7.5",
-      "includeFiles": "api/_data/**"
+      "includeFiles": "api/pokemon/_data/**"
 		}
 	}
 }
