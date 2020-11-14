@@ -3,8 +3,7 @@ import { download } from "https://deno.land/x/download@v1.0.1/mod.ts";
 import { getPokedex, getTypes, getFastMoves, getChargeMoves } from '../mod.ts';
 import { Type, Move, MoveCategory } from '../mod.ts';
 
-const API_DIR = './api/_data';
-const IMG_DIR = './api/_data';
+import {API_DIR, IMG_DIR} from '../const.ts';
 
 await Deno.mkdir(API_DIR, {recursive: true});
 await Deno.mkdir(IMG_DIR, {recursive: true});
