@@ -48,15 +48,13 @@ for await (const pokemon of getPokedex()) {
   const moves = pokemon.moves.map((move) => movesMap.get(move.category)?.get(move.name));
   const types = pokemon.types.map((type) => typesMap.get(type));
 
-  const key = `${pokemon.id}${pokemon.form}`;
-  const {fullPath} = await download(pokemon.image, {dir: IMG_DIR, file: `${key}.png`});
+  const {fullPath} = await download(pokemon.image, {dir: IMG_DIR, file: `${pokemon.id}.png`});
   const {width, height} = await readDimensions(fullPath);
 
   const pokemonData = {
     ...pokemon,
-    key,
     image: {
-      path: `pokemon/${key}.png`,
+      path: `pokemon/${pokemon.id}.png`,
       width,
       height
     },
@@ -65,7 +63,7 @@ for await (const pokemon of getPokedex()) {
   };
 
   await Deno.writeTextFile(
-    `${API_DIR}/${key}.json`,
+    `${API_DIR}/${pokemon.id}.json`,
     JSON.stringify(pokemonData)
   );
 }

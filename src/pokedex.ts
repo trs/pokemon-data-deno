@@ -1,9 +1,10 @@
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX, ID_IMG_SRC_REFEX} from './const.ts';
+import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX, ID_IMG_SRC_REGEX, FORM_REGEX} from './const.ts';
 
 export interface Pokemon {
-  id: number;
+  id: string;
+  number: number;
   form: string;
   name: string;
   image: string;
@@ -48,9 +49,10 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
 
   for (const row of doc.querySelectorAll('table:nth-child(5) > tbody > tr:not(:first-child)')) {
     const image = new URL(row.children[1].querySelector('img')?.getAttribute('src')!, URL_SEREBII).href;
-    const id = Number(ID_IMG_SRC_REFEX.exec(image)?.[1]!);
-    const form = ID_IMG_SRC_REFEX.exec(image)?.[2] ?? '';
+    const id = ID_IMG_SRC_REGEX.exec(image)?.[1]! + (ID_IMG_SRC_REGEX.exec(image)?.[2] ?? '');
+    const number = parseInt(id);
     const name = row.children[2].querySelector('a')?.textContent.trim()!;
+    const form = FORM_REGEX.exec(row.children[2].textContent.trim())?.[1] ?? '';
     const types = [...row.children[3].querySelectorAll('a')].map((a) => TYPE_IMG_SRC_REGEX.exec(a.children[0].getAttribute('src')!)![1]);
 
     const statDoc = row.children[4].querySelectorAll('table tr');
@@ -71,6 +73,7 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
 
     yield {
       id,
+      number,
       form,
       image,
       name,
