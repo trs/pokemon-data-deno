@@ -22,14 +22,14 @@ export default allowCors(async (headers, req) => {
     if (!exists) {
       req.respond({
         status: 400,
-        body: JSON.stringify({message: `No pokemon with that ID found: ${id}`})
+        body: JSON.stringify({message: `No pokemon image with that ID found: ${id}`})
       });
       return;
     }
 
     const pokemonImage = await Deno.readFile(pokemonImagePath);
 
-    headers.set('Content-Type', 'image/png; charset=utf8');
+    headers.set('Content-Type', 'image/png');
     headers.set('Cache-Control', 's-maxage=86400');
 
     req.respond({

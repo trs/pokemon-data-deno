@@ -1,4 +1,5 @@
 import { download } from "https://deno.land/x/download@v1.0.1/mod.ts";
+import { readDimensions } from "https://deno.land/x/png@v0.0.1/mod.ts";
 
 import { getPokedex, getTypes, getFastMoves, getChargeMoves } from '../mod.ts';
 import { Type, Move, MoveCategory } from '../mod.ts';
@@ -47,10 +48,16 @@ for await (const pokemon of getPokedex()) {
   const moves = pokemon.moves.map((move) => movesMap.get(move.category)?.get(move.name));
   const types = pokemon.types.map((type) => typesMap.get(type));
 
-  await download(pokemon.image, {dir: IMG_DIR, file: `${pokemon.id}.png`});
+  const {fullPath} = await download(pokemon.image, {dir: IMG_DIR, file: `${pokemon.id}.png`});
+  const {width, height} = await readDimensions(fullPath);
 
   const pokemonData = {
     ...pokemon,
+    image: {
+      path: `pokemon/img/${pokemon.id}`,
+      width,
+      height
+    },
     moves,
     types
   };

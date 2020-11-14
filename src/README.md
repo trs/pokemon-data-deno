@@ -4,7 +4,7 @@
 
 ## API
 
-`getPokedex(): AsyncGenerator<PokedexEntry>`
+`getPokedex(): AsyncGenerator<Pokemon>`
 
 `getMoves(): AsyncGenerator<Move>`
 

@@ -1,5 +1,5 @@
 {
-	"redirects": [
+	"rewrites": [
 		{
 			"source": "/api/pokemon/:id.png",
 			"destination": "/api/pokemon/img/:id"
