@@ -21,7 +21,7 @@ export default allowCors(async (headers, req) => {
         form: pokemon.form,
         image: pokemon.image,
         name: pokemon.name,
-        types: pokemon.types
+        types: pokemon.types.map(({name}: any) => name)
       });
     }
 
