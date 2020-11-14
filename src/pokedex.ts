@@ -1,9 +1,10 @@
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX} from './const.ts';
+import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX, ID_IMG_SRC_REFEX} from './const.ts';
 
 export interface Pokemon {
   id: number;
+  form: string;
   name: string;
   image: string;
   types: string[];
@@ -46,8 +47,9 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
   const doc = dom.parseFromString(html, 'text/html')!;
 
   for (const row of doc.querySelectorAll('table:nth-child(5) > tbody > tr:not(:first-child)')) {
-    const id = Number(row.children[0].textContent.trim().slice(1));
     const image = new URL(row.children[1].querySelector('img')?.getAttribute('src')!, URL_SEREBII).href;
+    const id = Number(ID_IMG_SRC_REFEX.exec(image)?.[1]!);
+    const form = ID_IMG_SRC_REFEX.exec(image)?.[2] ?? '';
     const name = row.children[2].querySelector('a')?.textContent.trim()!;
     const types = [...row.children[3].querySelectorAll('a')].map((a) => TYPE_IMG_SRC_REGEX.exec(a.children[0].getAttribute('src')!)![1]);
 
@@ -69,6 +71,7 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
 
     yield {
       id,
+      form,
       image,
       name,
       types,
