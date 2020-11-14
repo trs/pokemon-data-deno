@@ -3,7 +3,7 @@ import {API_DIR} from '../../const.ts';
 
 interface PokedexEntry {
   id: number;
-  form: string;
+  key: string;
   image: string;
   name: string;
   types: string[];
@@ -16,7 +16,7 @@ export default allowCors(async (headers, req) => {
       const pokemon = JSON.parse(await Deno.readTextFile(`${API_DIR}/${name}`));
       pokedex.push({
         id: pokemon.id,
-        form: pokemon.form,
+        key: pokemon.key,
         image: pokemon.image,
         name: pokemon.name,
         types: pokemon.types
@@ -27,7 +27,7 @@ export default allowCors(async (headers, req) => {
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,
-      body: JSON.stringify(pokedex.sort((a, b) => `${a.id}${a.form}`.localeCompare(`${b.id}${b.form}`, 'en', {numeric: true}))),
+      body: JSON.stringify(pokedex.sort((a, b) => a.id - b.id)),
       headers
     });
   } catch (err) {
