@@ -9,13 +9,20 @@ type PokedexEntry = Pick<Pokemon, 'id' | 'number' | 'forms' | 'image' | 'name'> 
 
 export default allowCors(async (headers, req) => {
   try {
+    const {searchParams} = new URL(req.url, 'https://127.0.0.1/');
+
     const pokedex = await listPokemon();
+
+    const count = Number(searchParams.get('count') ?? 50);
+    const page = Number(searchParams.get('page') ?? 0);
+    const start = page * count;
+    const end = start + count;
 
     headers.set('Content-Type', 'application/json; charset=utf8');
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,
-      body: JSON.stringify(pokedex),
+      body: JSON.stringify(pokedex.slice(start, end)),
       headers
     });
   } catch (err) {
