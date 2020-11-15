@@ -5,12 +5,17 @@ import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX, ID_IMG_SRC_REGEX, FORM_RE
 export interface Pokemon {
   id: string;
   number: number;
-  form: string;
+  form: Form | null;
   name: string;
   image: string;
   types: string[];
   stats: Stats;
   moves: Moveset[];
+}
+
+export interface Form {
+  id: string;
+  name: string;
 }
 
 export interface Stats {
@@ -49,10 +54,19 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
 
   for (const row of doc.querySelectorAll('table:nth-child(5) > tbody > tr:not(:first-child)')) {
     const image = new URL(row.children[1].querySelector('img')?.getAttribute('src')!, URL_SEREBII).href;
-    const id = ID_IMG_SRC_REGEX.exec(image)?.[1]! + (ID_IMG_SRC_REGEX.exec(image)?.[2] ?? '');
-    const number = parseInt(id);
+    const number = parseInt(ID_IMG_SRC_REGEX.exec(image)?.[1]!);
+    const formID = ID_IMG_SRC_REGEX.exec(image)?.[2] ?? ''
+    const id = number + formID;
     const name = row.children[2].querySelector('a')?.textContent.trim()!;
-    const form = FORM_REGEX.exec(row.children[2].textContent.trim())?.[1] ?? '';
+    const formName = (FORM_REGEX.exec(row.children[2].textContent.trim())?.[1] ?? '')
+      .replace(/(\s|^)Form(\s|$)/ig, '')
+      .replace(new RegExp(`(\\s|^)${name}(\\s|$)`, 'ig'), '')
+      .trim();
+    const form = formID ? {
+      id: formID,
+      name: /^m\w?$/.test(formID) ? 'Mega' : formName
+    } : null;
+
     const types = [...row.children[3].querySelectorAll('a')].map((a) => TYPE_IMG_SRC_REGEX.exec(a.children[0].getAttribute('src')!)![1]);
 
     const statDoc = row.children[4].querySelectorAll('table tr');
