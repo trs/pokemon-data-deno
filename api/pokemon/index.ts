@@ -1,13 +1,10 @@
 import {allowCors} from '../_cors.ts';
 import {API_DIR} from '../../const.ts';
 
-interface PokedexEntry {
-  id: string;
-  number: number;
-  form: string;
-  image: string;
-  name: string;
-  types: string[];
+import type { Pokemon } from "../../src/pokedex.ts";
+
+type PokedexEntry = Pick<Pokemon, 'id' | 'number' | 'form' | 'image' | 'name'> & {
+  types: string[]
 }
 
 export default allowCors(async (headers, req) => {
@@ -29,7 +26,8 @@ export default allowCors(async (headers, req) => {
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,
-      body: JSON.stringify(pokedex.sort((a, b) => a.number - b.number)),
+      // body: JSON.stringify(pokedex.sort((a, b) => a.number - b.number || a.form === null )),
+      body: JSON.stringify(pokedex.sort((a, b) => a.id.localeCompare(b.id, 'en', {numeric: true}))),
       headers
     });
   } catch (err) {
