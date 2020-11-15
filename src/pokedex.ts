@@ -55,17 +55,21 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
   for (const row of doc.querySelectorAll('table:nth-child(5) > tbody > tr:not(:first-child)')) {
     const image = new URL(row.children[1].querySelector('img')?.getAttribute('src')!, URL_SEREBII).href;
     const number = parseInt(ID_IMG_SRC_REGEX.exec(image)?.[1]!);
-    const formID = ID_IMG_SRC_REGEX.exec(image)?.[2] ?? ''
-    const id = number + formID;
     const name = row.children[2].querySelector('a')?.textContent.trim()!;
-    const formName = (FORM_REGEX.exec(row.children[2].textContent.trim())?.[1] ?? '')
-      .replace(/(\s|^)Form(\s|$)/ig, '')
-      .replace(new RegExp(`(\\s|^)${name}(\\s|$)`, 'ig'), '')
-      .trim();
+    const formName =
+      /^Mega /.test(name) ? 'Mega'
+      : /^Primal /.test(name) ? 'Primal'
+      : (FORM_REGEX.exec(row.children[2].textContent.trim())?.[1] ?? '')
+        .replace(/(\s|^)Forme?(\s|$)/ig, '')
+        .replace(new RegExp(`(\\s|^)${name}(\\s|$)`, 'ig'), '')
+        .trim();
+    const formID = formName.toLocaleLowerCase().replace(/\s+/, '-');
     const form = formID ? {
       id: formID,
-      name: /^m\w?$/.test(formID) ? 'Mega' : formName
+      name: formName
     } : null;
+
+    const id = [number, formID].filter(Boolean).join('-');
 
     const types = [...row.children[3].querySelectorAll('a')].map((a) => TYPE_IMG_SRC_REGEX.exec(a.children[0].getAttribute('src')!)![1]);
 
