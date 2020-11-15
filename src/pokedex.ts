@@ -15,6 +15,7 @@ export interface Pokemon {
 
 export interface Form {
   id: string;
+  code: string;
   name: string;
 }
 
@@ -55,6 +56,7 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
   for (const row of doc.querySelectorAll('table:nth-child(5) > tbody > tr:not(:first-child)')) {
     const image = new URL(row.children[1].querySelector('img')?.getAttribute('src')!, URL_SEREBII).href;
     const number = parseInt(ID_IMG_SRC_REGEX.exec(image)?.[1]!);
+
     const name = row.children[2].querySelector('a')?.textContent.trim()!;
     const formDescriptions = FORM_REGEX.exec(row.children[2].innerHTML.trim())?.[1].split('<br>') ?? [];
     const forms = [
@@ -68,10 +70,18 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
         .replace(new RegExp(`(\\s|^)${name}(\\s|$)`, 'ig'), '')
         .trim()
       )
-      .map((formName) => ({
-        name: formName,
-        id: formName.toLocaleLowerCase().replace(/\s+/, '-')
-      }));
+      .map((formName) => {
+        const code = formName.toLocaleLowerCase().replace(/\s+/, '-');
+        const alt = code === 'mega'
+          ? / ([XY])$/.exec(name)?.[1]?.toLocaleLowerCase() ?? null
+          : null;
+
+        return {
+          name: formName,
+          code,
+          id: [code, alt].filter(Boolean).join('-')
+        }
+      });
 
     const id = [number, ...forms.map((form) => form.id)].filter(Boolean).join('-');
 
