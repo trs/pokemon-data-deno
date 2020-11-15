@@ -3,7 +3,7 @@ import {API_DIR} from '../../const.ts';
 
 import type { Pokemon } from "../../src/pokedex.ts";
 
-type PokedexEntry = Pick<Pokemon, 'id' | 'number' | 'form' | 'image' | 'name'> & {
+type PokedexEntry = Pick<Pokemon, 'id' | 'number' | 'forms' | 'image' | 'name'> & {
   types: string[]
 }
 
@@ -15,7 +15,7 @@ export default allowCors(async (headers, req) => {
       pokedex.push({
         id: pokemon.id,
         number: pokemon.number,
-        form: pokemon.form,
+        forms: pokemon.forms,
         image: pokemon.image,
         name: pokemon.name,
         types: pokemon.types.map(({name}: any) => name)

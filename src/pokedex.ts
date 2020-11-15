@@ -5,7 +5,7 @@ import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX, ID_IMG_SRC_REGEX, FORM_RE
 export interface Pokemon {
   id: string;
   number: number;
-  form: Form | null;
+  forms: Form[];
   name: string;
   image: string;
   types: string[];
@@ -56,20 +56,24 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
     const image = new URL(row.children[1].querySelector('img')?.getAttribute('src')!, URL_SEREBII).href;
     const number = parseInt(ID_IMG_SRC_REGEX.exec(image)?.[1]!);
     const name = row.children[2].querySelector('a')?.textContent.trim()!;
-    const formName =
-      /^Mega /.test(name) ? 'Mega'
-      : /^Primal /.test(name) ? 'Primal'
-      : (FORM_REGEX.exec(row.children[2].textContent.trim())?.[1] ?? '')
+    const formDescriptions = FORM_REGEX.exec(row.children[2].innerHTML.trim())?.[1].split('<br>') ?? [];
+    const forms = [
+      /^Mega /.test(name) ? 'Mega' : '',
+      /^Primal /.test(name) ? 'Primal' : '',
+    ]
+      .filter(Boolean)
+      .concat(formDescriptions)
+      .map((desc) => desc
         .replace(/(\s|^)Forme?(\s|$)/ig, '')
         .replace(new RegExp(`(\\s|^)${name}(\\s|$)`, 'ig'), '')
-        .trim();
-    const formID = formName.toLocaleLowerCase().replace(/\s+/, '-');
-    const form = formID ? {
-      id: formID,
-      name: formName
-    } : null;
+        .trim()
+      )
+      .map((formName) => ({
+        name: formName,
+        id: formName.toLocaleLowerCase().replace(/\s+/, '-')
+      }));
 
-    const id = [number, formID].filter(Boolean).join('-');
+    const id = [number, ...forms.map((form) => form.id)].filter(Boolean).join('-');
 
     const types = [...row.children[3].querySelectorAll('a')].map((a) => TYPE_IMG_SRC_REGEX.exec(a.children[0].getAttribute('src')!)![1]);
 
@@ -92,7 +96,7 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
     yield {
       id,
       number,
-      form,
+      forms,
       image,
       name,
       types,
