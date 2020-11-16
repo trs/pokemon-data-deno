@@ -1,8 +1,8 @@
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX} from './const.ts';
+import {URL_SEREBII, PokemonMoveCategory, TYPE_IMG_SRC_REGEX} from './const.ts';
 
-export interface Move {
+export interface PokemonMove {
   name: string;
   type: string;
   damage: number;
@@ -11,15 +11,15 @@ export interface Move {
   damagePVP: number;
   energyPVP: number;
   durationPVP: number;
-  category: MoveCategory;
+  category: PokemonMoveCategory;
 }
 
-export async function * getMoves(): AsyncGenerator<Move> {
+export async function * getMoves(): AsyncGenerator<PokemonMove> {
   yield * getFastMoves();
   yield * getChargeMoves();
 }
 
-export async function * getFastMoves(): AsyncGenerator<Move> {
+export async function * getFastMoves(): AsyncGenerator<PokemonMove> {
   const url = new URL('pokemongo/moves.shtml', URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();
@@ -51,7 +51,7 @@ export async function * getFastMoves(): AsyncGenerator<Move> {
   }
 }
 
-export async function * getChargeMoves(): AsyncGenerator<Move> {
+export async function * getChargeMoves(): AsyncGenerator<PokemonMove> {
   const url = new URL('pokemongo/moves.shtml', URL_SEREBII);
   const resp = await fetch(url.href);
   const html = await resp.text();

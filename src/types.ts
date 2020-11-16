@@ -4,17 +4,17 @@ import {URL_PKMNDB} from './const.ts';
 
 const TYPE_DESC_REGEX = /^\w+ → (\w+) = ([\w- ]+$)/
 
-export interface TypeEffectiveness {
+export interface PokemonTypeEffectiveness {
   multiplier: number;
   description: string;
 }
 
-export interface Type {
+export interface PokemonType {
   name: string;
-  effectiveness: Record<string, TypeEffectiveness>;
+  effectiveness: Record<string, PokemonTypeEffectiveness>;
 }
 
-export async function * getTypes(): AsyncGenerator<Type> {
+export async function * getTypes(): AsyncGenerator<PokemonType> {
   const url = new URL('/go/type', URL_PKMNDB);
   const resp = await fetch(url.href);
   const html = await resp.text();
@@ -24,7 +24,7 @@ export async function * getTypes(): AsyncGenerator<Type> {
 
   for (const row of doc.querySelectorAll('.type-table tbody tr')) {
     const name = row.children[0].textContent;
-    const effectiveness = new Map<string, TypeEffectiveness>();
+    const effectiveness = new Map<string, PokemonTypeEffectiveness>();
 
     for (const col of row.children) {
       const title = col.attributes.getNamedItem('title').value;

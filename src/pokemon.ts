@@ -1,6 +1,6 @@
 import { normalizeSync } from "https://cdn.jsdelivr.net/gh/motss/deno_mod@v0.10.0/normalize_diacritics/mod.ts";
 
-import {MoveCategory, URL_HUB, URL_PROJECT} from './const.ts';
+import {buildFormIDRegex, PokemonMoveCategory, URL_HUB, URL_PROJECT, URL_ASSETS} from './const.ts';
 import type { PokedexEntry } from "./pokedex.ts";
 
 export interface Pokemon extends PokedexEntry {
@@ -15,7 +15,7 @@ export interface PokemonStats {
 }
 
 export interface PokemonMoveset {
-  category: MoveCategory;
+  category: PokemonMoveCategory;
   name: string;
 }
 
@@ -26,7 +26,7 @@ export interface PokemonImage {
   urls: string[];
 }
 
-export async function getPokemon(id: number, form: string | null): Promise<Pokemon> {
+export async function getPokemon(id: number, form: string | null, gm?: any): Promise<Pokemon> {
   const url = new URL(`api/pokemon/${id}`, URL_HUB);
   url.searchParams.append('form', form ?? '');
 
@@ -53,11 +53,14 @@ export async function getPokemon(id: number, form: string | null): Promise<Pokem
       defence: pokemon.def,
       hp: pokemon.sta
     },
-    images: getImages(pokemon)
+    images: [
+      ...getGifs(pokemon),
+      ...(gm ? getImages(pokemon, gm) : [])
+    ]
   }
 }
 
-function getImages(json: any): PokemonImage[] {
+function getGifs(json: any): PokemonImage[] {
   const name = [
     normalizeSync(json.name.trim().toLocaleLowerCase())
       .replace('♀', '_f')
@@ -108,10 +111,51 @@ function getImages(json: any): PokemonImage[] {
       category: 'model',
       type: 'gif',
       urls: [
-        new URL(`images/shiny-sprite/${name}.gif`, URL_PROJECT).href,
-        new URL(`images/sprites-models/swsh-shiny-sprites/${name}.gif`, URL_PROJECT).href
+        new URL(`images/shiny-sprite/${name === 'mr.mime' ? 'mr._mime' : name}.gif`, URL_PROJECT).href,
+        new URL(`images/sprites-models/swsh-shiny-sprites/${name === 'mr.mime' ? 'mr._mime' : name}.gif`, URL_PROJECT).href
       ],
       variant: 'shiny'
     }
   ]
+}
+
+function getImages(json: any, gm: any): PokemonImage[] {
+  const formIdRegex = buildFormIDRegex(json.id);
+  const formTemplate = gm.template.find((template: any) => formIdRegex.test(template.templateId));
+
+  const extractFormNameRegex = new RegExp(`${normalizeSync(json.name.trim())}_`, 'i');
+
+  const formData = json.form
+    ? (formTemplate.data?.formSettings?.forms ?? [])
+      .find((data: any) => {
+        const name = data.form.replace(extractFormNameRegex, '');
+        return name.toLocaleLowerCase() === json.form.toLocaleLowerCase();
+      })
+    : null;
+
+  const name = [
+    String(json.id).padStart(3, '0'),
+    formData?.assetBundleValue ?? '00'
+  ].filter(Boolean).join('_');
+
+  return [
+    {
+      category: 'model',
+      type: 'png',
+      urls: [
+        new URL(`raw/master/pokemon_icons/pokemon_icon_${name}.png`, URL_ASSETS).href,
+        new URL(`raw/master/pokemon_icons/pokemon_icon_000.png`, URL_ASSETS).href
+      ],
+      variant: 'normal'
+    },
+    {
+      category: 'model',
+      type: 'png',
+      urls: [
+        new URL(`raw/master/pokemon_icons/pokemon_icon_${name}_shiny.png`, URL_ASSETS).href,
+        new URL(`raw/master/pokemon_icons/pokemon_icon_000.png`, URL_ASSETS).href
+      ],
+      variant: 'shiny'
+    }
+  ];
 }

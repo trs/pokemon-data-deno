@@ -3,15 +3,16 @@ import * as path from "https://deno.land/std@0.77.0/path/mod.ts";
 
 import { readDimensions } from "./img.ts";
 
-import { getPokedex, getPokemon, getTypes, getFastMoves, getChargeMoves } from '../mod.ts';
-import type { Type, Move, MoveCategory, PokemonImage } from '../mod.ts';
+import { getPokedex, getPokemon, getTypes, getFastMoves, getChargeMoves, getGameMaster } from '../mod.ts';
+import type { PokemonType, PokemonMove, PokemonMoveCategory, PokemonImage } from '../mod.ts';
 
 import {API_DIR, IMG_DIR} from '../const.ts';
+import { PokedexEntry } from "../src/pokedex.ts";
 
 await Deno.mkdir(API_DIR, {recursive: true});
 
 async function mapTypes() {
-  const types = new Map<string, Type>();
+  const types = new Map<string, PokemonType>();
   for await (const type of getTypes()) {
     types.set(type.name.toLocaleLowerCase(), type);
   }
@@ -19,7 +20,7 @@ async function mapTypes() {
 }
 
 async function mapFastMoves() {
-  const fastMoves = new Map<string, Move>();
+  const fastMoves = new Map<string, PokemonMove>();
   for await (const move of getFastMoves()) {
     fastMoves.set(move.name, move);
   }
@@ -27,17 +28,18 @@ async function mapFastMoves() {
 }
 
 async function mapChargeMoves() {
-  const chargeMoves = new Map<string, Move>();
+  const chargeMoves = new Map<string, PokemonMove>();
   for await (const move of getChargeMoves()) {
     chargeMoves.set(move.name, move);
   }
   return chargeMoves;
 }
 
-const [typesMap, fastMovesMap, chargeMovesMap] = await Promise.all([
+const [gm, typesMap, fastMovesMap, chargeMovesMap] = await Promise.all([
+  getGameMaster(),
   mapTypes(),
-  // mapFastMoves(),
-  // mapChargeMoves()
+  mapFastMoves(),
+  mapChargeMoves()
 ]);
 
 // const movesMap = new Map<MoveCategory, Map<string, Move>>([
@@ -45,29 +47,37 @@ const [typesMap, fastMovesMap, chargeMovesMap] = await Promise.all([
 //   ['charge', chargeMovesMap]
 // ]);
 
+let promises: Promise<void>[] = [];
 for await (const entry of getPokedex()) {
-  const pokemon = await getPokemon(entry.number, entry.form?.name ?? null);
+   promises.push(buildPokemon(entry));
+}
+await Promise.all(promises);
+
+async function buildPokemon(entry: PokedexEntry) {
+  const pokemon = await getPokemon(entry.number, entry.form?.name ?? null, gm);
 
   // const moves = pokemon.moves.map((move) => movesMap.get(move.category)?.get(move.name));
   const types = pokemon.types.map((type) => typesMap.get(type));
 
-  const images = await Promise.all(pokemon.images.map(async (img) => {
-    try {
-      const image = await downloadImage(pokemon.id, img);
-      return {
-        path: `api/pokemon/${img.variant}/${image.name}`,
-        type: img.type,
-        category: img.category,
-        width: image.width,
-        height: image.height,
-        variant: img.variant
+  const images = await Promise.all(pokemon.images
+    .map(async (img) => {
+      try {
+        const image = await downloadImage(pokemon.id, img);
+        return {
+          path: `api/pokemon/${img.variant}/${image.name}`,
+          type: img.type,
+          category: img.category,
+          width: image.width,
+          height: image.height,
+          variant: img.variant
+        }
+      } catch (err) {
+        console.log(img.urls);
+        console.error(err);
+        return null;
       }
-    } catch (err) {
-      console.log(img.urls);
-      console.error(err);
-      return null;
-    }
-  }));
+    })
+  );
 
   const pokemonData = {
     ...pokemon,
@@ -87,11 +97,20 @@ async function downloadImage(id: string, img: PokemonImage) {
 
   await Deno.mkdir(dir, {recursive: true});
 
-  let fullPath: string | undefined;
-  for (const url of img.urls) {
+  const tryDownload = async (url: string, tries = 0): Promise<string | null> => {
     try {
-      ({fullPath} = await download(url, {dir, file: name}));
-    } catch {}
+      const {fullPath} = await download(url, {dir, file: name});
+      return fullPath;
+    } catch (err) {
+      if (tries > 2) return null;
+      return tryDownload(url, ++tries);
+    }
+  }
+
+  let fullPath: string | null = null;
+  for (const url of img.urls) {
+    fullPath = await tryDownload(url);
+    if (fullPath) break;
   }
 
   if (!fullPath) {
