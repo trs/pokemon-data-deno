@@ -162,8 +162,7 @@ function getImages(json: any, gm: any): PokemonImage[] {
       category: 'model',
       type: 'png',
       urls: [
-        new URL(`raw/master/pokemon_icons/pokemon_icon_${name}.png`, URL_ASSETS).href,
-        new URL(`raw/master/pokemon_icons/pokemon_icon_000.png`, URL_ASSETS).href
+        new URL(`master/Images/Pokemon/pokemon_icon_${name}.png`, URL_ASSETS).href
       ],
       variant: 'normal'
     },
@@ -171,8 +170,7 @@ function getImages(json: any, gm: any): PokemonImage[] {
       category: 'model',
       type: 'png',
       urls: [
-        new URL(`raw/master/pokemon_icons/pokemon_icon_${name}_shiny.png`, URL_ASSETS).href,
-        new URL(`raw/master/pokemon_icons/pokemon_icon_000.png`, URL_ASSETS).href
+        new URL(`master/Images/Pokemon/pokemon_icon_${name}_shiny.png`, URL_ASSETS).href
       ],
       variant: 'shiny'
     }

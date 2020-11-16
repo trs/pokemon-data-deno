@@ -2,7 +2,7 @@ export const URL_SEREBII = 'https://www.serebii.net/';
 export const URL_PKMNDB = 'https://pokemondb.net/';
 export const URL_HUB = 'https://db.pokemongohub.net/';
 export const URL_PROJECT = 'https://projectpokemon.org/';
-export const URL_ASSETS = 'https://github.com/ZeChrales/PogoAssets/';
+export const URL_ASSETS = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/';
 
 export const TYPE_IMG_SRC_REGEX = /\/(\w+).gif$/;
 export const ID_IMG_SRC_REGEX = /\/(\d+)(?:\-(\w+))?\.png$/;
