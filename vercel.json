@@ -1,23 +1,5 @@
 {
-	"rewrites": [
-		{
-			"source": "/api/pokemon/:id",
-			"destination": "/api/pokemon/img/normal/:id"
-		},
-		{
-			"source": "/api/pokemon/normal/:id",
-			"destination": "/api/pokemon/img/normal/:id"
-		},
-		{
-			"source": "/api/pokemon/shiny/:id",
-			"destination": "/api/pokemon/img/shiny/:id"
-		}
-	],
 	"functions": {
-		"api/pokemon/img/**/*.ts": {
-			"runtime": "vercel-deno@0.7.5",
-      "includeFiles": "api/pokemon/img/_data/**"
-		},
 		"api/**/*.ts": {
 			"runtime": "vercel-deno@0.7.5",
       "includeFiles": "api/pokemon/_data/**"

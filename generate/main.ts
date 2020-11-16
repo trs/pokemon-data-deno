@@ -64,7 +64,8 @@ async function buildPokemon(entry: PokedexEntry) {
       try {
         const image = await downloadImage(pokemon.id, img);
         return {
-          path: `api/pokemon/${img.variant}/${image.name}`,
+          url: `https://raw.githubusercontent.com/trs/pokemon-data-deno/main/public/images/${img.variant}/${image.name}`,
+          path: `images/${img.variant}/${image.name}`,
           type: img.type,
           category: img.category,
           width: image.width,
