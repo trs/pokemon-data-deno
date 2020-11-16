@@ -3,11 +3,10 @@ import * as path from "https://deno.land/std@0.77.0/path/mod.ts";
 
 import { readDimensions } from "./img.ts";
 
-import { getPokedex, getTypes, getFastMoves, getChargeMoves } from '../mod.ts';
-import { Type, Move, MoveCategory } from '../mod.ts';
+import { getPokedex, getPokemon, getTypes, getFastMoves, getChargeMoves } from '../mod.ts';
+import type { Type, Move, MoveCategory, PokemonImage } from '../mod.ts';
 
 import {API_DIR, IMG_DIR} from '../const.ts';
-import { Image } from "../src/pokedex.ts";
 
 await Deno.mkdir(API_DIR, {recursive: true});
 
@@ -37,60 +36,42 @@ async function mapChargeMoves() {
 
 const [typesMap, fastMovesMap, chargeMovesMap] = await Promise.all([
   mapTypes(),
-  mapFastMoves(),
-  mapChargeMoves()
+  // mapFastMoves(),
+  // mapChargeMoves()
 ]);
 
-const movesMap = new Map<MoveCategory, Map<string, Move>>([
-  ['fast', fastMovesMap],
-  ['charge', chargeMovesMap]
-]);
+// const movesMap = new Map<MoveCategory, Map<string, Move>>([
+//   ['fast', fastMovesMap],
+//   ['charge', chargeMovesMap]
+// ]);
 
-for await (const pokemon of getPokedex()) {
-  const moves = pokemon.moves.map((move) => movesMap.get(move.category)?.get(move.name));
+for await (const entry of getPokedex()) {
+  const pokemon = await getPokemon(entry.number, entry.form?.name ?? null);
+
+  // const moves = pokemon.moves.map((move) => movesMap.get(move.category)?.get(move.name));
   const types = pokemon.types.map((type) => typesMap.get(type));
 
-  // const [image, gif] = await Promise.all([
-  //   downloadImage(pokemon.id, pokemon.image, 'png'),
-  //   downloadImage(pokemon.id, pokemon.gif, 'gif').catch(() => null)
-  // ]);
-
-  const images = await Promise.all(pokemon.images.map(async (data) => {
+  const images = await Promise.all(pokemon.images.map(async (img) => {
     try {
-      const image = await downloadImage(pokemon.id, data);
+      const image = await downloadImage(pokemon.id, img);
       return {
-        path: `api/pokemon/${data.variant}/${image.name}`,
-        type: data.type,
+        path: `api/pokemon/${img.variant}/${image.name}`,
+        type: img.type,
+        category: img.category,
         width: image.width,
         height: image.height,
-        variant: data.variant
+        variant: img.variant
       }
     } catch (err) {
-      console.log(data.url, data.type);
+      console.log(img.urls);
       console.error(err);
       return null;
     }
   }));
 
-  const imageMap = images.reduce((map, img) => {
-    if (!img) return map;
-
-    map.set(img.variant, {
-      ...(map.get(img.variant) ?? {}),
-      [img.type]: {
-        path: img.path,
-        width: img.width,
-        height: img.height,
-      }
-    });
-
-    return map
-  }, new Map());
-
   const pokemonData = {
     ...pokemon,
-    image: Object.fromEntries(imageMap),
-    moves,
+    images,
     types
   };
 
@@ -100,13 +81,23 @@ for await (const pokemon of getPokedex()) {
   );
 }
 
-async function downloadImage(id: string, img: Image) {
+async function downloadImage(id: string, img: PokemonImage) {
   const name = `${id}.${img.type}`;
   const dir = path.resolve(IMG_DIR, img.variant);
 
   await Deno.mkdir(dir, {recursive: true});
 
-  const {fullPath} = await download(img.url, {dir, file: name});
+  let fullPath: string | undefined;
+  for (const url of img.urls) {
+    try {
+      ({fullPath} = await download(url, {dir, file: name}));
+    } catch {}
+  }
+
+  if (!fullPath) {
+    throw new Error();
+  }
+
   const {width, height} = await readDimensions(fullPath, img.type);
 
   return {
