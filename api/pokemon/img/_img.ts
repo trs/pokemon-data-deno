@@ -12,8 +12,9 @@ export default (path: 'normal' | 'shiny') => allowCors(async (headers, req) => {
       });
       return;
     }
+    const [num, type] = id.split('.');
 
-    const pokemonImagePath = `${IMG_DIR}/${path}/${id}.png`;
+    const pokemonImagePath = `${IMG_DIR}/${path}/${num}.${type}`;
 
     const exists = await Deno.stat(pokemonImagePath)
       .then((info) => info.isFile)
@@ -29,7 +30,7 @@ export default (path: 'normal' | 'shiny') => allowCors(async (headers, req) => {
 
     const pokemonImage = await Deno.readFile(pokemonImagePath);
 
-    headers.set('Content-Type', 'image/png');
+    headers.set('Content-Type', `image/${type}`);
     headers.set('Cache-Control', 's-maxage=86400');
 
     req.respond({
