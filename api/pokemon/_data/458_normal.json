@@ -1,0 +1,48 @@
+{
+  "id": "458_normal",
+  "name": "Mantyke",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "dex": 458,
+  "stats": {
+    "stamina": 128,
+    "attack": 105,
+    "defence": 179
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "ICE_BEAM",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/458_normal.png",
+      "width": 126,
+      "height": 63
+    },
+    "shiny": {
+      "url": "images/458_normal_shiny.png",
+      "width": 126,
+      "height": 63
+    },
+    "normalAnimated": {
+      "url": "images/458_normal.gif",
+      "width": 69,
+      "height": 44
+    },
+    "shinyAnimated": {
+      "url": "images/458_normal_shiny.gif",
+      "width": 69,
+      "height": 44
+    }
+  }
+}

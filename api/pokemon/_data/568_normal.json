@@ -1,0 +1,47 @@
+{
+  "id": "568_normal",
+  "name": "Trubbish",
+  "types": [
+    "Poison"
+  ],
+  "dex": 568,
+  "stats": {
+    "stamina": 137,
+    "attack": 96,
+    "defence": 122
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "GUNK_SHOT",
+    "SEED_BOMB",
+    "GUNK_SHOT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/568_normal.png",
+      "width": 159,
+      "height": 125
+    },
+    "shiny": {
+      "url": "images/568_normal_shiny.png",
+      "width": 159,
+      "height": 125
+    },
+    "normalAnimated": {
+      "url": "images/568_normal.gif",
+      "width": 75,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "images/568_normal_shiny.gif",
+      "width": 75,
+      "height": 57
+    }
+  }
+}

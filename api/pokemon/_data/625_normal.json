@@ -1,0 +1,49 @@
+{
+  "id": "625_normal",
+  "name": "Bisharp",
+  "types": [
+    "Dark",
+    "Steel"
+  ],
+  "dex": 625,
+  "stats": {
+    "stamina": 163,
+    "attack": 232,
+    "defence": 176
+  },
+  "quickMoves": [
+    "SNARL_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "IRON_HEAD",
+    "X_SCISSOR",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/625_normal.png",
+      "width": 123,
+      "height": 215
+    },
+    "shiny": {
+      "url": "images/625_normal_shiny.png",
+      "width": 123,
+      "height": 215
+    },
+    "normalAnimated": {
+      "url": "images/625_normal.gif",
+      "width": 52,
+      "height": 99
+    },
+    "shinyAnimated": {
+      "url": "images/625_normal_shiny.gif",
+      "width": 52,
+      "height": 99
+    }
+  }
+}

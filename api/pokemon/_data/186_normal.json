@@ -1,0 +1,47 @@
+{
+  "id": "186_normal",
+  "name": "Politoed",
+  "types": [
+    "Water"
+  ],
+  "dex": 186,
+  "stats": {
+    "stamina": 207,
+    "attack": 174,
+    "defence": 179
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "BLIZZARD",
+    "SURF"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/186_normal.png",
+      "width": 144,
+      "height": 157
+    },
+    "shiny": {
+      "url": "images/186_normal_shiny.png",
+      "width": 144,
+      "height": 157
+    },
+    "normalAnimated": {
+      "url": "images/186_normal.gif",
+      "width": 63,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "images/186_normal_shiny.gif",
+      "width": 63,
+      "height": 77
+    }
+  }
+}

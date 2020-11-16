@@ -1,0 +1,47 @@
+{
+  "id": "573_normal",
+  "name": "Cinccino",
+  "types": [
+    "Normal"
+  ],
+  "dex": 573,
+  "stats": {
+    "stamina": 181,
+    "attack": 198,
+    "defence": 130
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_BEAM",
+    "THUNDERBOLT",
+    "AQUA_TAIL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/573_normal.png",
+      "width": 134,
+      "height": 113
+    },
+    "shiny": {
+      "url": "images/573_normal_shiny.png",
+      "width": 134,
+      "height": 113
+    },
+    "normalAnimated": {
+      "url": "images/573_normal.gif",
+      "width": 80,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/573_normal_shiny.gif",
+      "width": 80,
+      "height": 63
+    }
+  }
+}

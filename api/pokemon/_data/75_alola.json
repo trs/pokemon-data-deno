@@ -1,0 +1,48 @@
+{
+  "id": "75_alola",
+  "name": "Graveler",
+  "types": [
+    "Rock",
+    "Electric"
+  ],
+  "dex": 75,
+  "stats": {
+    "stamina": 146,
+    "attack": 164,
+    "defence": 164
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "STONE_EDGE",
+    "ROCK_BLAST"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/75_alola.png",
+      "width": 218,
+      "height": 132
+    },
+    "shiny": {
+      "url": "images/75_alola_shiny.png",
+      "width": 218,
+      "height": 132
+    },
+    "normalAnimated": {
+      "url": "images/75_alola.gif",
+      "width": 104,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "images/75_alola_shiny.gif",
+      "width": 104,
+      "height": 59
+    }
+  }
+}

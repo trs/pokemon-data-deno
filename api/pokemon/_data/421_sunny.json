@@ -1,0 +1,48 @@
+{
+  "id": "421_sunny",
+  "name": "Cherrim",
+  "types": [
+    "Grass"
+  ],
+  "dex": 421,
+  "stats": {
+    "stamina": 172,
+    "attack": 170,
+    "defence": 153
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "SOLAR_BEAM",
+    "WEATHER_BALL_FIRE"
+  ],
+  "forms": [
+    "Sunny"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/421_sunny.png",
+      "width": 93,
+      "height": 92
+    },
+    "shiny": {
+      "url": "images/421_sunny_shiny.png",
+      "width": 93,
+      "height": 92
+    },
+    "normalAnimated": {
+      "url": "images/421_sunny.gif",
+      "width": 76,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "images/421_sunny_shiny.gif",
+      "width": 76,
+      "height": 67
+    }
+  }
+}

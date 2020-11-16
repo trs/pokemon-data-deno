@@ -1,0 +1,47 @@
+{
+  "id": "477_normal",
+  "name": "Dusknoir",
+  "types": [
+    "Ghost"
+  ],
+  "dex": 477,
+  "stats": {
+    "stamina": 128,
+    "attack": 180,
+    "defence": 254
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "PSYCHIC",
+    "DARK_PULSE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/477_normal.png",
+      "width": 246,
+      "height": 185
+    },
+    "shiny": {
+      "url": "images/477_normal_shiny.png",
+      "width": 246,
+      "height": 185
+    },
+    "normalAnimated": {
+      "url": "images/477_normal.gif",
+      "width": 128,
+      "height": 101
+    },
+    "shinyAnimated": {
+      "url": "images/477_normal_shiny.gif",
+      "width": 128,
+      "height": 101
+    }
+  }
+}

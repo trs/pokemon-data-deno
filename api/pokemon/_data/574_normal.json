@@ -1,0 +1,47 @@
+{
+  "id": "574_normal",
+  "name": "Gothita",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 574,
+  "stats": {
+    "stamina": 128,
+    "attack": 98,
+    "defence": 112
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "PSYSHOCK",
+    "PSYCHIC"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/574_normal.png",
+      "width": 81,
+      "height": 110
+    },
+    "shiny": {
+      "url": "images/574_normal_shiny.png",
+      "width": 81,
+      "height": 110
+    },
+    "normalAnimated": {
+      "url": "images/574_normal.gif",
+      "width": 46,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "images/574_normal_shiny.gif",
+      "width": 46,
+      "height": 59
+    }
+  }
+}

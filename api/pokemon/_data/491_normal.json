@@ -1,0 +1,47 @@
+{
+  "id": "491_normal",
+  "name": "Darkrai",
+  "types": [
+    "Dark"
+  ],
+  "dex": 491,
+  "stats": {
+    "stamina": 172,
+    "attack": 285,
+    "defence": 198
+  },
+  "quickMoves": [
+    "SNARL_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "FOCUS_BLAST",
+    "SHADOW_BALL",
+    "DARK_PULSE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/491_normal.png",
+      "width": 209,
+      "height": 229
+    },
+    "shiny": {
+      "url": "images/491_normal_shiny.png",
+      "width": 209,
+      "height": 229
+    },
+    "normalAnimated": {
+      "url": "images/491_normal.gif",
+      "width": 124,
+      "height": 116
+    },
+    "shinyAnimated": {
+      "url": "images/491_normal_shiny.gif",
+      "width": 124,
+      "height": 116
+    }
+  }
+}

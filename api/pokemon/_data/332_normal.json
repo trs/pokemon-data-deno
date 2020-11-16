@@ -1,0 +1,48 @@
+{
+  "id": "332_normal",
+  "name": "Cacturne",
+  "types": [
+    "Grass",
+    "Dark"
+  ],
+  "dex": 332,
+  "stats": {
+    "stamina": 172,
+    "attack": 221,
+    "defence": 115
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "DYNAMIC_PUNCH",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/332_normal.png",
+      "width": 153,
+      "height": 162
+    },
+    "shiny": {
+      "url": "images/332_normal_shiny.png",
+      "width": 153,
+      "height": 162
+    },
+    "normalAnimated": {
+      "url": "images/332_normal.gif",
+      "width": 83,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "images/332_normal_shiny.gif",
+      "width": 83,
+      "height": 87
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "600_normal",
+  "name": "Klang",
+  "types": [
+    "Steel"
+  ],
+  "dex": 600,
+  "stats": {
+    "stamina": 155,
+    "attack": 150,
+    "defence": 174
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "THUNDERBOLT",
+    "ZAP_CANNON"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/600_normal.png",
+      "width": 137,
+      "height": 117
+    },
+    "shiny": {
+      "url": "images/600_normal_shiny.png",
+      "width": 137,
+      "height": 117
+    },
+    "normalAnimated": {
+      "url": "images/600_normal.gif",
+      "width": 84,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "images/600_normal_shiny.gif",
+      "width": 84,
+      "height": 79
+    }
+  }
+}

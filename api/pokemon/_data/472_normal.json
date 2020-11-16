@@ -1,0 +1,49 @@
+{
+  "id": "472_normal",
+  "name": "Gliscor",
+  "types": [
+    "Ground",
+    "Flying"
+  ],
+  "dex": 472,
+  "stats": {
+    "stamina": 181,
+    "attack": 185,
+    "defence": 222
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "AERIAL_ACE",
+    "NIGHT_SLASH",
+    "SAND_TOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/472_normal.png",
+      "width": 203,
+      "height": 189
+    },
+    "shiny": {
+      "url": "images/472_normal_shiny.png",
+      "width": 203,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "images/472_normal.gif",
+      "width": 111,
+      "height": 101
+    },
+    "shinyAnimated": {
+      "url": "images/472_normal_shiny.gif",
+      "width": 111,
+      "height": 101
+    }
+  }
+}

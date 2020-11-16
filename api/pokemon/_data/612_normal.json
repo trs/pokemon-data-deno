@@ -1,0 +1,48 @@
+{
+  "id": "612_normal",
+  "name": "Haxorus",
+  "types": [
+    "Dragon"
+  ],
+  "dex": 612,
+  "stats": {
+    "stamina": 183,
+    "attack": 284,
+    "defence": 172
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_CLAW",
+    "SURF",
+    "NIGHT_SLASH",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/612_normal.png",
+      "width": 217,
+      "height": 218
+    },
+    "shiny": {
+      "url": "images/612_normal_shiny.png",
+      "width": 217,
+      "height": 218
+    },
+    "normalAnimated": {
+      "url": "images/612_normal.gif",
+      "width": 115,
+      "height": 118
+    },
+    "shinyAnimated": {
+      "url": "images/612_normal_shiny.gif",
+      "width": 115,
+      "height": 118
+    }
+  }
+}

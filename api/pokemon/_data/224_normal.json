@@ -1,0 +1,49 @@
+{
+  "id": "224_normal",
+  "name": "Octillery",
+  "types": [
+    "Water"
+  ],
+  "dex": 224,
+  "stats": {
+    "stamina": 181,
+    "attack": 197,
+    "defence": 141
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "GUNK_SHOT",
+    "WATER_PULSE",
+    "AURORA_BEAM",
+    "ACID_SPRAY",
+    "OCTAZOOKA"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/224_normal.png",
+      "width": 166,
+      "height": 131
+    },
+    "shiny": {
+      "url": "images/224_normal_shiny.png",
+      "width": 166,
+      "height": 131
+    },
+    "normalAnimated": {
+      "url": "images/224_normal.gif",
+      "width": 90,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "images/224_normal_shiny.gif",
+      "width": 90,
+      "height": 60
+    }
+  }
+}

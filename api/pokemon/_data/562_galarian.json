@@ -1,0 +1,46 @@
+{
+  "id": "562_galarian",
+  "name": "Yamask",
+  "types": [
+    "Ground",
+    "Ghost"
+  ],
+  "dex": 562,
+  "stats": {
+    "stamina": 116,
+    "attack": 95,
+    "defence": 141
+  },
+  "quickMoves": [
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SHADE",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    "Galarian"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/562_galarian.png",
+      "width": 106,
+      "height": 125
+    },
+    "shiny": {
+      "url": "images/562_galarian_shiny.png",
+      "width": 106,
+      "height": 125
+    },
+    "normalAnimated": {
+      "url": "images/562_galarian.gif",
+      "width": 51,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "images/562_galarian_shiny.gif",
+      "width": 51,
+      "height": 68
+    }
+  }
+}

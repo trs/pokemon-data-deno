@@ -1,0 +1,50 @@
+{
+  "id": "211_normal",
+  "name": "Qwilfish",
+  "types": [
+    "Water",
+    "Poison"
+  ],
+  "dex": 211,
+  "stats": {
+    "stamina": 163,
+    "attack": 184,
+    "defence": 138
+  },
+  "quickMoves": [
+    "POISON_STING_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_TAIL",
+    "ICE_BEAM",
+    "SLUDGE_WAVE",
+    "ACID_SPRAY",
+    "FELL_STINGER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/211_normal.png",
+      "width": 117,
+      "height": 79
+    },
+    "shiny": {
+      "url": "images/211_normal_shiny.png",
+      "width": 117,
+      "height": 79
+    },
+    "normalAnimated": {
+      "url": "images/211_normal.gif",
+      "width": 61,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "images/211_normal_shiny.gif",
+      "width": 61,
+      "height": 50
+    }
+  }
+}

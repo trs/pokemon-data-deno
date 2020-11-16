@@ -1,0 +1,48 @@
+{
+  "id": "565_normal",
+  "name": "Carracosta",
+  "types": [
+    "Water",
+    "Rock"
+  ],
+  "dex": 565,
+  "stats": {
+    "stamina": 179,
+    "attack": 192,
+    "defence": 197
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "ANCIENT_POWER",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/565_normal.png",
+      "width": 157,
+      "height": 151
+    },
+    "shiny": {
+      "url": "images/565_normal_shiny.png",
+      "width": 157,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "images/565_normal.gif",
+      "width": 78,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "images/565_normal_shiny.gif",
+      "width": 78,
+      "height": 85
+    }
+  }
+}

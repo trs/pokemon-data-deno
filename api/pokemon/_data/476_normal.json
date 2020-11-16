@@ -1,0 +1,48 @@
+{
+  "id": "476_normal",
+  "name": "Probopass",
+  "types": [
+    "Rock",
+    "Steel"
+  ],
+  "dex": 476,
+  "stats": {
+    "stamina": 155,
+    "attack": 135,
+    "defence": 275
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "MAGNET_BOMB",
+    "ROCK_SLIDE",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/476_normal.png",
+      "width": 225,
+      "height": 185
+    },
+    "shiny": {
+      "url": "images/476_normal_shiny.png",
+      "width": 225,
+      "height": 185
+    },
+    "normalAnimated": {
+      "url": "images/476_normal.gif",
+      "width": 94,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "images/476_normal_shiny.gif",
+      "width": 94,
+      "height": 81
+    }
+  }
+}

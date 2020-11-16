@@ -1,0 +1,50 @@
+{
+  "id": "121_normal",
+  "name": "Starmie",
+  "types": [
+    "Water",
+    "Psychic"
+  ],
+  "dex": 121,
+  "stats": {
+    "stamina": 155,
+    "attack": 210,
+    "defence": 184
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "POWER_GEM",
+    "PSYCHIC",
+    "THUNDER",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/121_normal.png",
+      "width": 159,
+      "height": 155
+    },
+    "shiny": {
+      "url": "images/121_normal_shiny.png",
+      "width": 159,
+      "height": 155
+    },
+    "normalAnimated": {
+      "url": "images/121_normal.gif",
+      "width": 62,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/121_normal_shiny.gif",
+      "width": 62,
+      "height": 61
+    }
+  }
+}

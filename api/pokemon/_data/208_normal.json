@@ -1,0 +1,49 @@
+{
+  "id": "208_normal",
+  "name": "Steelix",
+  "types": [
+    "Steel",
+    "Ground"
+  ],
+  "dex": 208,
+  "stats": {
+    "stamina": 181,
+    "attack": 148,
+    "defence": 272
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "DRAGON_TAIL_FAST",
+    "THUNDER_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "HEAVY_SLAM",
+    "CRUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/208_normal.png",
+      "width": 222,
+      "height": 213
+    },
+    "shiny": {
+      "url": "images/208_normal_shiny.png",
+      "width": 222,
+      "height": 213
+    },
+    "normalAnimated": {
+      "url": "images/208_normal.gif",
+      "width": 92,
+      "height": 105
+    },
+    "shinyAnimated": {
+      "url": "images/208_normal_shiny.gif",
+      "width": 92,
+      "height": 105
+    }
+  }
+}

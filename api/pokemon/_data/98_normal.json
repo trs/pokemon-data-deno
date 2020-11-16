@@ -1,0 +1,47 @@
+{
+  "id": "98_normal",
+  "name": "Krabby",
+  "types": [
+    "Water"
+  ],
+  "dex": 98,
+  "stats": {
+    "stamina": 102,
+    "attack": 181,
+    "defence": 124
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "BUBBLE_BEAM",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/98_normal.png",
+      "width": 139,
+      "height": 99
+    },
+    "shiny": {
+      "url": "images/98_normal_shiny.png",
+      "width": 139,
+      "height": 99
+    },
+    "normalAnimated": {
+      "url": "images/98_normal.gif",
+      "width": 64,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "images/98_normal_shiny.gif",
+      "width": 64,
+      "height": 50
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "553_normal",
+  "name": "Krookodile",
+  "types": [
+    "Ground",
+    "Dark"
+  ],
+  "dex": 553,
+  "stats": {
+    "stamina": 216,
+    "attack": 229,
+    "defence": 158
+  },
+  "quickMoves": [
+    "SNARL_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "CRUNCH",
+    "OUTRAGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/553_normal.png",
+      "width": 181,
+      "height": 207
+    },
+    "shiny": {
+      "url": "images/553_normal_shiny.png",
+      "width": 181,
+      "height": 207
+    },
+    "normalAnimated": {
+      "url": "images/553_normal.gif",
+      "width": 97,
+      "height": 94
+    },
+    "shinyAnimated": {
+      "url": "images/553_normal_shiny.gif",
+      "width": 97,
+      "height": 94
+    }
+  }
+}

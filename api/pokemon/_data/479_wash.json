@@ -1,0 +1,48 @@
+{
+  "id": "479_wash",
+  "name": "Rotom",
+  "types": [
+    "Electric",
+    "Water"
+  ],
+  "dex": 479,
+  "stats": {
+    "stamina": 137,
+    "attack": 204,
+    "defence": 219
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    "Wash"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/479_wash.png",
+      "width": 183,
+      "height": 113
+    },
+    "shiny": {
+      "url": "images/479_wash_shiny.png",
+      "width": 183,
+      "height": 113
+    },
+    "normalAnimated": {
+      "url": "images/479_wash.gif",
+      "width": 110,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "images/479_wash_shiny.gif",
+      "width": 110,
+      "height": 64
+    }
+  }
+}

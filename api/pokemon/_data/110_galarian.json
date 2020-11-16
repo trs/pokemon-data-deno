@@ -1,0 +1,49 @@
+{
+  "id": "110_galarian",
+  "name": "Weezing",
+  "types": [
+    "Poison",
+    "Fairy"
+  ],
+  "dex": 110,
+  "stats": {
+    "stamina": 163,
+    "attack": 174,
+    "defence": 197
+  },
+  "quickMoves": [
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE",
+    "HYPER_BEAM",
+    "PLAY_ROUGH",
+    "HYPER_BEAM",
+    "OVERHEAT"
+  ],
+  "forms": [
+    "Galarian"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/110_galarian.png",
+      "width": 193,
+      "height": 234
+    },
+    "shiny": {
+      "url": "images/110_galarian_shiny.png",
+      "width": 193,
+      "height": 234
+    },
+    "normalAnimated": {
+      "url": "images/110_galarian.gif",
+      "width": 131,
+      "height": 138
+    },
+    "shinyAnimated": {
+      "url": "images/110_galarian_shiny.gif",
+      "width": 131,
+      "height": 138
+    }
+  }
+}

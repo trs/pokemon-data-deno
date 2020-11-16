@@ -1,0 +1,48 @@
+{
+  "id": "122_normal",
+  "name": "Mr. Mime",
+  "types": [
+    "Psychic",
+    "Fairy"
+  ],
+  "dex": 122,
+  "stats": {
+    "stamina": 120,
+    "attack": 192,
+    "defence": 205
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/122_normal.png",
+      "width": 153,
+      "height": 166
+    },
+    "shiny": {
+      "url": "images/122_normal_shiny.png",
+      "width": 153,
+      "height": 166
+    },
+    "normalAnimated": {
+      "url": "images/122_normal.gif",
+      "width": 75,
+      "height": 76
+    },
+    "shinyAnimated": {
+      "url": "images/122_normal_shiny.gif",
+      "width": 75,
+      "height": 76
+    }
+  }
+}

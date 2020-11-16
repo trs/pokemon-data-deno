@@ -1,0 +1,50 @@
+{
+  "id": "275_normal",
+  "name": "Shiftry",
+  "types": [
+    "Grass",
+    "Dark"
+  ],
+  "dex": 275,
+  "stats": {
+    "stamina": 207,
+    "attack": 200,
+    "defence": 121
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "FEINT_ATTACK_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "LEAF_BLADE",
+    "HURRICANE",
+    "FOUL_PLAY",
+    "LEAF_TORNADO"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/275_normal.png",
+      "width": 242,
+      "height": 133
+    },
+    "shiny": {
+      "url": "images/275_normal_shiny.png",
+      "width": 242,
+      "height": 133
+    },
+    "normalAnimated": {
+      "url": "images/275_normal.gif",
+      "width": 156,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "images/275_normal_shiny.gif",
+      "width": 156,
+      "height": 78
+    }
+  }
+}

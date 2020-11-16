@@ -1,0 +1,48 @@
+{
+  "id": "618_normal",
+  "name": "Stunfisk",
+  "types": [
+    "Ground",
+    "Electric"
+  ],
+  "dex": 618,
+  "stats": {
+    "stamina": 240,
+    "attack": 144,
+    "defence": 171
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "MUD_BOMB",
+    "DISCHARGE",
+    "MUDDY_WATER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/618_normal.png",
+      "width": 160,
+      "height": 38
+    },
+    "shiny": {
+      "url": "images/618_normal_shiny.png",
+      "width": 160,
+      "height": 38
+    },
+    "normalAnimated": {
+      "url": "images/618_normal.gif",
+      "width": 98,
+      "height": 15
+    },
+    "shinyAnimated": {
+      "url": "images/618_normal_shiny.gif",
+      "width": 98,
+      "height": 15
+    }
+  }
+}

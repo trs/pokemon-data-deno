@@ -1,0 +1,47 @@
+{
+  "id": "63_normal",
+  "name": "Abra",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 63,
+  "stats": {
+    "stamina": 93,
+    "attack": 195,
+    "defence": 82
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "SIGNAL_BEAM",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/63_normal.png",
+      "width": 144,
+      "height": 102
+    },
+    "shiny": {
+      "url": "images/63_normal_shiny.png",
+      "width": 144,
+      "height": 102
+    },
+    "normalAnimated": {
+      "url": "images/63_normal.gif",
+      "width": 69,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "images/63_normal_shiny.gif",
+      "width": 69,
+      "height": 53
+    }
+  }
+}

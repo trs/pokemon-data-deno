@@ -1,0 +1,47 @@
+{
+  "id": "518_normal",
+  "name": "Musharna",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 518,
+  "stats": {
+    "stamina": 253,
+    "attack": 183,
+    "defence": 166
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "DAZZLING_GLEAM",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/518_normal.png",
+      "width": 187,
+      "height": 196
+    },
+    "shiny": {
+      "url": "images/518_normal_shiny.png",
+      "width": 187,
+      "height": 196
+    },
+    "normalAnimated": {
+      "url": "images/518_normal.gif",
+      "width": 95,
+      "height": 112
+    },
+    "shinyAnimated": {
+      "url": "images/518_normal_shiny.gif",
+      "width": 95,
+      "height": 112
+    }
+  }
+}

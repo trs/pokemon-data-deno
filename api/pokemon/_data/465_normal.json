@@ -1,0 +1,49 @@
+{
+  "id": "465_normal",
+  "name": "Tangrowth",
+  "types": [
+    "Grass"
+  ],
+  "dex": 465,
+  "stats": {
+    "stamina": 225,
+    "attack": 207,
+    "defence": 184
+  },
+  "quickMoves": [
+    "VINE_WHIP_FAST",
+    "INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM",
+    "POWER_WHIP",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/465_normal.png",
+      "width": 255,
+      "height": 153
+    },
+    "shiny": {
+      "url": "images/465_normal_shiny.png",
+      "width": 255,
+      "height": 153
+    },
+    "normalAnimated": {
+      "url": "images/465_normal.gif",
+      "width": 145,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "images/465_normal_shiny.gif",
+      "width": 145,
+      "height": 82
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "369_normal",
+  "name": "Relicanth",
+  "types": [
+    "Water",
+    "Rock"
+  ],
+  "dex": 369,
+  "stats": {
+    "stamina": 225,
+    "attack": 162,
+    "defence": 203
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "AQUA_TAIL",
+    "HYDRO_PUMP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/369_normal.png",
+      "width": 151,
+      "height": 149
+    },
+    "shiny": {
+      "url": "images/369_normal_shiny.png",
+      "width": 151,
+      "height": 149
+    },
+    "normalAnimated": {
+      "url": "images/369_normal.gif",
+      "width": 69,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "images/369_normal_shiny.gif",
+      "width": 69,
+      "height": 68
+    }
+  }
+}

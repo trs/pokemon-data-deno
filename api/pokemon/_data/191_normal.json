@@ -1,0 +1,47 @@
+{
+  "id": "191_normal",
+  "name": "Sunkern",
+  "types": [
+    "Grass"
+  ],
+  "dex": 191,
+  "stats": {
+    "stamina": 102,
+    "attack": 55,
+    "defence": 55
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "CUT_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/191_normal.png",
+      "width": 55,
+      "height": 63
+    },
+    "shiny": {
+      "url": "images/191_normal_shiny.png",
+      "width": 55,
+      "height": 63
+    },
+    "normalAnimated": {
+      "url": "images/191_normal.gif",
+      "width": 44,
+      "height": 44
+    },
+    "shinyAnimated": {
+      "url": "images/191_normal_shiny.gif",
+      "width": 44,
+      "height": 44
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "508_normal",
+  "name": "Stoutland",
+  "types": [
+    "Normal"
+  ],
+  "dex": 508,
+  "stats": {
+    "stamina": 198,
+    "attack": 206,
+    "defence": 182
+  },
+  "quickMoves": [
+    "LICK_FAST",
+    "TAKE_DOWN_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "WILD_CHARGE",
+    "PLAY_ROUGH",
+    "CRUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/508_normal.png",
+      "width": 168,
+      "height": 161
+    },
+    "shiny": {
+      "url": "images/508_normal_shiny.png",
+      "width": 168,
+      "height": 161
+    },
+    "normalAnimated": {
+      "url": "images/508_normal.gif",
+      "width": 91,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "images/508_normal_shiny.gif",
+      "width": 91,
+      "height": 88
+    }
+  }
+}

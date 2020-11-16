@@ -1,0 +1,47 @@
+{
+  "id": "386_normal",
+  "name": "Deoxys",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 386,
+  "stats": {
+    "stamina": 137,
+    "attack": 345,
+    "defence": 115
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHO_BOOST",
+    "THUNDERBOLT",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/386_normal.png",
+      "width": 184,
+      "height": 200
+    },
+    "shiny": {
+      "url": "images/386_normal_shiny.png",
+      "width": 184,
+      "height": 200
+    },
+    "normalAnimated": {
+      "url": "images/386_normal.gif",
+      "width": 115,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "images/386_normal_shiny.gif",
+      "width": 115,
+      "height": 86
+    }
+  }
+}

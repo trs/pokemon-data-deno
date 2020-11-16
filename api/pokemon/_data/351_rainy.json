@@ -1,0 +1,47 @@
+{
+  "id": "351_rainy",
+  "name": "Castform",
+  "types": [
+    "Water"
+  ],
+  "dex": 351,
+  "stats": {
+    "stamina": 172,
+    "attack": 139,
+    "defence": 139
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "THUNDER",
+    "WEATHER_BALL_WATER"
+  ],
+  "forms": [
+    "Rainy"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/351_rainy.png",
+      "width": 66,
+      "height": 120
+    },
+    "shiny": {
+      "url": "images/351_rainy_shiny.png",
+      "width": 66,
+      "height": 120
+    },
+    "normalAnimated": {
+      "url": "images/351_rainy.gif",
+      "width": 38,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "images/351_rainy_shiny.gif",
+      "width": 38,
+      "height": 70
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "561_normal",
+  "name": "Sigilyph",
+  "types": [
+    "Psychic",
+    "Flying"
+  ],
+  "dex": 561,
+  "stats": {
+    "stamina": 176,
+    "attack": 204,
+    "defence": 167
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "AIR_CUTTER",
+    "PSYBEAM",
+    "ANCIENT_POWER",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/561_normal.png",
+      "width": 214,
+      "height": 181
+    },
+    "shiny": {
+      "url": "images/561_normal_shiny.png",
+      "width": 214,
+      "height": 181
+    },
+    "normalAnimated": {
+      "url": "images/561_normal.gif",
+      "width": 143,
+      "height": 117
+    },
+    "shinyAnimated": {
+      "url": "images/561_normal_shiny.gif",
+      "width": 143,
+      "height": 117
+    }
+  }
+}

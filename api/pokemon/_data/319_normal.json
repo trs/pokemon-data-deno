@@ -1,0 +1,48 @@
+{
+  "id": "319_normal",
+  "name": "Sharpedo",
+  "types": [
+    "Water",
+    "Dark"
+  ],
+  "dex": 319,
+  "stats": {
+    "stamina": 172,
+    "attack": 243,
+    "defence": 83
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "WATERFALL_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "CRUNCH",
+    "POISON_FANG"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/319_normal.png",
+      "width": 195,
+      "height": 238
+    },
+    "shiny": {
+      "url": "images/319_normal_shiny.png",
+      "width": 195,
+      "height": 238
+    },
+    "normalAnimated": {
+      "url": "images/319_normal.gif",
+      "width": 78,
+      "height": 102
+    },
+    "shinyAnimated": {
+      "url": "images/319_normal_shiny.gif",
+      "width": 78,
+      "height": 102
+    }
+  }
+}

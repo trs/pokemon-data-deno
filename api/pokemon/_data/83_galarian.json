@@ -1,0 +1,47 @@
+{
+  "id": "83_galarian",
+  "name": "Farfetch'd",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 83,
+  "stats": {
+    "stamina": 141,
+    "attack": 174,
+    "defence": 114
+  },
+  "quickMoves": [
+    "ROCK_SMASH_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "BRAVE_BIRD",
+    "LEAF_BLADE"
+  ],
+  "forms": [
+    "Galarian"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/83_galarian.png",
+      "width": 214,
+      "height": 122
+    },
+    "shiny": {
+      "url": "images/83_galarian_shiny.png",
+      "width": 214,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "images/83_galarian.gif",
+      "width": 87,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "images/83_galarian_shiny.gif",
+      "width": 86,
+      "height": 55
+    }
+  }
+}

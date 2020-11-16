@@ -1,0 +1,50 @@
+{
+  "id": "609_normal",
+  "name": "Chandelure",
+  "types": [
+    "Ghost",
+    "Fire"
+  ],
+  "dex": 609,
+  "stats": {
+    "stamina": 155,
+    "attack": 271,
+    "defence": 182
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "FIRE_SPIN_FAST",
+    "INCINERATE_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SHADOW_BALL",
+    "OVERHEAT",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/609_normal.png",
+      "width": 182,
+      "height": 194
+    },
+    "shiny": {
+      "url": "images/609_normal_shiny.png",
+      "width": 182,
+      "height": 194
+    },
+    "normalAnimated": {
+      "url": "images/609_normal.gif",
+      "width": 123,
+      "height": 108
+    },
+    "shinyAnimated": {
+      "url": "images/609_normal_shiny.gif",
+      "width": 123,
+      "height": 108
+    }
+  }
+}

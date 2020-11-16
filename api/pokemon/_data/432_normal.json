@@ -1,0 +1,47 @@
+{
+  "id": "432_normal",
+  "name": "Purugly",
+  "types": [
+    "Normal"
+  ],
+  "dex": 432,
+  "stats": {
+    "stamina": 174,
+    "attack": 172,
+    "defence": 133
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "THUNDER",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/432_normal.png",
+      "width": 136,
+      "height": 161
+    },
+    "shiny": {
+      "url": "images/432_normal_shiny.png",
+      "width": 136,
+      "height": 161
+    },
+    "normalAnimated": {
+      "url": "images/432_normal.gif",
+      "width": 70,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "images/432_normal_shiny.gif",
+      "width": 70,
+      "height": 81
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "447_normal",
+  "name": "Riolu",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 447,
+  "stats": {
+    "stamina": 120,
+    "attack": 127,
+    "defence": 78
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "LOW_SWEEP",
+    "CROSS_CHOP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/447_normal.png",
+      "width": 85,
+      "height": 128
+    },
+    "shiny": {
+      "url": "images/447_normal_shiny.png",
+      "width": 85,
+      "height": 128
+    },
+    "normalAnimated": {
+      "url": "images/447_normal.gif",
+      "width": 42,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/447_normal_shiny.gif",
+      "width": 42,
+      "height": 61
+    }
+  }
+}

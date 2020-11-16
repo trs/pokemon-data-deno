@@ -1,0 +1,47 @@
+{
+  "id": "161_normal",
+  "name": "Sentret",
+  "types": [
+    "Normal"
+  ],
+  "dex": 161,
+  "stats": {
+    "stamina": 111,
+    "attack": 79,
+    "defence": 73
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "BRICK_BREAK",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/161_normal.png",
+      "width": 91,
+      "height": 98
+    },
+    "shiny": {
+      "url": "images/161_normal_shiny.png",
+      "width": 91,
+      "height": 98
+    },
+    "normalAnimated": {
+      "url": "images/161_normal.gif",
+      "width": 52,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "images/161_normal_shiny.gif",
+      "width": 52,
+      "height": 55
+    }
+  }
+}

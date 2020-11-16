@@ -1,0 +1,51 @@
+{
+  "id": "97_normal",
+  "name": "Hypno",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 97,
+  "stats": {
+    "stamina": 198,
+    "attack": 144,
+    "defence": 193
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "PSYCHIC",
+    "FOCUS_BLAST",
+    "FIRE_PUNCH",
+    "ICE_PUNCH",
+    "THUNDER_PUNCH",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/97_normal.png",
+      "width": 198,
+      "height": 188
+    },
+    "shiny": {
+      "url": "images/97_normal_shiny.png",
+      "width": 198,
+      "height": 188
+    },
+    "normalAnimated": {
+      "url": "images/97_normal.gif",
+      "width": 86,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "images/97_normal_shiny.gif",
+      "width": 86,
+      "height": 78
+    }
+  }
+}

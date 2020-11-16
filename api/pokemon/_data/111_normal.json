@@ -1,0 +1,48 @@
+{
+  "id": "111_normal",
+  "name": "Rhyhorn",
+  "types": [
+    "Ground",
+    "Rock"
+  ],
+  "dex": 111,
+  "stats": {
+    "stamina": 190,
+    "attack": 140,
+    "defence": 127
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "BULLDOZE",
+    "HORN_ATTACK",
+    "STOMP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/111_normal.png",
+      "width": 146,
+      "height": 140
+    },
+    "shiny": {
+      "url": "images/111_normal_shiny.png",
+      "width": 146,
+      "height": 140
+    },
+    "normalAnimated": {
+      "url": "images/111_normal.gif",
+      "width": 66,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "images/111_normal_shiny.gif",
+      "width": 66,
+      "height": 57
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "255_normal",
+  "name": "Torchic",
+  "types": [
+    "Fire"
+  ],
+  "dex": 255,
+  "stats": {
+    "stamina": 128,
+    "attack": 130,
+    "defence": 87
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/255_normal.png",
+      "width": 45,
+      "height": 83
+    },
+    "shiny": {
+      "url": "images/255_normal_shiny.png",
+      "width": 45,
+      "height": 83
+    },
+    "normalAnimated": {
+      "url": "images/255_normal.gif",
+      "width": 33,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/255_normal_shiny.gif",
+      "width": 33,
+      "height": 61
+    }
+  }
+}

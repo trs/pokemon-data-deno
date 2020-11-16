@@ -1,0 +1,48 @@
+{
+  "id": "2_normal",
+  "name": "Ivysaur",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "dex": 2,
+  "stats": {
+    "stamina": 155,
+    "attack": 151,
+    "defence": 143
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM",
+    "POWER_WHIP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/2_normal.png",
+      "width": 182,
+      "height": 154
+    },
+    "shiny": {
+      "url": "images/2_normal_shiny.png",
+      "width": 182,
+      "height": 154
+    },
+    "normalAnimated": {
+      "url": "images/2_normal.gif",
+      "width": 84,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "images/2_normal_shiny.gif",
+      "width": 84,
+      "height": 66
+    }
+  }
+}

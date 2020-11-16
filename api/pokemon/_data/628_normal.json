@@ -1,0 +1,49 @@
+{
+  "id": "628_normal",
+  "name": "Braviary",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "dex": 628,
+  "stats": {
+    "stamina": 225,
+    "attack": 232,
+    "defence": 152
+  },
+  "quickMoves": [
+    "STEEL_WING_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "HEAT_WAVE",
+    "BRAVE_BIRD",
+    "ROCK_SLIDE",
+    "CLOSE_COMBAT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/628_normal.png",
+      "width": 250,
+      "height": 177
+    },
+    "shiny": {
+      "url": "images/628_normal_shiny.png",
+      "width": 250,
+      "height": 177
+    },
+    "normalAnimated": {
+      "url": "images/628_normal.gif",
+      "width": 207,
+      "height": 176
+    },
+    "shinyAnimated": {
+      "url": "images/628_normal_shiny.gif",
+      "width": 207,
+      "height": 176
+    }
+  }
+}

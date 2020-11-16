@@ -1,0 +1,47 @@
+{
+  "id": "489_normal",
+  "name": "Phione",
+  "types": [
+    "Water"
+  ],
+  "dex": 489,
+  "stats": {
+    "stamina": 190,
+    "attack": 162,
+    "defence": 162
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "WATER_PULSE",
+    "SURF"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/489_normal.png",
+      "width": 92,
+      "height": 86
+    },
+    "shiny": {
+      "url": "images/489_normal_shiny.png",
+      "width": 92,
+      "height": 86
+    },
+    "normalAnimated": {
+      "url": "images/489_normal.gif",
+      "width": 65,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "images/489_normal_shiny.gif",
+      "width": 65,
+      "height": 56
+    }
+  }
+}

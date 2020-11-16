@@ -1,0 +1,47 @@
+{
+  "id": "223_normal",
+  "name": "Remoraid",
+  "types": [
+    "Water"
+  ],
+  "dex": 223,
+  "stats": {
+    "stamina": 111,
+    "attack": 127,
+    "defence": 69
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "WATER_PULSE",
+    "ROCK_BLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/223_normal.png",
+      "width": 79,
+      "height": 74
+    },
+    "shiny": {
+      "url": "images/223_normal_shiny.png",
+      "width": 79,
+      "height": 74
+    },
+    "normalAnimated": {
+      "url": "images/223_normal.gif",
+      "width": 57,
+      "height": 62
+    },
+    "shinyAnimated": {
+      "url": "images/223_normal_shiny.gif",
+      "width": 57,
+      "height": 62
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "124_normal",
+  "name": "Jynx",
+  "types": [
+    "Ice",
+    "Psychic"
+  ],
+  "dex": 124,
+  "stats": {
+    "stamina": 163,
+    "attack": 223,
+    "defence": 151
+  },
+  "quickMoves": [
+    "FROST_BREATH_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "DRAINING_KISS",
+    "AVALANCHE",
+    "PSYSHOCK",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/124_normal.png",
+      "width": 182,
+      "height": 186
+    },
+    "shiny": {
+      "url": "images/124_normal_shiny.png",
+      "width": 182,
+      "height": 186
+    },
+    "normalAnimated": {
+      "url": "images/124_normal.gif",
+      "width": 77,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "images/124_normal_shiny.gif",
+      "width": 77,
+      "height": 66
+    }
+  }
+}

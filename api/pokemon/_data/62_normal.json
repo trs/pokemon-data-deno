@@ -1,0 +1,50 @@
+{
+  "id": "62_normal",
+  "name": "Poliwrath",
+  "types": [
+    "Water",
+    "Fighting"
+  ],
+  "dex": 62,
+  "stats": {
+    "stamina": 207,
+    "attack": 182,
+    "defence": 184
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "ROCK_SMASH_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "DYNAMIC_PUNCH",
+    "ICE_PUNCH",
+    "POWER_UP_PUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/62_normal.png",
+      "width": 200,
+      "height": 177
+    },
+    "shiny": {
+      "url": "images/62_normal_shiny.png",
+      "width": 200,
+      "height": 177
+    },
+    "normalAnimated": {
+      "url": "images/62_normal.gif",
+      "width": 73,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/62_normal_shiny.gif",
+      "width": 73,
+      "height": 63
+    }
+  }
+}

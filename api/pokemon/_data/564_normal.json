@@ -1,0 +1,48 @@
+{
+  "id": "564_normal",
+  "name": "Tirtouga",
+  "types": [
+    "Water",
+    "Rock"
+  ],
+  "dex": 564,
+  "stats": {
+    "stamina": 144,
+    "attack": 134,
+    "defence": 146
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "ANCIENT_POWER",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/564_normal.png",
+      "width": 187,
+      "height": 63
+    },
+    "shiny": {
+      "url": "images/564_normal_shiny.png",
+      "width": 187,
+      "height": 63
+    },
+    "normalAnimated": {
+      "url": "images/564_normal.gif",
+      "width": 105,
+      "height": 32
+    },
+    "shinyAnimated": {
+      "url": "images/564_normal_shiny.gif",
+      "width": 105,
+      "height": 32
+    }
+  }
+}

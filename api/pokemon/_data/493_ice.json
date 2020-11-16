@@ -1,0 +1,47 @@
+{
+  "id": "493_ice",
+  "name": "Arceus",
+  "types": [
+    "Ice"
+  ],
+  "dex": 493,
+  "stats": {
+    "stamina": 237,
+    "attack": 238,
+    "defence": 238
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "forms": [
+    "Ice"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/493_ice.png",
+      "width": 149,
+      "height": 217
+    },
+    "shiny": {
+      "url": "images/493_ice_shiny.png",
+      "width": 149,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "images/493_ice.gif",
+      "width": 150,
+      "height": 150
+    },
+    "shinyAnimated": {
+      "url": "images/493_ice_shiny.gif",
+      "width": 89,
+      "height": 116
+    }
+  }
+}

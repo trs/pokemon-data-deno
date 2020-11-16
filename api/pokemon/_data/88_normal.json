@@ -1,0 +1,47 @@
+{
+  "id": "88_normal",
+  "name": "Grimer",
+  "types": [
+    "Poison"
+  ],
+  "dex": 88,
+  "stats": {
+    "stamina": 190,
+    "attack": 135,
+    "defence": 90
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE",
+    "MUD_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/88_normal.png",
+      "width": 175,
+      "height": 130
+    },
+    "shiny": {
+      "url": "images/88_normal_shiny.png",
+      "width": 175,
+      "height": 130
+    },
+    "normalAnimated": {
+      "url": "images/88_normal.gif",
+      "width": 68,
+      "height": 51
+    },
+    "shinyAnimated": {
+      "url": "images/88_normal_shiny.gif",
+      "width": 68,
+      "height": 51
+    }
+  }
+}

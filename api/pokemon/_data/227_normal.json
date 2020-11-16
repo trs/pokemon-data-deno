@@ -1,0 +1,48 @@
+{
+  "id": "227_normal",
+  "name": "Skarmory",
+  "types": [
+    "Steel",
+    "Flying"
+  ],
+  "dex": 227,
+  "stats": {
+    "stamina": 163,
+    "attack": 148,
+    "defence": 226
+  },
+  "quickMoves": [
+    "STEEL_WING_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "BRAVE_BIRD",
+    "SKY_ATTACK",
+    "FLASH_CANNON"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/227_normal.png",
+      "width": 239,
+      "height": 164
+    },
+    "shiny": {
+      "url": "images/227_normal_shiny.png",
+      "width": 239,
+      "height": 164
+    },
+    "normalAnimated": {
+      "url": "images/227_normal.gif",
+      "width": 116,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "images/227_normal_shiny.gif",
+      "width": 116,
+      "height": 64
+    }
+  }
+}

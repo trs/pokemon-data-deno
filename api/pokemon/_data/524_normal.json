@@ -1,0 +1,47 @@
+{
+  "id": "524_normal",
+  "name": "Roggenrola",
+  "types": [
+    "Rock"
+  ],
+  "dex": 524,
+  "stats": {
+    "stamina": 146,
+    "attack": 121,
+    "defence": 110
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "BULLDOZE",
+    "ROCK_BLAST",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/524_normal.png",
+      "width": 63,
+      "height": 91
+    },
+    "shiny": {
+      "url": "images/524_normal_shiny.png",
+      "width": 63,
+      "height": 91
+    },
+    "normalAnimated": {
+      "url": "images/524_normal.gif",
+      "width": 46,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "images/524_normal_shiny.gif",
+      "width": 46,
+      "height": 60
+    }
+  }
+}

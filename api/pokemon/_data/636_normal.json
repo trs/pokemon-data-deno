@@ -1,0 +1,48 @@
+{
+  "id": "636_normal",
+  "name": "Larvesta",
+  "types": [
+    "Bug",
+    "Fire"
+  ],
+  "dex": 636,
+  "stats": {
+    "stamina": 146,
+    "attack": 156,
+    "defence": 107
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "BUG_BUZZ",
+    "FLAME_WHEEL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/636_normal.png",
+      "width": 110,
+      "height": 118
+    },
+    "shiny": {
+      "url": "images/636_normal_shiny.png",
+      "width": 110,
+      "height": 118
+    },
+    "normalAnimated": {
+      "url": "images/636_normal.gif",
+      "width": 62,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "images/636_normal_shiny.gif",
+      "width": 62,
+      "height": 68
+    }
+  }
+}

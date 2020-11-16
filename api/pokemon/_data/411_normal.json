@@ -1,0 +1,48 @@
+{
+  "id": "411_normal",
+  "name": "Bastiodon",
+  "types": [
+    "Rock",
+    "Steel"
+  ],
+  "dex": 411,
+  "stats": {
+    "stamina": 155,
+    "attack": 94,
+    "defence": 286
+  },
+  "quickMoves": [
+    "SMACK_DOWN_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "STONE_EDGE",
+    "FLAMETHROWER",
+    "FLASH_CANNON"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/411_normal.png",
+      "width": 191,
+      "height": 164
+    },
+    "shiny": {
+      "url": "images/411_normal_shiny.png",
+      "width": 191,
+      "height": 164
+    },
+    "normalAnimated": {
+      "url": "images/411_normal.gif",
+      "width": 90,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "images/411_normal_shiny.gif",
+      "width": 90,
+      "height": 80
+    }
+  }
+}

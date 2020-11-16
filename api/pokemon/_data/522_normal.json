@@ -1,0 +1,47 @@
+{
+  "id": "522_normal",
+  "name": "Blitzle",
+  "types": [
+    "Electric"
+  ],
+  "dex": 522,
+  "stats": {
+    "stamina": 128,
+    "attack": 118,
+    "defence": 64
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "DISCHARGE",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/522_normal.png",
+      "width": 72,
+      "height": 127
+    },
+    "shiny": {
+      "url": "images/522_normal_shiny.png",
+      "width": 72,
+      "height": 127
+    },
+    "normalAnimated": {
+      "url": "images/522_normal.gif",
+      "width": 42,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "images/522_normal_shiny.gif",
+      "width": 42,
+      "height": 84
+    }
+  }
+}

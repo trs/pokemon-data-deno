@@ -1,0 +1,49 @@
+{
+  "id": "244_normal",
+  "name": "Entei",
+  "types": [
+    "Fire"
+  ],
+  "dex": 244,
+  "stats": {
+    "stamina": 251,
+    "attack": 235,
+    "defence": 171
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "FIRE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "FLAMETHROWER",
+    "FIRE_BLAST",
+    "OVERHEAT",
+    "IRON_HEAD",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/244_normal.png",
+      "width": 233,
+      "height": 225
+    },
+    "shiny": {
+      "url": "images/244_normal_shiny.png",
+      "width": 233,
+      "height": 225
+    },
+    "normalAnimated": {
+      "url": "images/244_normal.gif",
+      "width": 79,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "images/244_normal_shiny.gif",
+      "width": 79,
+      "height": 87
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "513_normal",
+  "name": "Pansear",
+  "types": [
+    "Fire"
+  ],
+  "dex": 513,
+  "stats": {
+    "stamina": 137,
+    "attack": 104,
+    "defence": 94
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_BURST",
+    "FLAME_CHARGE",
+    "CRUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/513_normal.png",
+      "width": 97,
+      "height": 105
+    },
+    "shiny": {
+      "url": "images/513_normal_shiny.png",
+      "width": 97,
+      "height": 105
+    },
+    "normalAnimated": {
+      "url": "images/513_normal.gif",
+      "width": 65,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/513_normal_shiny.gif",
+      "width": 65,
+      "height": 63
+    }
+  }
+}

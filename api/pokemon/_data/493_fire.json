@@ -1,0 +1,47 @@
+{
+  "id": "493_fire",
+  "name": "Arceus",
+  "types": [
+    "Fire"
+  ],
+  "dex": 493,
+  "stats": {
+    "stamina": 237,
+    "attack": 238,
+    "defence": 238
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "forms": [
+    "Fire"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/493_fire.png",
+      "width": 149,
+      "height": 217
+    },
+    "shiny": {
+      "url": "images/493_fire_shiny.png",
+      "width": 149,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "images/493_fire.gif",
+      "width": 150,
+      "height": 150
+    },
+    "shinyAnimated": {
+      "url": "images/493_fire_shiny.gif",
+      "width": 86,
+      "height": 116
+    }
+  }
+}

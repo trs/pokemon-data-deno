@@ -1,0 +1,49 @@
+{
+  "id": "648_aria",
+  "name": "Meloetta",
+  "types": [
+    "Normal",
+    "Psychic"
+  ],
+  "dex": 648,
+  "stats": {
+    "stamina": 225,
+    "attack": 250,
+    "defence": 225
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "THUNDERBOLT",
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    "Aria"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/648_aria.png",
+      "width": 65,
+      "height": 132
+    },
+    "shiny": {
+      "url": "images/648_aria_shiny.png",
+      "width": 65,
+      "height": 132
+    },
+    "normalAnimated": {
+      "url": "images/648_aria.gif",
+      "width": 37,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "images/648_aria_shiny.gif",
+      "width": 37,
+      "height": 71
+    }
+  }
+}

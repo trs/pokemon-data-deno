@@ -1,0 +1,48 @@
+{
+  "id": "46_normal",
+  "name": "Paras",
+  "types": [
+    "Bug",
+    "Grass"
+  ],
+  "dex": 46,
+  "stats": {
+    "stamina": 111,
+    "attack": 121,
+    "defence": 99
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_POISON",
+    "X_SCISSOR",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/46_normal.png",
+      "width": 77,
+      "height": 55
+    },
+    "shiny": {
+      "url": "images/46_normal_shiny.png",
+      "width": 77,
+      "height": 55
+    },
+    "normalAnimated": {
+      "url": "images/46_normal.gif",
+      "width": 52,
+      "height": 34
+    },
+    "shinyAnimated": {
+      "url": "images/46_normal_shiny.gif",
+      "width": 52,
+      "height": 34
+    }
+  }
+}

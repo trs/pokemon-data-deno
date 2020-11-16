@@ -1,0 +1,48 @@
+{
+  "id": "166_normal",
+  "name": "Ledian",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "dex": 166,
+  "stats": {
+    "stamina": 146,
+    "attack": 107,
+    "defence": 179
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "BUG_BUZZ",
+    "SILVER_WIND",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/166_normal.png",
+      "width": 97,
+      "height": 170
+    },
+    "shiny": {
+      "url": "images/166_normal_shiny.png",
+      "width": 97,
+      "height": 170
+    },
+    "normalAnimated": {
+      "url": "images/166_normal.gif",
+      "width": 46,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/166_normal_shiny.gif",
+      "width": 46,
+      "height": 83
+    }
+  }
+}

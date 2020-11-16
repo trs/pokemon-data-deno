@@ -1,0 +1,47 @@
+{
+  "id": "19_normal",
+  "name": "Rattata",
+  "types": [
+    "Normal"
+  ],
+  "dex": 19,
+  "stats": {
+    "stamina": 102,
+    "attack": 103,
+    "defence": 70
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "HYPER_FANG",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/19_normal.png",
+      "width": 81,
+      "height": 116
+    },
+    "shiny": {
+      "url": "images/19_normal_shiny.png",
+      "width": 81,
+      "height": 116
+    },
+    "normalAnimated": {
+      "url": "images/19_normal.gif",
+      "width": 43,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/19_normal_shiny.gif",
+      "width": 43,
+      "height": 61
+    }
+  }
+}

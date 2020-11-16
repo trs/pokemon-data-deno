@@ -1,0 +1,47 @@
+{
+  "id": "27_normal",
+  "name": "Sandshrew",
+  "types": [
+    "Ground"
+  ],
+  "dex": 27,
+  "stats": {
+    "stamina": 137,
+    "attack": 126,
+    "defence": 120
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "ROCK_SLIDE",
+    "SAND_TOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/27_normal.png",
+      "width": 71,
+      "height": 77
+    },
+    "shiny": {
+      "url": "images/27_normal_shiny.png",
+      "width": 71,
+      "height": 77
+    },
+    "normalAnimated": {
+      "url": "images/27_normal.gif",
+      "width": 45,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "images/27_normal_shiny.gif",
+      "width": 45,
+      "height": 47
+    }
+  }
+}

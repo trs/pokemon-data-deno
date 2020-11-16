@@ -1,0 +1,45 @@
+{
+  "id": "265_normal",
+  "name": "Wurmple",
+  "types": [
+    "Bug"
+  ],
+  "dex": 265,
+  "stats": {
+    "stamina": 128,
+    "attack": 75,
+    "defence": 59
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/265_normal.png",
+      "width": 74,
+      "height": 81
+    },
+    "shiny": {
+      "url": "images/265_normal_shiny.png",
+      "width": 74,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "images/265_normal.gif",
+      "width": 40,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "images/265_normal_shiny.gif",
+      "width": 40,
+      "height": 53
+    }
+  }
+}

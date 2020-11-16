@@ -1,0 +1,48 @@
+{
+  "id": "542_normal",
+  "name": "Leavanny",
+  "types": [
+    "Bug",
+    "Grass"
+  ],
+  "dex": 542,
+  "stats": {
+    "stamina": 181,
+    "attack": 205,
+    "defence": 165
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "LEAF_BLADE",
+    "X_SCISSOR",
+    "SILVER_WIND"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/542_normal.png",
+      "width": 116,
+      "height": 221
+    },
+    "shiny": {
+      "url": "images/542_normal_shiny.png",
+      "width": 116,
+      "height": 221
+    },
+    "normalAnimated": {
+      "url": "images/542_normal.gif",
+      "width": 52,
+      "height": 109
+    },
+    "shinyAnimated": {
+      "url": "images/542_normal_shiny.gif",
+      "width": 52,
+      "height": 109
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "589_normal",
+  "name": "Escavalier",
+  "types": [
+    "Bug",
+    "Steel"
+  ],
+  "dex": 589,
+  "stats": {
+    "stamina": 172,
+    "attack": 223,
+    "defence": 187
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "ACID_SPRAY",
+    "DRILL_RUN",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/589_normal.png",
+      "width": 180,
+      "height": 164
+    },
+    "shiny": {
+      "url": "images/589_normal_shiny.png",
+      "width": 180,
+      "height": 164
+    },
+    "normalAnimated": {
+      "url": "images/589_normal.gif",
+      "width": 105,
+      "height": 101
+    },
+    "shinyAnimated": {
+      "url": "images/589_normal_shiny.gif",
+      "width": 105,
+      "height": 101
+    }
+  }
+}

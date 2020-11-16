@@ -1,0 +1,47 @@
+{
+  "id": "52_alola",
+  "name": "Meowth",
+  "types": [
+    "Dark"
+  ],
+  "dex": 52,
+  "stats": {
+    "stamina": 120,
+    "attack": 99,
+    "defence": 78
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "DARK_PULSE",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/52_alola.png",
+      "width": 82,
+      "height": 84
+    },
+    "shiny": {
+      "url": "images/52_alola_shiny.png",
+      "width": 82,
+      "height": 84
+    },
+    "normalAnimated": {
+      "url": "images/52_alola.gif",
+      "width": 59,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "images/52_alola_shiny.gif",
+      "width": 59,
+      "height": 60
+    }
+  }
+}

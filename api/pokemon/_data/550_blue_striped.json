@@ -1,0 +1,47 @@
+{
+  "id": "550_blue_striped",
+  "name": "Basculin",
+  "types": [
+    "Water"
+  ],
+  "dex": 550,
+  "stats": {
+    "stamina": 172,
+    "attack": 189,
+    "defence": 129
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "AQUA_TAIL",
+    "MUDDY_WATER"
+  ],
+  "forms": [
+    "Blue Striped"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/550_blue_striped.png",
+      "width": 101,
+      "height": 90
+    },
+    "shiny": {
+      "url": "images/550_blue_striped_shiny.png",
+      "width": 101,
+      "height": 90
+    },
+    "normalAnimated": {
+      "url": "images/550_blue_striped.gif",
+      "width": 71,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "images/550_blue_striped_shiny.gif",
+      "width": 71,
+      "height": 60
+    }
+  }
+}

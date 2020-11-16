@@ -1,0 +1,50 @@
+{
+  "id": "437_normal",
+  "name": "Bronzong",
+  "types": [
+    "Steel",
+    "Psychic"
+  ],
+  "dex": 437,
+  "stats": {
+    "stamina": 167,
+    "attack": 161,
+    "defence": 213
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "FLASH_CANNON",
+    "PSYCHIC",
+    "HEAVY_SLAM",
+    "BULLDOZE",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/437_normal.png",
+      "width": 251,
+      "height": 203
+    },
+    "shiny": {
+      "url": "images/437_normal_shiny.png",
+      "width": 251,
+      "height": 203
+    },
+    "normalAnimated": {
+      "url": "images/437_normal.gif",
+      "width": 89,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "images/437_normal_shiny.gif",
+      "width": 89,
+      "height": 73
+    }
+  }
+}

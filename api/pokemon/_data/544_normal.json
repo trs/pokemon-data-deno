@@ -1,0 +1,48 @@
+{
+  "id": "544_normal",
+  "name": "Whirlipede",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "dex": 544,
+  "stats": {
+    "stamina": 120,
+    "attack": 100,
+    "defence": 173
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "SIGNAL_BEAM",
+    "SLUDGE_BOMB",
+    "GYRO_BALL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/544_normal.png",
+      "width": 209,
+      "height": 162
+    },
+    "shiny": {
+      "url": "images/544_normal_shiny.png",
+      "width": 209,
+      "height": 162
+    },
+    "normalAnimated": {
+      "url": "images/544_normal.gif",
+      "width": 96,
+      "height": 65
+    },
+    "shinyAnimated": {
+      "url": "images/544_normal_shiny.gif",
+      "width": 96,
+      "height": 65
+    }
+  }
+}

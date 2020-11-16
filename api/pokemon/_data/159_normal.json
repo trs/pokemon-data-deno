@@ -1,0 +1,47 @@
+{
+  "id": "159_normal",
+  "name": "Croconaw",
+  "types": [
+    "Water"
+  ],
+  "dex": 159,
+  "stats": {
+    "stamina": 163,
+    "attack": 150,
+    "defence": 142
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "ICE_PUNCH",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/159_normal.png",
+      "width": 101,
+      "height": 151
+    },
+    "shiny": {
+      "url": "images/159_normal_shiny.png",
+      "width": 101,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "images/159_normal.gif",
+      "width": 52,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "images/159_normal_shiny.gif",
+      "width": 52,
+      "height": 78
+    }
+  }
+}

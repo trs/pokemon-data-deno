@@ -1,0 +1,48 @@
+{
+  "id": "865_normal",
+  "name": "Sirfetch’d",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 865,
+  "stats": {
+    "stamina": 158,
+    "attack": 248,
+    "defence": 176
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "BRAVE_BIRD",
+    "LEAF_BLADE",
+    "NIGHT_SLASH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/865_normal.png",
+      "width": 121,
+      "height": 220
+    },
+    "shiny": {
+      "url": "images/865_normal_shiny.png",
+      "width": 121,
+      "height": 220
+    },
+    "normalAnimated": {
+      "url": "images/865_normal.gif",
+      "width": 70,
+      "height": 127
+    },
+    "shinyAnimated": {
+      "url": "images/865_normal_shiny.gif",
+      "width": 70,
+      "height": 127
+    }
+  }
+}

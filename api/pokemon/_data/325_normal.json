@@ -1,0 +1,47 @@
+{
+  "id": "325_normal",
+  "name": "Spoink",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 325,
+  "stats": {
+    "stamina": 155,
+    "attack": 125,
+    "defence": 122
+  },
+  "quickMoves": [
+    "SPLASH_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "SHADOW_BALL",
+    "MIRROR_COAT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/325_normal.png",
+      "width": 75,
+      "height": 130
+    },
+    "shiny": {
+      "url": "images/325_normal_shiny.png",
+      "width": 75,
+      "height": 130
+    },
+    "normalAnimated": {
+      "url": "images/325_normal.gif",
+      "width": 35,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "images/325_normal_shiny.gif",
+      "width": 35,
+      "height": 96
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "519_normal",
+  "name": "Pidove",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "dex": 519,
+  "stats": {
+    "stamina": 137,
+    "attack": 98,
+    "defence": 80
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "HEAT_WAVE",
+    "AERIAL_ACE",
+    "AIR_CUTTER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/519_normal.png",
+      "width": 66,
+      "height": 81
+    },
+    "shiny": {
+      "url": "images/519_normal_shiny.png",
+      "width": 66,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "images/519_normal.gif",
+      "width": 41,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "images/519_normal_shiny.gif",
+      "width": 41,
+      "height": 49
+    }
+  }
+}

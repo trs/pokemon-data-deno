@@ -1,0 +1,48 @@
+{
+  "id": "298_normal",
+  "name": "Azurill",
+  "types": [
+    "Normal",
+    "Fairy"
+  ],
+  "dex": 298,
+  "stats": {
+    "stamina": 137,
+    "attack": 36,
+    "defence": 71
+  },
+  "quickMoves": [
+    "SPLASH_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "ICE_BEAM",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/298_normal.png",
+      "width": 44,
+      "height": 71
+    },
+    "shiny": {
+      "url": "images/298_normal_shiny.png",
+      "width": 44,
+      "height": 71
+    },
+    "normalAnimated": {
+      "url": "images/298_normal.gif",
+      "width": 33,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "images/298_normal_shiny.gif",
+      "width": 33,
+      "height": 72
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "328_normal",
+  "name": "Trapinch",
+  "types": [
+    "Ground"
+  ],
+  "dex": 328,
+  "stats": {
+    "stamina": 128,
+    "attack": 162,
+    "defence": 78
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "STRUGGLE_BUG_FAST"
+  ],
+  "chargeMoves": [
+    "SAND_TOMB",
+    "DIG",
+    "CRUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/328_normal.png",
+      "width": 92,
+      "height": 72
+    },
+    "shiny": {
+      "url": "images/328_normal_shiny.png",
+      "width": 92,
+      "height": 72
+    },
+    "normalAnimated": {
+      "url": "images/328_normal.gif",
+      "width": 62,
+      "height": 45
+    },
+    "shinyAnimated": {
+      "url": "images/328_normal_shiny.gif",
+      "width": 62,
+      "height": 45
+    }
+  }
+}

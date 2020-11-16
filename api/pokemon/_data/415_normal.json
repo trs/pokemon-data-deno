@@ -1,0 +1,45 @@
+{
+  "id": "415_normal",
+  "name": "Combee",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "dex": 415,
+  "stats": {
+    "stamina": 102,
+    "attack": 59,
+    "defence": 83
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/415_normal.png",
+      "width": 134,
+      "height": 61
+    },
+    "shiny": {
+      "url": "images/415_normal_shiny.png",
+      "width": 134,
+      "height": 61
+    },
+    "normalAnimated": {
+      "url": "images/415_normal.gif",
+      "width": 92,
+      "height": 46
+    },
+    "shinyAnimated": {
+      "url": "images/415_normal_shiny.gif",
+      "width": 92,
+      "height": 46
+    }
+  }
+}

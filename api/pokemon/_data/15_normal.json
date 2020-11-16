@@ -1,0 +1,49 @@
+{
+  "id": "15_normal",
+  "name": "Beedrill",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "dex": 15,
+  "stats": {
+    "stamina": 163,
+    "attack": 169,
+    "defence": 130
+  },
+  "quickMoves": [
+    "INFESTATION_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE_BOMB",
+    "AERIAL_ACE",
+    "X_SCISSOR",
+    "FELL_STINGER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/15_normal.png",
+      "width": 126,
+      "height": 157
+    },
+    "shiny": {
+      "url": "images/15_normal_shiny.png",
+      "width": 126,
+      "height": 157
+    },
+    "normalAnimated": {
+      "url": "images/15_normal.gif",
+      "width": 75,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "images/15_normal_shiny.gif",
+      "width": 75,
+      "height": 86
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "391_normal",
+  "name": "Monferno",
+  "types": [
+    "Fire",
+    "Fighting"
+  ],
+  "dex": 391,
+  "stats": {
+    "stamina": 162,
+    "attack": 158,
+    "defence": 105
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_WHEEL",
+    "FLAMETHROWER",
+    "LOW_SWEEP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/391_normal.png",
+      "width": 103,
+      "height": 184
+    },
+    "shiny": {
+      "url": "images/391_normal_shiny.png",
+      "width": 103,
+      "height": 184
+    },
+    "normalAnimated": {
+      "url": "images/391_normal.gif",
+      "width": 57,
+      "height": 91
+    },
+    "shinyAnimated": {
+      "url": "images/391_normal_shiny.gif",
+      "width": 57,
+      "height": 91
+    }
+  }
+}

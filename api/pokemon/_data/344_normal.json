@@ -1,0 +1,50 @@
+{
+  "id": "344_normal",
+  "name": "Claydol",
+  "types": [
+    "Ground",
+    "Psychic"
+  ],
+  "dex": 344,
+  "stats": {
+    "stamina": 155,
+    "attack": 140,
+    "defence": 229
+  },
+  "quickMoves": [
+    "EXTRASENSORY_FAST",
+    "CONFUSION_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "PSYCHIC",
+    "EARTHQUAKE",
+    "EARTH_POWER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/344_normal.png",
+      "width": 138,
+      "height": 158
+    },
+    "shiny": {
+      "url": "images/344_normal_shiny.png",
+      "width": 138,
+      "height": 158
+    },
+    "normalAnimated": {
+      "url": "images/344_normal.gif",
+      "width": 69,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "images/344_normal_shiny.gif",
+      "width": 69,
+      "height": 85
+    }
+  }
+}

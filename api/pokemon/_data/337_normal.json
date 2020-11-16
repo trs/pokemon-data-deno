@@ -1,0 +1,48 @@
+{
+  "id": "337_normal",
+  "name": "Lunatone",
+  "types": [
+    "Rock",
+    "Psychic"
+  ],
+  "dex": 337,
+  "stats": {
+    "stamina": 207,
+    "attack": 178,
+    "defence": 153
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "ROCK_SLIDE",
+    "MOONBLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/337_normal.png",
+      "width": 115,
+      "height": 134
+    },
+    "shiny": {
+      "url": "images/337_normal_shiny.png",
+      "width": 115,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "images/337_normal.gif",
+      "width": 45,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "images/337_normal_shiny.gif",
+      "width": 45,
+      "height": 64
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "163_normal",
+  "name": "Hoothoot",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "dex": 163,
+  "stats": {
+    "stamina": 155,
+    "attack": 67,
+    "defence": 88
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "PECK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "SKY_ATTACK",
+    "NIGHT_SHADE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/163_normal.png",
+      "width": 121,
+      "height": 110
+    },
+    "shiny": {
+      "url": "images/163_normal_shiny.png",
+      "width": 121,
+      "height": 110
+    },
+    "normalAnimated": {
+      "url": "images/163_normal.gif",
+      "width": 64,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/163_normal_shiny.gif",
+      "width": 64,
+      "height": 63
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "24_normal",
+  "name": "Arbok",
+  "types": [
+    "Poison"
+  ],
+  "dex": 24,
+  "stats": {
+    "stamina": 155,
+    "attack": 167,
+    "defence": 153
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "ACID_FAST",
+    "DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "SLUDGE_WAVE",
+    "GUNK_SHOT",
+    "ACID_SPRAY"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/24_normal.png",
+      "width": 183,
+      "height": 205
+    },
+    "shiny": {
+      "url": "images/24_normal_shiny.png",
+      "width": 183,
+      "height": 205
+    },
+    "normalAnimated": {
+      "url": "images/24_normal.gif",
+      "width": 87,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/24_normal_shiny.gif",
+      "width": 87,
+      "height": 83
+    }
+  }
+}

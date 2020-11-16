@@ -1,0 +1,47 @@
+{
+  "id": "52_galarian",
+  "name": "Meowth",
+  "types": [
+    "Steel"
+  ],
+  "dex": 52,
+  "stats": {
+    "stamina": 137,
+    "attack": 115,
+    "defence": 92
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "GYRO_BALL",
+    "DIG"
+  ],
+  "forms": [
+    "Galarian"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/52_galarian.png",
+      "width": 67,
+      "height": 76
+    },
+    "shiny": {
+      "url": "images/52_galarian_shiny.png",
+      "width": 67,
+      "height": 76
+    },
+    "normalAnimated": {
+      "url": "images/52_galarian.gif",
+      "width": 54,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "images/52_galarian_shiny.gif",
+      "width": 54,
+      "height": 69
+    }
+  }
+}

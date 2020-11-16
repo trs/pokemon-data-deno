@@ -1,0 +1,47 @@
+{
+  "id": "535_normal",
+  "name": "Tympole",
+  "types": [
+    "Water"
+  ],
+  "dex": 535,
+  "stats": {
+    "stamina": 137,
+    "attack": 98,
+    "defence": 78
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "MUD_BOMB",
+    "SLUDGE_WAVE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/535_normal.png",
+      "width": 79,
+      "height": 59
+    },
+    "shiny": {
+      "url": "images/535_normal_shiny.png",
+      "width": 79,
+      "height": 59
+    },
+    "normalAnimated": {
+      "url": "images/535_normal.gif",
+      "width": 47,
+      "height": 38
+    },
+    "shinyAnimated": {
+      "url": "images/535_normal_shiny.gif",
+      "width": 47,
+      "height": 38
+    }
+  }
+}

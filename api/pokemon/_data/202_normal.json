@@ -1,0 +1,46 @@
+{
+  "id": "202_normal",
+  "name": "Wobbuffet",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 202,
+  "stats": {
+    "stamina": 382,
+    "attack": 60,
+    "defence": 106
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "SPLASH_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "MIRROR_COAT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/202_normal.png",
+      "width": 105,
+      "height": 173
+    },
+    "shiny": {
+      "url": "images/202_normal_shiny.png",
+      "width": 105,
+      "height": 173
+    },
+    "normalAnimated": {
+      "url": "images/202_normal.gif",
+      "width": 41,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "images/202_normal_shiny.gif",
+      "width": 41,
+      "height": 68
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "562_normal",
+  "name": "Yamask",
+  "types": [
+    "Ghost"
+  ],
+  "dex": 562,
+  "stats": {
+    "stamina": 116,
+    "attack": 95,
+    "defence": 141
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "OMINOUS_WIND"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/562_normal.png",
+      "width": 109,
+      "height": 114
+    },
+    "shiny": {
+      "url": "images/562_normal_shiny.png",
+      "width": 109,
+      "height": 114
+    },
+    "normalAnimated": {
+      "url": "images/562_normal.gif",
+      "width": 64,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "images/562_normal_shiny.gif",
+      "width": 64,
+      "height": 67
+    }
+  }
+}

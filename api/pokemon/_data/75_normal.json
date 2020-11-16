@@ -1,0 +1,48 @@
+{
+  "id": "75_normal",
+  "name": "Graveler",
+  "types": [
+    "Rock",
+    "Ground"
+  ],
+  "dex": 75,
+  "stats": {
+    "stamina": 146,
+    "attack": 164,
+    "defence": 164
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "STONE_EDGE",
+    "ROCK_BLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/75_normal.png",
+      "width": 210,
+      "height": 128
+    },
+    "shiny": {
+      "url": "images/75_normal_shiny.png",
+      "width": 210,
+      "height": 128
+    },
+    "normalAnimated": {
+      "url": "images/75_normal.gif",
+      "width": 107,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "images/75_normal_shiny.gif",
+      "width": 107,
+      "height": 59
+    }
+  }
+}

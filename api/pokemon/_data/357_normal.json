@@ -1,0 +1,48 @@
+{
+  "id": "357_normal",
+  "name": "Tropius",
+  "types": [
+    "Grass",
+    "Flying"
+  ],
+  "dex": 357,
+  "stats": {
+    "stamina": 223,
+    "attack": 136,
+    "defence": 163
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "STOMP",
+    "AERIAL_ACE",
+    "LEAF_BLADE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/357_normal.png",
+      "width": 240,
+      "height": 198
+    },
+    "shiny": {
+      "url": "images/357_normal_shiny.png",
+      "width": 240,
+      "height": 198
+    },
+    "normalAnimated": {
+      "url": "images/357_normal.gif",
+      "width": 203,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "images/357_normal_shiny.gif",
+      "width": 203,
+      "height": 79
+    }
+  }
+}

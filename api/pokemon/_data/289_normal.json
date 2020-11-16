@@ -1,0 +1,46 @@
+{
+  "id": "289_normal",
+  "name": "Slaking",
+  "types": [
+    "Normal"
+  ],
+  "dex": 289,
+  "stats": {
+    "stamina": 284,
+    "attack": 290,
+    "defence": 166
+  },
+  "quickMoves": [
+    "YAWN_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_BEAM",
+    "PLAY_ROUGH",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/289_normal.png",
+      "width": 235,
+      "height": 160
+    },
+    "shiny": {
+      "url": "images/289_normal_shiny.png",
+      "width": 235,
+      "height": 160
+    },
+    "normalAnimated": {
+      "url": "images/289_normal.gif",
+      "width": 102,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "images/289_normal_shiny.gif",
+      "width": 102,
+      "height": 72
+    }
+  }
+}

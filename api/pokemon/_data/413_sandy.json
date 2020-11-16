@@ -1,0 +1,48 @@
+{
+  "id": "413_sandy",
+  "name": "Wormadam",
+  "types": [
+    "Bug",
+    "Ground"
+  ],
+  "dex": 413,
+  "stats": {
+    "stamina": 155,
+    "attack": 141,
+    "defence": 180
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "BULLDOZE",
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    "Sandy"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/413_sandy.png",
+      "width": 122,
+      "height": 134
+    },
+    "shiny": {
+      "url": "images/413_sandy_shiny.png",
+      "width": 122,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "images/413_sandy.gif",
+      "width": 82,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "images/413_sandy_shiny.gif",
+      "width": 82,
+      "height": 77
+    }
+  }
+}

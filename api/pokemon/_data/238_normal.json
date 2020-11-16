@@ -1,0 +1,48 @@
+{
+  "id": "238_normal",
+  "name": "Smoochum",
+  "types": [
+    "Ice",
+    "Psychic"
+  ],
+  "dex": 238,
+  "stats": {
+    "stamina": 128,
+    "attack": 153,
+    "defence": 91
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "POUND_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_BEAM",
+    "ICE_PUNCH",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/238_normal.png",
+      "width": 67,
+      "height": 93
+    },
+    "shiny": {
+      "url": "images/238_normal_shiny.png",
+      "width": 67,
+      "height": 93
+    },
+    "normalAnimated": {
+      "url": "images/238_normal.gif",
+      "width": 46,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/238_normal_shiny.gif",
+      "width": 46,
+      "height": 61
+    }
+  }
+}

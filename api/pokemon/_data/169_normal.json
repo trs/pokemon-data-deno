@@ -1,0 +1,48 @@
+{
+  "id": "169_normal",
+  "name": "Crobat",
+  "types": [
+    "Poison",
+    "Flying"
+  ],
+  "dex": 169,
+  "stats": {
+    "stamina": 198,
+    "attack": 194,
+    "defence": 178
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "AIR_CUTTER",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/169_normal.png",
+      "width": 250,
+      "height": 157
+    },
+    "shiny": {
+      "url": "images/169_normal_shiny.png",
+      "width": 250,
+      "height": 157
+    },
+    "normalAnimated": {
+      "url": "images/169_normal.gif",
+      "width": 143,
+      "height": 107
+    },
+    "shinyAnimated": {
+      "url": "images/169_normal_shiny.gif",
+      "width": 143,
+      "height": 107
+    }
+  }
+}

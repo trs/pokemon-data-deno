@@ -1,0 +1,49 @@
+{
+  "id": "181_normal",
+  "name": "Ampharos",
+  "types": [
+    "Electric"
+  ],
+  "dex": 181,
+  "stats": {
+    "stamina": 207,
+    "attack": 211,
+    "defence": 169
+  },
+  "quickMoves": [
+    "CHARGE_BEAM_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "ZAP_CANNON",
+    "FOCUS_BLAST",
+    "THUNDER",
+    "POWER_GEM",
+    "THUNDER_PUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/181_normal.png",
+      "width": 137,
+      "height": 211
+    },
+    "shiny": {
+      "url": "images/181_normal_shiny.png",
+      "width": 137,
+      "height": 211
+    },
+    "normalAnimated": {
+      "url": "images/181_normal.gif",
+      "width": 69,
+      "height": 101
+    },
+    "shinyAnimated": {
+      "url": "images/181_normal_shiny.gif",
+      "width": 69,
+      "height": 101
+    }
+  }
+}

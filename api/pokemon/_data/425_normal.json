@@ -1,0 +1,48 @@
+{
+  "id": "425_normal",
+  "name": "Drifloon",
+  "types": [
+    "Ghost",
+    "Flying"
+  ],
+  "dex": 425,
+  "stats": {
+    "stamina": 207,
+    "attack": 117,
+    "defence": 80
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "ICY_WIND",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/425_normal.png",
+      "width": 49,
+      "height": 116
+    },
+    "shiny": {
+      "url": "images/425_normal_shiny.png",
+      "width": 49,
+      "height": 116
+    },
+    "normalAnimated": {
+      "url": "images/425_normal.gif",
+      "width": 32,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "images/425_normal_shiny.gif",
+      "width": 32,
+      "height": 75
+    }
+  }
+}

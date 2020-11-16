@@ -1,0 +1,47 @@
+{
+  "id": "504_normal",
+  "name": "Patrat",
+  "types": [
+    "Normal"
+  ],
+  "dex": 504,
+  "stats": {
+    "stamina": 128,
+    "attack": 98,
+    "defence": 73
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "HYPER_FANG",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/504_normal.png",
+      "width": 78,
+      "height": 91
+    },
+    "shiny": {
+      "url": "images/504_normal_shiny.png",
+      "width": 78,
+      "height": 91
+    },
+    "normalAnimated": {
+      "url": "images/504_normal.gif",
+      "width": 46,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "images/504_normal_shiny.gif",
+      "width": 46,
+      "height": 55
+    }
+  }
+}

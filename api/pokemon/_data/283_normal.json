@@ -1,0 +1,48 @@
+{
+  "id": "283_normal",
+  "name": "Surskit",
+  "types": [
+    "Bug",
+    "Water"
+  ],
+  "dex": 283,
+  "stats": {
+    "stamina": 120,
+    "attack": 93,
+    "defence": 87
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "BUBBLE_BEAM",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/283_normal.png",
+      "width": 126,
+      "height": 104
+    },
+    "shiny": {
+      "url": "images/283_normal_shiny.png",
+      "width": 126,
+      "height": 104
+    },
+    "normalAnimated": {
+      "url": "images/283_normal.gif",
+      "width": 75,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "images/283_normal_shiny.gif",
+      "width": 75,
+      "height": 52
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "70_normal",
+  "name": "Weepinbell",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "dex": 70,
+  "stats": {
+    "stamina": 163,
+    "attack": 172,
+    "defence": 92
+  },
+  "quickMoves": [
+    "BULLET_SEED_FAST",
+    "ACID_FAST"
+  ],
+  "chargeMoves": [
+    "POWER_WHIP",
+    "SLUDGE_BOMB",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/70_normal.png",
+      "width": 166,
+      "height": 120
+    },
+    "shiny": {
+      "url": "images/70_normal_shiny.png",
+      "width": 166,
+      "height": 120
+    },
+    "normalAnimated": {
+      "url": "images/70_normal.gif",
+      "width": 65,
+      "height": 51
+    },
+    "shinyAnimated": {
+      "url": "images/70_normal_shiny.gif",
+      "width": 65,
+      "height": 51
+    }
+  }
+}

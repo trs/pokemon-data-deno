@@ -1,0 +1,47 @@
+{
+  "id": "56_normal",
+  "name": "Mankey",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 56,
+  "stats": {
+    "stamina": 120,
+    "attack": 148,
+    "defence": 82
+  },
+  "quickMoves": [
+    "KARATE_CHOP_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_CHOP",
+    "LOW_SWEEP",
+    "BRICK_BREAK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/56_normal.png",
+      "width": 86,
+      "height": 102
+    },
+    "shiny": {
+      "url": "images/56_normal_shiny.png",
+      "width": 86,
+      "height": 102
+    },
+    "normalAnimated": {
+      "url": "images/56_normal.gif",
+      "width": 52,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "images/56_normal_shiny.gif",
+      "width": 52,
+      "height": 56
+    }
+  }
+}

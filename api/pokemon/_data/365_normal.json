@@ -1,0 +1,48 @@
+{
+  "id": "365_normal",
+  "name": "Walrein",
+  "types": [
+    "Ice",
+    "Water"
+  ],
+  "dex": 365,
+  "stats": {
+    "stamina": 242,
+    "attack": 182,
+    "defence": 176
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "FROST_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "BLIZZARD",
+    "EARTHQUAKE",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/365_normal.png",
+      "width": 249,
+      "height": 158
+    },
+    "shiny": {
+      "url": "images/365_normal_shiny.png",
+      "width": 249,
+      "height": 158
+    },
+    "normalAnimated": {
+      "url": "images/365_normal.gif",
+      "width": 98,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "images/365_normal_shiny.gif",
+      "width": 98,
+      "height": 71
+    }
+  }
+}

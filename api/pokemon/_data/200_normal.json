@@ -1,0 +1,47 @@
+{
+  "id": "200_normal",
+  "name": "Misdreavus",
+  "types": [
+    "Ghost"
+  ],
+  "dex": 200,
+  "stats": {
+    "stamina": 155,
+    "attack": 167,
+    "defence": 154
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "HEX_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_SNEAK",
+    "DARK_PULSE",
+    "OMINOUS_WIND"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/200_normal.png",
+      "width": 101,
+      "height": 93
+    },
+    "shiny": {
+      "url": "images/200_normal_shiny.png",
+      "width": 101,
+      "height": 93
+    },
+    "normalAnimated": {
+      "url": "images/200_normal.gif",
+      "width": 66,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/200_normal_shiny.gif",
+      "width": 66,
+      "height": 63
+    }
+  }
+}

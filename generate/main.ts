@@ -1,129 +1,74 @@
-import { download } from "https://deno.land/x/download@v1.0.1/mod.ts";
-import * as path from "https://deno.land/std@0.77.0/path/mod.ts";
-
-import { readDimensions } from "./img.ts";
-
-import { getPokedex, getPokemon, getTypes, getFastMoves, getChargeMoves, getGameMaster } from '../mod.ts';
-import type { PokemonType, PokemonMove, PokemonMoveCategory, PokemonImage } from '../mod.ts';
+import { snakeCase } from 'https://deno.land/x/case@v2.1.0/mod.ts';
 
 import {API_DIR, IMG_DIR} from '../const.ts';
-import { PokedexEntry } from "../src/pokedex.ts";
+import { master, assets } from '../src/mod.ts';
+import { resolveImageRecord } from "./img/mod.ts";
 
-await Deno.mkdir(API_DIR, {recursive: true});
+await Deno.mkdir(API_DIR).catch(() => void 0);
+await Deno.mkdir(IMG_DIR).catch(() => void 0);
 
-async function mapTypes() {
-  const types = new Map<string, PokemonType>();
-  for await (const type of getTypes()) {
-    types.set(type.name.toLocaleLowerCase(), type);
-  }
-  return types;
-}
+const gm = await master.getGameMaster();
+const textAssets = await assets.getAssetTexts();
+const pokemonNamesAssetMap = await assets.getAssetPokemonNames(textAssets);
+const pokemonTypeNamesAssetMap = await assets.getAssetPokemonTypeNames(textAssets);
 
-async function mapFastMoves() {
-  const fastMoves = new Map<string, PokemonMove>();
-  for await (const move of getFastMoves()) {
-    fastMoves.set(move.name, move);
-  }
-  return fastMoves;
-}
+async function generatePokemon(pokemon: master.PokemonMaster) {
+  const nameAsset = pokemonNamesAssetMap.get(pokemon.dex);
+  const name = nameAsset
+    ? nameAsset.name
+    : pokemon.uniqueId; // TODO convert into usable name
 
-async function mapChargeMoves() {
-  const chargeMoves = new Map<string, PokemonMove>();
-  for await (const move of getChargeMoves()) {
-    chargeMoves.set(move.name, move);
-  }
-  return chargeMoves;
-}
+  const id = snakeCase([pokemon.dex, ...pokemon.forms].join(' '));
 
-const [gm, typesMap, fastMovesMap, chargeMovesMap] = await Promise.all([
-  getGameMaster(),
-  mapTypes(),
-  mapFastMoves(),
-  mapChargeMoves()
-]);
+  const types = pokemon.types.map((type) => pokemonTypeNamesAssetMap.get(type)?.name);
 
-// const movesMap = new Map<MoveCategory, Map<string, Move>>([
-//   ['fast', fastMovesMap],
-//   ['charge', chargeMovesMap]
-// ]);
-
-let promises: Promise<void>[] = [];
-for await (const entry of getPokedex()) {
-   promises.push(buildPokemon(entry));
-}
-await Promise.all(promises);
-
-async function buildPokemon(entry: PokedexEntry) {
-  const pokemon = await getPokemon(entry.number, entry.form?.name ?? null, gm);
-
-  // const moves = pokemon.moves.map((move) => movesMap.get(move.category)?.get(move.name));
-  const types = pokemon.types.map((type) => typesMap.get(type));
-
-  const images = await Promise.all(pokemon.images
-    .map(async (img) => {
-      try {
-        const image = await downloadImage(pokemon.id, img);
-        return {
-          url: `https://raw.githubusercontent.com/trs/pokemon-data-deno/main/public/images/${img.variant}/${image.name}`,
-          path: `images/${img.variant}/${image.name}`,
-          type: img.type,
-          category: img.category,
-          width: image.width,
-          height: image.height,
-          variant: img.variant
-        }
-      } catch (err) {
-        console.log(img.urls);
-        console.error(err);
-        return null;
-      }
+  const [imgNormal, gifNormal] = await Promise.all([
+    assets.getAssetPokemonIcon(pokemon.assetId, {
+      dir: IMG_DIR,
+      file: `${id}.png`
+    }),
+    assets.getAssetPokemonGif(name, pokemon.forms, {
+      dir: IMG_DIR,
+      file: `${id}.gif`
     })
-    .filter(Boolean)
-  );
+  ]);
 
-  const pokemonData = {
+  const [imgShiny, gifShiny] = await Promise.all([
+    assets.getAssetPokemonIcon(pokemon.assetId, {
+      dir: IMG_DIR,
+      file: `${id}_shiny.png`
+    }, true),
+    assets.getAssetPokemonGif(name, pokemon.forms, {
+      dir: IMG_DIR,
+      file: `${id}_shiny.gif`
+    }, true)
+  ]);
+
+  const [normal, shiny, normalAnimated, shinyAnimated] = await Promise.all([
+    await resolveImageRecord(imgNormal, 'png'),
+    await resolveImageRecord(imgShiny, 'png'),
+    await resolveImageRecord(gifNormal, 'gif'),
+    await resolveImageRecord(gifShiny, 'gif'),
+  ]);
+
+  delete (pokemon as any).templateId;
+  delete (pokemon as any).uniqueId;
+  delete (pokemon as any).assetId;
+
+  await Deno.writeTextFile(`${API_DIR}/${id}.json`, JSON.stringify({
+    id,
+    name,
     ...pokemon,
-    images,
-    types
-  };
-
-  await Deno.writeTextFile(
-    `${API_DIR}/${pokemon.id}.json`,
-    JSON.stringify(pokemonData)
-  );
+    types,
+    images: {
+      normal,
+      shiny,
+      normalAnimated,
+      shinyAnimated
+    }
+  }, null, 2));
 }
 
-async function downloadImage(id: string, img: PokemonImage) {
-  const name = `${id}.${img.type}`;
-  const dir = path.resolve(IMG_DIR, img.variant);
-
-  await Deno.mkdir(dir, {recursive: true});
-
-  const tryDownload = async (url: string, tries = 0): Promise<string | null> => {
-    try {
-      const {fullPath} = await download(url, {dir, file: name});
-      return fullPath;
-    } catch (err) {
-      if (tries > 2) return null;
-      return tryDownload(url, ++tries);
-    }
-  }
-
-  let fullPath: string | null = null;
-  for (const url of img.urls) {
-    fullPath = await tryDownload(url);
-    if (fullPath) break;
-  }
-
-  if (!fullPath) {
-    throw new Error();
-  }
-
-  const {width, height} = await readDimensions(fullPath, img.type);
-
-  return {
-    name,
-    width,
-    height
-  };
+for await (const pokemon of master.getPokemon(gm)) {
+  generatePokemon(pokemon);
 }

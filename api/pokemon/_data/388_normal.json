@@ -1,0 +1,47 @@
+{
+  "id": "388_normal",
+  "name": "Grotle",
+  "types": [
+    "Grass"
+  ],
+  "dex": 388,
+  "stats": {
+    "stamina": 181,
+    "attack": 157,
+    "defence": 143
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SOLAR_BEAM",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/388_normal.png",
+      "width": 169,
+      "height": 170
+    },
+    "shiny": {
+      "url": "images/388_normal_shiny.png",
+      "width": 169,
+      "height": 170
+    },
+    "normalAnimated": {
+      "url": "images/388_normal.gif",
+      "width": 70,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "images/388_normal_shiny.gif",
+      "width": 70,
+      "height": 69
+    }
+  }
+}

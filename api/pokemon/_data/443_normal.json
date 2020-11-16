@@ -1,0 +1,48 @@
+{
+  "id": "443_normal",
+  "name": "Gible",
+  "types": [
+    "Dragon",
+    "Ground"
+  ],
+  "dex": 443,
+  "stats": {
+    "stamina": 151,
+    "attack": 124,
+    "defence": 84
+  },
+  "quickMoves": [
+    "TAKE_DOWN_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "TWISTER",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/443_normal.png",
+      "width": 91,
+      "height": 102
+    },
+    "shiny": {
+      "url": "images/443_normal_shiny.png",
+      "width": 91,
+      "height": 102
+    },
+    "normalAnimated": {
+      "url": "images/443_normal.gif",
+      "width": 58,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "images/443_normal_shiny.gif",
+      "width": 58,
+      "height": 57
+    }
+  }
+}

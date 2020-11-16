@@ -1,0 +1,47 @@
+{
+  "id": "264_normal",
+  "name": "Linoone",
+  "types": [
+    "Normal"
+  ],
+  "dex": 264,
+  "stats": {
+    "stamina": 186,
+    "attack": 142,
+    "defence": 128
+  },
+  "quickMoves": [
+    "SHADOW_CLAW_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "GRASS_KNOT",
+    "THUNDER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/264_normal.png",
+      "width": 232,
+      "height": 86
+    },
+    "shiny": {
+      "url": "images/264_normal_shiny.png",
+      "width": 232,
+      "height": 86
+    },
+    "normalAnimated": {
+      "url": "images/264_normal.gif",
+      "width": 96,
+      "height": 39
+    },
+    "shinyAnimated": {
+      "url": "images/264_normal_shiny.gif",
+      "width": 96,
+      "height": 39
+    }
+  }
+}

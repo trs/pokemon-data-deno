@@ -1,0 +1,48 @@
+{
+  "id": "170_normal",
+  "name": "Chinchou",
+  "types": [
+    "Water",
+    "Electric"
+  ],
+  "dex": 170,
+  "stats": {
+    "stamina": 181,
+    "attack": 106,
+    "defence": 97
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "THUNDERBOLT",
+    "BUBBLE_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/170_normal.png",
+      "width": 101,
+      "height": 69
+    },
+    "shiny": {
+      "url": "images/170_normal_shiny.png",
+      "width": 101,
+      "height": 69
+    },
+    "normalAnimated": {
+      "url": "images/170_normal.gif",
+      "width": 81,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "images/170_normal_shiny.gif",
+      "width": 81,
+      "height": 53
+    }
+  }
+}

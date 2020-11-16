@@ -1,0 +1,49 @@
+{
+  "id": "643_normal",
+  "name": "Reshiram",
+  "types": [
+    "Dragon",
+    "Fire"
+  ],
+  "dex": 643,
+  "stats": {
+    "stamina": 205,
+    "attack": 275,
+    "defence": 211
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "FIRE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "OVERHEAT",
+    "DRACO_METEOR",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/643_normal.png",
+      "width": 242,
+      "height": 175
+    },
+    "shiny": {
+      "url": "images/643_normal_shiny.png",
+      "width": 242,
+      "height": 175
+    },
+    "normalAnimated": {
+      "url": "images/643_normal.gif",
+      "width": 163,
+      "height": 115
+    },
+    "shinyAnimated": {
+      "url": "images/643_normal_shiny.gif",
+      "width": 163,
+      "height": 115
+    }
+  }
+}

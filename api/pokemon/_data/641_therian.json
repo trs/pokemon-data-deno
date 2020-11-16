@@ -1,0 +1,48 @@
+{
+  "id": "641_therian",
+  "name": "Tornadus",
+  "types": [
+    "Flying"
+  ],
+  "dex": 641,
+  "stats": {
+    "stamina": 188,
+    "attack": 238,
+    "defence": 189
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "DARK_PULSE",
+    "HYPER_BEAM",
+    "HURRICANE"
+  ],
+  "forms": [
+    "Therian"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/641_therian.png",
+      "width": 191,
+      "height": 239
+    },
+    "shiny": {
+      "url": "images/641_therian_shiny.png",
+      "width": 191,
+      "height": 239
+    },
+    "normalAnimated": {
+      "url": "images/641_therian.gif",
+      "width": 152,
+      "height": 135
+    },
+    "shinyAnimated": {
+      "url": "images/641_therian_shiny.gif",
+      "width": 152,
+      "height": 135
+    }
+  }
+}

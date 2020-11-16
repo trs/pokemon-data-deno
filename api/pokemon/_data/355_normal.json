@@ -1,0 +1,47 @@
+{
+  "id": "355_normal",
+  "name": "Duskull",
+  "types": [
+    "Ghost"
+  ],
+  "dex": 355,
+  "stats": {
+    "stamina": 85,
+    "attack": 70,
+    "defence": 162
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "NIGHT_SHADE",
+    "SHADOW_SNEAK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/355_normal.png",
+      "width": 94,
+      "height": 116
+    },
+    "shiny": {
+      "url": "images/355_normal_shiny.png",
+      "width": 94,
+      "height": 116
+    },
+    "normalAnimated": {
+      "url": "images/355_normal.gif",
+      "width": 48,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "images/355_normal_shiny.gif",
+      "width": 48,
+      "height": 64
+    }
+  }
+}

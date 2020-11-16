@@ -1,0 +1,48 @@
+{
+  "id": "581_normal",
+  "name": "Swanna",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "dex": 581,
+  "stats": {
+    "stamina": 181,
+    "attack": 182,
+    "defence": 132
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_BEAM",
+    "BUBBLE_BEAM",
+    "HURRICANE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/581_normal.png",
+      "width": 228,
+      "height": 218
+    },
+    "shiny": {
+      "url": "images/581_normal_shiny.png",
+      "width": 228,
+      "height": 218
+    },
+    "normalAnimated": {
+      "url": "images/581_normal.gif",
+      "width": 184,
+      "height": 161
+    },
+    "shinyAnimated": {
+      "url": "images/581_normal_shiny.gif",
+      "width": 184,
+      "height": 161
+    }
+  }
+}

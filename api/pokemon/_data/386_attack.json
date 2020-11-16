@@ -1,0 +1,47 @@
+{
+  "id": "386_attack",
+  "name": "Deoxys",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 386,
+  "stats": {
+    "stamina": 137,
+    "attack": 414,
+    "defence": 46
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHO_BOOST",
+    "ZAP_CANNON",
+    "DARK_PULSE"
+  ],
+  "forms": [
+    "Attack"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/386_attack.png",
+      "width": 181,
+      "height": 227
+    },
+    "shiny": {
+      "url": "images/386_attack_shiny.png",
+      "width": 181,
+      "height": 227
+    },
+    "normalAnimated": {
+      "url": "images/386_attack.gif",
+      "width": 90,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "images/386_attack_shiny.gif",
+      "width": 90,
+      "height": 96
+    }
+  }
+}

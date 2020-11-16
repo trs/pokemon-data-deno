@@ -1,0 +1,48 @@
+{
+  "id": "487_origin",
+  "name": "Giratina",
+  "types": [
+    "Ghost",
+    "Dragon"
+  ],
+  "dex": 487,
+  "stats": {
+    "stamina": 284,
+    "attack": 225,
+    "defence": 187
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_PULSE",
+    "OMINOUS_WIND",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    "Origin"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/487_origin.png",
+      "width": 256,
+      "height": 232
+    },
+    "shiny": {
+      "url": "images/487_origin_shiny.png",
+      "width": 256,
+      "height": 232
+    },
+    "normalAnimated": {
+      "url": "images/487_origin.gif",
+      "width": 156,
+      "height": 154
+    },
+    "shinyAnimated": {
+      "url": "images/487_origin_shiny.gif",
+      "width": 156,
+      "height": 154
+    }
+  }
+}

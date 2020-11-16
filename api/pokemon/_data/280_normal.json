@@ -1,0 +1,48 @@
+{
+  "id": "280_normal",
+  "name": "Ralts",
+  "types": [
+    "Psychic",
+    "Fairy"
+  ],
+  "dex": 280,
+  "stats": {
+    "stamina": 99,
+    "attack": 79,
+    "defence": 59
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "DISARMING_VOICE",
+    "SHADOW_SNEAK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/280_normal.png",
+      "width": 49,
+      "height": 80
+    },
+    "shiny": {
+      "url": "images/280_normal_shiny.png",
+      "width": 49,
+      "height": 80
+    },
+    "normalAnimated": {
+      "url": "images/280_normal.gif",
+      "width": 32,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "images/280_normal_shiny.gif",
+      "width": 32,
+      "height": 52
+    }
+  }
+}

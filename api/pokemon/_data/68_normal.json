@@ -1,0 +1,49 @@
+{
+  "id": "68_normal",
+  "name": "Machamp",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 68,
+  "stats": {
+    "stamina": 207,
+    "attack": 234,
+    "defence": 159
+  },
+  "quickMoves": [
+    "BULLET_PUNCH_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "HEAVY_SLAM",
+    "DYNAMIC_PUNCH",
+    "CLOSE_COMBAT",
+    "ROCK_SLIDE",
+    "CROSS_CHOP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/68_normal.png",
+      "width": 188,
+      "height": 214
+    },
+    "shiny": {
+      "url": "images/68_normal_shiny.png",
+      "width": 188,
+      "height": 214
+    },
+    "normalAnimated": {
+      "url": "images/68_normal.gif",
+      "width": 84,
+      "height": 100
+    },
+    "shinyAnimated": {
+      "url": "images/68_normal_shiny.gif",
+      "width": 84,
+      "height": 100
+    }
+  }
+}

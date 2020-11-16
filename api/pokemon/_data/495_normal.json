@@ -1,0 +1,47 @@
+{
+  "id": "495_normal",
+  "name": "Snivy",
+  "types": [
+    "Grass"
+  ],
+  "dex": 495,
+  "stats": {
+    "stamina": 128,
+    "attack": 88,
+    "defence": 107
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "WRAP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/495_normal.png",
+      "width": 82,
+      "height": 79
+    },
+    "shiny": {
+      "url": "images/495_normal_shiny.png",
+      "width": 82,
+      "height": 79
+    },
+    "normalAnimated": {
+      "url": "images/495_normal.gif",
+      "width": 56,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "images/495_normal_shiny.gif",
+      "width": 56,
+      "height": 55
+    }
+  }
+}

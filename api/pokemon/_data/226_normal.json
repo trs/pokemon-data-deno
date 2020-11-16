@@ -1,0 +1,50 @@
+{
+  "id": "226_normal",
+  "name": "Mantine",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "dex": 226,
+  "stats": {
+    "stamina": 163,
+    "attack": 148,
+    "defence": 226
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "WING_ATTACK_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "ICE_BEAM",
+    "AERIAL_ACE",
+    "BUBBLE_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/226_normal.png",
+      "width": 233,
+      "height": 91
+    },
+    "shiny": {
+      "url": "images/226_normal_shiny.png",
+      "width": 233,
+      "height": 91
+    },
+    "normalAnimated": {
+      "url": "images/226_normal.gif",
+      "width": 131,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "images/226_normal_shiny.gif",
+      "width": 131,
+      "height": 59
+    }
+  }
+}

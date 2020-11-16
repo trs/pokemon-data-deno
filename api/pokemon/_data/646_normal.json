@@ -1,0 +1,48 @@
+{
+  "id": "646_normal",
+  "name": "Kyurem",
+  "types": [
+    "Dragon",
+    "Ice"
+  ],
+  "dex": 646,
+  "stats": {
+    "stamina": 245,
+    "attack": 246,
+    "defence": 170
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_CLAW",
+    "BLIZZARD",
+    "DRACO_METEOR"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/646_normal.png",
+      "width": 239,
+      "height": 193
+    },
+    "shiny": {
+      "url": "images/646_normal_shiny.png",
+      "width": 239,
+      "height": 193
+    },
+    "normalAnimated": {
+      "url": "images/646_normal.gif",
+      "width": 109,
+      "height": 91
+    },
+    "shinyAnimated": {
+      "url": "images/646_normal_shiny.gif",
+      "width": 109,
+      "height": 91
+    }
+  }
+}

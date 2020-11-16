@@ -1,0 +1,47 @@
+{
+  "id": "419_normal",
+  "name": "Floatzel",
+  "types": [
+    "Water"
+  ],
+  "dex": 419,
+  "stats": {
+    "stamina": 198,
+    "attack": 221,
+    "defence": 114
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "WATERFALL_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "HYDRO_PUMP",
+    "SWIFT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/419_normal.png",
+      "width": 143,
+      "height": 164
+    },
+    "shiny": {
+      "url": "images/419_normal_shiny.png",
+      "width": 143,
+      "height": 164
+    },
+    "normalAnimated": {
+      "url": "images/419_normal.gif",
+      "width": 88,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "images/419_normal_shiny.gif",
+      "width": 88,
+      "height": 93
+    }
+  }
+}

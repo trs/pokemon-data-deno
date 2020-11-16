@@ -1,0 +1,47 @@
+{
+  "id": "152_normal",
+  "name": "Chikorita",
+  "types": [
+    "Grass"
+  ],
+  "dex": 152,
+  "stats": {
+    "stamina": 128,
+    "attack": 92,
+    "defence": 122
+  },
+  "quickMoves": [
+    "VINE_WHIP_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/152_normal.png",
+      "width": 48,
+      "height": 87
+    },
+    "shiny": {
+      "url": "images/152_normal_shiny.png",
+      "width": 48,
+      "height": 87
+    },
+    "normalAnimated": {
+      "url": "images/152_normal.gif",
+      "width": 32,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/152_normal_shiny.gif",
+      "width": 32,
+      "height": 63
+    }
+  }
+}

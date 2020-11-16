@@ -1,0 +1,49 @@
+{
+  "id": "642_incarnate",
+  "name": "Thundurus",
+  "types": [
+    "Electric",
+    "Flying"
+  ],
+  "dex": 642,
+  "stats": {
+    "stamina": 188,
+    "attack": 266,
+    "defence": 164
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "THUNDER",
+    "BRICK_BREAK",
+    "THUNDER_PUNCH"
+  ],
+  "forms": [
+    "Incarnate"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/642_incarnate.png",
+      "width": 173,
+      "height": 203
+    },
+    "shiny": {
+      "url": "images/642_incarnate_shiny.png",
+      "width": 173,
+      "height": 203
+    },
+    "normalAnimated": {
+      "url": "images/642_incarnate.gif",
+      "width": 96,
+      "height": 103
+    },
+    "shinyAnimated": {
+      "url": "images/642_incarnate_shiny.gif",
+      "width": 96,
+      "height": 103
+    }
+  }
+}

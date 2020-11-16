@@ -1,0 +1,45 @@
+{
+  "id": "808_normal",
+  "name": "Meltan",
+  "types": [
+    "Steel"
+  ],
+  "dex": 808,
+  "stats": {
+    "stamina": 130,
+    "attack": 118,
+    "defence": 99
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "FLASH_CANNON",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/808_normal.png",
+      "width": 69,
+      "height": 93
+    },
+    "shiny": {
+      "url": "images/808_normal_shiny.png",
+      "width": 69,
+      "height": 93
+    },
+    "normalAnimated": {
+      "url": "images/808_normal.gif",
+      "width": 31,
+      "height": 37
+    },
+    "shinyAnimated": {
+      "url": "images/808_normal_shiny.gif",
+      "width": 31,
+      "height": 37
+    }
+  }
+}

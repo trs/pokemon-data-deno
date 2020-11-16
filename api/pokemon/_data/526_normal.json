@@ -1,0 +1,48 @@
+{
+  "id": "526_normal",
+  "name": "Gigalith",
+  "types": [
+    "Rock"
+  ],
+  "dex": 526,
+  "stats": {
+    "stamina": 198,
+    "attack": 226,
+    "defence": 201
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "SOLAR_BEAM",
+    "SUPER_POWER",
+    "HEAVY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/526_normal.png",
+      "width": 236,
+      "height": 232
+    },
+    "shiny": {
+      "url": "images/526_normal_shiny.png",
+      "width": 236,
+      "height": 232
+    },
+    "normalAnimated": {
+      "url": "images/526_normal.gif",
+      "width": 101,
+      "height": 97
+    },
+    "shinyAnimated": {
+      "url": "images/526_normal_shiny.gif",
+      "width": 101,
+      "height": 97
+    }
+  }
+}

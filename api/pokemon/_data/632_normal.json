@@ -1,0 +1,48 @@
+{
+  "id": "632_normal",
+  "name": "Durant",
+  "types": [
+    "Bug",
+    "Steel"
+  ],
+  "dex": 632,
+  "stats": {
+    "stamina": 151,
+    "attack": 217,
+    "defence": 188
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "X_SCISSOR",
+    "IRON_HEAD",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/632_normal.png",
+      "width": 118,
+      "height": 70
+    },
+    "shiny": {
+      "url": "images/632_normal_shiny.png",
+      "width": 118,
+      "height": 70
+    },
+    "normalAnimated": {
+      "url": "images/632_normal.gif",
+      "width": 64,
+      "height": 38
+    },
+    "shinyAnimated": {
+      "url": "images/632_normal_shiny.gif",
+      "width": 64,
+      "height": 38
+    }
+  }
+}

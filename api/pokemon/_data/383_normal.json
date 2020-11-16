@@ -1,0 +1,47 @@
+{
+  "id": "383_normal",
+  "name": "Groudon",
+  "types": [
+    "Ground"
+  ],
+  "dex": 383,
+  "stats": {
+    "stamina": 205,
+    "attack": 270,
+    "defence": 228
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "FIRE_BLAST",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/383_normal.png",
+      "width": 225,
+      "height": 189
+    },
+    "shiny": {
+      "url": "images/383_normal_shiny.png",
+      "width": 225,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "images/383_normal.gif",
+      "width": 107,
+      "height": 94
+    },
+    "shinyAnimated": {
+      "url": "images/383_normal_shiny.gif",
+      "width": 107,
+      "height": 94
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "349_normal",
+  "name": "Feebas",
+  "types": [
+    "Water"
+  ],
+  "dex": 349,
+  "stats": {
+    "stamina": 85,
+    "attack": 29,
+    "defence": 85
+  },
+  "quickMoves": [
+    "SPLASH_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "MIRROR_COAT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/349_normal.png",
+      "width": 78,
+      "height": 88
+    },
+    "shiny": {
+      "url": "images/349_normal_shiny.png",
+      "width": 78,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "images/349_normal.gif",
+      "width": 43,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "images/349_normal_shiny.gif",
+      "width": 43,
+      "height": 52
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "33_normal",
+  "name": "Nidorino",
+  "types": [
+    "Poison"
+  ],
+  "dex": 33,
+  "stats": {
+    "stamina": 156,
+    "attack": 137,
+    "defence": 111
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "HORN_ATTACK",
+    "DIG",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/33_normal.png",
+      "width": 121,
+      "height": 111
+    },
+    "shiny": {
+      "url": "images/33_normal_shiny.png",
+      "width": 121,
+      "height": 111
+    },
+    "normalAnimated": {
+      "url": "images/33_normal.gif",
+      "width": 60,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "images/33_normal_shiny.gif",
+      "width": 60,
+      "height": 56
+    }
+  }
+}

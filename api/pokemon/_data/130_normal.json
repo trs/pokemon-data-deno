@@ -1,0 +1,50 @@
+{
+  "id": "130_normal",
+  "name": "Gyarados",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "dex": 130,
+  "stats": {
+    "stamina": 216,
+    "attack": 237,
+    "defence": 186
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "WATERFALL_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "CRUNCH",
+    "OUTRAGE",
+    "TWISTER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/130_normal.png",
+      "width": 220,
+      "height": 209
+    },
+    "shiny": {
+      "url": "images/130_normal_shiny.png",
+      "width": 220,
+      "height": 209
+    },
+    "normalAnimated": {
+      "url": "images/130_normal.gif",
+      "width": 115,
+      "height": 99
+    },
+    "shinyAnimated": {
+      "url": "images/130_normal_shiny.gif",
+      "width": 115,
+      "height": 99
+    }
+  }
+}

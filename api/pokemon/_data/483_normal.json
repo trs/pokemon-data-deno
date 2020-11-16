@@ -1,0 +1,48 @@
+{
+  "id": "483_normal",
+  "name": "Dialga",
+  "types": [
+    "Steel",
+    "Dragon"
+  ],
+  "dex": 483,
+  "stats": {
+    "stamina": 205,
+    "attack": 275,
+    "defence": 211
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "DRACO_METEOR",
+    "IRON_HEAD",
+    "THUNDER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/483_normal.png",
+      "width": 210,
+      "height": 241
+    },
+    "shiny": {
+      "url": "images/483_normal_shiny.png",
+      "width": 210,
+      "height": 241
+    },
+    "normalAnimated": {
+      "url": "images/483_normal.gif",
+      "width": 100,
+      "height": 122
+    },
+    "shinyAnimated": {
+      "url": "images/483_normal_shiny.gif",
+      "width": 100,
+      "height": 122
+    }
+  }
+}

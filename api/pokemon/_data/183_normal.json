@@ -1,0 +1,48 @@
+{
+  "id": "183_normal",
+  "name": "Marill",
+  "types": [
+    "Water",
+    "Fairy"
+  ],
+  "dex": 183,
+  "stats": {
+    "stamina": 172,
+    "attack": 37,
+    "defence": 93
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "AQUA_TAIL",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/183_normal.png",
+      "width": 79,
+      "height": 68
+    },
+    "shiny": {
+      "url": "images/183_normal_shiny.png",
+      "width": 79,
+      "height": 68
+    },
+    "normalAnimated": {
+      "url": "images/183_normal.gif",
+      "width": 51,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "images/183_normal_shiny.gif",
+      "width": 51,
+      "height": 48
+    }
+  }
+}

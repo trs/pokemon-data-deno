@@ -1,0 +1,47 @@
+{
+  "id": "471_normal",
+  "name": "Glaceon",
+  "types": [
+    "Ice"
+  ],
+  "dex": 471,
+  "stats": {
+    "stamina": 163,
+    "attack": 238,
+    "defence": 205
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "FROST_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "ICY_WIND",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/471_normal.png",
+      "width": 114,
+      "height": 155
+    },
+    "shiny": {
+      "url": "images/471_normal_shiny.png",
+      "width": 114,
+      "height": 155
+    },
+    "normalAnimated": {
+      "url": "images/471_normal.gif",
+      "width": 69,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "images/471_normal_shiny.gif",
+      "width": 69,
+      "height": 80
+    }
+  }
+}

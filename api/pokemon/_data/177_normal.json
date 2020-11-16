@@ -1,0 +1,48 @@
+{
+  "id": "177_normal",
+  "name": "Natu",
+  "types": [
+    "Psychic",
+    "Flying"
+  ],
+  "dex": 177,
+  "stats": {
+    "stamina": 120,
+    "attack": 134,
+    "defence": 89
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SHADE",
+    "PSYSHOCK",
+    "DRILL_PECK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/177_normal.png",
+      "width": 56,
+      "height": 73
+    },
+    "shiny": {
+      "url": "images/177_normal_shiny.png",
+      "width": 56,
+      "height": 73
+    },
+    "normalAnimated": {
+      "url": "images/177_normal.gif",
+      "width": 42,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "images/177_normal_shiny.gif",
+      "width": 42,
+      "height": 48
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "51_alola",
+  "name": "Dugtrio",
+  "types": [
+    "Ground",
+    "Steel"
+  ],
+  "dex": 51,
+  "stats": {
+    "stamina": 111,
+    "attack": 201,
+    "defence": 142
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "MUD_BOMB",
+    "IRON_HEAD"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/51_alola.png",
+      "width": 157,
+      "height": 116
+    },
+    "shiny": {
+      "url": "images/51_alola_shiny.png",
+      "width": 157,
+      "height": 116
+    },
+    "normalAnimated": {
+      "url": "images/51_alola.gif",
+      "width": 75,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "images/51_alola_shiny.gif",
+      "width": 75,
+      "height": 49
+    }
+  }
+}

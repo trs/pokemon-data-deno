@@ -1,0 +1,48 @@
+{
+  "id": "69_normal",
+  "name": "Bellsprout",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "dex": 69,
+  "stats": {
+    "stamina": 137,
+    "attack": 139,
+    "defence": 61
+  },
+  "quickMoves": [
+    "VINE_WHIP_FAST",
+    "ACID_FAST"
+  ],
+  "chargeMoves": [
+    "POWER_WHIP",
+    "SLUDGE_BOMB",
+    "WRAP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/69_normal.png",
+      "width": 73,
+      "height": 75
+    },
+    "shiny": {
+      "url": "images/69_normal_shiny.png",
+      "width": 73,
+      "height": 75
+    },
+    "normalAnimated": {
+      "url": "images/69_normal.gif",
+      "width": 55,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "images/69_normal_shiny.gif",
+      "width": 55,
+      "height": 49
+    }
+  }
+}

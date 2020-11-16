@@ -1,0 +1,47 @@
+{
+  "id": "313_normal",
+  "name": "Volbeat",
+  "types": [
+    "Bug"
+  ],
+  "dex": 313,
+  "stats": {
+    "stamina": 163,
+    "attack": 143,
+    "defence": 166
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "SIGNAL_BEAM",
+    "BUG_BUZZ",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/313_normal.png",
+      "width": 70,
+      "height": 110
+    },
+    "shiny": {
+      "url": "images/313_normal_shiny.png",
+      "width": 70,
+      "height": 110
+    },
+    "normalAnimated": {
+      "url": "images/313_normal.gif",
+      "width": 68,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "images/313_normal_shiny.gif",
+      "width": 68,
+      "height": 74
+    }
+  }
+}

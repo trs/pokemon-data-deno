@@ -1,0 +1,47 @@
+{
+  "id": "406_normal",
+  "name": "Budew",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "dex": 406,
+  "stats": {
+    "stamina": 120,
+    "attack": 91,
+    "defence": 109
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/406_normal.png",
+      "width": 66,
+      "height": 106
+    },
+    "shiny": {
+      "url": "images/406_normal_shiny.png",
+      "width": 66,
+      "height": 106
+    },
+    "normalAnimated": {
+      "url": "images/406_normal.gif",
+      "width": 42,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "images/406_normal_shiny.gif",
+      "width": 42,
+      "height": 49
+    }
+  }
+}

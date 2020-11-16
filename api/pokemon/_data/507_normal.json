@@ -1,0 +1,47 @@
+{
+  "id": "507_normal",
+  "name": "Herdier",
+  "types": [
+    "Normal"
+  ],
+  "dex": 507,
+  "stats": {
+    "stamina": 163,
+    "attack": 145,
+    "defence": 126
+  },
+  "quickMoves": [
+    "LICK_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "PLAY_ROUGH",
+    "DIG"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/507_normal.png",
+      "width": 93,
+      "height": 120
+    },
+    "shiny": {
+      "url": "images/507_normal_shiny.png",
+      "width": 93,
+      "height": 120
+    },
+    "normalAnimated": {
+      "url": "images/507_normal.gif",
+      "width": 57,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "images/507_normal_shiny.gif",
+      "width": 57,
+      "height": 74
+    }
+  }
+}

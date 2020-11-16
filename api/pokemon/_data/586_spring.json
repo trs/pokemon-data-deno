@@ -1,0 +1,49 @@
+{
+  "id": "586_spring",
+  "name": "Sawsbuck",
+  "types": [
+    "Normal",
+    "Grass"
+  ],
+  "dex": 586,
+  "stats": {
+    "stamina": 190,
+    "attack": 198,
+    "defence": 146
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "SOLAR_BEAM",
+    "WILD_CHARGE",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    "Spring"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/586_spring.png",
+      "width": 128,
+      "height": 222
+    },
+    "shiny": {
+      "url": "images/586_spring_shiny.png",
+      "width": 128,
+      "height": 222
+    },
+    "normalAnimated": {
+      "url": "images/586_spring.gif",
+      "width": 53,
+      "height": 100
+    },
+    "shinyAnimated": {
+      "url": "images/586_spring_shiny.gif",
+      "width": 53,
+      "height": 100
+    }
+  }
+}

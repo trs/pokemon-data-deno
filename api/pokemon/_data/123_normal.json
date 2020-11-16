@@ -1,0 +1,48 @@
+{
+  "id": "123_normal",
+  "name": "Scyther",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "dex": 123,
+  "stats": {
+    "stamina": 172,
+    "attack": 218,
+    "defence": 170
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "X_SCISSOR",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/123_normal.png",
+      "width": 206,
+      "height": 213
+    },
+    "shiny": {
+      "url": "images/123_normal_shiny.png",
+      "width": 206,
+      "height": 213
+    },
+    "normalAnimated": {
+      "url": "images/123_normal.gif",
+      "width": 2586,
+      "height": 0
+    },
+    "shinyAnimated": {
+      "url": "images/123_normal_shiny.gif",
+      "width": 2586,
+      "height": 0
+    }
+  }
+}

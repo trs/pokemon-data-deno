@@ -1,0 +1,47 @@
+{
+  "id": "175_normal",
+  "name": "Togepi",
+  "types": [
+    "Fairy"
+  ],
+  "dex": 175,
+  "stats": {
+    "stamina": 111,
+    "attack": 67,
+    "defence": 116
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "PECK_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "PSYSHOCK",
+    "DAZZLING_GLEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/175_normal.png",
+      "width": 74,
+      "height": 75
+    },
+    "shiny": {
+      "url": "images/175_normal_shiny.png",
+      "width": 74,
+      "height": 75
+    },
+    "normalAnimated": {
+      "url": "images/175_normal.gif",
+      "width": 47,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "images/175_normal_shiny.gif",
+      "width": 47,
+      "height": 47
+    }
+  }
+}

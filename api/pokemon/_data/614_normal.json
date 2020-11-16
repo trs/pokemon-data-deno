@@ -1,0 +1,47 @@
+{
+  "id": "614_normal",
+  "name": "Beartic",
+  "types": [
+    "Ice"
+  ],
+  "dex": 614,
+  "stats": {
+    "stamina": 216,
+    "attack": 233,
+    "defence": 152
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_PUNCH",
+    "SURF",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/614_normal.png",
+      "width": 218,
+      "height": 222
+    },
+    "shiny": {
+      "url": "images/614_normal_shiny.png",
+      "width": 218,
+      "height": 222
+    },
+    "normalAnimated": {
+      "url": "images/614_normal.gif",
+      "width": 105,
+      "height": 104
+    },
+    "shinyAnimated": {
+      "url": "images/614_normal_shiny.gif",
+      "width": 105,
+      "height": 104
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "17_normal",
+  "name": "Pidgeotto",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "dex": 17,
+  "stats": {
+    "stamina": 160,
+    "attack": 117,
+    "defence": 105
+  },
+  "quickMoves": [
+    "WING_ATTACK_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "TWISTER",
+    "AERIAL_ACE",
+    "AIR_CUTTER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/17_normal.png",
+      "width": 213,
+      "height": 133
+    },
+    "shiny": {
+      "url": "images/17_normal_shiny.png",
+      "width": 213,
+      "height": 133
+    },
+    "normalAnimated": {
+      "url": "images/17_normal.gif",
+      "width": 115,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "images/17_normal_shiny.gif",
+      "width": 115,
+      "height": 86
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "482_normal",
+  "name": "Azelf",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 482,
+  "stats": {
+    "stamina": 181,
+    "attack": 270,
+    "defence": 151
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "EXTRASENSORY_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "SWIFT",
+    "FIRE_BLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/482_normal.png",
+      "width": 124,
+      "height": 128
+    },
+    "shiny": {
+      "url": "images/482_normal_shiny.png",
+      "width": 124,
+      "height": 128
+    },
+    "normalAnimated": {
+      "url": "images/482_normal.gif",
+      "width": 83,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "images/482_normal_shiny.gif",
+      "width": 83,
+      "height": 86
+    }
+  }
+}

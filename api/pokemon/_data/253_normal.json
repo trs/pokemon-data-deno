@@ -1,0 +1,47 @@
+{
+  "id": "253_normal",
+  "name": "Grovyle",
+  "types": [
+    "Grass"
+  ],
+  "dex": 253,
+  "stats": {
+    "stamina": 137,
+    "attack": 172,
+    "defence": 120
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "LEAF_BLADE",
+    "AERIAL_ACE",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/253_normal.png",
+      "width": 140,
+      "height": 141
+    },
+    "shiny": {
+      "url": "images/253_normal_shiny.png",
+      "width": 140,
+      "height": 141
+    },
+    "normalAnimated": {
+      "url": "images/253_normal.gif",
+      "width": 78,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "images/253_normal_shiny.gif",
+      "width": 78,
+      "height": 79
+    }
+  }
+}

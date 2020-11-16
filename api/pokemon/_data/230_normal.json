@@ -1,0 +1,49 @@
+{
+  "id": "230_normal",
+  "name": "Kingdra",
+  "types": [
+    "Water",
+    "Dragon"
+  ],
+  "dex": 230,
+  "stats": {
+    "stamina": 181,
+    "attack": 194,
+    "defence": 194
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "BLIZZARD",
+    "OUTRAGE",
+    "OCTAZOOKA"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/230_normal.png",
+      "width": 102,
+      "height": 197
+    },
+    "shiny": {
+      "url": "images/230_normal_shiny.png",
+      "width": 102,
+      "height": 197
+    },
+    "normalAnimated": {
+      "url": "images/230_normal.gif",
+      "width": 46,
+      "height": 97
+    },
+    "shinyAnimated": {
+      "url": "images/230_normal_shiny.gif",
+      "width": 46,
+      "height": 97
+    }
+  }
+}

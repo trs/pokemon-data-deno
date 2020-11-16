@@ -1,0 +1,48 @@
+{
+  "id": "101_normal",
+  "name": "Electrode",
+  "types": [
+    "Electric"
+  ],
+  "dex": 101,
+  "stats": {
+    "stamina": 155,
+    "attack": 173,
+    "defence": 173
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "DISCHARGE",
+    "THUNDERBOLT",
+    "HYPER_BEAM",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/101_normal.png",
+      "width": 158,
+      "height": 158
+    },
+    "shiny": {
+      "url": "images/101_normal_shiny.png",
+      "width": 158,
+      "height": 158
+    },
+    "normalAnimated": {
+      "url": "images/101_normal.gif",
+      "width": 72,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "images/101_normal_shiny.gif",
+      "width": 72,
+      "height": 59
+    }
+  }
+}

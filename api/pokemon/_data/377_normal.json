@@ -1,0 +1,48 @@
+{
+  "id": "377_normal",
+  "name": "Regirock",
+  "types": [
+    "Rock"
+  ],
+  "dex": 377,
+  "stats": {
+    "stamina": 190,
+    "attack": 179,
+    "defence": 309
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "ROCK_SMASH_FAST",
+    "LOCK_ON_FAST"
+  ],
+  "chargeMoves": [
+    "STONE_EDGE",
+    "ZAP_CANNON",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/377_normal.png",
+      "width": 202,
+      "height": 185
+    },
+    "shiny": {
+      "url": "images/377_normal_shiny.png",
+      "width": 202,
+      "height": 185
+    },
+    "normalAnimated": {
+      "url": "images/377_normal.gif",
+      "width": 92,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/377_normal_shiny.gif",
+      "width": 92,
+      "height": 83
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "363_normal",
+  "name": "Spheal",
+  "types": [
+    "Ice",
+    "Water"
+  ],
+  "dex": 363,
+  "stats": {
+    "stamina": 172,
+    "attack": 95,
+    "defence": 90
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "BODY_SLAM",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/363_normal.png",
+      "width": 124,
+      "height": 115
+    },
+    "shiny": {
+      "url": "images/363_normal_shiny.png",
+      "width": 124,
+      "height": 115
+    },
+    "normalAnimated": {
+      "url": "images/363_normal.gif",
+      "width": 45,
+      "height": 42
+    },
+    "shinyAnimated": {
+      "url": "images/363_normal_shiny.gif",
+      "width": 45,
+      "height": 42
+    }
+  }
+}

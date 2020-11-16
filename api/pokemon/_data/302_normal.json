@@ -1,0 +1,48 @@
+{
+  "id": "302_normal",
+  "name": "Sableye",
+  "types": [
+    "Dark",
+    "Ghost"
+  ],
+  "dex": 302,
+  "stats": {
+    "stamina": 137,
+    "attack": 141,
+    "defence": 136
+  },
+  "quickMoves": [
+    "SHADOW_CLAW_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "POWER_GEM",
+    "FOUL_PLAY",
+    "SHADOW_SNEAK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/302_normal.png",
+      "width": 58,
+      "height": 93
+    },
+    "shiny": {
+      "url": "images/302_normal_shiny.png",
+      "width": 58,
+      "height": 93
+    },
+    "normalAnimated": {
+      "url": "images/302_normal.gif",
+      "width": 49,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "images/302_normal_shiny.gif",
+      "width": 49,
+      "height": 64
+    }
+  }
+}

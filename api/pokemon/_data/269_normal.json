@@ -1,0 +1,48 @@
+{
+  "id": "269_normal",
+  "name": "Dustox",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "dex": 269,
+  "stats": {
+    "stamina": 155,
+    "attack": 98,
+    "defence": 162
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "SILVER_WIND",
+    "SLUDGE_BOMB",
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/269_normal.png",
+      "width": 170,
+      "height": 98
+    },
+    "shiny": {
+      "url": "images/269_normal_shiny.png",
+      "width": 170,
+      "height": 98
+    },
+    "normalAnimated": {
+      "url": "images/269_normal.gif",
+      "width": 100,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "images/269_normal_shiny.gif",
+      "width": 100,
+      "height": 71
+    }
+  }
+}

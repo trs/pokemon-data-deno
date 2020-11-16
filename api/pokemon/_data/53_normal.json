@@ -1,0 +1,47 @@
+{
+  "id": "53_normal",
+  "name": "Persian",
+  "types": [
+    "Normal"
+  ],
+  "dex": 53,
+  "stats": {
+    "stamina": 163,
+    "attack": 150,
+    "defence": 136
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "FOUL_PLAY",
+    "POWER_GEM",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/53_normal.png",
+      "width": 184,
+      "height": 134
+    },
+    "shiny": {
+      "url": "images/53_normal_shiny.png",
+      "width": 184,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "images/53_normal.gif",
+      "width": 61,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "images/53_normal_shiny.gif",
+      "width": 61,
+      "height": 70
+    }
+  }
+}

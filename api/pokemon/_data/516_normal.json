@@ -1,0 +1,47 @@
+{
+  "id": "516_normal",
+  "name": "Simipour",
+  "types": [
+    "Water"
+  ],
+  "dex": 516,
+  "stats": {
+    "stamina": 181,
+    "attack": 206,
+    "defence": 133
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "HYDRO_PUMP",
+    "CRUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/516_normal.png",
+      "width": 145,
+      "height": 154
+    },
+    "shiny": {
+      "url": "images/516_normal_shiny.png",
+      "width": 145,
+      "height": 154
+    },
+    "normalAnimated": {
+      "url": "images/516_normal.gif",
+      "width": 76,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/516_normal_shiny.gif",
+      "width": 76,
+      "height": 83
+    }
+  }
+}

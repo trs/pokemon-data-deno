@@ -1,0 +1,48 @@
+{
+  "id": "301_normal",
+  "name": "Delcatty",
+  "types": [
+    "Normal"
+  ],
+  "dex": 301,
+  "stats": {
+    "stamina": 172,
+    "attack": 132,
+    "defence": 127
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "ZEN_HEADBUTT_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "DISARMING_VOICE",
+    "WILD_CHARGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/301_normal.png",
+      "width": 152,
+      "height": 162
+    },
+    "shiny": {
+      "url": "images/301_normal_shiny.png",
+      "width": 152,
+      "height": 162
+    },
+    "normalAnimated": {
+      "url": "images/301_normal.gif",
+      "width": 65,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "images/301_normal_shiny.gif",
+      "width": 65,
+      "height": 77
+    }
+  }
+}

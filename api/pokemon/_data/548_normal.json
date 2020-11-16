@@ -1,0 +1,46 @@
+{
+  "id": "548_normal",
+  "name": "Petilil",
+  "types": [
+    "Grass"
+  ],
+  "dex": 548,
+  "stats": {
+    "stamina": 128,
+    "attack": 119,
+    "defence": 91
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/548_normal.png",
+      "width": 54,
+      "height": 94
+    },
+    "shiny": {
+      "url": "images/548_normal_shiny.png",
+      "width": 54,
+      "height": 94
+    },
+    "normalAnimated": {
+      "url": "images/548_normal.gif",
+      "width": 42,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "images/548_normal_shiny.gif",
+      "width": 42,
+      "height": 69
+    }
+  }
+}

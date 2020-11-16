@@ -1,0 +1,49 @@
+{
+  "id": "189_normal",
+  "name": "Jumpluff",
+  "types": [
+    "Grass",
+    "Flying"
+  ],
+  "dex": 189,
+  "stats": {
+    "stamina": 181,
+    "attack": 118,
+    "defence": 183
+  },
+  "quickMoves": [
+    "INFESTATION_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "DAZZLING_GLEAM",
+    "SOLAR_BEAM",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/189_normal.png",
+      "width": 125,
+      "height": 112
+    },
+    "shiny": {
+      "url": "images/189_normal_shiny.png",
+      "width": 125,
+      "height": 112
+    },
+    "normalAnimated": {
+      "url": "images/189_normal.gif",
+      "width": 90,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "images/189_normal_shiny.gif",
+      "width": 90,
+      "height": 82
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "409_normal",
+  "name": "Rampardos",
+  "types": [
+    "Rock"
+  ],
+  "dex": 409,
+  "stats": {
+    "stamina": 219,
+    "attack": 295,
+    "defence": 109
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "OUTRAGE",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/409_normal.png",
+      "width": 176,
+      "height": 181
+    },
+    "shiny": {
+      "url": "images/409_normal_shiny.png",
+      "width": 176,
+      "height": 181
+    },
+    "normalAnimated": {
+      "url": "images/409_normal.gif",
+      "width": 75,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "images/409_normal_shiny.gif",
+      "width": 75,
+      "height": 89
+    }
+  }
+}

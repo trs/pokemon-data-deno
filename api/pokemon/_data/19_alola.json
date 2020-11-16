@@ -1,0 +1,48 @@
+{
+  "id": "19_alola",
+  "name": "Rattata",
+  "types": [
+    "Dark",
+    "Normal"
+  ],
+  "dex": 19,
+  "stats": {
+    "stamina": 102,
+    "attack": 103,
+    "defence": 70
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "HYPER_FANG",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/19_alola.png",
+      "width": 72,
+      "height": 100
+    },
+    "shiny": {
+      "url": "images/19_alola_shiny.png",
+      "width": 72,
+      "height": 100
+    },
+    "normalAnimated": {
+      "url": "images/19_alola.gif",
+      "width": 49,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "images/19_alola_shiny.gif",
+      "width": 49,
+      "height": 52
+    }
+  }
+}

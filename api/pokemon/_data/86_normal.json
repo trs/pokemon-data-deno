@@ -1,0 +1,47 @@
+{
+  "id": "86_normal",
+  "name": "Seel",
+  "types": [
+    "Water"
+  ],
+  "dex": 86,
+  "stats": {
+    "stamina": 163,
+    "attack": 85,
+    "defence": 121
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "LICK_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "ICY_WIND",
+    "AQUA_TAIL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/86_normal.png",
+      "width": 114,
+      "height": 81
+    },
+    "shiny": {
+      "url": "images/86_normal_shiny.png",
+      "width": 114,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "images/86_normal.gif",
+      "width": 66,
+      "height": 45
+    },
+    "shinyAnimated": {
+      "url": "images/86_normal_shiny.gif",
+      "width": 66,
+      "height": 45
+    }
+  }
+}

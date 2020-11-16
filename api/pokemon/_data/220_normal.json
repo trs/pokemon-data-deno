@@ -1,0 +1,48 @@
+{
+  "id": "220_normal",
+  "name": "Swinub",
+  "types": [
+    "Ice",
+    "Ground"
+  ],
+  "dex": 220,
+  "stats": {
+    "stamina": 137,
+    "attack": 90,
+    "defence": 69
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "POWDER_SNOW_FAST"
+  ],
+  "chargeMoves": [
+    "ICY_WIND",
+    "BODY_SLAM",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/220_normal.png",
+      "width": 83,
+      "height": 60
+    },
+    "shiny": {
+      "url": "images/220_normal_shiny.png",
+      "width": 83,
+      "height": 60
+    },
+    "normalAnimated": {
+      "url": "images/220_normal.gif",
+      "width": 49,
+      "height": 33
+    },
+    "shinyAnimated": {
+      "url": "images/220_normal_shiny.gif",
+      "width": 49,
+      "height": 33
+    }
+  }
+}

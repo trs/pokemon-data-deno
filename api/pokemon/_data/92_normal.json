@@ -1,0 +1,48 @@
+{
+  "id": "92_normal",
+  "name": "Gastly",
+  "types": [
+    "Ghost",
+    "Poison"
+  ],
+  "dex": 92,
+  "stats": {
+    "stamina": 102,
+    "attack": 186,
+    "defence": 67
+  },
+  "quickMoves": [
+    "LICK_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SHADE",
+    "DARK_PULSE",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/92_normal.png",
+      "width": 203,
+      "height": 185
+    },
+    "shiny": {
+      "url": "images/92_normal_shiny.png",
+      "width": 209,
+      "height": 194
+    },
+    "normalAnimated": {
+      "url": "images/92_normal.gif",
+      "width": 52,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/92_normal_shiny.gif",
+      "width": 52,
+      "height": 61
+    }
+  }
+}

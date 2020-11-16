@@ -1,0 +1,47 @@
+{
+  "id": "525_normal",
+  "name": "Boldore",
+  "types": [
+    "Rock"
+  ],
+  "dex": 525,
+  "stats": {
+    "stamina": 172,
+    "attack": 174,
+    "defence": 143
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "BULLDOZE",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/525_normal.png",
+      "width": 170,
+      "height": 133
+    },
+    "shiny": {
+      "url": "images/525_normal_shiny.png",
+      "width": 170,
+      "height": 133
+    },
+    "normalAnimated": {
+      "url": "images/525_normal.gif",
+      "width": 81,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "images/525_normal_shiny.gif",
+      "width": 81,
+      "height": 67
+    }
+  }
+}

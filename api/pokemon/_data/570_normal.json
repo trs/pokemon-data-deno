@@ -1,0 +1,47 @@
+{
+  "id": "570_normal",
+  "name": "Zorua",
+  "types": [
+    "Dark"
+  ],
+  "dex": 570,
+  "stats": {
+    "stamina": 120,
+    "attack": 153,
+    "defence": 78
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "FOUL_PLAY",
+    "AERIAL_ACE",
+    "DARK_PULSE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/570_normal.png",
+      "width": 94,
+      "height": 124
+    },
+    "shiny": {
+      "url": "images/570_normal_shiny.png",
+      "width": 94,
+      "height": 124
+    },
+    "normalAnimated": {
+      "url": "images/570_normal.gif",
+      "width": 47,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/570_normal_shiny.gif",
+      "width": 47,
+      "height": 63
+    }
+  }
+}

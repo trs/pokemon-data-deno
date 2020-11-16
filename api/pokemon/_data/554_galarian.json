@@ -1,0 +1,46 @@
+{
+  "id": "554_galarian",
+  "name": "Darumaka",
+  "types": [
+    "Ice"
+  ],
+  "dex": 554,
+  "stats": {
+    "stamina": 172,
+    "attack": 153,
+    "defence": 86
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_PUNCH",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    "Galarian"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/554_galarian.png",
+      "width": 109,
+      "height": 110
+    },
+    "shiny": {
+      "url": "images/554_galarian_shiny.png",
+      "width": 109,
+      "height": 110
+    },
+    "normalAnimated": {
+      "url": "images/554_galarian.gif",
+      "width": 59,
+      "height": 51
+    },
+    "shinyAnimated": {
+      "url": "images/554_galarian_shiny.gif",
+      "width": 59,
+      "height": 51
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "461_normal",
+  "name": "Weavile",
+  "types": [
+    "Dark",
+    "Ice"
+  ],
+  "dex": 461,
+  "stats": {
+    "stamina": 172,
+    "attack": 243,
+    "defence": 171
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "FEINT_ATTACK_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "FOCUS_BLAST",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/461_normal.png",
+      "width": 123,
+      "height": 152
+    },
+    "shiny": {
+      "url": "images/461_normal_shiny.png",
+      "width": 123,
+      "height": 152
+    },
+    "normalAnimated": {
+      "url": "images/461_normal.gif",
+      "width": 63,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "images/461_normal_shiny.gif",
+      "width": 63,
+      "height": 78
+    }
+  }
+}

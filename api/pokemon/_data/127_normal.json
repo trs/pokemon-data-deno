@@ -1,0 +1,49 @@
+{
+  "id": "127_normal",
+  "name": "Pinsir",
+  "types": [
+    "Bug"
+  ],
+  "dex": 127,
+  "stats": {
+    "stamina": 163,
+    "attack": 238,
+    "defence": 182
+  },
+  "quickMoves": [
+    "ROCK_SMASH_FAST",
+    "BUG_BITE_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "X_SCISSOR",
+    "CLOSE_COMBAT",
+    "SUPER_POWER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/127_normal.png",
+      "width": 191,
+      "height": 177
+    },
+    "shiny": {
+      "url": "images/127_normal_shiny.png",
+      "width": 191,
+      "height": 177
+    },
+    "normalAnimated": {
+      "url": "images/127_normal.gif",
+      "width": 92,
+      "height": 76
+    },
+    "shinyAnimated": {
+      "url": "images/127_normal_shiny.gif",
+      "width": 92,
+      "height": 76
+    }
+  }
+}

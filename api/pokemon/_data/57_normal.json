@@ -1,0 +1,47 @@
+{
+  "id": "57_normal",
+  "name": "Primeape",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 57,
+  "stats": {
+    "stamina": 163,
+    "attack": 207,
+    "defence": 138
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "LOW_SWEEP",
+    "NIGHT_SLASH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/57_normal.png",
+      "width": 158,
+      "height": 166
+    },
+    "shiny": {
+      "url": "images/57_normal_shiny.png",
+      "width": 158,
+      "height": 166
+    },
+    "normalAnimated": {
+      "url": "images/57_normal.gif",
+      "width": 71,
+      "height": 65
+    },
+    "shinyAnimated": {
+      "url": "images/57_normal_shiny.gif",
+      "width": 71,
+      "height": 65
+    }
+  }
+}

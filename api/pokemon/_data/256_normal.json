@@ -1,0 +1,48 @@
+{
+  "id": "256_normal",
+  "name": "Combusken",
+  "types": [
+    "Fire",
+    "Fighting"
+  ],
+  "dex": 256,
+  "stats": {
+    "stamina": 155,
+    "attack": 163,
+    "defence": 115
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/256_normal.png",
+      "width": 93,
+      "height": 128
+    },
+    "shiny": {
+      "url": "images/256_normal_shiny.png",
+      "width": 93,
+      "height": 128
+    },
+    "normalAnimated": {
+      "url": "images/256_normal.gif",
+      "width": 61,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/256_normal_shiny.gif",
+      "width": 61,
+      "height": 83
+    }
+  }
+}

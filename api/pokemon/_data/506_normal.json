@@ -1,0 +1,47 @@
+{
+  "id": "506_normal",
+  "name": "Lillipup",
+  "types": [
+    "Normal"
+  ],
+  "dex": 506,
+  "stats": {
+    "stamina": 128,
+    "attack": 107,
+    "defence": 86
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "ROCK_TOMB",
+    "DIG"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/506_normal.png",
+      "width": 64,
+      "height": 95
+    },
+    "shiny": {
+      "url": "images/506_normal_shiny.png",
+      "width": 64,
+      "height": 95
+    },
+    "normalAnimated": {
+      "url": "images/506_normal.gif",
+      "width": 41,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "images/506_normal_shiny.gif",
+      "width": 41,
+      "height": 55
+    }
+  }
+}

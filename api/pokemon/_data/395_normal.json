@@ -1,0 +1,49 @@
+{
+  "id": "395_normal",
+  "name": "Empoleon",
+  "types": [
+    "Water",
+    "Steel"
+  ],
+  "dex": 395,
+  "stats": {
+    "stamina": 197,
+    "attack": 210,
+    "defence": 186
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "BLIZZARD",
+    "FLASH_CANNON",
+    "DRILL_PECK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/395_normal.png",
+      "width": 165,
+      "height": 217
+    },
+    "shiny": {
+      "url": "images/395_normal_shiny.png",
+      "width": 165,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "images/395_normal.gif",
+      "width": 92,
+      "height": 111
+    },
+    "shinyAnimated": {
+      "url": "images/395_normal_shiny.gif",
+      "width": 92,
+      "height": 111
+    }
+  }
+}

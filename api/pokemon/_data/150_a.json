@@ -1,0 +1,38 @@
+{
+  "id": "150_a",
+  "name": "Mewtwo",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 150,
+  "stats": {
+    "stamina": 214,
+    "attack": 182,
+    "defence": 278
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "DYNAMIC_PUNCH",
+    "EARTHQUAKE",
+    "FUTURESIGHT"
+  ],
+  "forms": [
+    "A"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/150_a.png",
+      "width": 237,
+      "height": 208
+    },
+    "shiny": {
+      "url": "images/150_a_shiny.png",
+      "width": 237,
+      "height": 208
+    }
+  }
+}

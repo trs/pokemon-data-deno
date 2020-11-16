@@ -1,0 +1,48 @@
+{
+  "id": "410_normal",
+  "name": "Shieldon",
+  "types": [
+    "Rock",
+    "Steel"
+  ],
+  "dex": 410,
+  "stats": {
+    "stamina": 102,
+    "attack": 76,
+    "defence": 195
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_TOMB",
+    "ANCIENT_POWER",
+    "HEAVY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/410_normal.png",
+      "width": 84,
+      "height": 95
+    },
+    "shiny": {
+      "url": "images/410_normal_shiny.png",
+      "width": 84,
+      "height": 95
+    },
+    "normalAnimated": {
+      "url": "images/410_normal.gif",
+      "width": 46,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "images/410_normal_shiny.gif",
+      "width": 46,
+      "height": 55
+    }
+  }
+}

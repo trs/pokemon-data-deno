@@ -1,0 +1,48 @@
+{
+  "id": "329_normal",
+  "name": "Vibrava",
+  "types": [
+    "Ground",
+    "Dragon"
+  ],
+  "dex": 329,
+  "stats": {
+    "stamina": 137,
+    "attack": 134,
+    "defence": 99
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "SAND_TOMB",
+    "BULLDOZE",
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/329_normal.png",
+      "width": 159,
+      "height": 78
+    },
+    "shiny": {
+      "url": "images/329_normal_shiny.png",
+      "width": 159,
+      "height": 78
+    },
+    "normalAnimated": {
+      "url": "images/329_normal.gif",
+      "width": 117,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "images/329_normal_shiny.gif",
+      "width": 117,
+      "height": 50
+    }
+  }
+}

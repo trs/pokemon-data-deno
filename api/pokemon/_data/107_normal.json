@@ -1,0 +1,49 @@
+{
+  "id": "107_normal",
+  "name": "Hitmonchan",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 107,
+  "stats": {
+    "stamina": 137,
+    "attack": 193,
+    "defence": 197
+  },
+  "quickMoves": [
+    "BULLET_PUNCH_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_PUNCH",
+    "ICE_PUNCH",
+    "THUNDER_PUNCH",
+    "CLOSE_COMBAT",
+    "POWER_UP_PUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/107_normal.png",
+      "width": 115,
+      "height": 168
+    },
+    "shiny": {
+      "url": "images/107_normal_shiny.png",
+      "width": 115,
+      "height": 168
+    },
+    "normalAnimated": {
+      "url": "images/107_normal.gif",
+      "width": 51,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "images/107_normal_shiny.gif",
+      "width": 51,
+      "height": 77
+    }
+  }
+}

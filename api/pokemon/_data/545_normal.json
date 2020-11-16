@@ -1,0 +1,49 @@
+{
+  "id": "545_normal",
+  "name": "Scolipede",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "dex": 545,
+  "stats": {
+    "stamina": 155,
+    "attack": 203,
+    "defence": 175
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "SLUDGE_BOMB",
+    "GYRO_BALL",
+    "X_SCISSOR"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/545_normal.png",
+      "width": 233,
+      "height": 227
+    },
+    "shiny": {
+      "url": "images/545_normal_shiny.png",
+      "width": 233,
+      "height": 227
+    },
+    "normalAnimated": {
+      "url": "images/545_normal.gif",
+      "width": 112,
+      "height": 124
+    },
+    "shinyAnimated": {
+      "url": "images/545_normal_shiny.gif",
+      "width": 112,
+      "height": 124
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "34_normal",
+  "name": "Nidoking",
+  "types": [
+    "Poison",
+    "Ground"
+  ],
+  "dex": 34,
+  "stats": {
+    "stamina": 191,
+    "attack": 204,
+    "defence": 156
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "SLUDGE_WAVE",
+    "MEGAHORN",
+    "EARTH_POWER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/34_normal.png",
+      "width": 201,
+      "height": 186
+    },
+    "shiny": {
+      "url": "images/34_normal_shiny.png",
+      "width": 201,
+      "height": 186
+    },
+    "normalAnimated": {
+      "url": "images/34_normal.gif",
+      "width": 105,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/34_normal_shiny.gif",
+      "width": 105,
+      "height": 83
+    }
+  }
+}

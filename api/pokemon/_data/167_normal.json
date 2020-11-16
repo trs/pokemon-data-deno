@@ -1,0 +1,48 @@
+{
+  "id": "167_normal",
+  "name": "Spinarak",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "dex": 167,
+  "stats": {
+    "stamina": 120,
+    "attack": 105,
+    "defence": 73
+  },
+  "quickMoves": [
+    "POISON_STING_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "SIGNAL_BEAM",
+    "CROSS_POISON"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/167_normal.png",
+      "width": 79,
+      "height": 45
+    },
+    "shiny": {
+      "url": "images/167_normal_shiny.png",
+      "width": 79,
+      "height": 45
+    },
+    "normalAnimated": {
+      "url": "images/167_normal.gif",
+      "width": 57,
+      "height": 27
+    },
+    "shinyAnimated": {
+      "url": "images/167_normal_shiny.gif",
+      "width": 57,
+      "height": 27
+    }
+  }
+}

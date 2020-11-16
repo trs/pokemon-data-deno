@@ -1,0 +1,81 @@
+{
+  "id": "151_normal",
+  "name": "Mew",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 151,
+  "stats": {
+    "stamina": 225,
+    "attack": 210,
+    "defence": 210
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "STEEL_WING_FAST",
+    "CHARGE_BEAM_FAST",
+    "SHADOW_CLAW_FAST",
+    "VOLT_SWITCH_FAST",
+    "STRUGGLE_BUG_FAST",
+    "FROST_BREATH_FAST",
+    "DRAGON_TAIL_FAST",
+    "INFESTATION_FAST",
+    "POISON_JAB_FAST",
+    "ROCK_SMASH_FAST",
+    "SNARL_FAST",
+    "CUT_FAST",
+    "WATERFALL_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "ANCIENT_POWER",
+    "DRAGON_CLAW",
+    "PSYSHOCK",
+    "ICE_BEAM",
+    "BLIZZARD",
+    "HYPER_BEAM",
+    "SOLAR_BEAM",
+    "THUNDERBOLT",
+    "THUNDER",
+    "FLAME_CHARGE",
+    "LOW_SWEEP",
+    "OVERHEAT",
+    "FOCUS_BLAST",
+    "ENERGY_BALL",
+    "STONE_EDGE",
+    "GYRO_BALL",
+    "BULLDOZE",
+    "ROCK_SLIDE",
+    "GRASS_KNOT",
+    "FLASH_CANNON",
+    "WILD_CHARGE",
+    "DARK_PULSE",
+    "DAZZLING_GLEAM",
+    "SURF"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/151_normal.png",
+      "width": 67,
+      "height": 76
+    },
+    "shiny": {
+      "url": "images/151_normal_shiny.png",
+      "width": 67,
+      "height": 76
+    },
+    "normalAnimated": {
+      "url": "images/151_normal.gif",
+      "width": 40,
+      "height": 51
+    },
+    "shinyAnimated": {
+      "url": "images/151_normal_shiny.gif",
+      "width": 40,
+      "height": 51
+    }
+  }
+}

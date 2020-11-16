@@ -1,0 +1,48 @@
+{
+  "id": "559_normal",
+  "name": "Scraggy",
+  "types": [
+    "Dark",
+    "Fighting"
+  ],
+  "dex": 559,
+  "stats": {
+    "stamina": 137,
+    "attack": 132,
+    "defence": 132
+  },
+  "quickMoves": [
+    "ROCK_SMASH_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "ACID_SPRAY",
+    "BRICK_BREAK",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/559_normal.png",
+      "width": 78,
+      "height": 104
+    },
+    "shiny": {
+      "url": "images/559_normal_shiny.png",
+      "width": 78,
+      "height": 104
+    },
+    "normalAnimated": {
+      "url": "images/559_normal.gif",
+      "width": 52,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/559_normal_shiny.gif",
+      "width": 52,
+      "height": 63
+    }
+  }
+}

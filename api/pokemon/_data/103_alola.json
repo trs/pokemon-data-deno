@@ -1,0 +1,48 @@
+{
+  "id": "103_alola",
+  "name": "Exeggutor",
+  "types": [
+    "Grass",
+    "Dragon"
+  ],
+  "dex": 103,
+  "stats": {
+    "stamina": 216,
+    "attack": 230,
+    "defence": 153
+  },
+  "quickMoves": [
+    "BULLET_SEED_FAST",
+    "DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "DRAGON_PULSE",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/103_alola.png",
+      "width": 119,
+      "height": 228
+    },
+    "shiny": {
+      "url": "images/103_alola_shiny.png",
+      "width": 119,
+      "height": 228
+    },
+    "normalAnimated": {
+      "url": "images/103_alola.gif",
+      "width": 111,
+      "height": 180
+    },
+    "shinyAnimated": {
+      "url": "images/103_alola_shiny.gif",
+      "width": 111,
+      "height": 180
+    }
+  }
+}

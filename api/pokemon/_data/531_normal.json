@@ -1,0 +1,47 @@
+{
+  "id": "531_normal",
+  "name": "Audino",
+  "types": [
+    "Normal"
+  ],
+  "dex": 531,
+  "stats": {
+    "stamina": 230,
+    "attack": 114,
+    "defence": 163
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "DISARMING_VOICE",
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/531_normal.png",
+      "width": 114,
+      "height": 149
+    },
+    "shiny": {
+      "url": "images/531_normal_shiny.png",
+      "width": 114,
+      "height": 149
+    },
+    "normalAnimated": {
+      "url": "images/531_normal.gif",
+      "width": 63,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "images/531_normal_shiny.gif",
+      "width": 63,
+      "height": 75
+    }
+  }
+}

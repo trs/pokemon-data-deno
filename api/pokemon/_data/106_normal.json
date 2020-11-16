@@ -1,0 +1,47 @@
+{
+  "id": "106_normal",
+  "name": "Hitmonlee",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 106,
+  "stats": {
+    "stamina": 137,
+    "attack": 224,
+    "defence": 181
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "LOW_SWEEP",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/106_normal.png",
+      "width": 119,
+      "height": 189
+    },
+    "shiny": {
+      "url": "images/106_normal_shiny.png",
+      "width": 119,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "images/106_normal.gif",
+      "width": 45,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "images/106_normal_shiny.gif",
+      "width": 45,
+      "height": 68
+    }
+  }
+}

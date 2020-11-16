@@ -1,0 +1,48 @@
+{
+  "id": "459_normal",
+  "name": "Snover",
+  "types": [
+    "Grass",
+    "Ice"
+  ],
+  "dex": 459,
+  "stats": {
+    "stamina": 155,
+    "attack": 115,
+    "defence": 105
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "ICE_SHARD_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_BEAM",
+    "ENERGY_BALL",
+    "STOMP"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/459_normal.png",
+      "width": 183,
+      "height": 138
+    },
+    "shiny": {
+      "url": "images/459_normal_shiny.png",
+      "width": 183,
+      "height": 138
+    },
+    "normalAnimated": {
+      "url": "images/459_normal.gif",
+      "width": 88,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/459_normal_shiny.gif",
+      "width": 88,
+      "height": 61
+    }
+  }
+}

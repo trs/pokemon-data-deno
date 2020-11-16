@@ -1,0 +1,48 @@
+{
+  "id": "479_heat",
+  "name": "Rotom",
+  "types": [
+    "Electric",
+    "Fire"
+  ],
+  "dex": 479,
+  "stats": {
+    "stamina": 137,
+    "attack": 204,
+    "defence": 219
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "OVERHEAT",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    "Heat"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/479_heat.png",
+      "width": 163,
+      "height": 105
+    },
+    "shiny": {
+      "url": "images/479_heat_shiny.png",
+      "width": 163,
+      "height": 105
+    },
+    "normalAnimated": {
+      "url": "images/479_heat.gif",
+      "width": 107,
+      "height": 62
+    },
+    "shinyAnimated": {
+      "url": "images/479_heat_shiny.gif",
+      "width": 107,
+      "height": 62
+    }
+  }
+}

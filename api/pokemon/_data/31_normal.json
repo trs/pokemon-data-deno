@@ -1,0 +1,49 @@
+{
+  "id": "31_normal",
+  "name": "Nidoqueen",
+  "types": [
+    "Poison",
+    "Ground"
+  ],
+  "dex": 31,
+  "stats": {
+    "stamina": 207,
+    "attack": 180,
+    "defence": 173
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "SLUDGE_WAVE",
+    "STONE_EDGE",
+    "EARTH_POWER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/31_normal.png",
+      "width": 129,
+      "height": 166
+    },
+    "shiny": {
+      "url": "images/31_normal_shiny.png",
+      "width": 129,
+      "height": 166
+    },
+    "normalAnimated": {
+      "url": "images/31_normal.gif",
+      "width": 64,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "images/31_normal_shiny.gif",
+      "width": 64,
+      "height": 82
+    }
+  }
+}

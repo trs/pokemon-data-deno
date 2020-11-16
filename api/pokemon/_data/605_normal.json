@@ -1,0 +1,47 @@
+{
+  "id": "605_normal",
+  "name": "Elgyem",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 605,
+  "stats": {
+    "stamina": 146,
+    "attack": 148,
+    "defence": 100
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/605_normal.png",
+      "width": 61,
+      "height": 123
+    },
+    "shiny": {
+      "url": "images/605_normal_shiny.png",
+      "width": 61,
+      "height": 123
+    },
+    "normalAnimated": {
+      "url": "images/605_normal.gif",
+      "width": 33,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "images/605_normal_shiny.gif",
+      "width": 33,
+      "height": 67
+    }
+  }
+}

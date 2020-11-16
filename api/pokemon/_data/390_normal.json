@@ -1,0 +1,47 @@
+{
+  "id": "390_normal",
+  "name": "Chimchar",
+  "types": [
+    "Fire"
+  ],
+  "dex": 390,
+  "stats": {
+    "stamina": 127,
+    "attack": 113,
+    "defence": 86
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_WHEEL",
+    "FLAMETHROWER",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/390_normal.png",
+      "width": 60,
+      "height": 113
+    },
+    "shiny": {
+      "url": "images/390_normal_shiny.png",
+      "width": 59,
+      "height": 113
+    },
+    "normalAnimated": {
+      "url": "images/390_normal.gif",
+      "width": 54,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "images/390_normal_shiny.gif",
+      "width": 54,
+      "height": 70
+    }
+  }
+}

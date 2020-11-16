@@ -1,0 +1,48 @@
+{
+  "id": "330_normal",
+  "name": "Flygon",
+  "types": [
+    "Ground",
+    "Dragon"
+  ],
+  "dex": 330,
+  "stats": {
+    "stamina": 190,
+    "attack": 205,
+    "defence": 168
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "DRAGON_CLAW",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/330_normal.png",
+      "width": 237,
+      "height": 176
+    },
+    "shiny": {
+      "url": "images/330_normal_shiny.png",
+      "width": 237,
+      "height": 176
+    },
+    "normalAnimated": {
+      "url": "images/330_normal.gif",
+      "width": 133,
+      "height": 106
+    },
+    "shinyAnimated": {
+      "url": "images/330_normal_shiny.gif",
+      "width": 133,
+      "height": 106
+    }
+  }
+}

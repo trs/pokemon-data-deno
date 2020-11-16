@@ -1,0 +1,47 @@
+{
+  "id": "532_normal",
+  "name": "Timburr",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 532,
+  "stats": {
+    "stamina": 181,
+    "attack": 134,
+    "defence": 87
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "POUND_FAST"
+  ],
+  "chargeMoves": [
+    "LOW_SWEEP",
+    "BRICK_BREAK",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/532_normal.png",
+      "width": 111,
+      "height": 107
+    },
+    "shiny": {
+      "url": "images/532_normal_shiny.png",
+      "width": 111,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "images/532_normal.gif",
+      "width": 63,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "images/532_normal_shiny.gif",
+      "width": 63,
+      "height": 61
+    }
+  }
+}

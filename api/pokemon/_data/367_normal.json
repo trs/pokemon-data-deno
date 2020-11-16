@@ -1,0 +1,47 @@
+{
+  "id": "367_normal",
+  "name": "Huntail",
+  "types": [
+    "Water"
+  ],
+  "dex": 367,
+  "stats": {
+    "stamina": 146,
+    "attack": 197,
+    "defence": 179
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "ICE_BEAM",
+    "AQUA_TAIL"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/367_normal.png",
+      "width": 130,
+      "height": 71
+    },
+    "shiny": {
+      "url": "images/367_normal_shiny.png",
+      "width": 130,
+      "height": 71
+    },
+    "normalAnimated": {
+      "url": "images/367_normal.gif",
+      "width": 93,
+      "height": 65
+    },
+    "shinyAnimated": {
+      "url": "images/367_normal_shiny.gif",
+      "width": 93,
+      "height": 65
+    }
+  }
+}

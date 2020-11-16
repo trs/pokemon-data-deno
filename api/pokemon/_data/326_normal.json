@@ -1,0 +1,47 @@
+{
+  "id": "326_normal",
+  "name": "Grumpig",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 326,
+  "stats": {
+    "stamina": 190,
+    "attack": 171,
+    "defence": 188
+  },
+  "quickMoves": [
+    "CHARGE_BEAM_FAST",
+    "EXTRASENSORY_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "MIRROR_COAT"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/326_normal.png",
+      "width": 153,
+      "height": 159
+    },
+    "shiny": {
+      "url": "images/326_normal_shiny.png",
+      "width": 153,
+      "height": 159
+    },
+    "normalAnimated": {
+      "url": "images/326_normal.gif",
+      "width": 81,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "images/326_normal_shiny.gif",
+      "width": 81,
+      "height": 73
+    }
+  }
+}

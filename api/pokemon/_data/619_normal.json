@@ -1,0 +1,47 @@
+{
+  "id": "619_normal",
+  "name": "Mienfoo",
+  "types": [
+    "Fighting"
+  ],
+  "dex": 619,
+  "stats": {
+    "stamina": 128,
+    "attack": 160,
+    "defence": 98
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "POUND_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "LOW_SWEEP",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/619_normal.png",
+      "width": 108,
+      "height": 130
+    },
+    "shiny": {
+      "url": "images/619_normal_shiny.png",
+      "width": 108,
+      "height": 130
+    },
+    "normalAnimated": {
+      "url": "images/619_normal.gif",
+      "width": 58,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "images/619_normal_shiny.gif",
+      "width": 58,
+      "height": 67
+    }
+  }
+}

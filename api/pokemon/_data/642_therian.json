@@ -1,0 +1,49 @@
+{
+  "id": "642_therian",
+  "name": "Thundurus",
+  "types": [
+    "Electric",
+    "Flying"
+  ],
+  "dex": 642,
+  "stats": {
+    "stamina": 188,
+    "attack": 295,
+    "defence": 161
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "THUNDER",
+    "BRICK_BREAK",
+    "THUNDER_PUNCH"
+  ],
+  "forms": [
+    "Therian"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/642_therian.png",
+      "width": 247,
+      "height": 211
+    },
+    "shiny": {
+      "url": "images/642_therian_shiny.png",
+      "width": 247,
+      "height": 211
+    },
+    "normalAnimated": {
+      "url": "images/642_therian.gif",
+      "width": 129,
+      "height": 108
+    },
+    "shinyAnimated": {
+      "url": "images/642_therian_shiny.gif",
+      "width": 129,
+      "height": 108
+    }
+  }
+}

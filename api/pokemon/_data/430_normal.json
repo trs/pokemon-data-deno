@@ -1,0 +1,49 @@
+{
+  "id": "430_normal",
+  "name": "Honchkrow",
+  "types": [
+    "Dark",
+    "Flying"
+  ],
+  "dex": 430,
+  "stats": {
+    "stamina": 225,
+    "attack": 243,
+    "defence": 103
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "BRAVE_BIRD",
+    "PSYCHIC",
+    "DARK_PULSE",
+    "SKY_ATTACK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/430_normal.png",
+      "width": 235,
+      "height": 185
+    },
+    "shiny": {
+      "url": "images/430_normal_shiny.png",
+      "width": 235,
+      "height": 185
+    },
+    "normalAnimated": {
+      "url": "images/430_normal.gif",
+      "width": 192,
+      "height": 182
+    },
+    "shinyAnimated": {
+      "url": "images/430_normal_shiny.gif",
+      "width": 192,
+      "height": 182
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "494_normal",
+  "name": "Victini",
+  "types": [
+    "Psychic",
+    "Fire"
+  ],
+  "dex": 494,
+  "stats": {
+    "stamina": 225,
+    "attack": 210,
+    "defence": 210
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "OVERHEAT",
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "V_CREATE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/494_normal.png",
+      "width": 74,
+      "height": 105
+    },
+    "shiny": {
+      "url": "images/494_normal_shiny.png",
+      "width": 74,
+      "height": 105
+    },
+    "normalAnimated": {
+      "url": "images/494_normal.gif",
+      "width": 53,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "images/494_normal_shiny.gif",
+      "width": 53,
+      "height": 73
+    }
+  }
+}

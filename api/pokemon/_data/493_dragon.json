@@ -1,0 +1,47 @@
+{
+  "id": "493_dragon",
+  "name": "Arceus",
+  "types": [
+    "Dragon"
+  ],
+  "dex": 493,
+  "stats": {
+    "stamina": 237,
+    "attack": 238,
+    "defence": 238
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "forms": [
+    "Dragon"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/493_dragon.png",
+      "width": 149,
+      "height": 217
+    },
+    "shiny": {
+      "url": "images/493_dragon_shiny.png",
+      "width": 149,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "images/493_dragon.gif",
+      "width": 150,
+      "height": 150
+    },
+    "shinyAnimated": {
+      "url": "images/493_dragon_shiny.gif",
+      "width": 86,
+      "height": 116
+    }
+  }
+}

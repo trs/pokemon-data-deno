@@ -1,0 +1,48 @@
+{
+  "id": "88_alola",
+  "name": "Grimer",
+  "types": [
+    "Poison",
+    "Dark"
+  ],
+  "dex": 88,
+  "stats": {
+    "stamina": 190,
+    "attack": 135,
+    "defence": 90
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "GUNK_SHOT",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/88_alola.png",
+      "width": 174,
+      "height": 137
+    },
+    "shiny": {
+      "url": "images/88_alola_shiny.png",
+      "width": 174,
+      "height": 137
+    },
+    "normalAnimated": {
+      "url": "images/88_alola.gif",
+      "width": 65,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "images/88_alola_shiny.gif",
+      "width": 65,
+      "height": 52
+    }
+  }
+}

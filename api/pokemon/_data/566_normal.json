@@ -1,0 +1,48 @@
+{
+  "id": "566_normal",
+  "name": "Archen",
+  "types": [
+    "Rock",
+    "Flying"
+  ],
+  "dex": 566,
+  "stats": {
+    "stamina": 146,
+    "attack": 213,
+    "defence": 89
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_CLAW",
+    "ANCIENT_POWER",
+    "CRUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/566_normal.png",
+      "width": 180,
+      "height": 97
+    },
+    "shiny": {
+      "url": "images/566_normal_shiny.png",
+      "width": 180,
+      "height": 97
+    },
+    "normalAnimated": {
+      "url": "images/566_normal.gif",
+      "width": 104,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "images/566_normal_shiny.gif",
+      "width": 104,
+      "height": 52
+    }
+  }
+}

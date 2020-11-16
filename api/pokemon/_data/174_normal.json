@@ -1,0 +1,48 @@
+{
+  "id": "174_normal",
+  "name": "Igglybuff",
+  "types": [
+    "Normal",
+    "Fairy"
+  ],
+  "dex": 174,
+  "stats": {
+    "stamina": 207,
+    "attack": 69,
+    "defence": 32
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "WILD_CHARGE",
+    "SHADOW_BALL",
+    "PSYCHIC"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/174_normal.png",
+      "width": 56,
+      "height": 66
+    },
+    "shiny": {
+      "url": "images/174_normal_shiny.png",
+      "width": 56,
+      "height": 66
+    },
+    "normalAnimated": {
+      "url": "images/174_normal.gif",
+      "width": 40,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "images/174_normal_shiny.gif",
+      "width": 40,
+      "height": 56
+    }
+  }
+}

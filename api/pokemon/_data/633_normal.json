@@ -1,0 +1,48 @@
+{
+  "id": "633_normal",
+  "name": "Deino",
+  "types": [
+    "Dark",
+    "Dragon"
+  ],
+  "dex": 633,
+  "stats": {
+    "stamina": 141,
+    "attack": 116,
+    "defence": 93
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_PULSE",
+    "CRUNCH",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/633_normal.png",
+      "width": 64,
+      "height": 122
+    },
+    "shiny": {
+      "url": "images/633_normal_shiny.png",
+      "width": 64,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "images/633_normal.gif",
+      "width": 43,
+      "height": 76
+    },
+    "shinyAnimated": {
+      "url": "images/633_normal_shiny.gif",
+      "width": 43,
+      "height": 76
+    }
+  }
+}

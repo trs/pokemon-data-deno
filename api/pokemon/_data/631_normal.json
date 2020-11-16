@@ -1,0 +1,47 @@
+{
+  "id": "631_normal",
+  "name": "Heatmor",
+  "types": [
+    "Fire"
+  ],
+  "dex": 631,
+  "stats": {
+    "stamina": 198,
+    "attack": 204,
+    "defence": 129
+  },
+  "quickMoves": [
+    "LICK_FAST",
+    "FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "FLAMETHROWER",
+    "THUNDER_PUNCH",
+    "POWER_UP_PUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/631_normal.png",
+      "width": 156,
+      "height": 162
+    },
+    "shiny": {
+      "url": "images/631_normal_shiny.png",
+      "width": 156,
+      "height": 162
+    },
+    "normalAnimated": {
+      "url": "images/631_normal.gif",
+      "width": 77,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/631_normal_shiny.gif",
+      "width": 77,
+      "height": 83
+    }
+  }
+}

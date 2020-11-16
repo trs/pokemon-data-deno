@@ -1,0 +1,47 @@
+{
+  "id": "582_normal",
+  "name": "Vanillite",
+  "types": [
+    "Ice"
+  ],
+  "dex": 582,
+  "stats": {
+    "stamina": 113,
+    "attack": 118,
+    "defence": 106
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "ICY_WIND",
+    "ICE_BEAM",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/582_normal.png",
+      "width": 56,
+      "height": 86
+    },
+    "shiny": {
+      "url": "images/582_normal_shiny.png",
+      "width": 56,
+      "height": 86
+    },
+    "normalAnimated": {
+      "url": "images/582_normal.gif",
+      "width": 49,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "images/582_normal_shiny.gif",
+      "width": 49,
+      "height": 63
+    }
+  }
+}

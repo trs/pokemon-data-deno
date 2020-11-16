@@ -1,0 +1,48 @@
+{
+  "id": "99_normal",
+  "name": "Kingler",
+  "types": [
+    "Water"
+  ],
+  "dex": 99,
+  "stats": {
+    "stamina": 146,
+    "attack": 240,
+    "defence": 181
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "X_SCISSOR",
+    "WATER_PULSE",
+    "CRABHAMMER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/99_normal.png",
+      "width": 245,
+      "height": 196
+    },
+    "shiny": {
+      "url": "images/99_normal_shiny.png",
+      "width": 245,
+      "height": 196
+    },
+    "normalAnimated": {
+      "url": "images/99_normal.gif",
+      "width": 87,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "images/99_normal_shiny.gif",
+      "width": 87,
+      "height": 83
+    }
+  }
+}

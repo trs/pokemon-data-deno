@@ -1,0 +1,48 @@
+{
+  "id": "552_normal",
+  "name": "Krokorok",
+  "types": [
+    "Ground",
+    "Dark"
+  ],
+  "dex": 552,
+  "stats": {
+    "stamina": 155,
+    "attack": 155,
+    "defence": 90
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "CRUNCH",
+    "BULLDOZE"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/552_normal.png",
+      "width": 179,
+      "height": 159
+    },
+    "shiny": {
+      "url": "images/552_normal_shiny.png",
+      "width": 179,
+      "height": 159
+    },
+    "normalAnimated": {
+      "url": "images/552_normal.gif",
+      "width": 81,
+      "height": 76
+    },
+    "shinyAnimated": {
+      "url": "images/552_normal_shiny.gif",
+      "width": 81,
+      "height": 76
+    }
+  }
+}

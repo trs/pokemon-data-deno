@@ -1,0 +1,49 @@
+{
+  "id": "3_normal_mega",
+  "name": "Venusaur",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "dex": 3,
+  "stats": {
+    "stamina": 190,
+    "attack": 241,
+    "defence": 246
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE_BOMB",
+    "PETAL_BLIZZARD",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    "Normal",
+    "Mega"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/3_normal_mega.png",
+      "width": 254,
+      "height": 178
+    },
+    "shiny": {
+      "url": "images/3_normal_mega_shiny.png",
+      "width": 254,
+      "height": 178
+    },
+    "normalAnimated": {
+      "url": "images/3_normal_mega.gif",
+      "width": 136,
+      "height": 91
+    },
+    "shinyAnimated": {
+      "url": "images/3_normal_mega_shiny.gif",
+      "width": 136,
+      "height": 91
+    }
+  }
+}

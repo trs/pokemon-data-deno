@@ -1,0 +1,47 @@
+{
+  "id": "599_normal",
+  "name": "Klink",
+  "types": [
+    "Steel"
+  ],
+  "dex": 599,
+  "stats": {
+    "stamina": 120,
+    "attack": 98,
+    "defence": 121
+  },
+  "quickMoves": [
+    "VOLT_SWITCH_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "DISCHARGE",
+    "ZAP_CANNON"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/599_normal.png",
+      "width": 108,
+      "height": 94
+    },
+    "shiny": {
+      "url": "images/599_normal_shiny.png",
+      "width": 108,
+      "height": 94
+    },
+    "normalAnimated": {
+      "url": "images/599_normal.gif",
+      "width": 78,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "images/599_normal_shiny.gif",
+      "width": 78,
+      "height": 73
+    }
+  }
+}

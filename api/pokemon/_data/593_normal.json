@@ -1,0 +1,48 @@
+{
+  "id": "593_normal",
+  "name": "Jellicent",
+  "types": [
+    "Water",
+    "Ghost"
+  ],
+  "dex": 593,
+  "stats": {
+    "stamina": 225,
+    "attack": 159,
+    "defence": 178
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "HEX_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "ICE_BEAM",
+    "BUBBLE_BEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/593_normal.png",
+      "width": 131,
+      "height": 143
+    },
+    "shiny": {
+      "url": "images/593_normal_shiny.png",
+      "width": 131,
+      "height": 143
+    },
+    "normalAnimated": {
+      "url": "images/593_normal.gif",
+      "width": 86,
+      "height": 105
+    },
+    "shinyAnimated": {
+      "url": "images/593_normal_shiny.gif",
+      "width": 86,
+      "height": 105
+    }
+  }
+}

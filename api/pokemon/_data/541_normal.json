@@ -1,0 +1,48 @@
+{
+  "id": "541_normal",
+  "name": "Swadloon",
+  "types": [
+    "Bug",
+    "Grass"
+  ],
+  "dex": 541,
+  "stats": {
+    "stamina": 146,
+    "attack": 115,
+    "defence": 162
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "BUG_BUZZ",
+    "SILVER_WIND"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/541_normal.png",
+      "width": 127,
+      "height": 92
+    },
+    "shiny": {
+      "url": "images/541_normal_shiny.png",
+      "width": 127,
+      "height": 92
+    },
+    "normalAnimated": {
+      "url": "images/541_normal.gif",
+      "width": 70,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "images/541_normal_shiny.gif",
+      "width": 70,
+      "height": 57
+    }
+  }
+}

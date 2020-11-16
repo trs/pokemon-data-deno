@@ -1,0 +1,47 @@
+{
+  "id": "356_normal",
+  "name": "Dusclops",
+  "types": [
+    "Ghost"
+  ],
+  "dex": 356,
+  "stats": {
+    "stamina": 120,
+    "attack": 124,
+    "defence": 234
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_PUNCH",
+    "ICE_PUNCH",
+    "FIRE_PUNCH"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/356_normal.png",
+      "width": 189,
+      "height": 173
+    },
+    "shiny": {
+      "url": "images/356_normal_shiny.png",
+      "width": 189,
+      "height": 173
+    },
+    "normalAnimated": {
+      "url": "images/356_normal.gif",
+      "width": 96,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "images/356_normal_shiny.gif",
+      "width": 96,
+      "height": 81
+    }
+  }
+}

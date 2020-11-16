@@ -1,0 +1,47 @@
+{
+  "id": "579_normal",
+  "name": "Reuniclus",
+  "types": [
+    "Psychic"
+  ],
+  "dex": 579,
+  "stats": {
+    "stamina": 242,
+    "attack": 214,
+    "defence": 148
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "SHADOW_BALL",
+    "THUNDER"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/579_normal.png",
+      "width": 243,
+      "height": 111
+    },
+    "shiny": {
+      "url": "images/579_normal_shiny.png",
+      "width": 243,
+      "height": 111
+    },
+    "normalAnimated": {
+      "url": "images/579_normal.gif",
+      "width": 160,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "images/579_normal_shiny.gif",
+      "width": 160,
+      "height": 75
+    }
+  }
+}

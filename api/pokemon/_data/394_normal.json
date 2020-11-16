@@ -1,0 +1,47 @@
+{
+  "id": "394_normal",
+  "name": "Prinplup",
+  "types": [
+    "Water"
+  ],
+  "dex": 394,
+  "stats": {
+    "stamina": 162,
+    "attack": 150,
+    "defence": 139
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "HYDRO_PUMP",
+    "ICY_WIND"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/394_normal.png",
+      "width": 138,
+      "height": 137
+    },
+    "shiny": {
+      "url": "images/394_normal_shiny.png",
+      "width": 138,
+      "height": 137
+    },
+    "normalAnimated": {
+      "url": "images/394_normal.gif",
+      "width": 77,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "images/394_normal_shiny.gif",
+      "width": 150,
+      "height": 150
+    }
+  }
+}

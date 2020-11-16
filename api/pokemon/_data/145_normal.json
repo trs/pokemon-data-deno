@@ -1,0 +1,49 @@
+{
+  "id": "145_normal",
+  "name": "Zapdos",
+  "types": [
+    "Electric",
+    "Flying"
+  ],
+  "dex": 145,
+  "stats": {
+    "stamina": 207,
+    "attack": 253,
+    "defence": 185
+  },
+  "quickMoves": [
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "ZAP_CANNON",
+    "THUNDERBOLT",
+    "THUNDER",
+    "ANCIENT_POWER",
+    "DRILL_PECK"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/145_normal.png",
+      "width": 233,
+      "height": 161
+    },
+    "shiny": {
+      "url": "images/145_normal_shiny.png",
+      "width": 233,
+      "height": 161
+    },
+    "normalAnimated": {
+      "url": "images/145_normal.gif",
+      "width": 145,
+      "height": 106
+    },
+    "shinyAnimated": {
+      "url": "images/145_normal_shiny.gif",
+      "width": 145,
+      "height": 106
+    }
+  }
+}

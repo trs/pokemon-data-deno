@@ -1,0 +1,47 @@
+{
+  "id": "503_normal",
+  "name": "Samurott",
+  "types": [
+    "Water"
+  ],
+  "dex": 503,
+  "stats": {
+    "stamina": 216,
+    "attack": 212,
+    "defence": 157
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "WATERFALL_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "BLIZZARD",
+    "MEGAHORN"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/503_normal.png",
+      "width": 184,
+      "height": 195
+    },
+    "shiny": {
+      "url": "images/503_normal_shiny.png",
+      "width": 184,
+      "height": 195
+    },
+    "normalAnimated": {
+      "url": "images/503_normal.gif",
+      "width": 103,
+      "height": 108
+    },
+    "shinyAnimated": {
+      "url": "images/503_normal_shiny.gif",
+      "width": 103,
+      "height": 108
+    }
+  }
+}

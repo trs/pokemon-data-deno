@@ -1,0 +1,48 @@
+{
+  "id": "585_winter",
+  "name": "Deerling",
+  "types": [
+    "Normal",
+    "Grass"
+  ],
+  "dex": 585,
+  "stats": {
+    "stamina": 155,
+    "attack": 115,
+    "defence": 100
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "WILD_CHARGE"
+  ],
+  "forms": [
+    "Winter"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/585_winter.png",
+      "width": 91,
+      "height": 134
+    },
+    "shiny": {
+      "url": "images/585_winter_shiny.png",
+      "width": 91,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "images/585_winter.gif",
+      "width": 46,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "images/585_winter_shiny.gif",
+      "width": 46,
+      "height": 71
+    }
+  }
+}

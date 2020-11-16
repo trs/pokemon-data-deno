@@ -1,0 +1,48 @@
+{
+  "id": "79_normal",
+  "name": "Slowpoke",
+  "types": [
+    "Water",
+    "Psychic"
+  ],
+  "dex": 79,
+  "stats": {
+    "stamina": 207,
+    "attack": 109,
+    "defence": 98
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "PSYSHOCK",
+    "PSYCHIC"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/79_normal.png",
+      "width": 114,
+      "height": 155
+    },
+    "shiny": {
+      "url": "images/79_normal_shiny.png",
+      "width": 114,
+      "height": 155
+    },
+    "normalAnimated": {
+      "url": "images/79_normal.gif",
+      "width": 47,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "images/79_normal_shiny.gif",
+      "width": 47,
+      "height": 58
+    }
+  }
+}

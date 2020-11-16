@@ -1,0 +1,48 @@
+{
+  "id": "39_normal",
+  "name": "Jigglypuff",
+  "types": [
+    "Normal",
+    "Fairy"
+  ],
+  "dex": 39,
+  "stats": {
+    "stamina": 251,
+    "attack": 80,
+    "defence": 41
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DISARMING_VOICE",
+    "GYRO_BALL",
+    "DAZZLING_GLEAM"
+  ],
+  "forms": [
+    "Normal"
+  ],
+  "images": {
+    "normal": {
+      "url": "images/39_normal.png",
+      "width": 78,
+      "height": 81
+    },
+    "shiny": {
+      "url": "images/39_normal_shiny.png",
+      "width": 78,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "images/39_normal.gif",
+      "width": 46,
+      "height": 46
+    },
+    "shinyAnimated": {
+      "url": "images/39_normal_shiny.gif",
+      "width": 46,
+      "height": 46
+    }
+  }
+}
