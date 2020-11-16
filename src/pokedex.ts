@@ -1,13 +1,13 @@
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX, ID_IMG_SRC_REGEX, FORM_REGEX} from './const.ts';
+import {URL_SEREBII, MoveCategory, TYPE_IMG_SRC_REGEX, ID_IMG_SRC_REGEX, FORM_REGEX, URL_PROJECT} from './const.ts';
 
 export interface Pokemon {
   id: string;
   number: number;
   forms: Form[];
   name: string;
-  image: string;
+  images: Image[];
   types: string[];
   stats: Stats;
   moves: Moveset[];
@@ -28,6 +28,12 @@ export interface Stats {
 export interface Moveset {
   category: MoveCategory;
   name: string;
+}
+
+export interface Image {
+  type: 'png' | 'gif';
+  variant: 'shiny' | 'normal';
+  url: string;
 }
 
 export async function * getPokedex(): AsyncGenerator<Pokemon> {
@@ -103,11 +109,63 @@ async function * getPokedexPath(path: string): AsyncGenerator<Pokemon> {
       ...chargeMoves.map((mapMoves('charge')))
     ];
 
+    const gif = (variant: 'normal' | 'shiny') => {
+      const baseURL = new URL(`images/${variant}-sprite/`, URL_PROJECT).href;
+
+      const file = [
+        name.toLocaleLowerCase()
+          .replace(/^mega /, '')
+          .replace(/^primal /, '')
+          .replace(/ [xy]$/, '')
+          .trim()
+          .replace('♀', '_f')
+          .replace('♂', '_m')
+          .replace(/[^\w\s.-]/g, '')
+          .replace(/\s/g, '-'),
+        ...forms
+          .map((form) => {
+            switch (form.id) {
+              case 'galarian': return 'galar';
+              case 'burn-drive': return 'fire';
+              case 'chill-drive': return 'ice';
+              case 'douse-drive': return 'water';
+              case 'shock-drive': return 'electric';
+              case 'zen-mode': return 'zen';
+              case 'sandy-cloak': return 'sandy';
+              case 'trash-cloak': return 'trash';
+              case 'east-sea': return 'east';
+              case 'mega-x': return 'megax';
+              case 'mega-y': return 'megay';
+              default: return form.id;
+            }
+          })
+          .map((id) => id.replace(/[^\w]/g, ''))
+      ].filter(Boolean).join('-');
+
+      return new URL(`${file}.gif`, baseURL).href;
+    };;
+
     yield {
       id,
       number,
       forms,
-      image,
+      images: [
+        {
+          type: 'png',
+          variant: 'normal',
+          url: image
+        },
+        {
+          type: 'gif',
+          variant: 'normal',
+          url: gif('normal')
+        },
+        {
+          type: 'gif',
+          variant: 'shiny',
+          url: gif('shiny')
+        }
+      ],
       name,
       types,
       stats,

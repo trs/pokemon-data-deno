@@ -1,8 +1,16 @@
 {
 	"rewrites": [
 		{
-			"source": "/api/pokemon/:id.png",
-			"destination": "/api/pokemon/img/:id"
+			"source": "/api/pokemon/:id.*",
+			"destination": "/api/pokemon/img/normal/:id"
+		},
+		{
+			"source": "/api/pokemon/normal/:id.*",
+			"destination": "/api/pokemon/img/normal/:id"
+		},
+		{
+			"source": "/api/pokemon/shiny/:id.*",
+			"destination": "/api/pokemon/img/shiny/:id"
 		}
 	],
 	"functions": {
