@@ -1,6 +1,6 @@
 import { normalizeSync } from "https://cdn.jsdelivr.net/gh/motss/deno_mod@v0.10.0/normalize_diacritics/mod.ts";
 
-import {buildFormIDRegex, PokemonMoveCategory, URL_HUB, URL_PROJECT, URL_ASSETS} from './const.ts';
+import {buildFormIDRegex, PokemonMoveCategory, URL_HUB, URL_PROJECT, URL_ASSETS, buildTempEvoIDRegex} from './const.ts';
 import type { PokedexEntry } from "./pokedex.ts";
 
 export interface Pokemon extends PokedexEntry {
@@ -35,6 +35,12 @@ export async function getPokemon(id: number, form: string | null, gm?: any): Pro
 
   // Fixes
   pokemon.name = pokemon.name === 'Cherim' ? 'Cherrim' : pokemon.name;
+  switch (pokemon.id) {
+    case 649: pokemon.form = pokemon.form ?? 'Normal'; break;
+    case 645:
+    case 642:
+    case 641: pokemon.form = pokemon.form ?? 'Incarnate'; break;
+  }
 
   const formCode = pokemon.form?.toLocaleLowerCase()?.replace(/\s/, '-');
 
@@ -93,6 +99,7 @@ function getGifs(json: any): PokemonImage[] {
       ?.replace('land', '')
       ?.replace('spring', '')
       ?.replace('aria', '')
+      ?.replace('incarnate', '')
   ]
     .filter(Boolean)
     .join('-');
@@ -123,19 +130,31 @@ function getImages(json: any, gm: any): PokemonImage[] {
   const formIdRegex = buildFormIDRegex(json.id);
   const formTemplate = gm.template.find((template: any) => formIdRegex.test(template.templateId));
 
+  const evoIdRegex = buildTempEvoIDRegex(json.id);
+  const evoTemplate = gm.template.find((template: any) => evoIdRegex.test(template.templateId));
+
   const extractFormNameRegex = new RegExp(`${normalizeSync(json.name.trim())}_`, 'i');
 
   const formData = json.form
-    ? (formTemplate.data?.formSettings?.forms ?? [])
+    ? (formTemplate?.data?.formSettings?.forms ?? [])
       .find((data: any) => {
         const name = data.form.replace(extractFormNameRegex, '');
         return name.toLocaleLowerCase() === json.form.toLocaleLowerCase();
       })
     : null;
 
+  const megaData = json.form
+    ? (evoTemplate?.data?.temporaryEvolutionSettings?.temporaryEvolutions ?? [])
+      .find((data: any) => data.temporaryEvolutionId === (
+        json.form === 'Mega X' ? 'TEMP_EVOLUTION_MEGA_X'
+        : json.form === 'Mega Y' ? 'TEMP_EVOLUTION_MEGA_Y'
+        : 'TEMP_EVOLUTION_MEGA'
+      ))
+    : null;
+
   const name = [
     String(json.id).padStart(3, '0'),
-    formData?.assetBundleValue ?? '00'
+    formData?.assetBundleValue ?? megaData?.assetBundleValue ?? '00'
   ].filter(Boolean).join('_');
 
   return [

@@ -9,8 +9,8 @@ export const ID_IMG_SRC_REGEX = /\/(\d+)(?:\-(\w+))?\.png$/;
 export const FORM_REGEX = /\((.+)\)/;
 export const WORLD_AREA = /\(<i>(.+)<\/i>\)/;
 export const NOT_AVAILABLE = /\(<i>Not currently available<\/i>\)/;
-export const FORM_ID_REGEX = /^FORMS_V(\d+)_POKEMON_(.+)$/;
 
 export const buildFormIDRegex = (num: number) => new RegExp(`^FORMS_V${String(num).padStart(4, '0')}_POKEMON_(.+)$`);
+export const buildTempEvoIDRegex = (num: number) => new RegExp(`^TEMPORARY_EVOLUTION_V${String(num).padStart(4, '0')}_POKEMON_(.+)$`);
 
 export type PokemonMoveCategory = 'fast' | 'charge';

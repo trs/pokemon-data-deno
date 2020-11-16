@@ -1,4 +1,10 @@
 {
+	"rewrites": [
+		{
+			"source": "/images/:file",
+			"destination": "/images/normal/:file"
+		}
+	],
 	"functions": {
 		"api/**/*.ts": {
 			"runtime": "vercel-deno@0.7.5",

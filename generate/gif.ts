@@ -7,7 +7,6 @@ function validSignature(reader: BinaryReader) {
   const version = reader.readBytes(3);
 
   const valid = signature === SIG;
-  if (!valid) console.log({signature})
   return valid;
 }
 
@@ -15,9 +14,9 @@ async function loadGIF(filePath: string) {
   const buffer = await Deno.readFile(filePath);
   const reader = new BinaryReader(buffer);
 
-  // if (!validSignature(reader)) {
-  //   throw new Error('Not a valid GIF');
-  // }
+  if (!validSignature(reader)) {
+    // throw new Error('Not a valid GIF');
+  }
 
   return reader;
 }

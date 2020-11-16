@@ -78,6 +78,7 @@ async function buildPokemon(entry: PokedexEntry) {
         return null;
       }
     })
+    .filter(Boolean)
   );
 
   const pokemonData = {
