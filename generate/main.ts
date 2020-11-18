@@ -23,7 +23,7 @@ async function generatePokemon(pokemon: master.PokemonMaster) {
     ...pokemon.forms.map(({code}) => code).filter((form) => form !== 'normal')
   ].join('-'));
 
-  const types = pokemon.types.map((type) => pokemonTypeNamesAssetMap.get(type)?.name);
+  const types = pokemon.types.map((templateId) => pokemonTypeNamesAssetMap.get(templateId)!);
 
   const [imgNormal, gifNormal] = await Promise.all([
     assets.getAssetPokemonIcon(pokemon.assetId, {

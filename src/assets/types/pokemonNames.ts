@@ -7,7 +7,7 @@ const ASSET_KEY_POKEMON_CATEGORY = /^pokemon_(category)_(\d+)$/
 export type IAssetPokemonNameMap = Map<number, IAssetPokemonName>;
 
 export interface IAssetPokemonName {
-  dex: number;
+  number: number;
   name: string;
   desc: string;
   category: string;
@@ -16,19 +16,19 @@ export interface IAssetPokemonName {
 export async function getAssetPokemonNames(texts: IAssetTexts): Promise<IAssetPokemonNameMap> {
   const map = new Map<number, IAssetPokemonName>();
   for (const [key, value] of texts.entries()) {
-    const [, prop, dexStr] = (
+    const [, prop, numStr] = (
       ASSET_KEY_POKEMON_NAME.exec(key)
       ?? ASSET_KEY_POKEMON_DESC.exec(key)
       ?? ASSET_KEY_POKEMON_CATEGORY.exec(key)
       ?? []
     ) as unknown as [null, 'name' | 'desc' | 'category', string];
-    if (!prop || !dexStr) continue;
-    const dex = Number(dexStr);
+    if (!prop || !numStr) continue;
+    const number = Number(numStr);
 
-    const asset: IAssetPokemonName = map.get(dex) ?? {dex, name: '', desc: '', category: ''};
+    const asset: IAssetPokemonName = map.get(number) ?? {number, name: '', desc: '', category: ''};
     asset[prop] = value;
 
-    map.set(dex, asset);
+    map.set(number, asset);
   }
 
   return map;
