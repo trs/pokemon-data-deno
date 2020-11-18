@@ -36,7 +36,7 @@ async function listPokemon() {
     pokedex.push({
       id: pokemon.id,
       number: pokemon.number,
-      form: pokemon.form,
+      forms: pokemon.forms,
       images: pokemon.images,
       name: pokemon.name,
       types: pokemon.types
