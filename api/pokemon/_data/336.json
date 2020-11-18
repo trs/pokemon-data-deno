@@ -1,0 +1,50 @@
+{
+  "id": "336",
+  "name": "Seviper",
+  "types": [
+    "Poison"
+  ],
+  "number": 336,
+  "stats": {
+    "stamina": 177,
+    "attack": 196,
+    "defence": 118
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "POISON_FANG",
+    "CRUNCH",
+    "WRAP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/336.png",
+      "width": 166,
+      "height": 173
+    },
+    "shiny": {
+      "url": "img/336_shiny.png",
+      "width": 166,
+      "height": 173
+    },
+    "normalAnimated": {
+      "url": "img/336.gif",
+      "width": 73,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/336_shiny.gif",
+      "width": 73,
+      "height": 88
+    }
+  }
+}

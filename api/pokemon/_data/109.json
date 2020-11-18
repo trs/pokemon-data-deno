@@ -1,0 +1,50 @@
+{
+  "id": "109",
+  "name": "Koffing",
+  "types": [
+    "Poison"
+  ],
+  "number": 109,
+  "stats": {
+    "stamina": 120,
+    "attack": 119,
+    "defence": 141
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE",
+    "SLUDGE_BOMB",
+    "DARK_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/109.png",
+      "width": 90,
+      "height": 86
+    },
+    "shiny": {
+      "url": "img/109_shiny.png",
+      "width": 90,
+      "height": 86
+    },
+    "normalAnimated": {
+      "url": "img/109.gif",
+      "width": 77,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/109_shiny.gif",
+      "width": 77,
+      "height": 77
+    }
+  }
+}

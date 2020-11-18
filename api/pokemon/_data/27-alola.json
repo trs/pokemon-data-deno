@@ -1,0 +1,51 @@
+{
+  "id": "27-alola",
+  "name": "Sandshrew",
+  "types": [
+    "Ice",
+    "Steel"
+  ],
+  "number": 27,
+  "stats": {
+    "stamina": 137,
+    "attack": 125,
+    "defence": 129
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "POWDER_SNOW_FAST"
+  ],
+  "chargeMoves": [
+    "BLIZZARD",
+    "GYRO_BALL",
+    "NIGHT_SLASH"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/27-alola.png",
+      "width": 63,
+      "height": 78
+    },
+    "shiny": {
+      "url": "img/27-alola_shiny.png",
+      "width": 63,
+      "height": 78
+    },
+    "normalAnimated": {
+      "url": "img/27-alola.gif",
+      "width": 39,
+      "height": 46
+    },
+    "shinyAnimated": {
+      "url": "img/27-alola_shiny.gif",
+      "width": 39,
+      "height": 46
+    }
+  }
+}

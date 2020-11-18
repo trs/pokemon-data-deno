@@ -1,0 +1,50 @@
+{
+  "id": "370",
+  "name": "Luvdisc",
+  "types": [
+    "Water"
+  ],
+  "number": 370,
+  "stats": {
+    "stamina": 125,
+    "attack": 81,
+    "defence": 128
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "SPLASH_FAST"
+  ],
+  "chargeMoves": [
+    "DRAINING_KISS",
+    "WATER_PULSE",
+    "AQUA_JET"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/370.png",
+      "width": 84,
+      "height": 100
+    },
+    "shiny": {
+      "url": "img/370_shiny.png",
+      "width": 84,
+      "height": 100
+    },
+    "normalAnimated": {
+      "url": "img/370.gif",
+      "width": 34,
+      "height": 43
+    },
+    "shinyAnimated": {
+      "url": "img/370_shiny.gif",
+      "width": 34,
+      "height": 43
+    }
+  }
+}

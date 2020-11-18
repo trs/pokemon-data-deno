@@ -1,0 +1,51 @@
+{
+  "id": "492-sky",
+  "name": "Shaymin",
+  "types": [
+    "Grass",
+    "Flying"
+  ],
+  "number": 492,
+  "stats": {
+    "stamina": 225,
+    "attack": 261,
+    "defence": 166
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Sky",
+      "code": "sky"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/492-sky.png",
+      "width": 95,
+      "height": 87
+    },
+    "shiny": {
+      "url": "img/492-sky_shiny.png",
+      "width": 95,
+      "height": 87
+    },
+    "normalAnimated": {
+      "url": "img/492-sky.gif",
+      "width": 78,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/492-sky_shiny.gif",
+      "width": 78,
+      "height": 73
+    }
+  }
+}

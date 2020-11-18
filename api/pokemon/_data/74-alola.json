@@ -1,0 +1,51 @@
+{
+  "id": "74-alola",
+  "name": "Geodude",
+  "types": [
+    "Rock",
+    "Electric"
+  ],
+  "number": 74,
+  "stats": {
+    "stamina": 120,
+    "attack": 132,
+    "defence": 132
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "ROCK_TOMB",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/74-alola.png",
+      "width": 133,
+      "height": 74
+    },
+    "shiny": {
+      "url": "img/74-alola_shiny.png",
+      "width": 133,
+      "height": 74
+    },
+    "normalAnimated": {
+      "url": "img/74-alola.gif",
+      "width": 60,
+      "height": 43
+    },
+    "shinyAnimated": {
+      "url": "img/74-alola_shiny.gif",
+      "width": 60,
+      "height": 43
+    }
+  }
+}

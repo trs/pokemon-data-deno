@@ -1,0 +1,51 @@
+{
+  "id": "595",
+  "name": "Joltik",
+  "types": [
+    "Bug",
+    "Electric"
+  ],
+  "number": 595,
+  "stats": {
+    "stamina": 137,
+    "attack": 110,
+    "defence": 98
+  },
+  "quickMoves": [
+    "CHARGE_BEAM_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_POISON",
+    "BUG_BUZZ",
+    "DISCHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/595.png",
+      "width": 101,
+      "height": 73
+    },
+    "shiny": {
+      "url": "img/595_shiny.png",
+      "width": 101,
+      "height": 73
+    },
+    "normalAnimated": {
+      "url": "img/595.gif",
+      "width": 47,
+      "height": 31
+    },
+    "shinyAnimated": {
+      "url": "img/595_shiny.gif",
+      "width": 47,
+      "height": 31
+    }
+  }
+}

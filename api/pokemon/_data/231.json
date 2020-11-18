@@ -1,0 +1,50 @@
+{
+  "id": "231",
+  "name": "Phanpy",
+  "types": [
+    "Ground"
+  ],
+  "number": 231,
+  "stats": {
+    "stamina": 207,
+    "attack": 107,
+    "defence": 98
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "BULLDOZE",
+    "ROCK_SLIDE",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/231.png",
+      "width": 72,
+      "height": 69
+    },
+    "shiny": {
+      "url": "img/231_shiny.png",
+      "width": 72,
+      "height": 69
+    },
+    "normalAnimated": {
+      "url": "img/231.gif",
+      "width": 67,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/231_shiny.gif",
+      "width": 67,
+      "height": 50
+    }
+  }
+}

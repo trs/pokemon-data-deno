@@ -1,0 +1,52 @@
+{
+  "id": "323",
+  "name": "Camerupt",
+  "types": [
+    "Fire",
+    "Ground"
+  ],
+  "number": 323,
+  "stats": {
+    "stamina": 172,
+    "attack": 194,
+    "defence": 136
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "OVERHEAT",
+    "SOLAR_BEAM",
+    "EARTH_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/323.png",
+      "width": 215,
+      "height": 182
+    },
+    "shiny": {
+      "url": "img/323_shiny.png",
+      "width": 215,
+      "height": 182
+    },
+    "normalAnimated": {
+      "url": "img/323.gif",
+      "width": 81,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/323_shiny.gif",
+      "width": 81,
+      "height": 74
+    }
+  }
+}

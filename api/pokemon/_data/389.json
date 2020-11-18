@@ -1,0 +1,52 @@
+{
+  "id": "389",
+  "name": "Torterra",
+  "types": [
+    "Grass",
+    "Ground"
+  ],
+  "number": 389,
+  "stats": {
+    "stamina": 216,
+    "attack": 202,
+    "defence": 188
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "STONE_EDGE",
+    "SOLAR_BEAM",
+    "EARTHQUAKE",
+    "SAND_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/389.png",
+      "width": 204,
+      "height": 241
+    },
+    "shiny": {
+      "url": "img/389_shiny.png",
+      "width": 204,
+      "height": 241
+    },
+    "normalAnimated": {
+      "url": "img/389.gif",
+      "width": 98,
+      "height": 106
+    },
+    "shinyAnimated": {
+      "url": "img/389_shiny.gif",
+      "width": 98,
+      "height": 106
+    }
+  }
+}

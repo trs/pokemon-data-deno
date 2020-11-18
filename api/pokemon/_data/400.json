@@ -1,0 +1,51 @@
+{
+  "id": "400",
+  "name": "Bibarel",
+  "types": [
+    "Normal",
+    "Water"
+  ],
+  "number": 400,
+  "stats": {
+    "stamina": 188,
+    "attack": 162,
+    "defence": 119
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_FANG",
+    "HYPER_BEAM",
+    "SURF"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/400.png",
+      "width": 148,
+      "height": 137
+    },
+    "shiny": {
+      "url": "img/400_shiny.png",
+      "width": 148,
+      "height": 137
+    },
+    "normalAnimated": {
+      "url": "img/400.gif",
+      "width": 81,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "img/400_shiny.gif",
+      "width": 81,
+      "height": 56
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "207",
+  "name": "Gligar",
+  "types": [
+    "Ground",
+    "Flying"
+  ],
+  "number": 207,
+  "stats": {
+    "stamina": 163,
+    "attack": 143,
+    "defence": 184
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "AERIAL_ACE",
+    "NIGHT_SLASH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/207.png",
+      "width": 120,
+      "height": 144
+    },
+    "shiny": {
+      "url": "img/207_shiny.png",
+      "width": 120,
+      "height": 144
+    },
+    "normalAnimated": {
+      "url": "img/207.gif",
+      "width": 76,
+      "height": 90
+    },
+    "shinyAnimated": {
+      "url": "img/207_shiny.gif",
+      "width": 76,
+      "height": 90
+    }
+  }
+}

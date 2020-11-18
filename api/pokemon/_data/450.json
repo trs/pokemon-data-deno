@@ -1,0 +1,53 @@
+{
+  "id": "450",
+  "name": "Hippowdon",
+  "types": [
+    "Ground"
+  ],
+  "number": 450,
+  "stats": {
+    "stamina": 239,
+    "attack": 201,
+    "defence": 191
+  },
+  "quickMoves": [
+    "FIRE_FANG_FAST",
+    "BITE_FAST",
+    "THUNDER_FANG_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "STONE_EDGE",
+    "BODY_SLAM",
+    "EARTH_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/450.png",
+      "width": 235,
+      "height": 176
+    },
+    "shiny": {
+      "url": "img/450_shiny.png",
+      "width": 235,
+      "height": 176
+    },
+    "normalAnimated": {
+      "url": "img/450.gif",
+      "width": 97,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/450_shiny.gif",
+      "width": 97,
+      "height": 58
+    }
+  }
+}

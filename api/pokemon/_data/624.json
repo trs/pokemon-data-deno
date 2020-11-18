@@ -1,0 +1,51 @@
+{
+  "id": "624",
+  "name": "Pawniard",
+  "types": [
+    "Dark",
+    "Steel"
+  ],
+  "number": 624,
+  "stats": {
+    "stamina": 128,
+    "attack": 154,
+    "defence": 114
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "IRON_HEAD",
+    "X_SCISSOR"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/624.png",
+      "width": 81,
+      "height": 122
+    },
+    "shiny": {
+      "url": "img/624_shiny.png",
+      "width": 81,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "img/624.gif",
+      "width": 46,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/624_shiny.gif",
+      "width": 46,
+      "height": 68
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "48",
+  "name": "Venonat",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "number": 48,
+  "stats": {
+    "stamina": 155,
+    "attack": 100,
+    "defence": 100
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "POISON_FANG",
+    "PSYBEAM",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/48.png",
+      "width": 107,
+      "height": 139
+    },
+    "shiny": {
+      "url": "img/48_shiny.png",
+      "width": 107,
+      "height": 139
+    },
+    "normalAnimated": {
+      "url": "img/48.gif",
+      "width": 58,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "img/48_shiny.gif",
+      "width": 58,
+      "height": 63
+    }
+  }
+}

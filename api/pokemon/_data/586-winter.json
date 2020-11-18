@@ -1,0 +1,52 @@
+{
+  "id": "586-winter",
+  "name": "Sawsbuck",
+  "types": [
+    "Normal",
+    "Grass"
+  ],
+  "number": 586,
+  "stats": {
+    "stamina": 190,
+    "attack": 198,
+    "defence": 146
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "SOLAR_BEAM",
+    "WILD_CHARGE",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Winter",
+      "code": "winter"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/586-winter.png",
+      "width": 139,
+      "height": 223
+    },
+    "shiny": {
+      "url": "img/586-winter_shiny.png",
+      "width": 139,
+      "height": 223
+    },
+    "normalAnimated": {
+      "url": "img/586-winter.gif",
+      "width": 57,
+      "height": 101
+    },
+    "shinyAnimated": {
+      "url": "img/586-winter_shiny.gif",
+      "width": 57,
+      "height": 101
+    }
+  }
+}

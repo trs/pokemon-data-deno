@@ -1,0 +1,53 @@
+{
+  "id": "596",
+  "name": "Galvantula",
+  "types": [
+    "Bug",
+    "Electric"
+  ],
+  "number": 596,
+  "stats": {
+    "stamina": 172,
+    "attack": 201,
+    "defence": 128
+  },
+  "quickMoves": [
+    "VOLT_SWITCH_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_POISON",
+    "BUG_BUZZ",
+    "DISCHARGE",
+    "ENERGY_BALL",
+    "LUNGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/596.png",
+      "width": 221,
+      "height": 141
+    },
+    "shiny": {
+      "url": "img/596_shiny.png",
+      "width": 221,
+      "height": 141
+    },
+    "normalAnimated": {
+      "url": "img/596.gif",
+      "width": 93,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "img/596_shiny.gif",
+      "width": 93,
+      "height": 49
+    }
+  }
+}

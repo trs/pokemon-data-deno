@@ -1,0 +1,50 @@
+{
+  "id": "603",
+  "name": "Eelektrik",
+  "types": [
+    "Electric"
+  ],
+  "number": 603,
+  "stats": {
+    "stamina": 163,
+    "attack": 156,
+    "defence": 130
+  },
+  "quickMoves": [
+    "ACID_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "THUNDERBOLT",
+    "DISCHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/603.png",
+      "width": 136,
+      "height": 133
+    },
+    "shiny": {
+      "url": "img/603_shiny.png",
+      "width": 136,
+      "height": 133
+    },
+    "normalAnimated": {
+      "url": "img/603.gif",
+      "width": 74,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "img/603_shiny.gif",
+      "width": 74,
+      "height": 80
+    }
+  }
+}

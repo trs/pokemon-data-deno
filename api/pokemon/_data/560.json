@@ -1,0 +1,51 @@
+{
+  "id": "560",
+  "name": "Scrafty",
+  "types": [
+    "Dark",
+    "Fighting"
+  ],
+  "number": 560,
+  "stats": {
+    "stamina": 163,
+    "attack": 163,
+    "defence": 222
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "ACID_SPRAY",
+    "POWER_UP_PUNCH",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/560.png",
+      "width": 97,
+      "height": 163
+    },
+    "shiny": {
+      "url": "img/560_shiny.png",
+      "width": 97,
+      "height": 163
+    },
+    "normalAnimated": {
+      "url": "img/560.gif",
+      "width": 56,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/560_shiny.gif",
+      "width": 56,
+      "height": 77
+    }
+  }
+}

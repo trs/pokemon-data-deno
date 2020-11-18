@@ -1,0 +1,50 @@
+{
+  "id": "209",
+  "name": "Snubbull",
+  "types": [
+    "Fairy"
+  ],
+  "number": 209,
+  "stats": {
+    "stamina": 155,
+    "attack": 137,
+    "defence": 85
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "DAZZLING_GLEAM",
+    "BRICK_BREAK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/209.png",
+      "width": 92,
+      "height": 93
+    },
+    "shiny": {
+      "url": "img/209_shiny.png",
+      "width": 92,
+      "height": 93
+    },
+    "normalAnimated": {
+      "url": "img/209.gif",
+      "width": 67,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/209_shiny.gif",
+      "width": 67,
+      "height": 58
+    }
+  }
+}

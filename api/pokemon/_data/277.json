@@ -1,0 +1,51 @@
+{
+  "id": "277",
+  "name": "Swellow",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 277,
+  "stats": {
+    "stamina": 155,
+    "attack": 185,
+    "defence": 124
+  },
+  "quickMoves": [
+    "WING_ATTACK_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "SKY_ATTACK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/277.png",
+      "width": 253,
+      "height": 59
+    },
+    "shiny": {
+      "url": "img/277_shiny.png",
+      "width": 253,
+      "height": 59
+    },
+    "normalAnimated": {
+      "url": "img/277.gif",
+      "width": 166,
+      "height": 44
+    },
+    "shinyAnimated": {
+      "url": "img/277_shiny.gif",
+      "width": 166,
+      "height": 44
+    }
+  }
+}

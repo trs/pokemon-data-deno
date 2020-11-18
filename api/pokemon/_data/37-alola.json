@@ -1,0 +1,50 @@
+{
+  "id": "37-alola",
+  "name": "Vulpix",
+  "types": [
+    "Ice"
+  ],
+  "number": 37,
+  "stats": {
+    "stamina": 116,
+    "attack": 96,
+    "defence": 109
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "POWDER_SNOW_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "ICE_BEAM",
+    "BLIZZARD"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/37-alola.png",
+      "width": 73,
+      "height": 76
+    },
+    "shiny": {
+      "url": "img/37-alola_shiny.png",
+      "width": 73,
+      "height": 76
+    },
+    "normalAnimated": {
+      "url": "img/37-alola.gif",
+      "width": 44,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "img/37-alola_shiny.gif",
+      "width": 44,
+      "height": 47
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "258",
+  "name": "Mudkip",
+  "types": [
+    "Water"
+  ],
+  "number": 258,
+  "stats": {
+    "stamina": 137,
+    "attack": 126,
+    "defence": 93
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "SLUDGE",
+    "STOMP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/258.png",
+      "width": 58,
+      "height": 81
+    },
+    "shiny": {
+      "url": "img/258_shiny.png",
+      "width": 58,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "img/258.gif",
+      "width": 47,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "img/258_shiny.gif",
+      "width": 47,
+      "height": 66
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "307",
+  "name": "Meditite",
+  "types": [
+    "Fighting",
+    "Psychic"
+  ],
+  "number": 307,
+  "stats": {
+    "stamina": 102,
+    "attack": 78,
+    "defence": 107
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_PUNCH",
+    "PSYSHOCK",
+    "LOW_SWEEP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/307.png",
+      "width": 87,
+      "height": 101
+    },
+    "shiny": {
+      "url": "img/307_shiny.png",
+      "width": 87,
+      "height": 101
+    },
+    "normalAnimated": {
+      "url": "img/307.gif",
+      "width": 52,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/307_shiny.gif",
+      "width": 52,
+      "height": 59
+    }
+  }
+}

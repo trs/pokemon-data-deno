@@ -1,0 +1,52 @@
+{
+  "id": "484",
+  "name": "Palkia",
+  "types": [
+    "Water",
+    "Dragon"
+  ],
+  "number": 484,
+  "stats": {
+    "stamina": 189,
+    "attack": 280,
+    "defence": 215
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "DRACO_METEOR",
+    "FIRE_BLAST",
+    "HYDRO_PUMP",
+    "AQUA_TAIL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/484.png",
+      "width": 216,
+      "height": 231
+    },
+    "shiny": {
+      "url": "img/484_shiny.png",
+      "width": 216,
+      "height": 231
+    },
+    "normalAnimated": {
+      "url": "img/484.gif",
+      "width": 107,
+      "height": 107
+    },
+    "shinyAnimated": {
+      "url": "img/484_shiny.gif",
+      "width": 107,
+      "height": 107
+    }
+  }
+}

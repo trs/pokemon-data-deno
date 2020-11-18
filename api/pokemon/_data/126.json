@@ -1,0 +1,50 @@
+{
+  "id": "126",
+  "name": "Magmar",
+  "types": [
+    "Fire"
+  ],
+  "number": 126,
+  "stats": {
+    "stamina": 163,
+    "attack": 206,
+    "defence": 154
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "KARATE_CHOP_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "FIRE_PUNCH",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/126.png",
+      "width": 167,
+      "height": 180
+    },
+    "shiny": {
+      "url": "img/126_shiny.png",
+      "width": 168,
+      "height": 180
+    },
+    "normalAnimated": {
+      "url": "img/126.gif",
+      "width": 78,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "img/126_shiny.gif",
+      "width": 78,
+      "height": 81
+    }
+  }
+}

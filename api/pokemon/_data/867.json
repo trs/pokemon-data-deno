@@ -1,0 +1,50 @@
+{
+  "id": "867",
+  "name": "RUNERIGUS",
+  "types": [
+    "Ground",
+    "Ghost"
+  ],
+  "number": 867,
+  "stats": {
+    "stamina": 151,
+    "attack": 163,
+    "defence": 237
+  },
+  "quickMoves": [
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "SAND_TOMB",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/867.png",
+      "width": 246,
+      "height": 154
+    },
+    "shiny": {
+      "url": "img/867_shiny.png",
+      "width": 246,
+      "height": 154
+    },
+    "normalAnimated": {
+      "url": "img/867.gif",
+      "width": 167,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "img/867_shiny.gif",
+      "width": 168,
+      "height": 85
+    }
+  }
+}

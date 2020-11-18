@@ -1,0 +1,51 @@
+{
+  "id": "414",
+  "name": "Mothim",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 414,
+  "stats": {
+    "stamina": 172,
+    "attack": 185,
+    "defence": 98
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "AERIAL_ACE",
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/414.png",
+      "width": 222,
+      "height": 128
+    },
+    "shiny": {
+      "url": "img/414_shiny.png",
+      "width": 222,
+      "height": 128
+    },
+    "normalAnimated": {
+      "url": "img/414.gif",
+      "width": 150,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "img/414_shiny.gif",
+      "width": 150,
+      "height": 86
+    }
+  }
+}

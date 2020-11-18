@@ -1,0 +1,50 @@
+{
+  "id": "523",
+  "name": "Zebstrika",
+  "types": [
+    "Electric"
+  ],
+  "number": 523,
+  "stats": {
+    "stamina": 181,
+    "attack": 211,
+    "defence": 136
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "DISCHARGE",
+    "WILD_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/523.png",
+      "width": 208,
+      "height": 233
+    },
+    "shiny": {
+      "url": "img/523_shiny.png",
+      "width": 208,
+      "height": 233
+    },
+    "normalAnimated": {
+      "url": "img/523.gif",
+      "width": 66,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "img/523_shiny.gif",
+      "width": 66,
+      "height": 96
+    }
+  }
+}

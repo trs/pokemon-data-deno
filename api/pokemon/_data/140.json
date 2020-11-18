@@ -1,0 +1,51 @@
+{
+  "id": "140",
+  "name": "Kabuto",
+  "types": [
+    "Rock",
+    "Water"
+  ],
+  "number": 140,
+  "stats": {
+    "stamina": 102,
+    "attack": 148,
+    "defence": 140
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "AQUA_JET",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/140.png",
+      "width": 77,
+      "height": 55
+    },
+    "shiny": {
+      "url": "img/140_shiny.png",
+      "width": 77,
+      "height": 55
+    },
+    "normalAnimated": {
+      "url": "img/140.gif",
+      "width": 47,
+      "height": 33
+    },
+    "shinyAnimated": {
+      "url": "img/140_shiny.gif",
+      "width": 47,
+      "height": 33
+    }
+  }
+}

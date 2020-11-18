@@ -1,0 +1,52 @@
+{
+  "id": "645-therian",
+  "name": "Landorus",
+  "types": [
+    "Ground",
+    "Flying"
+  ],
+  "number": 645,
+  "stats": {
+    "stamina": 205,
+    "attack": 289,
+    "defence": 179
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "EARTH_POWER",
+    "OUTRAGE",
+    "ROCK_SLIDE",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Therian",
+      "code": "therian"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/645-therian.png",
+      "width": 133,
+      "height": 177
+    },
+    "shiny": {
+      "url": "img/645-therian_shiny.png",
+      "width": 133,
+      "height": 177
+    },
+    "normalAnimated": {
+      "url": "img/645-therian.gif",
+      "width": 73,
+      "height": 94
+    },
+    "shinyAnimated": {
+      "url": "img/645-therian_shiny.gif",
+      "width": 73,
+      "height": 94
+    }
+  }
+}

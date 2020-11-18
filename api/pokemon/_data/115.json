@@ -1,0 +1,51 @@
+{
+  "id": "115",
+  "name": "Kangaskhan",
+  "types": [
+    "Normal"
+  ],
+  "number": 115,
+  "stats": {
+    "stamina": 233,
+    "attack": 181,
+    "defence": 165
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "LOW_KICK_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "EARTHQUAKE",
+    "OUTRAGE",
+    "POWER_UP_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/115.png",
+      "width": 222,
+      "height": 200
+    },
+    "shiny": {
+      "url": "img/115_shiny.png",
+      "width": 222,
+      "height": 200
+    },
+    "normalAnimated": {
+      "url": "img/115.gif",
+      "width": 96,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/115_shiny.gif",
+      "width": 96,
+      "height": 87
+    }
+  }
+}

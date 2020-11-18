@@ -1,0 +1,52 @@
+{
+  "id": "407",
+  "name": "Roserade",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "number": 407,
+  "stats": {
+    "stamina": 155,
+    "attack": 243,
+    "defence": 185
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "SOLAR_BEAM",
+    "SLUDGE_BOMB",
+    "DAZZLING_GLEAM",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/407.png",
+      "width": 110,
+      "height": 149
+    },
+    "shiny": {
+      "url": "img/407_shiny.png",
+      "width": 110,
+      "height": 149
+    },
+    "normalAnimated": {
+      "url": "img/407.gif",
+      "width": 54,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/407_shiny.gif",
+      "width": 54,
+      "height": 78
+    }
+  }
+}

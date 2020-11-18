@@ -1,0 +1,50 @@
+{
+  "id": "529",
+  "name": "Drilbur",
+  "types": [
+    "Ground"
+  ],
+  "number": 529,
+  "stats": {
+    "stamina": 155,
+    "attack": 154,
+    "defence": 85
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_TOMB",
+    "DIG",
+    "DRILL_RUN"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/529.png",
+      "width": 141,
+      "height": 77
+    },
+    "shiny": {
+      "url": "img/529_shiny.png",
+      "width": 141,
+      "height": 77
+    },
+    "normalAnimated": {
+      "url": "img/529.gif",
+      "width": 83,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "img/529_shiny.gif",
+      "width": 83,
+      "height": 49
+    }
+  }
+}

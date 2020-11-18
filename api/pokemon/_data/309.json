@@ -1,0 +1,50 @@
+{
+  "id": "309",
+  "name": "Electrike",
+  "types": [
+    "Electric"
+  ],
+  "number": 309,
+  "stats": {
+    "stamina": 120,
+    "attack": 123,
+    "defence": 78
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "DISCHARGE",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/309.png",
+      "width": 100,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/309_shiny.png",
+      "width": 100,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/309.gif",
+      "width": 53,
+      "height": 38
+    },
+    "shinyAnimated": {
+      "url": "img/309_shiny.gif",
+      "width": 53,
+      "height": 38
+    }
+  }
+}

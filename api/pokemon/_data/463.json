@@ -1,0 +1,51 @@
+{
+  "id": "463",
+  "name": "Lickilicky",
+  "types": [
+    "Normal"
+  ],
+  "number": 463,
+  "stats": {
+    "stamina": 242,
+    "attack": 161,
+    "defence": 181
+  },
+  "quickMoves": [
+    "LICK_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_BEAM",
+    "EARTHQUAKE",
+    "SOLAR_BEAM",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/463.png",
+      "width": 169,
+      "height": 192
+    },
+    "shiny": {
+      "url": "img/463_shiny.png",
+      "width": 169,
+      "height": 192
+    },
+    "normalAnimated": {
+      "url": "img/463.gif",
+      "width": 69,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/463_shiny.gif",
+      "width": 69,
+      "height": 79
+    }
+  }
+}

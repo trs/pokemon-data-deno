@@ -1,0 +1,51 @@
+{
+  "id": "333",
+  "name": "Swablu",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 333,
+  "stats": {
+    "stamina": 128,
+    "attack": 76,
+    "defence": 132
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "DISARMING_VOICE",
+    "AERIAL_ACE",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/333.png",
+      "width": 145,
+      "height": 70
+    },
+    "shiny": {
+      "url": "img/333_shiny.png",
+      "width": 145,
+      "height": 70
+    },
+    "normalAnimated": {
+      "url": "img/333.gif",
+      "width": 93,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "img/333_shiny.gif",
+      "width": 93,
+      "height": 53
+    }
+  }
+}

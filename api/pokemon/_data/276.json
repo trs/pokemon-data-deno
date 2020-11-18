@@ -1,0 +1,49 @@
+{
+  "id": "276",
+  "name": "Taillow",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 276,
+  "stats": {
+    "stamina": 120,
+    "attack": 106,
+    "defence": 61
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/276.png",
+      "width": 91,
+      "height": 66
+    },
+    "shiny": {
+      "url": "img/276_shiny.png",
+      "width": 91,
+      "height": 66
+    },
+    "normalAnimated": {
+      "url": "img/276.gif",
+      "width": 49,
+      "height": 46
+    },
+    "shinyAnimated": {
+      "url": "img/276_shiny.gif",
+      "width": 49,
+      "height": 46
+    }
+  }
+}

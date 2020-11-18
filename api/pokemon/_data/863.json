@@ -1,0 +1,51 @@
+{
+  "id": "863",
+  "name": "Perrserker",
+  "types": [
+    "Steel"
+  ],
+  "number": 863,
+  "stats": {
+    "stamina": 172,
+    "attack": 195,
+    "defence": 162
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "IRON_HEAD",
+    "CLOSE_COMBAT",
+    "PLAY_ROUGH",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/863.png",
+      "width": 101,
+      "height": 121
+    },
+    "shiny": {
+      "url": "img/863_shiny.png",
+      "width": 101,
+      "height": 121
+    },
+    "normalAnimated": {
+      "url": "img/863.gif",
+      "width": 68,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "img/863_shiny.gif",
+      "width": 68,
+      "height": 83
+    }
+  }
+}

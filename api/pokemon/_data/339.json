@@ -1,0 +1,51 @@
+{
+  "id": "339",
+  "name": "Barboach",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 339,
+  "stats": {
+    "stamina": 137,
+    "attack": 93,
+    "defence": 82
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_TAIL",
+    "ICE_BEAM",
+    "MUD_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/339.png",
+      "width": 77,
+      "height": 58
+    },
+    "shiny": {
+      "url": "img/339_shiny.png",
+      "width": 77,
+      "height": 58
+    },
+    "normalAnimated": {
+      "url": "img/339.gif",
+      "width": 49,
+      "height": 42
+    },
+    "shinyAnimated": {
+      "url": "img/339_shiny.gif",
+      "width": 49,
+      "height": 42
+    }
+  }
+}

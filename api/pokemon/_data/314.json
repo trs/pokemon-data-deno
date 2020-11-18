@@ -1,0 +1,50 @@
+{
+  "id": "314",
+  "name": "Illumise",
+  "types": [
+    "Bug"
+  ],
+  "number": 314,
+  "stats": {
+    "stamina": 163,
+    "attack": 143,
+    "defence": 166
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "SILVER_WIND",
+    "BUG_BUZZ",
+    "DAZZLING_GLEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/314.png",
+      "width": 73,
+      "height": 100
+    },
+    "shiny": {
+      "url": "img/314_shiny.png",
+      "width": 73,
+      "height": 100
+    },
+    "normalAnimated": {
+      "url": "img/314.gif",
+      "width": 53,
+      "height": 65
+    },
+    "shinyAnimated": {
+      "url": "img/314_shiny.gif",
+      "width": 53,
+      "height": 65
+    }
+  }
+}

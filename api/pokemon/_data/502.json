@@ -1,0 +1,50 @@
+{
+  "id": "502",
+  "name": "Dewott",
+  "types": [
+    "Water"
+  ],
+  "number": 502,
+  "stats": {
+    "stamina": 181,
+    "attack": 159,
+    "defence": 116
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_TAIL",
+    "WATER_PULSE",
+    "X_SCISSOR"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/502.png",
+      "width": 91,
+      "height": 155
+    },
+    "shiny": {
+      "url": "img/502_shiny.png",
+      "width": 91,
+      "height": 155
+    },
+    "normalAnimated": {
+      "url": "img/502.gif",
+      "width": 44,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/502_shiny.gif",
+      "width": 44,
+      "height": 73
+    }
+  }
+}

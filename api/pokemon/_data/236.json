@@ -1,0 +1,50 @@
+{
+  "id": "236",
+  "name": "Tyrogue",
+  "types": [
+    "Fighting"
+  ],
+  "number": 236,
+  "stats": {
+    "stamina": 111,
+    "attack": 64,
+    "defence": 64
+  },
+  "quickMoves": [
+    "ROCK_SMASH_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "ROCK_SLIDE",
+    "LOW_SWEEP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/236.png",
+      "width": 50,
+      "height": 89
+    },
+    "shiny": {
+      "url": "img/236_shiny.png",
+      "width": 50,
+      "height": 89
+    },
+    "normalAnimated": {
+      "url": "img/236.gif",
+      "width": 38,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/236_shiny.gif",
+      "width": 38,
+      "height": 69
+    }
+  }
+}

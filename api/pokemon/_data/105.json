@@ -1,0 +1,50 @@
+{
+  "id": "105",
+  "name": "Marowak",
+  "types": [
+    "Ground"
+  ],
+  "number": 105,
+  "stats": {
+    "stamina": 155,
+    "attack": 144,
+    "defence": 186
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "BONE_CLUB",
+    "DIG",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/105.png",
+      "width": 97,
+      "height": 136
+    },
+    "shiny": {
+      "url": "img/105_shiny.png",
+      "width": 97,
+      "height": 136
+    },
+    "normalAnimated": {
+      "url": "img/105.gif",
+      "width": 47,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/105_shiny.gif",
+      "width": 47,
+      "height": 67
+    }
+  }
+}

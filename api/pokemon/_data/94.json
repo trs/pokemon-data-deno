@@ -1,0 +1,52 @@
+{
+  "id": "94",
+  "name": "Gengar",
+  "types": [
+    "Ghost",
+    "Poison"
+  ],
+  "number": 94,
+  "stats": {
+    "stamina": 155,
+    "attack": 261,
+    "defence": 149
+  },
+  "quickMoves": [
+    "SUCKER_PUNCH_FAST",
+    "HEX_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "FOCUS_BLAST",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/94.png",
+      "width": 189,
+      "height": 187
+    },
+    "shiny": {
+      "url": "img/94_shiny.png",
+      "width": 189,
+      "height": 187
+    },
+    "normalAnimated": {
+      "url": "img/94.gif",
+      "width": 84,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/94_shiny.gif",
+      "width": 84,
+      "height": 78
+    }
+  }
+}

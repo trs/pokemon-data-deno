@@ -1,0 +1,51 @@
+{
+  "id": "21",
+  "name": "Spearow",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 21,
+  "stats": {
+    "stamina": 120,
+    "attack": 112,
+    "defence": 60
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "DRILL_PECK",
+    "SKY_ATTACK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/21.png",
+      "width": 51,
+      "height": 75
+    },
+    "shiny": {
+      "url": "img/21_shiny.png",
+      "width": 51,
+      "height": 75
+    },
+    "normalAnimated": {
+      "url": "img/21.gif",
+      "width": 33,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "img/21_shiny.gif",
+      "width": 33,
+      "height": 52
+    }
+  }
+}

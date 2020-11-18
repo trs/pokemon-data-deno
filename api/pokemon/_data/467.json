@@ -1,0 +1,51 @@
+{
+  "id": "467",
+  "name": "Magmortar",
+  "types": [
+    "Fire"
+  ],
+  "number": 467,
+  "stats": {
+    "stamina": 181,
+    "attack": 247,
+    "defence": 172
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "KARATE_CHOP_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "FIRE_PUNCH",
+    "FIRE_BLAST",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/467.png",
+      "width": 236,
+      "height": 205
+    },
+    "shiny": {
+      "url": "img/467_shiny.png",
+      "width": 236,
+      "height": 205
+    },
+    "normalAnimated": {
+      "url": "img/467.gif",
+      "width": 102,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "img/467_shiny.gif",
+      "width": 102,
+      "height": 89
+    }
+  }
+}

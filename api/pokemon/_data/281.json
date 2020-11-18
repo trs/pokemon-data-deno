@@ -1,0 +1,51 @@
+{
+  "id": "281",
+  "name": "Kirlia",
+  "types": [
+    "Psychic",
+    "Fairy"
+  ],
+  "number": 281,
+  "stats": {
+    "stamina": 116,
+    "attack": 117,
+    "defence": 90
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "DISARMING_VOICE",
+    "SHADOW_SNEAK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/281.png",
+      "width": 85,
+      "height": 130
+    },
+    "shiny": {
+      "url": "img/281_shiny.png",
+      "width": 85,
+      "height": 130
+    },
+    "normalAnimated": {
+      "url": "img/281.gif",
+      "width": 44,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/281_shiny.gif",
+      "width": 44,
+      "height": 68
+    }
+  }
+}

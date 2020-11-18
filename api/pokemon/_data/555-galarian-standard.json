@@ -1,0 +1,55 @@
+{
+  "id": "555-galarian-standard",
+  "name": "Darmanitan",
+  "types": [
+    "Ice"
+  ],
+  "number": 555,
+  "stats": {
+    "stamina": 233,
+    "attack": 263,
+    "defence": 114
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "OVERHEAT",
+    "AVALANCHE",
+    "SUPER_POWER",
+    "ICE_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    },
+    {
+      "name": "Standard",
+      "code": "standard"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/555-galarian-standard.png",
+      "width": 228,
+      "height": 215
+    },
+    "shiny": {
+      "url": "img/555-galarian-standard_shiny.png",
+      "width": 228,
+      "height": 215
+    },
+    "normalAnimated": {
+      "url": "img/555-galarian-standard.gif",
+      "width": 95,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/555-galarian-standard_shiny.gif",
+      "width": 95,
+      "height": 95
+    }
+  }
+}

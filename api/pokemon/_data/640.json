@@ -1,0 +1,51 @@
+{
+  "id": "640",
+  "name": "Virizion",
+  "types": [
+    "Grass",
+    "Fighting"
+  ],
+  "number": 640,
+  "stats": {
+    "stamina": 209,
+    "attack": 192,
+    "defence": 229
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "LEAF_BLADE",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/640.png",
+      "width": 164,
+      "height": 207
+    },
+    "shiny": {
+      "url": "img/640_shiny.png",
+      "width": 164,
+      "height": 207
+    },
+    "normalAnimated": {
+      "url": "img/640.gif",
+      "width": 76,
+      "height": 97
+    },
+    "shinyAnimated": {
+      "url": "img/640_shiny.gif",
+      "width": 76,
+      "height": 97
+    }
+  }
+}

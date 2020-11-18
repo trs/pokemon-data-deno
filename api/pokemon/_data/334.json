@@ -1,0 +1,51 @@
+{
+  "id": "334",
+  "name": "Altaria",
+  "types": [
+    "Dragon",
+    "Flying"
+  ],
+  "number": 334,
+  "stats": {
+    "stamina": 181,
+    "attack": 141,
+    "defence": 201
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "SKY_ATTACK",
+    "DAZZLING_GLEAM",
+    "DRAGON_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/334.png",
+      "width": 222,
+      "height": 138
+    },
+    "shiny": {
+      "url": "img/334_shiny.png",
+      "width": 222,
+      "height": 138
+    },
+    "normalAnimated": {
+      "url": "img/334.gif",
+      "width": 144,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "img/334_shiny.gif",
+      "width": 144,
+      "height": 89
+    }
+  }
+}

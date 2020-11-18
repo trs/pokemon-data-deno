@@ -1,0 +1,49 @@
+{
+  "id": "133",
+  "name": "Eevee",
+  "types": [
+    "Normal"
+  ],
+  "number": 133,
+  "stats": {
+    "stamina": 146,
+    "attack": 104,
+    "defence": 114
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/133.png",
+      "width": 81,
+      "height": 71
+    },
+    "shiny": {
+      "url": "img/133_shiny.png",
+      "width": 81,
+      "height": 71
+    },
+    "normalAnimated": {
+      "url": "img/133.gif",
+      "width": 64,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "img/133_shiny.gif",
+      "width": 64,
+      "height": 55
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "585-autumn",
+  "name": "Deerling",
+  "types": [
+    "Normal",
+    "Grass"
+  ],
+  "number": 585,
+  "stats": {
+    "stamina": 155,
+    "attack": 115,
+    "defence": 100
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "WILD_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Autumn",
+      "code": "autumn"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/585-autumn.png",
+      "width": 91,
+      "height": 134
+    },
+    "shiny": {
+      "url": "img/585-autumn_shiny.png",
+      "width": 91,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "img/585-autumn.gif",
+      "width": 46,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "img/585-autumn_shiny.gif",
+      "width": 46,
+      "height": 71
+    }
+  }
+}

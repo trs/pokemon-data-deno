@@ -1,0 +1,50 @@
+{
+  "id": "252",
+  "name": "Treecko",
+  "types": [
+    "Grass"
+  ],
+  "number": 252,
+  "stats": {
+    "stamina": 120,
+    "attack": 124,
+    "defence": 94
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "AERIAL_ACE",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/252.png",
+      "width": 74,
+      "height": 94
+    },
+    "shiny": {
+      "url": "img/252_shiny.png",
+      "width": 74,
+      "height": 94
+    },
+    "normalAnimated": {
+      "url": "img/252.gif",
+      "width": 47,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/252_shiny.gif",
+      "width": 47,
+      "height": 59
+    }
+  }
+}

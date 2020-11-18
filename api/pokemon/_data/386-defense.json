@@ -1,0 +1,50 @@
+{
+  "id": "386-defense",
+  "name": "Deoxys",
+  "types": [
+    "Psychic"
+  ],
+  "number": 386,
+  "stats": {
+    "stamina": 137,
+    "attack": 144,
+    "defence": 330
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHO_BOOST",
+    "THUNDERBOLT",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Defense",
+      "code": "defense"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/386-defense.png",
+      "width": 159,
+      "height": 207
+    },
+    "shiny": {
+      "url": "img/386-defense_shiny.png",
+      "width": 159,
+      "height": 207
+    },
+    "normalAnimated": {
+      "url": "img/386-defense.gif",
+      "width": 77,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "img/386-defense_shiny.gif",
+      "width": 77,
+      "height": 93
+    }
+  }
+}

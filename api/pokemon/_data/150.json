@@ -1,0 +1,52 @@
+{
+  "id": "150",
+  "name": "Mewtwo",
+  "types": [
+    "Psychic"
+  ],
+  "number": 150,
+  "stats": {
+    "stamina": 214,
+    "attack": 300,
+    "defence": 182
+  },
+  "quickMoves": [
+    "PSYCHO_CUT_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "ICE_BEAM",
+    "FOCUS_BLAST",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/150.png",
+      "width": 175,
+      "height": 186
+    },
+    "shiny": {
+      "url": "img/150_shiny.png",
+      "width": 175,
+      "height": 186
+    },
+    "normalAnimated": {
+      "url": "img/150.gif",
+      "width": 144,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/150_shiny.gif",
+      "width": 144,
+      "height": 88
+    }
+  }
+}

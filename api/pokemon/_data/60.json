@@ -1,0 +1,50 @@
+{
+  "id": "60",
+  "name": "Poliwag",
+  "types": [
+    "Water"
+  ],
+  "number": 60,
+  "stats": {
+    "stamina": 120,
+    "attack": 101,
+    "defence": 82
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "MUD_BOMB",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/60.png",
+      "width": 95,
+      "height": 82
+    },
+    "shiny": {
+      "url": "img/60_shiny.png",
+      "width": 95,
+      "height": 82
+    },
+    "normalAnimated": {
+      "url": "img/60.gif",
+      "width": 55,
+      "height": 40
+    },
+    "shinyAnimated": {
+      "url": "img/60_shiny.gif",
+      "width": 55,
+      "height": 40
+    }
+  }
+}

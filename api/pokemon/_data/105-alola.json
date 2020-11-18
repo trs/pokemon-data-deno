@@ -1,0 +1,53 @@
+{
+  "id": "105-alola",
+  "name": "Marowak",
+  "types": [
+    "Fire",
+    "Ghost"
+  ],
+  "number": 105,
+  "stats": {
+    "stamina": 155,
+    "attack": 144,
+    "defence": 186
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "ROCK_SMASH_FAST",
+    "FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "BONE_CLUB",
+    "SHADOW_BALL",
+    "FIRE_BLAST",
+    "FLAME_WHEEL"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/105-alola.png",
+      "width": 193,
+      "height": 161
+    },
+    "shiny": {
+      "url": "img/105-alola_shiny.png",
+      "width": 193,
+      "height": 157
+    },
+    "normalAnimated": {
+      "url": "img/105-alola.gif",
+      "width": 106,
+      "height": 90
+    },
+    "shinyAnimated": {
+      "url": "img/105-alola_shiny.gif",
+      "width": 106,
+      "height": 90
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "40",
+  "name": "Wigglytuff",
+  "types": [
+    "Normal",
+    "Fairy"
+  ],
+  "number": 40,
+  "stats": {
+    "stamina": 295,
+    "attack": 156,
+    "defence": 90
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "FEINT_ATTACK_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "PLAY_ROUGH",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/40.png",
+      "width": 157,
+      "height": 173
+    },
+    "shiny": {
+      "url": "img/40_shiny.png",
+      "width": 157,
+      "height": 173
+    },
+    "normalAnimated": {
+      "url": "img/40.gif",
+      "width": 72,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/40_shiny.gif",
+      "width": 72,
+      "height": 68
+    }
+  }
+}

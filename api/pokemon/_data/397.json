@@ -1,0 +1,51 @@
+{
+  "id": "397",
+  "name": "Staravia",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 397,
+  "stats": {
+    "stamina": 146,
+    "attack": 142,
+    "defence": 94
+  },
+  "quickMoves": [
+    "WING_ATTACK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "HEAT_WAVE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/397.png",
+      "width": 161,
+      "height": 141
+    },
+    "shiny": {
+      "url": "img/397_shiny.png",
+      "width": 161,
+      "height": 141
+    },
+    "normalAnimated": {
+      "url": "img/397.gif",
+      "width": 135,
+      "height": 122
+    },
+    "shinyAnimated": {
+      "url": "img/397_shiny.gif",
+      "width": 135,
+      "height": 122
+    }
+  }
+}

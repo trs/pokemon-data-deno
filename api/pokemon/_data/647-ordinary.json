@@ -1,0 +1,52 @@
+{
+  "id": "647-ordinary",
+  "name": "Keldeo",
+  "types": [
+    "Water",
+    "Fighting"
+  ],
+  "number": 647,
+  "stats": {
+    "stamina": 209,
+    "attack": 260,
+    "defence": 192
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "LOW_KICK_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "CLOSE_COMBAT",
+    "HYDRO_PUMP",
+    "X_SCISSOR"
+  ],
+  "forms": [
+    {
+      "name": "Ordinary",
+      "code": "ordinary"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/647-ordinary.png",
+      "width": 129,
+      "height": 180
+    },
+    "shiny": {
+      "url": "img/647-ordinary_shiny.png",
+      "width": 129,
+      "height": 180
+    },
+    "normalAnimated": {
+      "url": "img/647-ordinary.gif",
+      "width": 60,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/647-ordinary_shiny.gif",
+      "width": 60,
+      "height": 88
+    }
+  }
+}

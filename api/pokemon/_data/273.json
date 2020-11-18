@@ -1,0 +1,50 @@
+{
+  "id": "273",
+  "name": "Seedot",
+  "types": [
+    "Grass"
+  ],
+  "number": 273,
+  "stats": {
+    "stamina": 120,
+    "attack": 71,
+    "defence": 77
+  },
+  "quickMoves": [
+    "BULLET_SEED_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/273.png",
+      "width": 67,
+      "height": 89
+    },
+    "shiny": {
+      "url": "img/273_shiny.png",
+      "width": 67,
+      "height": 89
+    },
+    "normalAnimated": {
+      "url": "img/273.gif",
+      "width": 37,
+      "height": 46
+    },
+    "shinyAnimated": {
+      "url": "img/273_shiny.gif",
+      "width": 37,
+      "height": 46
+    }
+  }
+}

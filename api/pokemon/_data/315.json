@@ -1,0 +1,51 @@
+{
+  "id": "315",
+  "name": "Roselia",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "number": 315,
+  "stats": {
+    "stamina": 137,
+    "attack": 186,
+    "defence": 131
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "PETAL_BLIZZARD",
+    "SLUDGE_BOMB",
+    "DAZZLING_GLEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/315.png",
+      "width": 95,
+      "height": 84
+    },
+    "shiny": {
+      "url": "img/315_shiny.png",
+      "width": 95,
+      "height": 84
+    },
+    "normalAnimated": {
+      "url": "img/315.gif",
+      "width": 71,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/315_shiny.gif",
+      "width": 71,
+      "height": 58
+    }
+  }
+}

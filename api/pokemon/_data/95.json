@@ -1,0 +1,51 @@
+{
+  "id": "95",
+  "name": "Onix",
+  "types": [
+    "Rock",
+    "Ground"
+  ],
+  "number": 95,
+  "stats": {
+    "stamina": 111,
+    "attack": 85,
+    "defence": 232
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "SAND_TOMB",
+    "STONE_EDGE",
+    "HEAVY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/95.png",
+      "width": 217,
+      "height": 237
+    },
+    "shiny": {
+      "url": "img/95_shiny.png",
+      "width": 217,
+      "height": 237
+    },
+    "normalAnimated": {
+      "url": "img/95.gif",
+      "width": 90,
+      "height": 115
+    },
+    "shinyAnimated": {
+      "url": "img/95_shiny.gif",
+      "width": 90,
+      "height": 115
+    }
+  }
+}

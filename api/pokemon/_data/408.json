@@ -1,0 +1,50 @@
+{
+  "id": "408",
+  "name": "Cranidos",
+  "types": [
+    "Rock"
+  ],
+  "number": 408,
+  "stats": {
+    "stamina": 167,
+    "attack": 218,
+    "defence": 71
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_TOMB",
+    "ANCIENT_POWER",
+    "BULLDOZE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/408.png",
+      "width": 103,
+      "height": 129
+    },
+    "shiny": {
+      "url": "img/408_shiny.png",
+      "width": 103,
+      "height": 129
+    },
+    "normalAnimated": {
+      "url": "img/408.gif",
+      "width": 48,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/408_shiny.gif",
+      "width": 48,
+      "height": 68
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "590",
+  "name": "Foongus",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "number": 590,
+  "stats": {
+    "stamina": 170,
+    "attack": 97,
+    "defence": 91
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "BODY_SLAM",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/590.png",
+      "width": 84,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/590_shiny.png",
+      "width": 84,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/590.gif",
+      "width": 47,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "img/590_shiny.gif",
+      "width": 47,
+      "height": 48
+    }
+  }
+}

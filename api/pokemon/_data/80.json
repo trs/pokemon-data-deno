@@ -1,0 +1,51 @@
+{
+  "id": "80",
+  "name": "Slowbro",
+  "types": [
+    "Water",
+    "Psychic"
+  ],
+  "number": 80,
+  "stats": {
+    "stamina": 216,
+    "attack": 177,
+    "defence": 180
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "PSYCHIC",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/80.png",
+      "width": 215,
+      "height": 158
+    },
+    "shiny": {
+      "url": "img/80_shiny.png",
+      "width": 215,
+      "height": 158
+    },
+    "normalAnimated": {
+      "url": "img/80.gif",
+      "width": 92,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "img/80_shiny.gif",
+      "width": 92,
+      "height": 71
+    }
+  }
+}

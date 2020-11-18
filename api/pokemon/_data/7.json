@@ -1,0 +1,50 @@
+{
+  "id": "7",
+  "name": "Squirtle",
+  "types": [
+    "Water"
+  ],
+  "number": 7,
+  "stats": {
+    "stamina": 127,
+    "attack": 94,
+    "defence": 121
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "AQUA_TAIL",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/7.png",
+      "width": 83,
+      "height": 87
+    },
+    "shiny": {
+      "url": "img/7_shiny.png",
+      "width": 83,
+      "height": 87
+    },
+    "normalAnimated": {
+      "url": "img/7.gif",
+      "width": 53,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/7_shiny.gif",
+      "width": 53,
+      "height": 54
+    }
+  }
+}

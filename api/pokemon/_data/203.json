@@ -1,0 +1,51 @@
+{
+  "id": "203",
+  "name": "Girafarig",
+  "types": [
+    "Normal",
+    "Psychic"
+  ],
+  "number": 203,
+  "stats": {
+    "stamina": 172,
+    "attack": 182,
+    "defence": 133
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "MIRROR_COAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/203.png",
+      "width": 119,
+      "height": 188
+    },
+    "shiny": {
+      "url": "img/203_shiny.png",
+      "width": 119,
+      "height": 188
+    },
+    "normalAnimated": {
+      "url": "img/203.gif",
+      "width": 48,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/203_shiny.gif",
+      "width": 48,
+      "height": 88
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "362",
+  "name": "Glalie",
+  "types": [
+    "Ice"
+  ],
+  "number": 362,
+  "stats": {
+    "stamina": 190,
+    "attack": 162,
+    "defence": 162
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "FROST_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "GYRO_BALL",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/362.png",
+      "width": 183,
+      "height": 172
+    },
+    "shiny": {
+      "url": "img/362_shiny.png",
+      "width": 183,
+      "height": 172
+    },
+    "normalAnimated": {
+      "url": "img/362.gif",
+      "width": 72,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "img/362_shiny.gif",
+      "width": 72,
+      "height": 75
+    }
+  }
+}

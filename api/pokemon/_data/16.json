@@ -1,0 +1,51 @@
+{
+  "id": "16",
+  "name": "Pidgey",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 16,
+  "stats": {
+    "stamina": 120,
+    "attack": 85,
+    "defence": 73
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "TWISTER",
+    "AERIAL_ACE",
+    "AIR_CUTTER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/16.png",
+      "width": 52,
+      "height": 67
+    },
+    "shiny": {
+      "url": "img/16_shiny.png",
+      "width": 52,
+      "height": 67
+    },
+    "normalAnimated": {
+      "url": "img/16.gif",
+      "width": 36,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "img/16_shiny.gif",
+      "width": 36,
+      "height": 49
+    }
+  }
+}

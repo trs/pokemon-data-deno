@@ -1,0 +1,51 @@
+{
+  "id": "641-incarnate",
+  "name": "Tornadus",
+  "types": [
+    "Flying"
+  ],
+  "number": 641,
+  "stats": {
+    "stamina": 188,
+    "attack": 266,
+    "defence": 164
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "DARK_PULSE",
+    "HYPER_BEAM",
+    "HURRICANE"
+  ],
+  "forms": [
+    {
+      "name": "Incarnate",
+      "code": "incarnate"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/641-incarnate.png",
+      "width": 149,
+      "height": 189
+    },
+    "shiny": {
+      "url": "img/641-incarnate_shiny.png",
+      "width": 149,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "img/641-incarnate.gif",
+      "width": 82,
+      "height": 100
+    },
+    "shinyAnimated": {
+      "url": "img/641-incarnate_shiny.gif",
+      "width": 82,
+      "height": 100
+    }
+  }
+}

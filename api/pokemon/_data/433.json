@@ -1,0 +1,50 @@
+{
+  "id": "433",
+  "name": "Chingling",
+  "types": [
+    "Psychic"
+  ],
+  "number": 433,
+  "stats": {
+    "stamina": 128,
+    "attack": 114,
+    "defence": 94
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "WRAP",
+    "SHADOW_BALL",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/433.png",
+      "width": 95,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/433_shiny.png",
+      "width": 95,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/433.gif",
+      "width": 50,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "img/433_shiny.gif",
+      "width": 50,
+      "height": 66
+    }
+  }
+}

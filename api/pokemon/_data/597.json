@@ -1,0 +1,51 @@
+{
+  "id": "597",
+  "name": "Ferroseed",
+  "types": [
+    "Grass",
+    "Steel"
+  ],
+  "number": 597,
+  "stats": {
+    "stamina": 127,
+    "attack": 82,
+    "defence": 155
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "FLASH_CANNON",
+    "IRON_HEAD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/597.png",
+      "width": 99,
+      "height": 118
+    },
+    "shiny": {
+      "url": "img/597_shiny.png",
+      "width": 99,
+      "height": 118
+    },
+    "normalAnimated": {
+      "url": "img/597.gif",
+      "width": 51,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/597_shiny.gif",
+      "width": 51,
+      "height": 64
+    }
+  }
+}

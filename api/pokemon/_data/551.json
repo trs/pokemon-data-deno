@@ -1,0 +1,51 @@
+{
+  "id": "551",
+  "name": "Sandile",
+  "types": [
+    "Ground",
+    "Dark"
+  ],
+  "number": 551,
+  "stats": {
+    "stamina": 137,
+    "attack": 132,
+    "defence": 69
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "CRUNCH",
+    "BULLDOZE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/551.png",
+      "width": 112,
+      "height": 79
+    },
+    "shiny": {
+      "url": "img/551_shiny.png",
+      "width": 112,
+      "height": 79
+    },
+    "normalAnimated": {
+      "url": "img/551.gif",
+      "width": 63,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "img/551_shiny.gif",
+      "width": 63,
+      "height": 47
+    }
+  }
+}

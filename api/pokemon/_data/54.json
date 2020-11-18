@@ -1,0 +1,50 @@
+{
+  "id": "54",
+  "name": "Psyduck",
+  "types": [
+    "Water"
+  ],
+  "number": 54,
+  "stats": {
+    "stamina": 137,
+    "attack": 122,
+    "defence": 95
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "AQUA_TAIL",
+    "CROSS_CHOP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/54.png",
+      "width": 111,
+      "height": 123
+    },
+    "shiny": {
+      "url": "img/54_shiny.png",
+      "width": 111,
+      "height": 123
+    },
+    "normalAnimated": {
+      "url": "img/54.gif",
+      "width": 51,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "img/54_shiny.gif",
+      "width": 51,
+      "height": 53
+    }
+  }
+}

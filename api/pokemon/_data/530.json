@@ -1,0 +1,52 @@
+{
+  "id": "530",
+  "name": "Excadrill",
+  "types": [
+    "Ground",
+    "Steel"
+  ],
+  "number": 530,
+  "stats": {
+    "stamina": 242,
+    "attack": 255,
+    "defence": 129
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "EARTHQUAKE",
+    "DRILL_RUN",
+    "IRON_HEAD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/530.png",
+      "width": 164,
+      "height": 131
+    },
+    "shiny": {
+      "url": "img/530_shiny.png",
+      "width": 164,
+      "height": 131
+    },
+    "normalAnimated": {
+      "url": "img/530.gif",
+      "width": 89,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/530_shiny.gif",
+      "width": 89,
+      "height": 79
+    }
+  }
+}

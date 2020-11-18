@@ -1,0 +1,50 @@
+{
+  "id": "116",
+  "name": "Horsea",
+  "types": [
+    "Water"
+  ],
+  "number": 116,
+  "stats": {
+    "stamina": 102,
+    "attack": 129,
+    "defence": 103
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "DRAGON_PULSE",
+    "FLASH_CANNON"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/116.png",
+      "width": 57,
+      "height": 80
+    },
+    "shiny": {
+      "url": "img/116_shiny.png",
+      "width": 57,
+      "height": 80
+    },
+    "normalAnimated": {
+      "url": "img/116.gif",
+      "width": 31,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/116_shiny.gif",
+      "width": 31,
+      "height": 57
+    }
+  }
+}

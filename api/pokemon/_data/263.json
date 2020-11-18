@@ -1,0 +1,50 @@
+{
+  "id": "263",
+  "name": "Zigzagoon",
+  "types": [
+    "Normal"
+  ],
+  "number": 263,
+  "stats": {
+    "stamina": 116,
+    "attack": 58,
+    "defence": 80
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "GRASS_KNOT",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/263.png",
+      "width": 118,
+      "height": 89
+    },
+    "shiny": {
+      "url": "img/263_shiny.png",
+      "width": 118,
+      "height": 89
+    },
+    "normalAnimated": {
+      "url": "img/263.gif",
+      "width": 65,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "img/263_shiny.gif",
+      "width": 65,
+      "height": 47
+    }
+  }
+}

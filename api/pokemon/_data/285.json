@@ -1,0 +1,50 @@
+{
+  "id": "285",
+  "name": "Shroomish",
+  "types": [
+    "Grass"
+  ],
+  "number": 285,
+  "stats": {
+    "stamina": 155,
+    "attack": 74,
+    "defence": 110
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "GRASS_KNOT",
+    "ENERGY_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/285.png",
+      "width": 108,
+      "height": 83
+    },
+    "shiny": {
+      "url": "img/285_shiny.png",
+      "width": 108,
+      "height": 83
+    },
+    "normalAnimated": {
+      "url": "img/285.gif",
+      "width": 51,
+      "height": 36
+    },
+    "shinyAnimated": {
+      "url": "img/285_shiny.gif",
+      "width": 51,
+      "height": 36
+    }
+  }
+}

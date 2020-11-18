@@ -1,0 +1,55 @@
+{
+  "id": "416",
+  "name": "Vespiquen",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 416,
+  "stats": {
+    "stamina": 172,
+    "attack": 149,
+    "defence": 190
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "POISON_STING_FAST",
+    "FURY_CUTTER_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "BUG_BUZZ",
+    "POWER_GEM",
+    "X_SCISSOR",
+    "FELL_STINGER",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/416.png",
+      "width": 156,
+      "height": 196
+    },
+    "shiny": {
+      "url": "img/416_shiny.png",
+      "width": 156,
+      "height": 196
+    },
+    "normalAnimated": {
+      "url": "img/416.gif",
+      "width": 75,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/416_shiny.gif",
+      "width": 75,
+      "height": 88
+    }
+  }
+}

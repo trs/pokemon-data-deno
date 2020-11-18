@@ -1,0 +1,50 @@
+{
+  "id": "300",
+  "name": "Skitty",
+  "types": [
+    "Normal"
+  ],
+  "number": 300,
+  "stats": {
+    "stamina": 137,
+    "attack": 84,
+    "defence": 79
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "DISARMING_VOICE",
+    "WILD_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/300.png",
+      "width": 121,
+      "height": 104
+    },
+    "shiny": {
+      "url": "img/300_shiny.png",
+      "width": 121,
+      "height": 104
+    },
+    "normalAnimated": {
+      "url": "img/300.gif",
+      "width": 59,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "img/300_shiny.gif",
+      "width": 59,
+      "height": 55
+    }
+  }
+}

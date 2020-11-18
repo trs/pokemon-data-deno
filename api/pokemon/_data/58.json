@@ -1,0 +1,50 @@
+{
+  "id": "58",
+  "name": "Growlithe",
+  "types": [
+    "Fire"
+  ],
+  "number": 58,
+  "stats": {
+    "stamina": 146,
+    "attack": 136,
+    "defence": 93
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_WHEEL",
+    "BODY_SLAM",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/58.png",
+      "width": 90,
+      "height": 110
+    },
+    "shiny": {
+      "url": "img/58_shiny.png",
+      "width": 90,
+      "height": 110
+    },
+    "normalAnimated": {
+      "url": "img/58.gif",
+      "width": 45,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/58_shiny.gif",
+      "width": 45,
+      "height": 57
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "216",
+  "name": "Teddiursa",
+  "types": [
+    "Normal"
+  ],
+  "number": 216,
+  "stats": {
+    "stamina": 155,
+    "attack": 142,
+    "defence": 93
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "LICK_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_CHOP",
+    "CRUNCH",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/216.png",
+      "width": 68,
+      "height": 90
+    },
+    "shiny": {
+      "url": "img/216_shiny.png",
+      "width": 68,
+      "height": 90
+    },
+    "normalAnimated": {
+      "url": "img/216.gif",
+      "width": 47,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/216_shiny.gif",
+      "width": 47,
+      "height": 57
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "50",
+  "name": "Diglett",
+  "types": [
+    "Ground"
+  ],
+  "number": 50,
+  "stats": {
+    "stamina": 67,
+    "attack": 109,
+    "defence": 78
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "MUD_BOMB",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/50.png",
+      "width": 73,
+      "height": 58
+    },
+    "shiny": {
+      "url": "img/50_shiny.png",
+      "width": 73,
+      "height": 58
+    },
+    "normalAnimated": {
+      "url": "img/50.gif",
+      "width": 43,
+      "height": 35
+    },
+    "shinyAnimated": {
+      "url": "img/50_shiny.gif",
+      "width": 43,
+      "height": 35
+    }
+  }
+}

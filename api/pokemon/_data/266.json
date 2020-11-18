@@ -1,0 +1,48 @@
+{
+  "id": "266",
+  "name": "Silcoon",
+  "types": [
+    "Bug"
+  ],
+  "number": 266,
+  "stats": {
+    "stamina": 137,
+    "attack": 60,
+    "defence": 77
+  },
+  "quickMoves": [
+    "POISON_STING_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/266.png",
+      "width": 104,
+      "height": 82
+    },
+    "shiny": {
+      "url": "img/266_shiny.png",
+      "width": 104,
+      "height": 82
+    },
+    "normalAnimated": {
+      "url": "img/266.gif",
+      "width": 51,
+      "height": 39
+    },
+    "shinyAnimated": {
+      "url": "img/266_shiny.gif",
+      "width": 51,
+      "height": 39
+    }
+  }
+}

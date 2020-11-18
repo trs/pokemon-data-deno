@@ -1,0 +1,50 @@
+{
+  "id": "418",
+  "name": "Buizel",
+  "types": [
+    "Water"
+  ],
+  "number": 418,
+  "stats": {
+    "stamina": 146,
+    "attack": 132,
+    "defence": 67
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "WATER_PULSE",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/418.png",
+      "width": 82,
+      "height": 100
+    },
+    "shiny": {
+      "url": "img/418_shiny.png",
+      "width": 82,
+      "height": 100
+    },
+    "normalAnimated": {
+      "url": "img/418.gif",
+      "width": 66,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/418_shiny.gif",
+      "width": 66,
+      "height": 69
+    }
+  }
+}

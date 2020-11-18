@@ -1,0 +1,52 @@
+{
+  "id": "500",
+  "name": "Emboar",
+  "types": [
+    "Fire",
+    "Fighting"
+  ],
+  "number": 500,
+  "stats": {
+    "stamina": 242,
+    "attack": 235,
+    "defence": 127
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "HEAT_WAVE",
+    "ROCK_SLIDE",
+    "FOCUS_BLAST",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/500.png",
+      "width": 230,
+      "height": 218
+    },
+    "shiny": {
+      "url": "img/500_shiny.png",
+      "width": 230,
+      "height": 218
+    },
+    "normalAnimated": {
+      "url": "img/500.gif",
+      "width": 107,
+      "height": 102
+    },
+    "shinyAnimated": {
+      "url": "img/500_shiny.gif",
+      "width": 107,
+      "height": 102
+    }
+  }
+}

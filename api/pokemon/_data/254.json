@@ -1,0 +1,51 @@
+{
+  "id": "254",
+  "name": "Sceptile",
+  "types": [
+    "Grass"
+  ],
+  "number": 254,
+  "stats": {
+    "stamina": 172,
+    "attack": 223,
+    "defence": 169
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "LEAF_BLADE",
+    "AERIAL_ACE",
+    "EARTHQUAKE",
+    "DRAGON_CLAW"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/254.png",
+      "width": 184,
+      "height": 162
+    },
+    "shiny": {
+      "url": "img/254_shiny.png",
+      "width": 184,
+      "height": 162
+    },
+    "normalAnimated": {
+      "url": "img/254.gif",
+      "width": 100,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "img/254_shiny.gif",
+      "width": 100,
+      "height": 93
+    }
+  }
+}

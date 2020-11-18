@@ -1,0 +1,51 @@
+{
+  "id": "110",
+  "name": "Weezing",
+  "types": [
+    "Poison"
+  ],
+  "number": 110,
+  "stats": {
+    "stamina": 163,
+    "attack": 174,
+    "defence": 197
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE_BOMB",
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/110.png",
+      "width": 135,
+      "height": 97
+    },
+    "shiny": {
+      "url": "img/110_shiny.png",
+      "width": 135,
+      "height": 97
+    },
+    "normalAnimated": {
+      "url": "img/110.gif",
+      "width": 103,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/110_shiny.gif",
+      "width": 102,
+      "height": 85
+    }
+  }
+}

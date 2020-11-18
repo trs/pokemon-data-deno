@@ -1,0 +1,50 @@
+{
+  "id": "32",
+  "name": "Nidoran♂",
+  "types": [
+    "Poison"
+  ],
+  "number": 32,
+  "stats": {
+    "stamina": 130,
+    "attack": 105,
+    "defence": 76
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "HORN_ATTACK",
+    "BODY_SLAM",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/32.png",
+      "width": 63,
+      "height": 72
+    },
+    "shiny": {
+      "url": "img/32_shiny.png",
+      "width": 63,
+      "height": 72
+    },
+    "normalAnimated": {
+      "url": "img/32.gif",
+      "width": 52,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "img/32_shiny.gif",
+      "width": 52,
+      "height": 52
+    }
+  }
+}

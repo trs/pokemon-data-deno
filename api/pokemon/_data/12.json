@@ -1,0 +1,51 @@
+{
+  "id": "12",
+  "name": "Butterfree",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 12,
+  "stats": {
+    "stamina": 155,
+    "attack": 167,
+    "defence": 137
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "BUG_BUZZ",
+    "PSYCHIC",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/12.png",
+      "width": 167,
+      "height": 147
+    },
+    "shiny": {
+      "url": "img/12_shiny.png",
+      "width": 167,
+      "height": 147
+    },
+    "normalAnimated": {
+      "url": "img/12.gif",
+      "width": 90,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "img/12_shiny.gif",
+      "width": 90,
+      "height": 85
+    }
+  }
+}

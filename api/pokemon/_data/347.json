@@ -1,0 +1,51 @@
+{
+  "id": "347",
+  "name": "Anorith",
+  "types": [
+    "Rock",
+    "Bug"
+  ],
+  "number": 347,
+  "stats": {
+    "stamina": 128,
+    "attack": 176,
+    "defence": 100
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_POISON",
+    "AQUA_JET",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/347.png",
+      "width": 125,
+      "height": 83
+    },
+    "shiny": {
+      "url": "img/347_shiny.png",
+      "width": 125,
+      "height": 83
+    },
+    "normalAnimated": {
+      "url": "img/347.gif",
+      "width": 64,
+      "height": 37
+    },
+    "shinyAnimated": {
+      "url": "img/347_shiny.gif",
+      "width": 64,
+      "height": 37
+    }
+  }
+}

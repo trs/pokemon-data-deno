@@ -1,0 +1,51 @@
+{
+  "id": "364",
+  "name": "Sealeo",
+  "types": [
+    "Ice",
+    "Water"
+  ],
+  "number": 364,
+  "stats": {
+    "stamina": 207,
+    "attack": 137,
+    "defence": 132
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "POWDER_SNOW_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "BODY_SLAM",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/364.png",
+      "width": 220,
+      "height": 122
+    },
+    "shiny": {
+      "url": "img/364_shiny.png",
+      "width": 220,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "img/364.gif",
+      "width": 79,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/364_shiny.gif",
+      "width": 79,
+      "height": 50
+    }
+  }
+}

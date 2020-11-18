@@ -1,0 +1,51 @@
+{
+  "id": "591",
+  "name": "Amoonguss",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "number": 591,
+  "stats": {
+    "stamina": 249,
+    "attack": 155,
+    "defence": 139
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "FOUL_PLAY",
+    "SLUDGE_BOMB",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/591.png",
+      "width": 112,
+      "height": 104
+    },
+    "shiny": {
+      "url": "img/591_shiny.png",
+      "width": 112,
+      "height": 104
+    },
+    "normalAnimated": {
+      "url": "img/591.gif",
+      "width": 78,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "img/591_shiny.gif",
+      "width": 78,
+      "height": 75
+    }
+  }
+}

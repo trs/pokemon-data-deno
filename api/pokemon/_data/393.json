@@ -1,0 +1,50 @@
+{
+  "id": "393",
+  "name": "Piplup",
+  "types": [
+    "Water"
+  ],
+  "number": 393,
+  "stats": {
+    "stamina": 142,
+    "attack": 112,
+    "defence": 102
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "POUND_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "DRILL_PECK",
+    "ICY_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/393.png",
+      "width": 64,
+      "height": 78
+    },
+    "shiny": {
+      "url": "img/393_shiny.png",
+      "width": 64,
+      "height": 78
+    },
+    "normalAnimated": {
+      "url": "img/393.gif",
+      "width": 54,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/393_shiny.gif",
+      "width": 54,
+      "height": 59
+    }
+  }
+}

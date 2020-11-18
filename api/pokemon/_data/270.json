@@ -1,0 +1,50 @@
+{
+  "id": "270",
+  "name": "Lotad",
+  "types": [
+    "Water",
+    "Grass"
+  ],
+  "number": 270,
+  "stats": {
+    "stamina": 120,
+    "attack": 71,
+    "defence": 77
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "ENERGY_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/270.png",
+      "width": 143,
+      "height": 85
+    },
+    "shiny": {
+      "url": "img/270_shiny.png",
+      "width": 143,
+      "height": 85
+    },
+    "normalAnimated": {
+      "url": "img/270.gif",
+      "width": 58,
+      "height": 31
+    },
+    "shinyAnimated": {
+      "url": "img/270_shiny.gif",
+      "width": 58,
+      "height": 31
+    }
+  }
+}

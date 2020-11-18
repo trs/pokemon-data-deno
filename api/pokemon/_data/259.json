@@ -1,0 +1,51 @@
+{
+  "id": "259",
+  "name": "Marshtomp",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 259,
+  "stats": {
+    "stamina": 172,
+    "attack": 156,
+    "defence": 133
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "MUD_BOMB",
+    "SLUDGE",
+    "SURF"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/259.png",
+      "width": 78,
+      "height": 107
+    },
+    "shiny": {
+      "url": "img/259_shiny.png",
+      "width": 78,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "img/259.gif",
+      "width": 60,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/259_shiny.gif",
+      "width": 60,
+      "height": 77
+    }
+  }
+}

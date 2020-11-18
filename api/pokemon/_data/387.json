@@ -1,0 +1,50 @@
+{
+  "id": "387",
+  "name": "Turtwig",
+  "types": [
+    "Grass"
+  ],
+  "number": 387,
+  "stats": {
+    "stamina": 146,
+    "attack": 119,
+    "defence": 110
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/387.png",
+      "width": 57,
+      "height": 84
+    },
+    "shiny": {
+      "url": "img/387_shiny.png",
+      "width": 57,
+      "height": 84
+    },
+    "normalAnimated": {
+      "url": "img/387.gif",
+      "width": 45,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/387_shiny.gif",
+      "width": 45,
+      "height": 59
+    }
+  }
+}

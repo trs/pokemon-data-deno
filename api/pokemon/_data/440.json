@@ -1,0 +1,48 @@
+{
+  "id": "440",
+  "name": "Happiny",
+  "types": [
+    "Normal"
+  ],
+  "number": 440,
+  "stats": {
+    "stamina": 225,
+    "attack": 25,
+    "defence": 77
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/440.png",
+      "width": 74,
+      "height": 106
+    },
+    "shiny": {
+      "url": "img/440_shiny.png",
+      "width": 74,
+      "height": 106
+    },
+    "normalAnimated": {
+      "url": "img/440.gif",
+      "width": 39,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "img/440_shiny.gif",
+      "width": 39,
+      "height": 53
+    }
+  }
+}

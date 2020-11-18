@@ -1,0 +1,51 @@
+{
+  "id": "423-west-sea",
+  "name": "Gastrodon",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 423,
+  "stats": {
+    "stamina": 244,
+    "attack": 169,
+    "defence": 143
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "EARTH_POWER",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "West Sea",
+      "code": "west-sea"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/423-west-sea.png",
+      "width": 102,
+      "height": 132
+    },
+    "shiny": {
+      "url": "img/423-west-sea_shiny.png",
+      "width": 102,
+      "height": 132
+    },
+    "normalAnimated": {
+      "url": "img/423-west-sea.gif",
+      "width": 63,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/423-west-sea_shiny.gif",
+      "width": 63,
+      "height": 77
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "195",
+  "name": "Quagsire",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 195,
+  "stats": {
+    "stamina": 216,
+    "attack": 152,
+    "defence": 143
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE_BOMB",
+    "EARTHQUAKE",
+    "STONE_EDGE",
+    "ACID_SPRAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/195.png",
+      "width": 123,
+      "height": 189
+    },
+    "shiny": {
+      "url": "img/195_shiny.png",
+      "width": 123,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "img/195.gif",
+      "width": 48,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/195_shiny.gif",
+      "width": 48,
+      "height": 77
+    }
+  }
+}

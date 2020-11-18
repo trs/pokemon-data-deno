@@ -1,0 +1,51 @@
+{
+  "id": "528",
+  "name": "Swoobat",
+  "types": [
+    "Psychic",
+    "Flying"
+  ],
+  "number": 528,
+  "stats": {
+    "stamina": 167,
+    "attack": 161,
+    "defence": 119
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "AERIAL_ACE",
+    "FUTURESIGHT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/528.png",
+      "width": 137,
+      "height": 160
+    },
+    "shiny": {
+      "url": "img/528_shiny.png",
+      "width": 137,
+      "height": 160
+    },
+    "normalAnimated": {
+      "url": "img/528.gif",
+      "width": 144,
+      "height": 107
+    },
+    "shinyAnimated": {
+      "url": "img/528_shiny.gif",
+      "width": 144,
+      "height": 107
+    }
+  }
+}

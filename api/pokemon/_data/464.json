@@ -1,0 +1,53 @@
+{
+  "id": "464",
+  "name": "Rhyperior",
+  "types": [
+    "Ground",
+    "Rock"
+  ],
+  "number": 464,
+  "stats": {
+    "stamina": 251,
+    "attack": 241,
+    "defence": 190
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "EARTHQUAKE",
+    "STONE_EDGE",
+    "SKULL_BASH",
+    "SUPER_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/464.png",
+      "width": 244,
+      "height": 212
+    },
+    "shiny": {
+      "url": "img/464_shiny.png",
+      "width": 244,
+      "height": 212
+    },
+    "normalAnimated": {
+      "url": "img/464.gif",
+      "width": 105,
+      "height": 94
+    },
+    "shinyAnimated": {
+      "url": "img/464_shiny.gif",
+      "width": 105,
+      "height": 94
+    }
+  }
+}

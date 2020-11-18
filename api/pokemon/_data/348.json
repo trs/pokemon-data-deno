@@ -1,0 +1,51 @@
+{
+  "id": "348",
+  "name": "Armaldo",
+  "types": [
+    "Rock",
+    "Bug"
+  ],
+  "number": 348,
+  "stats": {
+    "stamina": 181,
+    "attack": 222,
+    "defence": 174
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "STRUGGLE_BUG_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_POISON",
+    "WATER_PULSE",
+    "ROCK_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/348.png",
+      "width": 170,
+      "height": 166
+    },
+    "shiny": {
+      "url": "img/348_shiny.png",
+      "width": 170,
+      "height": 166
+    },
+    "normalAnimated": {
+      "url": "img/348.gif",
+      "width": 76,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "img/348_shiny.gif",
+      "width": 76,
+      "height": 81
+    }
+  }
+}

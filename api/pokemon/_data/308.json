@@ -1,0 +1,52 @@
+{
+  "id": "308",
+  "name": "Medicham",
+  "types": [
+    "Fighting",
+    "Psychic"
+  ],
+  "number": 308,
+  "stats": {
+    "stamina": 155,
+    "attack": 121,
+    "defence": 152
+  },
+  "quickMoves": [
+    "PSYCHO_CUT_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_PUNCH",
+    "PSYCHIC",
+    "DYNAMIC_PUNCH",
+    "POWER_UP_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/308.png",
+      "width": 116,
+      "height": 167
+    },
+    "shiny": {
+      "url": "img/308_shiny.png",
+      "width": 116,
+      "height": 167
+    },
+    "normalAnimated": {
+      "url": "img/308.gif",
+      "width": 63,
+      "height": 90
+    },
+    "shinyAnimated": {
+      "url": "img/308_shiny.gif",
+      "width": 63,
+      "height": 90
+    }
+  }
+}

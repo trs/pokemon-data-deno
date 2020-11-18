@@ -1,0 +1,48 @@
+{
+  "id": "11",
+  "name": "Metapod",
+  "types": [
+    "Bug"
+  ],
+  "number": 11,
+  "stats": {
+    "stamina": 137,
+    "attack": 45,
+    "defence": 80
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/11.png",
+      "width": 57,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/11_shiny.png",
+      "width": 57,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/11.gif",
+      "width": 42,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/11_shiny.gif",
+      "width": 42,
+      "height": 54
+    }
+  }
+}

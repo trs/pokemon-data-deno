@@ -1,0 +1,50 @@
+{
+  "id": "577",
+  "name": "Solosis",
+  "types": [
+    "Psychic"
+  ],
+  "number": 577,
+  "stats": {
+    "stamina": 128,
+    "attack": 170,
+    "defence": 83
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "NIGHT_SHADE",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/577.png",
+      "width": 78,
+      "height": 75
+    },
+    "shiny": {
+      "url": "img/577_shiny.png",
+      "width": 78,
+      "height": 75
+    },
+    "normalAnimated": {
+      "url": "img/577.gif",
+      "width": 45,
+      "height": 45
+    },
+    "shinyAnimated": {
+      "url": "img/577_shiny.gif",
+      "width": 45,
+      "height": 45
+    }
+  }
+}

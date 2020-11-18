@@ -1,0 +1,52 @@
+{
+  "id": "91",
+  "name": "Cloyster",
+  "types": [
+    "Water",
+    "Ice"
+  ],
+  "number": 91,
+  "stats": {
+    "stamina": 137,
+    "attack": 186,
+    "defence": 256
+  },
+  "quickMoves": [
+    "FROST_BREATH_FAST",
+    "ICE_SHARD_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "HYDRO_PUMP",
+    "AVALANCHE",
+    "ICY_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/91.png",
+      "width": 171,
+      "height": 162
+    },
+    "shiny": {
+      "url": "img/91_shiny.png",
+      "width": 171,
+      "height": 162
+    },
+    "normalAnimated": {
+      "url": "img/91.gif",
+      "width": 83,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "img/91_shiny.gif",
+      "width": 83,
+      "height": 85
+    }
+  }
+}

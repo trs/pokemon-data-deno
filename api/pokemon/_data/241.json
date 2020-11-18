@@ -1,0 +1,52 @@
+{
+  "id": "241",
+  "name": "Miltank",
+  "types": [
+    "Normal"
+  ],
+  "number": 241,
+  "stats": {
+    "stamina": 216,
+    "attack": 157,
+    "defence": 193
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "STOMP",
+    "BODY_SLAM",
+    "GYRO_BALL",
+    "THUNDERBOLT",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/241.png",
+      "width": 153,
+      "height": 178
+    },
+    "shiny": {
+      "url": "img/241_shiny.png",
+      "width": 153,
+      "height": 178
+    },
+    "normalAnimated": {
+      "url": "img/241.gif",
+      "width": 80,
+      "height": 76
+    },
+    "shinyAnimated": {
+      "url": "img/241_shiny.gif",
+      "width": 80,
+      "height": 76
+    }
+  }
+}

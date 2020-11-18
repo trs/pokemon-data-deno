@@ -1,0 +1,50 @@
+{
+  "id": "335",
+  "name": "Zangoose",
+  "types": [
+    "Normal"
+  ],
+  "number": 335,
+  "stats": {
+    "stamina": 177,
+    "attack": 222,
+    "defence": 124
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "NIGHT_SLASH",
+    "DIG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/335.png",
+      "width": 152,
+      "height": 167
+    },
+    "shiny": {
+      "url": "img/335_shiny.png",
+      "width": 152,
+      "height": 167
+    },
+    "normalAnimated": {
+      "url": "img/335.gif",
+      "width": 67,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/335_shiny.gif",
+      "width": 67,
+      "height": 78
+    }
+  }
+}

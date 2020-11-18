@@ -1,0 +1,50 @@
+{
+  "id": "421-overcast",
+  "name": "Cherrim",
+  "types": [
+    "Grass"
+  ],
+  "number": 421,
+  "stats": {
+    "stamina": 172,
+    "attack": 170,
+    "defence": 153
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Overcast",
+      "code": "overcast"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/421-overcast.png",
+      "width": 75,
+      "height": 89
+    },
+    "shiny": {
+      "url": "img/421-overcast_shiny.png",
+      "width": 75,
+      "height": 89
+    },
+    "normalAnimated": {
+      "url": "img/421-overcast.gif",
+      "width": 50,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/421-overcast_shiny.gif",
+      "width": 50,
+      "height": 57
+    }
+  }
+}

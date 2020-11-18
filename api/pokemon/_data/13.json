@@ -1,0 +1,49 @@
+{
+  "id": "13",
+  "name": "Weedle",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "number": 13,
+  "stats": {
+    "stamina": 120,
+    "attack": 63,
+    "defence": 50
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/13.png",
+      "width": 44,
+      "height": 66
+    },
+    "shiny": {
+      "url": "img/13_shiny.png",
+      "width": 44,
+      "height": 66
+    },
+    "normalAnimated": {
+      "url": "img/13.gif",
+      "width": 35,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "img/13_shiny.gif",
+      "width": 35,
+      "height": 53
+    }
+  }
+}

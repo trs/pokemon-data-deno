@@ -1,0 +1,51 @@
+{
+  "id": "43",
+  "name": "Oddish",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "number": 43,
+  "stats": {
+    "stamina": 128,
+    "attack": 131,
+    "defence": 112
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "ACID_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "SLUDGE_BOMB",
+    "MOONBLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/43.png",
+      "width": 76,
+      "height": 71
+    },
+    "shiny": {
+      "url": "img/43_shiny.png",
+      "width": 76,
+      "height": 71
+    },
+    "normalAnimated": {
+      "url": "img/43.gif",
+      "width": 52,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "img/43_shiny.gif",
+      "width": 52,
+      "height": 48
+    }
+  }
+}

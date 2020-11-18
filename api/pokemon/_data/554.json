@@ -1,0 +1,49 @@
+{
+  "id": "554",
+  "name": "Darumaka",
+  "types": [
+    "Fire"
+  ],
+  "number": 554,
+  "stats": {
+    "stamina": 172,
+    "attack": 153,
+    "defence": 86
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "FIRE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_PUNCH",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/554.png",
+      "width": 116,
+      "height": 107
+    },
+    "shiny": {
+      "url": "img/554_shiny.png",
+      "width": 116,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "img/554.gif",
+      "width": 74,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "img/554_shiny.gif",
+      "width": 74,
+      "height": 61
+    }
+  }
+}

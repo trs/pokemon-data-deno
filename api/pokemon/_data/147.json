@@ -1,0 +1,50 @@
+{
+  "id": "147",
+  "name": "Dratini",
+  "types": [
+    "Dragon"
+  ],
+  "number": 147,
+  "stats": {
+    "stamina": 121,
+    "attack": 119,
+    "defence": 91
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "WRAP",
+    "TWISTER",
+    "AQUA_TAIL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/147.png",
+      "width": 65,
+      "height": 81
+    },
+    "shiny": {
+      "url": "img/147_shiny.png",
+      "width": 65,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "img/147.gif",
+      "width": 46,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "img/147_shiny.gif",
+      "width": 46,
+      "height": 63
+    }
+  }
+}

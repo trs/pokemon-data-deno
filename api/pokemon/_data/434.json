@@ -1,0 +1,51 @@
+{
+  "id": "434",
+  "name": "Stunky",
+  "types": [
+    "Poison",
+    "Dark"
+  ],
+  "number": 434,
+  "stats": {
+    "stamina": 160,
+    "attack": 121,
+    "defence": 90
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "FLAMETHROWER",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/434.png",
+      "width": 186,
+      "height": 140
+    },
+    "shiny": {
+      "url": "img/434_shiny.png",
+      "width": 186,
+      "height": 140
+    },
+    "normalAnimated": {
+      "url": "img/434.gif",
+      "width": 85,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "img/434_shiny.gif",
+      "width": 85,
+      "height": 66
+    }
+  }
+}

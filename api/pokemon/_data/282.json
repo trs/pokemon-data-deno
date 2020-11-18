@@ -1,0 +1,52 @@
+{
+  "id": "282",
+  "name": "Gardevoir",
+  "types": [
+    "Psychic",
+    "Fairy"
+  ],
+  "number": 282,
+  "stats": {
+    "stamina": 169,
+    "attack": 237,
+    "defence": 195
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "CHARGE_BEAM_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "DAZZLING_GLEAM",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/282.png",
+      "width": 142,
+      "height": 189
+    },
+    "shiny": {
+      "url": "img/282_shiny.png",
+      "width": 142,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "img/282.gif",
+      "width": 79,
+      "height": 92
+    },
+    "shinyAnimated": {
+      "url": "img/282_shiny.gif",
+      "width": 79,
+      "height": 92
+    }
+  }
+}

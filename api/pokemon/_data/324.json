@@ -1,0 +1,50 @@
+{
+  "id": "324",
+  "name": "Torkoal",
+  "types": [
+    "Fire"
+  ],
+  "number": 324,
+  "stats": {
+    "stamina": 172,
+    "attack": 151,
+    "defence": 203
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "OVERHEAT",
+    "SOLAR_BEAM",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/324.png",
+      "width": 120,
+      "height": 165
+    },
+    "shiny": {
+      "url": "img/324_shiny.png",
+      "width": 120,
+      "height": 166
+    },
+    "normalAnimated": {
+      "url": "img/324.gif",
+      "width": 63,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/324_shiny.gif",
+      "width": 63,
+      "height": 77
+    }
+  }
+}

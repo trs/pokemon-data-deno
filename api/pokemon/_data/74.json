@@ -1,0 +1,51 @@
+{
+  "id": "74",
+  "name": "Geodude",
+  "types": [
+    "Rock",
+    "Ground"
+  ],
+  "number": 74,
+  "stats": {
+    "stamina": 120,
+    "attack": 132,
+    "defence": 132
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "ROCK_TOMB",
+    "DIG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/74.png",
+      "width": 180,
+      "height": 61
+    },
+    "shiny": {
+      "url": "img/74_shiny.png",
+      "width": 180,
+      "height": 61
+    },
+    "normalAnimated": {
+      "url": "img/74.gif",
+      "width": 75,
+      "height": 35
+    },
+    "shinyAnimated": {
+      "url": "img/74_shiny.gif",
+      "width": 75,
+      "height": 35
+    }
+  }
+}

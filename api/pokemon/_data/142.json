@@ -1,0 +1,54 @@
+{
+  "id": "142",
+  "name": "Aerodactyl",
+  "types": [
+    "Rock",
+    "Flying"
+  ],
+  "number": 142,
+  "stats": {
+    "stamina": 190,
+    "attack": 221,
+    "defence": 159
+  },
+  "quickMoves": [
+    "STEEL_WING_FAST",
+    "BITE_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "IRON_HEAD",
+    "HYPER_BEAM",
+    "ROCK_SLIDE",
+    "EARTH_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/142.png",
+      "width": 254,
+      "height": 198
+    },
+    "shiny": {
+      "url": "img/142_shiny.png",
+      "width": 254,
+      "height": 198
+    },
+    "normalAnimated": {
+      "url": "img/142.gif",
+      "width": 189,
+      "height": 145
+    },
+    "shinyAnimated": {
+      "url": "img/142_shiny.gif",
+      "width": 189,
+      "height": 145
+    }
+  }
+}

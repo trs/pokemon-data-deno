@@ -1,0 +1,53 @@
+{
+  "id": "38-alola",
+  "name": "Ninetales",
+  "types": [
+    "Ice",
+    "Fairy"
+  ],
+  "number": 38,
+  "stats": {
+    "stamina": 177,
+    "attack": 170,
+    "defence": 193
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "POWDER_SNOW_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "DAZZLING_GLEAM",
+    "ICE_BEAM",
+    "BLIZZARD",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/38-alola.png",
+      "width": 196,
+      "height": 143
+    },
+    "shiny": {
+      "url": "img/38-alola_shiny.png",
+      "width": 196,
+      "height": 143
+    },
+    "normalAnimated": {
+      "url": "img/38-alola.gif",
+      "width": 89,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "img/38-alola_shiny.gif",
+      "width": 89,
+      "height": 70
+    }
+  }
+}

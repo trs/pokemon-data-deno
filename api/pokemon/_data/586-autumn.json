@@ -1,0 +1,52 @@
+{
+  "id": "586-autumn",
+  "name": "Sawsbuck",
+  "types": [
+    "Normal",
+    "Grass"
+  ],
+  "number": 586,
+  "stats": {
+    "stamina": 190,
+    "attack": 198,
+    "defence": 146
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "SOLAR_BEAM",
+    "WILD_CHARGE",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Autumn",
+      "code": "autumn"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/586-autumn.png",
+      "width": 161,
+      "height": 245
+    },
+    "shiny": {
+      "url": "img/586-autumn_shiny.png",
+      "width": 161,
+      "height": 245
+    },
+    "normalAnimated": {
+      "url": "img/586-autumn.gif",
+      "width": 78,
+      "height": 109
+    },
+    "shinyAnimated": {
+      "url": "img/586-autumn_shiny.gif",
+      "width": 78,
+      "height": 109
+    }
+  }
+}

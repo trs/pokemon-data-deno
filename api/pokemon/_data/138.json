@@ -1,0 +1,51 @@
+{
+  "id": "138",
+  "name": "Omanyte",
+  "types": [
+    "Rock",
+    "Water"
+  ],
+  "number": 138,
+  "stats": {
+    "stamina": 111,
+    "attack": 155,
+    "defence": 153
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "BUBBLE_BEAM",
+    "ROCK_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/138.png",
+      "width": 69,
+      "height": 76
+    },
+    "shiny": {
+      "url": "img/138_shiny.png",
+      "width": 69,
+      "height": 76
+    },
+    "normalAnimated": {
+      "url": "img/138.gif",
+      "width": 44,
+      "height": 45
+    },
+    "shinyAnimated": {
+      "url": "img/138_shiny.gif",
+      "width": 44,
+      "height": 45
+    }
+  }
+}

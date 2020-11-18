@@ -1,0 +1,49 @@
+{
+  "id": "427",
+  "name": "Buneary",
+  "types": [
+    "Normal"
+  ],
+  "number": 427,
+  "stats": {
+    "stamina": 146,
+    "attack": 130,
+    "defence": 105
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_PUNCH",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/427.png",
+      "width": 62,
+      "height": 114
+    },
+    "shiny": {
+      "url": "img/427_shiny.png",
+      "width": 62,
+      "height": 114
+    },
+    "normalAnimated": {
+      "url": "img/427.gif",
+      "width": 54,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/427_shiny.gif",
+      "width": 54,
+      "height": 73
+    }
+  }
+}

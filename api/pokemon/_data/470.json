@@ -1,0 +1,50 @@
+{
+  "id": "470",
+  "name": "Leafeon",
+  "types": [
+    "Grass"
+  ],
+  "number": 470,
+  "stats": {
+    "stamina": 163,
+    "attack": 216,
+    "defence": 219
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "SOLAR_BEAM",
+    "LEAF_BLADE",
+    "ENERGY_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/470.png",
+      "width": 128,
+      "height": 175
+    },
+    "shiny": {
+      "url": "img/470_shiny.png",
+      "width": 128,
+      "height": 175
+    },
+    "normalAnimated": {
+      "url": "img/470.gif",
+      "width": 50,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/470_shiny.gif",
+      "width": 50,
+      "height": 73
+    }
+  }
+}

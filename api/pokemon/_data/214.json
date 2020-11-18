@@ -1,0 +1,51 @@
+{
+  "id": "214",
+  "name": "Heracross",
+  "types": [
+    "Bug",
+    "Fighting"
+  ],
+  "number": 214,
+  "stats": {
+    "stamina": 190,
+    "attack": 234,
+    "defence": 179
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "STRUGGLE_BUG_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "CLOSE_COMBAT",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/214.png",
+      "width": 214,
+      "height": 185
+    },
+    "shiny": {
+      "url": "img/214_shiny.png",
+      "width": 214,
+      "height": 185
+    },
+    "normalAnimated": {
+      "url": "img/214.gif",
+      "width": 90,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/214_shiny.gif",
+      "width": 90,
+      "height": 87
+    }
+  }
+}

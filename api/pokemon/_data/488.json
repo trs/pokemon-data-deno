@@ -1,0 +1,50 @@
+{
+  "id": "488",
+  "name": "Cresselia",
+  "types": [
+    "Psychic"
+  ],
+  "number": 488,
+  "stats": {
+    "stamina": 260,
+    "attack": 152,
+    "defence": 258
+  },
+  "quickMoves": [
+    "PSYCHO_CUT_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "MOONBLAST",
+    "FUTURESIGHT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/488.png",
+      "width": 226,
+      "height": 178
+    },
+    "shiny": {
+      "url": "img/488_shiny.png",
+      "width": 226,
+      "height": 178
+    },
+    "normalAnimated": {
+      "url": "img/488.gif",
+      "width": 2586,
+      "height": 0
+    },
+    "shinyAnimated": {
+      "url": "img/488_shiny.gif",
+      "width": 2586,
+      "height": 0
+    }
+  }
+}

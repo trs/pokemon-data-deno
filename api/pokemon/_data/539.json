@@ -1,0 +1,50 @@
+{
+  "id": "539",
+  "name": "Sawk",
+  "types": [
+    "Fighting"
+  ],
+  "number": 539,
+  "stats": {
+    "stamina": 181,
+    "attack": 231,
+    "defence": 153
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "FOCUS_BLAST",
+    "LOW_SWEEP",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/539.png",
+      "width": 159,
+      "height": 173
+    },
+    "shiny": {
+      "url": "img/539_shiny.png",
+      "width": 159,
+      "height": 173
+    },
+    "normalAnimated": {
+      "url": "img/539.gif",
+      "width": 81,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "img/539_shiny.gif",
+      "width": 81,
+      "height": 83
+    }
+  }
+}

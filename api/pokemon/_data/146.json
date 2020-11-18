@@ -1,0 +1,52 @@
+{
+  "id": "146",
+  "name": "Moltres",
+  "types": [
+    "Fire",
+    "Flying"
+  ],
+  "number": 146,
+  "stats": {
+    "stamina": 207,
+    "attack": 251,
+    "defence": 181
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "HEAT_WAVE",
+    "OVERHEAT",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/146.png",
+      "width": 206,
+      "height": 190
+    },
+    "shiny": {
+      "url": "img/146_shiny.png",
+      "width": 210,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "img/146.gif",
+      "width": 217,
+      "height": 181
+    },
+    "shinyAnimated": {
+      "url": "img/146_shiny.gif",
+      "width": 218,
+      "height": 182
+    }
+  }
+}

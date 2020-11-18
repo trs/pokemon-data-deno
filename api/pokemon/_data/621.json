@@ -1,0 +1,50 @@
+{
+  "id": "621",
+  "name": "Druddigon",
+  "types": [
+    "Dragon"
+  ],
+  "number": 621,
+  "stats": {
+    "stamina": 184,
+    "attack": 213,
+    "defence": 170
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_CLAW",
+    "NIGHT_SLASH",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/621.png",
+      "width": 251,
+      "height": 235
+    },
+    "shiny": {
+      "url": "img/621_shiny.png",
+      "width": 251,
+      "height": 235
+    },
+    "normalAnimated": {
+      "url": "img/621.gif",
+      "width": 123,
+      "height": 104
+    },
+    "shinyAnimated": {
+      "url": "img/621_shiny.gif",
+      "width": 123,
+      "height": 104
+    }
+  }
+}

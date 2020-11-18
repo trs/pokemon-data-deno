@@ -1,0 +1,50 @@
+{
+  "id": "67",
+  "name": "Machoke",
+  "types": [
+    "Fighting"
+  ],
+  "number": 67,
+  "stats": {
+    "stamina": 190,
+    "attack": 177,
+    "defence": 125
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "KARATE_CHOP_FAST"
+  ],
+  "chargeMoves": [
+    "SUBMISSION",
+    "BRICK_BREAK",
+    "DYNAMIC_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/67.png",
+      "width": 170,
+      "height": 203
+    },
+    "shiny": {
+      "url": "img/67_shiny.png",
+      "width": 170,
+      "height": 203
+    },
+    "normalAnimated": {
+      "url": "img/67.gif",
+      "width": 72,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/67_shiny.gif",
+      "width": 72,
+      "height": 87
+    }
+  }
+}

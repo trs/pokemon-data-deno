@@ -1,0 +1,50 @@
+{
+  "id": "594",
+  "name": "Alomomola",
+  "types": [
+    "Water"
+  ],
+  "number": 594,
+  "stats": {
+    "stamina": 338,
+    "attack": 138,
+    "defence": 131
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "BLIZZARD",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/594.png",
+      "width": 71,
+      "height": 140
+    },
+    "shiny": {
+      "url": "img/594_shiny.png",
+      "width": 71,
+      "height": 140
+    },
+    "normalAnimated": {
+      "url": "img/594.gif",
+      "width": 44,
+      "height": 100
+    },
+    "shinyAnimated": {
+      "url": "img/594_shiny.gif",
+      "width": 44,
+      "height": 100
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "205",
+  "name": "Forretress",
+  "types": [
+    "Bug",
+    "Steel"
+  ],
+  "number": 205,
+  "stats": {
+    "stamina": 181,
+    "attack": 161,
+    "defence": 205
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "STRUGGLE_BUG_FAST"
+  ],
+  "chargeMoves": [
+    "HEAVY_SLAM",
+    "EARTHQUAKE",
+    "ROCK_TOMB",
+    "SAND_TOMB",
+    "MIRROR_SHOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/205.png",
+      "width": 220,
+      "height": 155
+    },
+    "shiny": {
+      "url": "img/205_shiny.png",
+      "width": 220,
+      "height": 155
+    },
+    "normalAnimated": {
+      "url": "img/205.gif",
+      "width": 93,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/205_shiny.gif",
+      "width": 93,
+      "height": 69
+    }
+  }
+}

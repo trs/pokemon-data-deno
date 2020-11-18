@@ -1,0 +1,51 @@
+{
+  "id": "392",
+  "name": "Infernape",
+  "types": [
+    "Fire",
+    "Fighting"
+  ],
+  "number": 392,
+  "stats": {
+    "stamina": 183,
+    "attack": 222,
+    "defence": 151
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "SOLAR_BEAM",
+    "FLAMETHROWER",
+    "CLOSE_COMBAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/392.png",
+      "width": 213,
+      "height": 216
+    },
+    "shiny": {
+      "url": "img/392_shiny.png",
+      "width": 213,
+      "height": 216
+    },
+    "normalAnimated": {
+      "url": "img/392.gif",
+      "width": 98,
+      "height": 119
+    },
+    "shinyAnimated": {
+      "url": "img/392_shiny.gif",
+      "width": 98,
+      "height": 119
+    }
+  }
+}

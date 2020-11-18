@@ -1,0 +1,51 @@
+{
+  "id": "435",
+  "name": "Skuntank",
+  "types": [
+    "Poison",
+    "Dark"
+  ],
+  "number": 435,
+  "stats": {
+    "stamina": 230,
+    "attack": 184,
+    "defence": 132
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "FLAMETHROWER",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/435.png",
+      "width": 156,
+      "height": 167
+    },
+    "shiny": {
+      "url": "img/435_shiny.png",
+      "width": 156,
+      "height": 167
+    },
+    "normalAnimated": {
+      "url": "img/435.gif",
+      "width": 87,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/435_shiny.gif",
+      "width": 87,
+      "height": 79
+    }
+  }
+}

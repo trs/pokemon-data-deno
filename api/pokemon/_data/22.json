@@ -1,0 +1,51 @@
+{
+  "id": "22",
+  "name": "Fearow",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 22,
+  "stats": {
+    "stamina": 163,
+    "attack": 182,
+    "defence": 133
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "DRILL_RUN",
+    "SKY_ATTACK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/22.png",
+      "width": 244,
+      "height": 200
+    },
+    "shiny": {
+      "url": "img/22_shiny.png",
+      "width": 244,
+      "height": 200
+    },
+    "normalAnimated": {
+      "url": "img/22.gif",
+      "width": 148,
+      "height": 135
+    },
+    "shinyAnimated": {
+      "url": "img/22_shiny.gif",
+      "width": 148,
+      "height": 135
+    }
+  }
+}

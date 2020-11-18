@@ -1,0 +1,52 @@
+{
+  "id": "555-standard",
+  "name": "Darmanitan",
+  "types": [
+    "Fire"
+  ],
+  "number": 555,
+  "stats": {
+    "stamina": 233,
+    "attack": 263,
+    "defence": 114
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "FIRE_FANG_FAST",
+    "INCINERATE_FAST"
+  ],
+  "chargeMoves": [
+    "OVERHEAT",
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Standard",
+      "code": "standard"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/555-standard.png",
+      "width": 244,
+      "height": 197
+    },
+    "shiny": {
+      "url": "img/555-standard_shiny.png",
+      "width": 244,
+      "height": 197
+    },
+    "normalAnimated": {
+      "url": "img/555-standard.gif",
+      "width": 99,
+      "height": 91
+    },
+    "shinyAnimated": {
+      "url": "img/555-standard_shiny.gif",
+      "width": 99,
+      "height": 91
+    }
+  }
+}

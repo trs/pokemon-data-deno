@@ -1,0 +1,50 @@
+{
+  "id": "583",
+  "name": "Vanillish",
+  "types": [
+    "Ice"
+  ],
+  "number": 583,
+  "stats": {
+    "stamina": 139,
+    "attack": 151,
+    "defence": 138
+  },
+  "quickMoves": [
+    "FROST_BREATH_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "ICY_WIND",
+    "ICE_BEAM",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/583.png",
+      "width": 96,
+      "height": 158
+    },
+    "shiny": {
+      "url": "img/583_shiny.png",
+      "width": 96,
+      "height": 158
+    },
+    "normalAnimated": {
+      "url": "img/583.gif",
+      "width": 58,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "img/583_shiny.gif",
+      "width": 58,
+      "height": 85
+    }
+  }
+}

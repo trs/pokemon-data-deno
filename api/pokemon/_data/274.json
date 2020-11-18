@@ -1,0 +1,51 @@
+{
+  "id": "274",
+  "name": "Nuzleaf",
+  "types": [
+    "Grass",
+    "Dark"
+  ],
+  "number": 274,
+  "stats": {
+    "stamina": 172,
+    "attack": 134,
+    "defence": 78
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "LEAF_BLADE",
+    "GRASS_KNOT",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/274.png",
+      "width": 119,
+      "height": 132
+    },
+    "shiny": {
+      "url": "img/274_shiny.png",
+      "width": 119,
+      "height": 132
+    },
+    "normalAnimated": {
+      "url": "img/274.gif",
+      "width": 63,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/274_shiny.gif",
+      "width": 63,
+      "height": 69
+    }
+  }
+}

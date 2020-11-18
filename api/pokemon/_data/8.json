@@ -1,0 +1,50 @@
+{
+  "id": "8",
+  "name": "Wartortle",
+  "types": [
+    "Water"
+  ],
+  "number": 8,
+  "stats": {
+    "stamina": 153,
+    "attack": 126,
+    "defence": 155
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "ICE_BEAM",
+    "HYDRO_PUMP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/8.png",
+      "width": 102,
+      "height": 130
+    },
+    "shiny": {
+      "url": "img/8_shiny.png",
+      "width": 102,
+      "height": 130
+    },
+    "normalAnimated": {
+      "url": "img/8.gif",
+      "width": 56,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/8_shiny.gif",
+      "width": 56,
+      "height": 73
+    }
+  }
+}

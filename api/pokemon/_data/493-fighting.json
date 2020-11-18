@@ -1,0 +1,50 @@
+{
+  "id": "493-fighting",
+  "name": "Arceus",
+  "types": [
+    "Fighting"
+  ],
+  "number": 493,
+  "stats": {
+    "stamina": 237,
+    "attack": 238,
+    "defence": 238
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "forms": [
+    {
+      "name": "Fighting",
+      "code": "fighting"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/493-fighting.png",
+      "width": 149,
+      "height": 217
+    },
+    "shiny": {
+      "url": "img/493-fighting_shiny.png",
+      "width": 149,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "img/493-fighting.gif",
+      "width": 150,
+      "height": 150
+    },
+    "shinyAnimated": {
+      "url": "img/493-fighting_shiny.gif",
+      "width": 86,
+      "height": 115
+    }
+  }
+}

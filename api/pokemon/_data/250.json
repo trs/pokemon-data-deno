@@ -1,0 +1,53 @@
+{
+  "id": "250",
+  "name": "Ho-Oh",
+  "types": [
+    "Fire",
+    "Flying"
+  ],
+  "number": 250,
+  "stats": {
+    "stamina": 214,
+    "attack": 239,
+    "defence": 244
+  },
+  "quickMoves": [
+    "EXTRASENSORY_FAST",
+    "STEEL_WING_FAST",
+    "HIDDEN_POWER_FAST",
+    "INCINERATE_FAST"
+  ],
+  "chargeMoves": [
+    "BRAVE_BIRD",
+    "FIRE_BLAST",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/250.png",
+      "width": 241,
+      "height": 243
+    },
+    "shiny": {
+      "url": "img/250_shiny.png",
+      "width": 241,
+      "height": 243
+    },
+    "normalAnimated": {
+      "url": "img/250.gif",
+      "width": 157,
+      "height": 144
+    },
+    "shinyAnimated": {
+      "url": "img/250_shiny.gif",
+      "width": 157,
+      "height": 144
+    }
+  }
+}

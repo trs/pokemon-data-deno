@@ -1,0 +1,55 @@
+{
+  "id": "6-mega-x",
+  "name": "Charizard",
+  "types": [
+    "Fire",
+    "Dragon"
+  ],
+  "number": 6,
+  "stats": {
+    "stamina": 186,
+    "attack": 273,
+    "defence": 213
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "DRAGON_CLAW",
+    "OVERHEAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega X",
+      "code": "mega-x"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/6-mega-x.png",
+      "width": 215,
+      "height": 227
+    },
+    "shiny": {
+      "url": "img/6-mega-x_shiny.png",
+      "width": 215,
+      "height": 227
+    },
+    "normalAnimated": {
+      "url": "img/6-mega-x.gif",
+      "width": 161,
+      "height": 107
+    },
+    "shinyAnimated": {
+      "url": "img/6-mega-x_shiny.gif",
+      "width": 161,
+      "height": 106
+    }
+  }
+}

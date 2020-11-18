@@ -1,0 +1,52 @@
+{
+  "id": "485",
+  "name": "Heatran",
+  "types": [
+    "Fire",
+    "Steel"
+  ],
+  "number": 485,
+  "stats": {
+    "stamina": 209,
+    "attack": 251,
+    "defence": 213
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "IRON_HEAD",
+    "STONE_EDGE",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/485.png",
+      "width": 256,
+      "height": 145
+    },
+    "shiny": {
+      "url": "img/485_shiny.png",
+      "width": 256,
+      "height": 145
+    },
+    "normalAnimated": {
+      "url": "img/485.gif",
+      "width": 124,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/485_shiny.gif",
+      "width": 124,
+      "height": 64
+    }
+  }
+}

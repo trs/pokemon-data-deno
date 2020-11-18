@@ -1,0 +1,52 @@
+{
+  "id": "232",
+  "name": "Donphan",
+  "types": [
+    "Ground"
+  ],
+  "number": 232,
+  "stats": {
+    "stamina": 207,
+    "attack": 214,
+    "defence": 185
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "COUNTER_FAST",
+    "MUD_SLAP_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "HEAVY_SLAM",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/232.png",
+      "width": 214,
+      "height": 137
+    },
+    "shiny": {
+      "url": "img/232_shiny.png",
+      "width": 214,
+      "height": 137
+    },
+    "normalAnimated": {
+      "url": "img/232.gif",
+      "width": 109,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/232_shiny.gif",
+      "width": 109,
+      "height": 67
+    }
+  }
+}

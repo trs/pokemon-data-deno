@@ -1,0 +1,50 @@
+{
+  "id": "511",
+  "name": "Pansage",
+  "types": [
+    "Grass"
+  ],
+  "number": 511,
+  "stats": {
+    "stamina": 137,
+    "attack": 104,
+    "defence": 94
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/511.png",
+      "width": 102,
+      "height": 107
+    },
+    "shiny": {
+      "url": "img/511_shiny.png",
+      "width": 102,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "img/511.gif",
+      "width": 65,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "img/511_shiny.gif",
+      "width": 65,
+      "height": 66
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "286",
+  "name": "Breloom",
+  "types": [
+    "Grass",
+    "Fighting"
+  ],
+  "number": 286,
+  "stats": {
+    "stamina": 155,
+    "attack": 241,
+    "defence": 144
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "DYNAMIC_PUNCH",
+    "SEED_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/286.png",
+      "width": 163,
+      "height": 159
+    },
+    "shiny": {
+      "url": "img/286_shiny.png",
+      "width": 163,
+      "height": 159
+    },
+    "normalAnimated": {
+      "url": "img/286.gif",
+      "width": 66,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/286_shiny.gif",
+      "width": 66,
+      "height": 73
+    }
+  }
+}

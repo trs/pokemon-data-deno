@@ -1,0 +1,51 @@
+{
+  "id": "345",
+  "name": "Lileep",
+  "types": [
+    "Rock",
+    "Grass"
+  ],
+  "number": 345,
+  "stats": {
+    "stamina": 165,
+    "attack": 105,
+    "defence": 150
+  },
+  "quickMoves": [
+    "ACID_FAST",
+    "INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "MIRROR_COAT",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/345.png",
+      "width": 112,
+      "height": 134
+    },
+    "shiny": {
+      "url": "img/345_shiny.png",
+      "width": 112,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "img/345.gif",
+      "width": 74,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/345_shiny.gif",
+      "width": 74,
+      "height": 68
+    }
+  }
+}

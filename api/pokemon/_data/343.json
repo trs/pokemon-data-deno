@@ -1,0 +1,51 @@
+{
+  "id": "343",
+  "name": "Baltoy",
+  "types": [
+    "Ground",
+    "Psychic"
+  ],
+  "number": 343,
+  "stats": {
+    "stamina": 120,
+    "attack": 77,
+    "defence": 124
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "EXTRASENSORY_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "PSYBEAM",
+    "DIG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/343.png",
+      "width": 109,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/343_shiny.png",
+      "width": 109,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/343.gif",
+      "width": 65,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/343_shiny.gif",
+      "width": 65,
+      "height": 60
+    }
+  }
+}

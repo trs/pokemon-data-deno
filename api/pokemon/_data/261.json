@@ -1,0 +1,50 @@
+{
+  "id": "261",
+  "name": "Poochyena",
+  "types": [
+    "Dark"
+  ],
+  "number": 261,
+  "stats": {
+    "stamina": 111,
+    "attack": 96,
+    "defence": 61
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "DIG",
+    "POISON_FANG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/261.png",
+      "width": 99,
+      "height": 90
+    },
+    "shiny": {
+      "url": "img/261_shiny.png",
+      "width": 99,
+      "height": 90
+    },
+    "normalAnimated": {
+      "url": "img/261.gif",
+      "width": 52,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/261_shiny.gif",
+      "width": 52,
+      "height": 54
+    }
+  }
+}

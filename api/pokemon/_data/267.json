@@ -1,0 +1,51 @@
+{
+  "id": "267",
+  "name": "Beautifly",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 267,
+  "stats": {
+    "stamina": 155,
+    "attack": 189,
+    "defence": 98
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "SILVER_WIND",
+    "AIR_CUTTER",
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/267.png",
+      "width": 161,
+      "height": 154
+    },
+    "shiny": {
+      "url": "img/267_shiny.png",
+      "width": 161,
+      "height": 154
+    },
+    "normalAnimated": {
+      "url": "img/267.gif",
+      "width": 81,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "img/267_shiny.gif",
+      "width": 81,
+      "height": 83
+    }
+  }
+}

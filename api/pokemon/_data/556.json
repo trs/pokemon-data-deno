@@ -1,0 +1,50 @@
+{
+  "id": "556",
+  "name": "Maractus",
+  "types": [
+    "Grass"
+  ],
+  "number": 556,
+  "stats": {
+    "stamina": 181,
+    "attack": 201,
+    "defence": 130
+  },
+  "quickMoves": [
+    "BULLET_SEED_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "PETAL_BLIZZARD",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/556.png",
+      "width": 128,
+      "height": 131
+    },
+    "shiny": {
+      "url": "img/556_shiny.png",
+      "width": 128,
+      "height": 131
+    },
+    "normalAnimated": {
+      "url": "img/556.gif",
+      "width": 80,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/556_shiny.gif",
+      "width": 80,
+      "height": 84
+    }
+  }
+}

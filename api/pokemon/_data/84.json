@@ -1,0 +1,51 @@
+{
+  "id": "84",
+  "name": "Doduo",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 84,
+  "stats": {
+    "stamina": 111,
+    "attack": 158,
+    "defence": 83
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DRILL_PECK",
+    "AERIAL_ACE",
+    "BRAVE_BIRD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/84.png",
+      "width": 95,
+      "height": 181
+    },
+    "shiny": {
+      "url": "img/84_shiny.png",
+      "width": 95,
+      "height": 181
+    },
+    "normalAnimated": {
+      "url": "img/84.gif",
+      "width": 42,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "img/84_shiny.gif",
+      "width": 42,
+      "height": 70
+    }
+  }
+}

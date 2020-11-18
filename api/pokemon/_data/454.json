@@ -1,0 +1,51 @@
+{
+  "id": "454",
+  "name": "Toxicroak",
+  "types": [
+    "Poison",
+    "Fighting"
+  ],
+  "number": 454,
+  "stats": {
+    "stamina": 195,
+    "attack": 211,
+    "defence": 133
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "DYNAMIC_PUNCH",
+    "MUD_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/454.png",
+      "width": 231,
+      "height": 178
+    },
+    "shiny": {
+      "url": "img/454_shiny.png",
+      "width": 231,
+      "height": 178
+    },
+    "normalAnimated": {
+      "url": "img/454.gif",
+      "width": 92,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "img/454_shiny.gif",
+      "width": 92,
+      "height": 81
+    }
+  }
+}

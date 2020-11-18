@@ -1,0 +1,50 @@
+{
+  "id": "515",
+  "name": "Panpour",
+  "types": [
+    "Water"
+  ],
+  "number": 515,
+  "stats": {
+    "stamina": 137,
+    "attack": 104,
+    "defence": 94
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "WATER_PULSE",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/515.png",
+      "width": 93,
+      "height": 109
+    },
+    "shiny": {
+      "url": "img/515_shiny.png",
+      "width": 93,
+      "height": 109
+    },
+    "normalAnimated": {
+      "url": "img/515.gif",
+      "width": 59,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/515_shiny.gif",
+      "width": 59,
+      "height": 64
+    }
+  }
+}

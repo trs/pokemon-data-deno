@@ -1,0 +1,51 @@
+{
+  "id": "247",
+  "name": "Pupitar",
+  "types": [
+    "Rock",
+    "Ground"
+  ],
+  "number": 247,
+  "stats": {
+    "stamina": 172,
+    "attack": 155,
+    "defence": 133
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "CRUNCH",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/247.png",
+      "width": 114,
+      "height": 133
+    },
+    "shiny": {
+      "url": "img/247_shiny.png",
+      "width": 114,
+      "height": 133
+    },
+    "normalAnimated": {
+      "url": "img/247.gif",
+      "width": 55,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/247_shiny.gif",
+      "width": 55,
+      "height": 68
+    }
+  }
+}

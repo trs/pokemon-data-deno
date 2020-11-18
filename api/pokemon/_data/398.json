@@ -1,0 +1,51 @@
+{
+  "id": "398",
+  "name": "Staraptor",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 398,
+  "stats": {
+    "stamina": 198,
+    "attack": 234,
+    "defence": 140
+  },
+  "quickMoves": [
+    "WING_ATTACK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "BRAVE_BIRD",
+    "HEAT_WAVE",
+    "CLOSE_COMBAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/398.png",
+      "width": 241,
+      "height": 241
+    },
+    "shiny": {
+      "url": "img/398_shiny.png",
+      "width": 241,
+      "height": 241
+    },
+    "normalAnimated": {
+      "url": "img/398.gif",
+      "width": 193,
+      "height": 176
+    },
+    "shinyAnimated": {
+      "url": "img/398_shiny.gif",
+      "width": 193,
+      "height": 176
+    }
+  }
+}

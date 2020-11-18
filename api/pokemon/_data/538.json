@@ -1,0 +1,50 @@
+{
+  "id": "538",
+  "name": "Throh",
+  "types": [
+    "Fighting"
+  ],
+  "number": 538,
+  "stats": {
+    "stamina": 260,
+    "attack": 172,
+    "defence": 160
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "FOCUS_BLAST",
+    "LOW_SWEEP",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/538.png",
+      "width": 250,
+      "height": 189
+    },
+    "shiny": {
+      "url": "img/538_shiny.png",
+      "width": 250,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "img/538.gif",
+      "width": 109,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/538_shiny.gif",
+      "width": 109,
+      "height": 88
+    }
+  }
+}

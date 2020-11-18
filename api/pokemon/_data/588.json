@@ -1,0 +1,51 @@
+{
+  "id": "588",
+  "name": "Karrablast",
+  "types": [
+    "Bug"
+  ],
+  "number": 588,
+  "stats": {
+    "stamina": 137,
+    "attack": 137,
+    "defence": 87
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "SIGNAL_BEAM",
+    "X_SCISSOR",
+    "DRILL_RUN",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/588.png",
+      "width": 68,
+      "height": 106
+    },
+    "shiny": {
+      "url": "img/588_shiny.png",
+      "width": 68,
+      "height": 106
+    },
+    "normalAnimated": {
+      "url": "img/588.gif",
+      "width": 44,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/588_shiny.gif",
+      "width": 44,
+      "height": 67
+    }
+  }
+}

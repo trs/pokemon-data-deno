@@ -1,0 +1,49 @@
+{
+  "id": "197",
+  "name": "Umbreon",
+  "types": [
+    "Dark"
+  ],
+  "number": 197,
+  "stats": {
+    "stamina": 216,
+    "attack": 126,
+    "defence": 240
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/197.png",
+      "width": 104,
+      "height": 151
+    },
+    "shiny": {
+      "url": "img/197_shiny.png",
+      "width": 104,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "img/197.gif",
+      "width": 48,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/197_shiny.gif",
+      "width": 48,
+      "height": 77
+    }
+  }
+}

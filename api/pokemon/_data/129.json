@@ -1,0 +1,47 @@
+{
+  "id": "129",
+  "name": "Magikarp",
+  "types": [
+    "Water"
+  ],
+  "number": 129,
+  "stats": {
+    "stamina": 85,
+    "attack": 29,
+    "defence": 85
+  },
+  "quickMoves": [
+    "SPLASH_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/129.png",
+      "width": 126,
+      "height": 97
+    },
+    "shiny": {
+      "url": "img/129_shiny.png",
+      "width": 126,
+      "height": 97
+    },
+    "normalAnimated": {
+      "url": "img/129.gif",
+      "width": 58,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/129_shiny.gif",
+      "width": 58,
+      "height": 60
+    }
+  }
+}

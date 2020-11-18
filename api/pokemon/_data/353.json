@@ -1,0 +1,50 @@
+{
+  "id": "353",
+  "name": "Shuppet",
+  "types": [
+    "Ghost"
+  ],
+  "number": 353,
+  "stats": {
+    "stamina": 127,
+    "attack": 138,
+    "defence": 65
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "NIGHT_SHADE",
+    "SHADOW_SNEAK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/353.png",
+      "width": 69,
+      "height": 104
+    },
+    "shiny": {
+      "url": "img/353_shiny.png",
+      "width": 69,
+      "height": 104
+    },
+    "normalAnimated": {
+      "url": "img/353.gif",
+      "width": 37,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "img/353_shiny.gif",
+      "width": 37,
+      "height": 63
+    }
+  }
+}

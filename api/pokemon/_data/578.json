@@ -1,0 +1,50 @@
+{
+  "id": "578",
+  "name": "Duosion",
+  "types": [
+    "Psychic"
+  ],
+  "number": 578,
+  "stats": {
+    "stamina": 163,
+    "attack": 208,
+    "defence": 103
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "NIGHT_SHADE",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/578.png",
+      "width": 89,
+      "height": 104
+    },
+    "shiny": {
+      "url": "img/578_shiny.png",
+      "width": 89,
+      "height": 104
+    },
+    "normalAnimated": {
+      "url": "img/578.gif",
+      "width": 52,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/578_shiny.gif",
+      "width": 52,
+      "height": 64
+    }
+  }
+}

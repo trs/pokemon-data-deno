@@ -1,0 +1,51 @@
+{
+  "id": "543",
+  "name": "Venipede",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "number": 543,
+  "stats": {
+    "stamina": 102,
+    "attack": 83,
+    "defence": 99
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "SIGNAL_BEAM",
+    "SLUDGE_BOMB",
+    "GYRO_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/543.png",
+      "width": 92,
+      "height": 73
+    },
+    "shiny": {
+      "url": "img/543_shiny.png",
+      "width": 92,
+      "height": 73
+    },
+    "normalAnimated": {
+      "url": "img/543.gif",
+      "width": 63,
+      "height": 44
+    },
+    "shinyAnimated": {
+      "url": "img/543_shiny.gif",
+      "width": 63,
+      "height": 44
+    }
+  }
+}

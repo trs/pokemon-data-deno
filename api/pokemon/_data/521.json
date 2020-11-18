@@ -1,0 +1,51 @@
+{
+  "id": "521",
+  "name": "Unfezant",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 521,
+  "stats": {
+    "stamina": 190,
+    "attack": 226,
+    "defence": 146
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "HEAT_WAVE",
+    "HYPER_BEAM",
+    "SKY_ATTACK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/521.png",
+      "width": 222,
+      "height": 185
+    },
+    "shiny": {
+      "url": "img/521_shiny.png",
+      "width": 222,
+      "height": 185
+    },
+    "normalAnimated": {
+      "url": "img/521.gif",
+      "width": 156,
+      "height": 142
+    },
+    "shinyAnimated": {
+      "url": "img/521_shiny.gif",
+      "width": 156,
+      "height": 142
+    }
+  }
+}

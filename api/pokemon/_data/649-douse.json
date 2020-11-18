@@ -1,0 +1,51 @@
+{
+  "id": "649-douse",
+  "name": "Genesect",
+  "types": [
+    "Bug",
+    "Steel"
+  ],
+  "number": 649,
+  "stats": {
+    "stamina": 174,
+    "attack": 252,
+    "defence": 199
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "X_SCISSOR",
+    "MAGNET_BOMB",
+    "GUNK_SHOT"
+  ],
+  "forms": [
+    {
+      "name": "Douse",
+      "code": "douse"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/649-douse.png",
+      "width": 168,
+      "height": 213
+    },
+    "shiny": {
+      "url": "img/649-douse_shiny.png",
+      "width": 168,
+      "height": 213
+    },
+    "normalAnimated": {
+      "url": "img/649-douse.gif",
+      "width": 70,
+      "height": 92
+    },
+    "shinyAnimated": {
+      "url": "img/649-douse_shiny.gif",
+      "width": 70,
+      "height": 92
+    }
+  }
+}

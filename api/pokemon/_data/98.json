@@ -1,0 +1,50 @@
+{
+  "id": "98",
+  "name": "Krabby",
+  "types": [
+    "Water"
+  ],
+  "number": 98,
+  "stats": {
+    "stamina": 102,
+    "attack": 181,
+    "defence": 124
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "BUBBLE_BEAM",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/98.png",
+      "width": 139,
+      "height": 99
+    },
+    "shiny": {
+      "url": "img/98_shiny.png",
+      "width": 139,
+      "height": 99
+    },
+    "normalAnimated": {
+      "url": "img/98.gif",
+      "width": 64,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/98_shiny.gif",
+      "width": 64,
+      "height": 50
+    }
+  }
+}

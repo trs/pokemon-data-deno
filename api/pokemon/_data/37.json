@@ -1,0 +1,50 @@
+{
+  "id": "37",
+  "name": "Vulpix",
+  "types": [
+    "Fire"
+  ],
+  "number": 37,
+  "stats": {
+    "stamina": 116,
+    "attack": 96,
+    "defence": 109
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "BODY_SLAM",
+    "FLAMETHROWER",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/37.png",
+      "width": 91,
+      "height": 87
+    },
+    "shiny": {
+      "url": "img/37_shiny.png",
+      "width": 91,
+      "height": 87
+    },
+    "normalAnimated": {
+      "url": "img/37.gif",
+      "width": 52,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "img/37_shiny.gif",
+      "width": 52,
+      "height": 47
+    }
+  }
+}

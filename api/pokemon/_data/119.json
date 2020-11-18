@@ -1,0 +1,50 @@
+{
+  "id": "119",
+  "name": "Seaking",
+  "types": [
+    "Water"
+  ],
+  "number": 119,
+  "stats": {
+    "stamina": 190,
+    "attack": 175,
+    "defence": 147
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "WATERFALL_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_BEAM",
+    "WATER_PULSE",
+    "MEGAHORN"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/119.png",
+      "width": 160,
+      "height": 122
+    },
+    "shiny": {
+      "url": "img/119_shiny.png",
+      "width": 160,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "img/119.gif",
+      "width": 85,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/119_shiny.gif",
+      "width": 85,
+      "height": 69
+    }
+  }
+}

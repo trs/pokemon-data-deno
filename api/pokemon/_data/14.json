@@ -1,0 +1,49 @@
+{
+  "id": "14",
+  "name": "Kakuna",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "number": 14,
+  "stats": {
+    "stamina": 128,
+    "attack": 46,
+    "defence": 75
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/14.png",
+      "width": 48,
+      "height": 87
+    },
+    "shiny": {
+      "url": "img/14_shiny.png",
+      "width": 48,
+      "height": 87
+    },
+    "normalAnimated": {
+      "url": "img/14.gif",
+      "width": 36,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/14_shiny.gif",
+      "width": 36,
+      "height": 58
+    }
+  }
+}

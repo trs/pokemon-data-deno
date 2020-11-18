@@ -1,0 +1,53 @@
+{
+  "id": "26-alola",
+  "name": "Raichu",
+  "types": [
+    "Electric",
+    "Psychic"
+  ],
+  "number": 26,
+  "stats": {
+    "stamina": 155,
+    "attack": 201,
+    "defence": 154
+  },
+  "quickMoves": [
+    "VOLT_SWITCH_FAST",
+    "SPARK_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "THUNDER_PUNCH",
+    "WILD_CHARGE",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/26-alola.png",
+      "width": 164,
+      "height": 149
+    },
+    "shiny": {
+      "url": "img/26-alola_shiny.png",
+      "width": 164,
+      "height": 149
+    },
+    "normalAnimated": {
+      "url": "img/26-alola.gif",
+      "width": 92,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "img/26-alola_shiny.gif",
+      "width": 92,
+      "height": 93
+    }
+  }
+}

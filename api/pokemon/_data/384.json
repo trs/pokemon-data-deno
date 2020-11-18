@@ -1,0 +1,51 @@
+{
+  "id": "384",
+  "name": "Rayquaza",
+  "types": [
+    "Dragon",
+    "Flying"
+  ],
+  "number": 384,
+  "stats": {
+    "stamina": 213,
+    "attack": 284,
+    "defence": 170
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "OUTRAGE",
+    "AERIAL_ACE",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/384.png",
+      "width": 219,
+      "height": 224
+    },
+    "shiny": {
+      "url": "img/384_shiny.png",
+      "width": 219,
+      "height": 224
+    },
+    "normalAnimated": {
+      "url": "img/384.gif",
+      "width": 142,
+      "height": 153
+    },
+    "shinyAnimated": {
+      "url": "img/384_shiny.gif",
+      "width": 142,
+      "height": 153
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "386-speed",
+  "name": "Deoxys",
+  "types": [
+    "Psychic"
+  ],
+  "number": 386,
+  "stats": {
+    "stamina": 137,
+    "attack": 230,
+    "defence": 218
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHO_BOOST",
+    "THUNDERBOLT",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Speed",
+      "code": "speed"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/386-speed.png",
+      "width": 181,
+      "height": 218
+    },
+    "shiny": {
+      "url": "img/386-speed_shiny.png",
+      "width": 181,
+      "height": 218
+    },
+    "normalAnimated": {
+      "url": "img/386-speed.gif",
+      "width": 87,
+      "height": 94
+    },
+    "shinyAnimated": {
+      "url": "img/386-speed_shiny.gif",
+      "width": 87,
+      "height": 94
+    }
+  }
+}

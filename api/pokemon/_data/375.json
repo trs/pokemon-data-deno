@@ -1,0 +1,51 @@
+{
+  "id": "375",
+  "name": "Metang",
+  "types": [
+    "Steel",
+    "Psychic"
+  ],
+  "number": 375,
+  "stats": {
+    "stamina": 155,
+    "attack": 138,
+    "defence": 176
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "GYRO_BALL",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/375.png",
+      "width": 221,
+      "height": 152
+    },
+    "shiny": {
+      "url": "img/375_shiny.png",
+      "width": 221,
+      "height": 152
+    },
+    "normalAnimated": {
+      "url": "img/375.gif",
+      "width": 105,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/375_shiny.gif",
+      "width": 105,
+      "height": 69
+    }
+  }
+}

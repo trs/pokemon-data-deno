@@ -1,0 +1,50 @@
+{
+  "id": "455",
+  "name": "Carnivine",
+  "types": [
+    "Grass"
+  ],
+  "number": 455,
+  "stats": {
+    "stamina": 179,
+    "attack": 187,
+    "defence": 136
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "POWER_WHIP",
+    "ENERGY_BALL",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/455.png",
+      "width": 251,
+      "height": 198
+    },
+    "shiny": {
+      "url": "img/455_shiny.png",
+      "width": 251,
+      "height": 198
+    },
+    "normalAnimated": {
+      "url": "img/455.gif",
+      "width": 119,
+      "height": 91
+    },
+    "shinyAnimated": {
+      "url": "img/455_shiny.gif",
+      "width": 119,
+      "height": 91
+    }
+  }
+}

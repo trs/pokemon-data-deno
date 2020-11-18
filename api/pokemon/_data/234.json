@@ -1,0 +1,50 @@
+{
+  "id": "234",
+  "name": "Stantler",
+  "types": [
+    "Normal"
+  ],
+  "number": 234,
+  "stats": {
+    "stamina": 177,
+    "attack": 192,
+    "defence": 131
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "STOMP",
+    "WILD_CHARGE",
+    "MEGAHORN"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/234.png",
+      "width": 108,
+      "height": 196
+    },
+    "shiny": {
+      "url": "img/234_shiny.png",
+      "width": 108,
+      "height": 196
+    },
+    "normalAnimated": {
+      "url": "img/234.gif",
+      "width": 49,
+      "height": 92
+    },
+    "shinyAnimated": {
+      "url": "img/234_shiny.gif",
+      "width": 49,
+      "height": 92
+    }
+  }
+}

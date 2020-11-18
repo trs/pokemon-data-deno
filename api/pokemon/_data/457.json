@@ -1,0 +1,50 @@
+{
+  "id": "457",
+  "name": "Lumineon",
+  "types": [
+    "Water"
+  ],
+  "number": 457,
+  "stats": {
+    "stamina": 170,
+    "attack": 142,
+    "defence": 170
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "BLIZZARD",
+    "SILVER_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/457.png",
+      "width": 216,
+      "height": 151
+    },
+    "shiny": {
+      "url": "img/457_shiny.png",
+      "width": 216,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "img/457.gif",
+      "width": 85,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/457_shiny.gif",
+      "width": 85,
+      "height": 84
+    }
+  }
+}

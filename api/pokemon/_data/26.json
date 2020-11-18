@@ -1,0 +1,53 @@
+{
+  "id": "26",
+  "name": "Raichu",
+  "types": [
+    "Electric"
+  ],
+  "number": 26,
+  "stats": {
+    "stamina": 155,
+    "attack": 193,
+    "defence": 151
+  },
+  "quickMoves": [
+    "VOLT_SWITCH_FAST",
+    "SPARK_FAST",
+    "CHARM_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "THUNDER_PUNCH",
+    "WILD_CHARGE",
+    "SKULL_BASH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/26.png",
+      "width": 129,
+      "height": 218
+    },
+    "shiny": {
+      "url": "img/26_shiny.png",
+      "width": 129,
+      "height": 218
+    },
+    "normalAnimated": {
+      "url": "img/26.gif",
+      "width": 69,
+      "height": 103
+    },
+    "shinyAnimated": {
+      "url": "img/26_shiny.gif",
+      "width": 69,
+      "height": 103
+    }
+  }
+}

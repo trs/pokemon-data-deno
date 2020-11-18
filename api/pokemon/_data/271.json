@@ -1,0 +1,51 @@
+{
+  "id": "271",
+  "name": "Lombre",
+  "types": [
+    "Water",
+    "Grass"
+  ],
+  "number": 271,
+  "stats": {
+    "stamina": 155,
+    "attack": 112,
+    "defence": 119
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "ICE_BEAM",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/271.png",
+      "width": 132,
+      "height": 136
+    },
+    "shiny": {
+      "url": "img/271_shiny.png",
+      "width": 132,
+      "height": 136
+    },
+    "normalAnimated": {
+      "url": "img/271.gif",
+      "width": 62,
+      "height": 62
+    },
+    "shinyAnimated": {
+      "url": "img/271_shiny.gif",
+      "width": 62,
+      "height": 62
+    }
+  }
+}

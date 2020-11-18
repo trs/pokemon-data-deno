@@ -1,0 +1,51 @@
+{
+  "id": "305",
+  "name": "Lairon",
+  "types": [
+    "Steel",
+    "Rock"
+  ],
+  "number": 305,
+  "stats": {
+    "stamina": 155,
+    "attack": 158,
+    "defence": 198
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "BODY_SLAM",
+    "ROCK_SLIDE",
+    "HEAVY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/305.png",
+      "width": 175,
+      "height": 134
+    },
+    "shiny": {
+      "url": "img/305_shiny.png",
+      "width": 175,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "img/305.gif",
+      "width": 74,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/305_shiny.gif",
+      "width": 74,
+      "height": 58
+    }
+  }
+}

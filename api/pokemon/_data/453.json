@@ -1,0 +1,51 @@
+{
+  "id": "453",
+  "name": "Croagunk",
+  "types": [
+    "Poison",
+    "Fighting"
+  ],
+  "number": 453,
+  "stats": {
+    "stamina": 134,
+    "attack": 116,
+    "defence": 76
+  },
+  "quickMoves": [
+    "POISON_STING_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "LOW_SWEEP",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/453.png",
+      "width": 89,
+      "height": 76
+    },
+    "shiny": {
+      "url": "img/453_shiny.png",
+      "width": 89,
+      "height": 76
+    },
+    "normalAnimated": {
+      "url": "img/453.gif",
+      "width": 60,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "img/453_shiny.gif",
+      "width": 60,
+      "height": 52
+    }
+  }
+}

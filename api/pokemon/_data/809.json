@@ -1,0 +1,51 @@
+{
+  "id": "809",
+  "name": "Melmetal",
+  "types": [
+    "Steel"
+  ],
+  "number": 809,
+  "stats": {
+    "stamina": 264,
+    "attack": 226,
+    "defence": 190
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "FLASH_CANNON",
+    "THUNDERBOLT",
+    "HYPER_BEAM",
+    "ROCK_SLIDE",
+    "SUPER_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/809.png",
+      "width": 256,
+      "height": 162
+    },
+    "shiny": {
+      "url": "img/809_shiny.png",
+      "width": 256,
+      "height": 162
+    },
+    "normalAnimated": {
+      "url": "img/809.gif",
+      "width": 137,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "img/809_shiny.gif",
+      "width": 137,
+      "height": 80
+    }
+  }
+}

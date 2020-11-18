@@ -1,0 +1,52 @@
+{
+  "id": "171",
+  "name": "Lanturn",
+  "types": [
+    "Water",
+    "Electric"
+  ],
+  "number": 171,
+  "stats": {
+    "stamina": 268,
+    "attack": 146,
+    "defence": 137
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "CHARGE_BEAM_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/171.png",
+      "width": 138,
+      "height": 121
+    },
+    "shiny": {
+      "url": "img/171_shiny.png",
+      "width": 138,
+      "height": 121
+    },
+    "normalAnimated": {
+      "url": "img/171.gif",
+      "width": 85,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/171_shiny.gif",
+      "width": 85,
+      "height": 84
+    }
+  }
+}

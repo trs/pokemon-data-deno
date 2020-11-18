@@ -1,0 +1,48 @@
+{
+  "id": "360",
+  "name": "Wynaut",
+  "types": [
+    "Psychic"
+  ],
+  "number": 360,
+  "stats": {
+    "stamina": 216,
+    "attack": 41,
+    "defence": 86
+  },
+  "quickMoves": [
+    "SPLASH_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "MIRROR_COAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/360.png",
+      "width": 126,
+      "height": 94
+    },
+    "shiny": {
+      "url": "img/360_shiny.png",
+      "width": 126,
+      "height": 94
+    },
+    "normalAnimated": {
+      "url": "img/360.gif",
+      "width": 76,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "img/360_shiny.gif",
+      "width": 76,
+      "height": 53
+    }
+  }
+}

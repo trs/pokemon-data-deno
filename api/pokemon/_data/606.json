@@ -1,0 +1,50 @@
+{
+  "id": "606",
+  "name": "Beheeyem",
+  "types": [
+    "Psychic"
+  ],
+  "number": 606,
+  "stats": {
+    "stamina": 181,
+    "attack": 221,
+    "defence": 163
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/606.png",
+      "width": 91,
+      "height": 146
+    },
+    "shiny": {
+      "url": "img/606_shiny.png",
+      "width": 91,
+      "height": 146
+    },
+    "normalAnimated": {
+      "url": "img/606.gif",
+      "width": 49,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/606_shiny.gif",
+      "width": 49,
+      "height": 84
+    }
+  }
+}

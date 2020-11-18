@@ -1,0 +1,50 @@
+{
+  "id": "196",
+  "name": "Espeon",
+  "types": [
+    "Psychic"
+  ],
+  "number": 196,
+  "stats": {
+    "stamina": 163,
+    "attack": 261,
+    "defence": 175
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "FUTURESIGHT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/196.png",
+      "width": 93,
+      "height": 133
+    },
+    "shiny": {
+      "url": "img/196_shiny.png",
+      "width": 93,
+      "height": 133
+    },
+    "normalAnimated": {
+      "url": "img/196.gif",
+      "width": 60,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/196_shiny.gif",
+      "width": 60,
+      "height": 77
+    }
+  }
+}

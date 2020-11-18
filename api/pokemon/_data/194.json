@@ -1,0 +1,51 @@
+{
+  "id": "194",
+  "name": "Wooper",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 194,
+  "stats": {
+    "stamina": 146,
+    "attack": 75,
+    "defence": 66
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "MUD_BOMB",
+    "DIG",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/194.png",
+      "width": 84,
+      "height": 70
+    },
+    "shiny": {
+      "url": "img/194_shiny.png",
+      "width": 84,
+      "height": 70
+    },
+    "normalAnimated": {
+      "url": "img/194.gif",
+      "width": 59,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "img/194_shiny.gif",
+      "width": 59,
+      "height": 47
+    }
+  }
+}

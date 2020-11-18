@@ -1,0 +1,51 @@
+{
+  "id": "112",
+  "name": "Rhydon",
+  "types": [
+    "Ground",
+    "Rock"
+  ],
+  "number": 112,
+  "stats": {
+    "stamina": 233,
+    "attack": 222,
+    "defence": 171
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "EARTHQUAKE",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/112.png",
+      "width": 207,
+      "height": 203
+    },
+    "shiny": {
+      "url": "img/112_shiny.png",
+      "width": 207,
+      "height": 203
+    },
+    "normalAnimated": {
+      "url": "img/112.gif",
+      "width": 96,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "img/112_shiny.gif",
+      "width": 96,
+      "height": 82
+    }
+  }
+}

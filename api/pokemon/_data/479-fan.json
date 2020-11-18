@@ -1,0 +1,51 @@
+{
+  "id": "479-fan",
+  "name": "Rotom",
+  "types": [
+    "Electric",
+    "Flying"
+  ],
+  "number": 479,
+  "stats": {
+    "stamina": 137,
+    "attack": 204,
+    "defence": 219
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Fan",
+      "code": "fan"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/479-fan.png",
+      "width": 153,
+      "height": 97
+    },
+    "shiny": {
+      "url": "img/479-fan_shiny.png",
+      "width": 153,
+      "height": 97
+    },
+    "normalAnimated": {
+      "url": "img/479-fan.gif",
+      "width": 112,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/479-fan_shiny.gif",
+      "width": 112,
+      "height": 74
+    }
+  }
+}

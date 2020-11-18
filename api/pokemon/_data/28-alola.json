@@ -1,0 +1,52 @@
+{
+  "id": "28-alola",
+  "name": "Sandslash",
+  "types": [
+    "Ice",
+    "Steel"
+  ],
+  "number": 28,
+  "stats": {
+    "stamina": 181,
+    "attack": 177,
+    "defence": 195
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "POWDER_SNOW_FAST"
+  ],
+  "chargeMoves": [
+    "BLIZZARD",
+    "GYRO_BALL",
+    "BULLDOZE",
+    "ICE_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/28-alola.png",
+      "width": 160,
+      "height": 179
+    },
+    "shiny": {
+      "url": "img/28-alola_shiny.png",
+      "width": 160,
+      "height": 179
+    },
+    "normalAnimated": {
+      "url": "img/28-alola.gif",
+      "width": 74,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/28-alola_shiny.gif",
+      "width": 74,
+      "height": 84
+    }
+  }
+}

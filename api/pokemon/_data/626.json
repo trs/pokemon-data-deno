@@ -1,0 +1,51 @@
+{
+  "id": "626",
+  "name": "Bouffalant",
+  "types": [
+    "Normal"
+  ],
+  "number": 626,
+  "stats": {
+    "stamina": 216,
+    "attack": 195,
+    "defence": 182
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "STOMP",
+    "SKULL_BASH",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/626.png",
+      "width": 237,
+      "height": 175
+    },
+    "shiny": {
+      "url": "img/626_shiny.png",
+      "width": 237,
+      "height": 175
+    },
+    "normalAnimated": {
+      "url": "img/626.gif",
+      "width": 111,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/626_shiny.gif",
+      "width": 111,
+      "height": 87
+    }
+  }
+}

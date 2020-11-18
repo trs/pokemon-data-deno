@@ -1,0 +1,50 @@
+{
+  "id": "108",
+  "name": "Lickitung",
+  "types": [
+    "Normal"
+  ],
+  "number": 108,
+  "stats": {
+    "stamina": 207,
+    "attack": 108,
+    "defence": 137
+  },
+  "quickMoves": [
+    "LICK_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_BEAM",
+    "STOMP",
+    "POWER_WHIP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/108.png",
+      "width": 162,
+      "height": 152
+    },
+    "shiny": {
+      "url": "img/108_shiny.png",
+      "width": 162,
+      "height": 152
+    },
+    "normalAnimated": {
+      "url": "img/108.gif",
+      "width": 58,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/108_shiny.gif",
+      "width": 58,
+      "height": 59
+    }
+  }
+}

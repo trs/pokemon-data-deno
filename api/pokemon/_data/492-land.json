@@ -1,0 +1,50 @@
+{
+  "id": "492-land",
+  "name": "Shaymin",
+  "types": [
+    "Grass"
+  ],
+  "number": 492,
+  "stats": {
+    "stamina": 225,
+    "attack": 210,
+    "defence": 210
+  },
+  "quickMoves": [
+    "HIDDEN_POWER_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Land",
+      "code": "land"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/492-land.png",
+      "width": 66,
+      "height": 61
+    },
+    "shiny": {
+      "url": "img/492-land_shiny.png",
+      "width": 66,
+      "height": 61
+    },
+    "normalAnimated": {
+      "url": "img/492-land.gif",
+      "width": 48,
+      "height": 43
+    },
+    "shinyAnimated": {
+      "url": "img/492-land_shiny.gif",
+      "width": 48,
+      "height": 43
+    }
+  }
+}

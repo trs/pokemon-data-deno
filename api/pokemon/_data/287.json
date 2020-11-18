@@ -1,0 +1,49 @@
+{
+  "id": "287",
+  "name": "Slakoth",
+  "types": [
+    "Normal"
+  ],
+  "number": 287,
+  "stats": {
+    "stamina": 155,
+    "attack": 104,
+    "defence": 92
+  },
+  "quickMoves": [
+    "YAWN_FAST"
+  ],
+  "chargeMoves": [
+    "BODY_SLAM",
+    "NIGHT_SLASH",
+    "BRICK_BREAK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/287.png",
+      "width": 180,
+      "height": 76
+    },
+    "shiny": {
+      "url": "img/287_shiny.png",
+      "width": 180,
+      "height": 76
+    },
+    "normalAnimated": {
+      "url": "img/287.gif",
+      "width": 92,
+      "height": 31
+    },
+    "shinyAnimated": {
+      "url": "img/287_shiny.gif",
+      "width": 92,
+      "height": 31
+    }
+  }
+}

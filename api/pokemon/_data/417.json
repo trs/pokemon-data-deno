@@ -1,0 +1,50 @@
+{
+  "id": "417",
+  "name": "Pachirisu",
+  "types": [
+    "Electric"
+  ],
+  "number": 417,
+  "stats": {
+    "stamina": 155,
+    "attack": 94,
+    "defence": 172
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDER",
+    "THUNDERBOLT",
+    "THUNDER_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/417.png",
+      "width": 97,
+      "height": 103
+    },
+    "shiny": {
+      "url": "img/417_shiny.png",
+      "width": 97,
+      "height": 103
+    },
+    "normalAnimated": {
+      "url": "img/417.gif",
+      "width": 57,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "img/417_shiny.gif",
+      "width": 57,
+      "height": 75
+    }
+  }
+}

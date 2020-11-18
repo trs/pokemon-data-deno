@@ -1,0 +1,47 @@
+{
+  "id": "132",
+  "name": "Ditto",
+  "types": [
+    "Normal"
+  ],
+  "number": 132,
+  "stats": {
+    "stamina": 134,
+    "attack": 91,
+    "defence": 91
+  },
+  "quickMoves": [
+    "TRANSFORM_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/132.png",
+      "width": 86,
+      "height": 72
+    },
+    "shiny": {
+      "url": "img/132_shiny.png",
+      "width": 86,
+      "height": 72
+    },
+    "normalAnimated": {
+      "url": "img/132.gif",
+      "width": 43,
+      "height": 35
+    },
+    "shinyAnimated": {
+      "url": "img/132_shiny.gif",
+      "width": 43,
+      "height": 35
+    }
+  }
+}

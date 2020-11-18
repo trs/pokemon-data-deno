@@ -1,0 +1,50 @@
+{
+  "id": "137",
+  "name": "Porygon",
+  "types": [
+    "Normal"
+  ],
+  "number": 137,
+  "stats": {
+    "stamina": 163,
+    "attack": 153,
+    "defence": 136
+  },
+  "quickMoves": [
+    "CHARGE_BEAM_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "SOLAR_BEAM",
+    "HYPER_BEAM",
+    "ZAP_CANNON"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/137.png",
+      "width": 121,
+      "height": 117
+    },
+    "shiny": {
+      "url": "img/137_shiny.png",
+      "width": 121,
+      "height": 117
+    },
+    "normalAnimated": {
+      "url": "img/137.gif",
+      "width": 47,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "img/137_shiny.gif",
+      "width": 47,
+      "height": 53
+    }
+  }
+}

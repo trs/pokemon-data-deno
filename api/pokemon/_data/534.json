@@ -1,0 +1,50 @@
+{
+  "id": "534",
+  "name": "Conkeldurr",
+  "types": [
+    "Fighting"
+  ],
+  "number": 534,
+  "stats": {
+    "stamina": 233,
+    "attack": 243,
+    "defence": 158
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "DYNAMIC_PUNCH",
+    "FOCUS_BLAST",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/534.png",
+      "width": 228,
+      "height": 164
+    },
+    "shiny": {
+      "url": "img/534_shiny.png",
+      "width": 228,
+      "height": 164
+    },
+    "normalAnimated": {
+      "url": "img/534.gif",
+      "width": 123,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "img/534_shiny.gif",
+      "width": 123,
+      "height": 89
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "154",
+  "name": "Meganium",
+  "types": [
+    "Grass"
+  ],
+  "number": 154,
+  "stats": {
+    "stamina": 190,
+    "attack": 168,
+    "defence": 202
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "PETAL_BLIZZARD",
+    "SOLAR_BEAM",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/154.png",
+      "width": 141,
+      "height": 198
+    },
+    "shiny": {
+      "url": "img/154_shiny.png",
+      "width": 141,
+      "height": 198
+    },
+    "normalAnimated": {
+      "url": "img/154.gif",
+      "width": 64,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "img/154_shiny.gif",
+      "width": 64,
+      "height": 93
+    }
+  }
+}

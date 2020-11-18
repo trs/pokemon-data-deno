@@ -1,0 +1,50 @@
+{
+  "id": "316",
+  "name": "Gulpin",
+  "types": [
+    "Poison"
+  ],
+  "number": 316,
+  "stats": {
+    "stamina": 172,
+    "attack": 80,
+    "defence": 99
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE",
+    "GUNK_SHOT",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/316.png",
+      "width": 113,
+      "height": 108
+    },
+    "shiny": {
+      "url": "img/316_shiny.png",
+      "width": 113,
+      "height": 108
+    },
+    "normalAnimated": {
+      "url": "img/316.gif",
+      "width": 64,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "img/316_shiny.gif",
+      "width": 64,
+      "height": 52
+    }
+  }
+}

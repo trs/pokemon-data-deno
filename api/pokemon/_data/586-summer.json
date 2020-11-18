@@ -1,0 +1,52 @@
+{
+  "id": "586-summer",
+  "name": "Sawsbuck",
+  "types": [
+    "Normal",
+    "Grass"
+  ],
+  "number": 586,
+  "stats": {
+    "stamina": 190,
+    "attack": 198,
+    "defence": 146
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "MEGAHORN",
+    "SOLAR_BEAM",
+    "WILD_CHARGE",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Summer",
+      "code": "summer"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/586-summer.png",
+      "width": 155,
+      "height": 246
+    },
+    "shiny": {
+      "url": "img/586-summer_shiny.png",
+      "width": 155,
+      "height": 246
+    },
+    "normalAnimated": {
+      "url": "img/586-summer.gif",
+      "width": 75,
+      "height": 110
+    },
+    "shinyAnimated": {
+      "url": "img/586-summer_shiny.gif",
+      "width": 75,
+      "height": 110
+    }
+  }
+}

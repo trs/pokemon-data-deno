@@ -1,0 +1,53 @@
+{
+  "id": "448",
+  "name": "Lucario",
+  "types": [
+    "Fighting",
+    "Steel"
+  ],
+  "number": 448,
+  "stats": {
+    "stamina": 172,
+    "attack": 236,
+    "defence": 144
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "BULLET_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "FLASH_CANNON",
+    "SHADOW_BALL",
+    "CLOSE_COMBAT",
+    "POWER_UP_PUNCH",
+    "AURA_SPHERE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/448.png",
+      "width": 113,
+      "height": 189
+    },
+    "shiny": {
+      "url": "img/448_shiny.png",
+      "width": 113,
+      "height": 189
+    },
+    "normalAnimated": {
+      "url": "img/448.gif",
+      "width": 52,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "img/448_shiny.gif",
+      "width": 52,
+      "height": 96
+    }
+  }
+}

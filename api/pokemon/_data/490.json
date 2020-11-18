@@ -1,0 +1,50 @@
+{
+  "id": "490",
+  "name": "Manaphy",
+  "types": [
+    "Water"
+  ],
+  "number": 490,
+  "stats": {
+    "stamina": 225,
+    "attack": 210,
+    "defence": 210
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "PSYCHIC",
+    "SURF"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/490.png",
+      "width": 94,
+      "height": 79
+    },
+    "shiny": {
+      "url": "img/490_shiny.png",
+      "width": 89,
+      "height": 79
+    },
+    "normalAnimated": {
+      "url": "img/490.gif",
+      "width": 65,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "img/490_shiny.gif",
+      "width": 65,
+      "height": 55
+    }
+  }
+}

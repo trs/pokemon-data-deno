@@ -1,0 +1,52 @@
+{
+  "id": "630",
+  "name": "Mandibuzz",
+  "types": [
+    "Dark",
+    "Flying"
+  ],
+  "number": 630,
+  "stats": {
+    "stamina": 242,
+    "attack": 129,
+    "defence": 205
+  },
+  "quickMoves": [
+    "SNARL_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "AERIAL_ACE",
+    "FOUL_PLAY",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/630.png",
+      "width": 193,
+      "height": 235
+    },
+    "shiny": {
+      "url": "img/630_shiny.png",
+      "width": 193,
+      "height": 235
+    },
+    "normalAnimated": {
+      "url": "img/630.gif",
+      "width": 150,
+      "height": 126
+    },
+    "shinyAnimated": {
+      "url": "img/630_shiny.gif",
+      "width": 150,
+      "height": 126
+    }
+  }
+}

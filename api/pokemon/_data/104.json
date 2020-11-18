@@ -1,0 +1,50 @@
+{
+  "id": "104",
+  "name": "Cubone",
+  "types": [
+    "Ground"
+  ],
+  "number": 104,
+  "stats": {
+    "stamina": 137,
+    "attack": 90,
+    "defence": 144
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "BONE_CLUB",
+    "DIG",
+    "BULLDOZE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/104.png",
+      "width": 59,
+      "height": 74
+    },
+    "shiny": {
+      "url": "img/104_shiny.png",
+      "width": 59,
+      "height": 74
+    },
+    "normalAnimated": {
+      "url": "img/104.gif",
+      "width": 40,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "img/104_shiny.gif",
+      "width": 40,
+      "height": 49
+    }
+  }
+}

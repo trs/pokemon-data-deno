@@ -1,0 +1,50 @@
+{
+  "id": "404",
+  "name": "Luxio",
+  "types": [
+    "Electric"
+  ],
+  "number": 404,
+  "stats": {
+    "stamina": 155,
+    "attack": 159,
+    "defence": 95
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "WILD_CHARGE",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/404.png",
+      "width": 143,
+      "height": 115
+    },
+    "shiny": {
+      "url": "img/404_shiny.png",
+      "width": 143,
+      "height": 115
+    },
+    "normalAnimated": {
+      "url": "img/404.gif",
+      "width": 70,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/404_shiny.gif",
+      "width": 70,
+      "height": 77
+    }
+  }
+}

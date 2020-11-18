@@ -1,0 +1,51 @@
+{
+  "id": "405",
+  "name": "Luxray",
+  "types": [
+    "Electric"
+  ],
+  "number": 405,
+  "stats": {
+    "stamina": 190,
+    "attack": 232,
+    "defence": 156
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "SNARL_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_BEAM",
+    "WILD_CHARGE",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/405.png",
+      "width": 207,
+      "height": 209
+    },
+    "shiny": {
+      "url": "img/405_shiny.png",
+      "width": 207,
+      "height": 209
+    },
+    "normalAnimated": {
+      "url": "img/405.gif",
+      "width": 87,
+      "height": 99
+    },
+    "shinyAnimated": {
+      "url": "img/405_shiny.gif",
+      "width": 87,
+      "height": 99
+    }
+  }
+}

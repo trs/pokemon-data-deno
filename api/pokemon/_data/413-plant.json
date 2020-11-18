@@ -1,0 +1,51 @@
+{
+  "id": "413-plant",
+  "name": "Wormadam",
+  "types": [
+    "Bug",
+    "Grass"
+  ],
+  "number": 413,
+  "stats": {
+    "stamina": 155,
+    "attack": 141,
+    "defence": 180
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "ENERGY_BALL",
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    {
+      "name": "Plant",
+      "code": "plant"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/413-plant.png",
+      "width": 114,
+      "height": 143
+    },
+    "shiny": {
+      "url": "img/413-plant_shiny.png",
+      "width": 114,
+      "height": 143
+    },
+    "normalAnimated": {
+      "url": "img/413-plant.gif",
+      "width": 81,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "img/413-plant_shiny.gif",
+      "width": 81,
+      "height": 82
+    }
+  }
+}

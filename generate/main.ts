@@ -1,4 +1,4 @@
-import { snakeCase } from 'https://deno.land/x/case@v2.1.0/mod.ts';
+import { paramCase } from 'https://deno.land/x/case@v2.1.0/mod.ts';
 
 import {API_DIR, IMG_DIR} from '../const.ts';
 import { master, assets } from '../src/mod.ts';
@@ -18,7 +18,10 @@ async function generatePokemon(pokemon: master.PokemonMaster) {
     ? nameAsset.name
     : pokemon.uniqueId; // TODO convert into usable name
 
-  const id = snakeCase([pokemon.number, ...pokemon.forms.map(({code}) => code)].join(' '));
+  const id = paramCase([
+    pokemon.number,
+    ...pokemon.forms.map(({code}) => code).filter((form) => form !== 'normal')
+  ].join('-'));
 
   const types = pokemon.types.map((type) => pokemonTypeNamesAssetMap.get(type)?.name);
 

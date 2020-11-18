@@ -1,0 +1,51 @@
+{
+  "id": "629",
+  "name": "Vullaby",
+  "types": [
+    "Dark",
+    "Flying"
+  ],
+  "number": 629,
+  "stats": {
+    "stamina": 172,
+    "attack": 105,
+    "defence": 139
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "BRAVE_BIRD",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/629.png",
+      "width": 112,
+      "height": 117
+    },
+    "shiny": {
+      "url": "img/629_shiny.png",
+      "width": 112,
+      "height": 117
+    },
+    "normalAnimated": {
+      "url": "img/629.gif",
+      "width": 64,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/629_shiny.gif",
+      "width": 64,
+      "height": 69
+    }
+  }
+}

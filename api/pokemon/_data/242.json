@@ -1,0 +1,50 @@
+{
+  "id": "242",
+  "name": "Blissey",
+  "types": [
+    "Normal"
+  ],
+  "number": 242,
+  "stats": {
+    "stamina": 496,
+    "attack": 129,
+    "defence": 169
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "HYPER_BEAM",
+    "DAZZLING_GLEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/242.png",
+      "width": 197,
+      "height": 177
+    },
+    "shiny": {
+      "url": "img/242_shiny.png",
+      "width": 197,
+      "height": 177
+    },
+    "normalAnimated": {
+      "url": "img/242.gif",
+      "width": 83,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/242_shiny.gif",
+      "width": 83,
+      "height": 74
+    }
+  }
+}

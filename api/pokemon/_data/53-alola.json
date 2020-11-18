@@ -1,0 +1,50 @@
+{
+  "id": "53-alola",
+  "name": "Persian",
+  "types": [
+    "Dark"
+  ],
+  "number": 53,
+  "stats": {
+    "stamina": 163,
+    "attack": 158,
+    "defence": 136
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "FOUL_PLAY",
+    "DARK_PULSE",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/53-alola.png",
+      "width": 224,
+      "height": 136
+    },
+    "shiny": {
+      "url": "img/53-alola_shiny.png",
+      "width": 224,
+      "height": 136
+    },
+    "normalAnimated": {
+      "url": "img/53-alola.gif",
+      "width": 70,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "img/53-alola_shiny.gif",
+      "width": 70,
+      "height": 72
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "478",
+  "name": "Froslass",
+  "types": [
+    "Ice",
+    "Ghost"
+  ],
+  "number": 478,
+  "stats": {
+    "stamina": 172,
+    "attack": 171,
+    "defence": 150
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "HEX_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "CRUNCH",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/478.png",
+      "width": 152,
+      "height": 172
+    },
+    "shiny": {
+      "url": "img/478_shiny.png",
+      "width": 152,
+      "height": 172
+    },
+    "normalAnimated": {
+      "url": "img/478.gif",
+      "width": 66,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/478_shiny.gif",
+      "width": 66,
+      "height": 79
+    }
+  }
+}

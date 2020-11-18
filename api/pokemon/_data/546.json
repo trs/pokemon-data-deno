@@ -1,0 +1,51 @@
+{
+  "id": "546",
+  "name": "Cottonee",
+  "types": [
+    "Grass",
+    "Fairy"
+  ],
+  "number": 546,
+  "stats": {
+    "stamina": 120,
+    "attack": 71,
+    "defence": 111
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/546.png",
+      "width": 116,
+      "height": 67
+    },
+    "shiny": {
+      "url": "img/546_shiny.png",
+      "width": 116,
+      "height": 67
+    },
+    "normalAnimated": {
+      "url": "img/546.gif",
+      "width": 61,
+      "height": 40
+    },
+    "shinyAnimated": {
+      "url": "img/546_shiny.gif",
+      "width": 61,
+      "height": 40
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "399",
+  "name": "Bidoof",
+  "types": [
+    "Normal"
+  ],
+  "number": 399,
+  "stats": {
+    "stamina": 153,
+    "attack": 80,
+    "defence": 73
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_FANG",
+    "CRUNCH",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/399.png",
+      "width": 76,
+      "height": 69
+    },
+    "shiny": {
+      "url": "img/399_shiny.png",
+      "width": 76,
+      "height": 69
+    },
+    "normalAnimated": {
+      "url": "img/399.gif",
+      "width": 52,
+      "height": 46
+    },
+    "shinyAnimated": {
+      "url": "img/399_shiny.gif",
+      "width": 52,
+      "height": 46
+    }
+  }
+}

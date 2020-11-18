@@ -1,0 +1,51 @@
+{
+  "id": "178",
+  "name": "Xatu",
+  "types": [
+    "Psychic",
+    "Flying"
+  ],
+  "number": 178,
+  "stats": {
+    "stamina": 163,
+    "attack": 192,
+    "defence": 146
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "FUTURESIGHT",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/178.png",
+      "width": 218,
+      "height": 125
+    },
+    "shiny": {
+      "url": "img/178_shiny.png",
+      "width": 218,
+      "height": 125
+    },
+    "normalAnimated": {
+      "url": "img/178.gif",
+      "width": 103,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/178_shiny.gif",
+      "width": 103,
+      "height": 58
+    }
+  }
+}

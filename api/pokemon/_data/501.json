@@ -1,0 +1,50 @@
+{
+  "id": "501",
+  "name": "Oshawott",
+  "types": [
+    "Water"
+  ],
+  "number": 501,
+  "stats": {
+    "stamina": 146,
+    "attack": 117,
+    "defence": 85
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_TAIL",
+    "WATER_PULSE",
+    "NIGHT_SLASH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/501.png",
+      "width": 80,
+      "height": 95
+    },
+    "shiny": {
+      "url": "img/501_shiny.png",
+      "width": 80,
+      "height": 95
+    },
+    "normalAnimated": {
+      "url": "img/501.gif",
+      "width": 41,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "img/501_shiny.gif",
+      "width": 41,
+      "height": 49
+    }
+  }
+}

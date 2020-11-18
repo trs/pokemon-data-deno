@@ -1,0 +1,54 @@
+{
+  "id": "303",
+  "name": "Mawile",
+  "types": [
+    "Steel",
+    "Fairy"
+  ],
+  "number": 303,
+  "stats": {
+    "stamina": 137,
+    "attack": 155,
+    "defence": 141
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "ASTONISH_FAST",
+    "ICE_FANG_FAST",
+    "FIRE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "VICE_GRIP",
+    "IRON_HEAD",
+    "POWER_UP_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/303.png",
+      "width": 147,
+      "height": 105
+    },
+    "shiny": {
+      "url": "img/303_shiny.png",
+      "width": 147,
+      "height": 105
+    },
+    "normalAnimated": {
+      "url": "img/303.gif",
+      "width": 83,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/303_shiny.gif",
+      "width": 83,
+      "height": 54
+    }
+  }
+}

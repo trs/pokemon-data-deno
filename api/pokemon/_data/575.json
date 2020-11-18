@@ -1,0 +1,50 @@
+{
+  "id": "575",
+  "name": "Gothorita",
+  "types": [
+    "Psychic"
+  ],
+  "number": 575,
+  "stats": {
+    "stamina": 155,
+    "attack": 137,
+    "defence": 153
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "FUTURESIGHT",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/575.png",
+      "width": 157,
+      "height": 177
+    },
+    "shiny": {
+      "url": "img/575_shiny.png",
+      "width": 157,
+      "height": 177
+    },
+    "normalAnimated": {
+      "url": "img/575.gif",
+      "width": 69,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/575_shiny.gif",
+      "width": 69,
+      "height": 77
+    }
+  }
+}

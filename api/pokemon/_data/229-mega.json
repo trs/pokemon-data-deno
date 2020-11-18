@@ -1,0 +1,56 @@
+{
+  "id": "229-mega",
+  "name": "Houndoom",
+  "types": [
+    "Dark",
+    "Fire"
+  ],
+  "number": 229,
+  "stats": {
+    "stamina": 181,
+    "attack": 289,
+    "defence": 194
+  },
+  "quickMoves": [
+    "SNARL_FAST",
+    "FIRE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "FIRE_BLAST",
+    "FOUL_PLAY",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega",
+      "code": "mega"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/229-mega.png",
+      "width": 108,
+      "height": 202
+    },
+    "shiny": {
+      "url": "img/229-mega_shiny.png",
+      "width": 108,
+      "height": 202
+    },
+    "normalAnimated": {
+      "url": "img/229-mega.gif",
+      "width": 84,
+      "height": 114
+    },
+    "shinyAnimated": {
+      "url": "img/229-mega_shiny.gif",
+      "width": 84,
+      "height": 114
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "180",
+  "name": "Flaaffy",
+  "types": [
+    "Electric"
+  ],
+  "number": 180,
+  "stats": {
+    "stamina": 172,
+    "attack": 145,
+    "defence": 109
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "POWER_GEM",
+    "THUNDERBOLT",
+    "DISCHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/180.png",
+      "width": 106,
+      "height": 117
+    },
+    "shiny": {
+      "url": "img/180_shiny.png",
+      "width": 106,
+      "height": 117
+    },
+    "normalAnimated": {
+      "url": "img/180.gif",
+      "width": 52,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/180_shiny.gif",
+      "width": 52,
+      "height": 67
+    }
+  }
+}

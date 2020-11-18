@@ -1,0 +1,50 @@
+{
+  "id": "563",
+  "name": "Cofagrigus",
+  "types": [
+    "Ghost"
+  ],
+  "number": 563,
+  "stats": {
+    "stamina": 151,
+    "attack": 163,
+    "defence": 237
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/563.png",
+      "width": 232,
+      "height": 154
+    },
+    "shiny": {
+      "url": "img/563_shiny.png",
+      "width": 232,
+      "height": 154
+    },
+    "normalAnimated": {
+      "url": "img/563.gif",
+      "width": 165,
+      "height": 119
+    },
+    "shinyAnimated": {
+      "url": "img/563_shiny.gif",
+      "width": 165,
+      "height": 119
+    }
+  }
+}

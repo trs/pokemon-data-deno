@@ -1,0 +1,49 @@
+{
+  "id": "366",
+  "name": "Clamperl",
+  "types": [
+    "Water"
+  ],
+  "number": 366,
+  "stats": {
+    "stamina": 111,
+    "attack": 133,
+    "defence": 135
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "BODY_SLAM",
+    "ICE_BEAM",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/366.png",
+      "width": 99,
+      "height": 94
+    },
+    "shiny": {
+      "url": "img/366_shiny.png",
+      "width": 99,
+      "height": 94
+    },
+    "normalAnimated": {
+      "url": "img/366.gif",
+      "width": 56,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/366_shiny.gif",
+      "width": 56,
+      "height": 54
+    }
+  }
+}

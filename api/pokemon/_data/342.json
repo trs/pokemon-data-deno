@@ -1,0 +1,52 @@
+{
+  "id": "342",
+  "name": "Crawdaunt",
+  "types": [
+    "Water",
+    "Dark"
+  ],
+  "number": 342,
+  "stats": {
+    "stamina": 160,
+    "attack": 224,
+    "defence": 142
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "BUBBLE_BEAM",
+    "NIGHT_SLASH",
+    "CRABHAMMER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/342.png",
+      "width": 187,
+      "height": 144
+    },
+    "shiny": {
+      "url": "img/342_shiny.png",
+      "width": 187,
+      "height": 144
+    },
+    "normalAnimated": {
+      "url": "img/342.gif",
+      "width": 102,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/342_shiny.gif",
+      "width": 102,
+      "height": 74
+    }
+  }
+}

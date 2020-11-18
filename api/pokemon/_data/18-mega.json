@@ -1,0 +1,55 @@
+{
+  "id": "18-mega",
+  "name": "Pidgeot",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 18,
+  "stats": {
+    "stamina": 195,
+    "attack": 280,
+    "defence": 175
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "HURRICANE",
+    "AERIAL_ACE",
+    "BRAVE_BIRD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega",
+      "code": "mega"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/18-mega.png",
+      "width": 238,
+      "height": 253
+    },
+    "shiny": {
+      "url": "img/18-mega_shiny.png",
+      "width": 238,
+      "height": 253
+    },
+    "normalAnimated": {
+      "url": "img/18-mega.gif",
+      "width": 175,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/18-mega_shiny.gif",
+      "width": 175,
+      "height": 60
+    }
+  }
+}

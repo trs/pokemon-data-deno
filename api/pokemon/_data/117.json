@@ -1,0 +1,50 @@
+{
+  "id": "117",
+  "name": "Seadra",
+  "types": [
+    "Water"
+  ],
+  "number": 117,
+  "stats": {
+    "stamina": 146,
+    "attack": 187,
+    "defence": 156
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "DRAGON_PULSE",
+    "HYDRO_PUMP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/117.png",
+      "width": 152,
+      "height": 187
+    },
+    "shiny": {
+      "url": "img/117_shiny.png",
+      "width": 152,
+      "height": 187
+    },
+    "normalAnimated": {
+      "url": "img/117.gif",
+      "width": 69,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/117_shiny.gif",
+      "width": 69,
+      "height": 74
+    }
+  }
+}

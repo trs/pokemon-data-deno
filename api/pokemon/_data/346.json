@@ -1,0 +1,52 @@
+{
+  "id": "346",
+  "name": "Cradily",
+  "types": [
+    "Rock",
+    "Grass"
+  ],
+  "number": 346,
+  "stats": {
+    "stamina": 200,
+    "attack": 152,
+    "defence": 194
+  },
+  "quickMoves": [
+    "ACID_FAST",
+    "INFESTATION_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "BULLDOZE",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/346.png",
+      "width": 117,
+      "height": 164
+    },
+    "shiny": {
+      "url": "img/346_shiny.png",
+      "width": 117,
+      "height": 164
+    },
+    "normalAnimated": {
+      "url": "img/346.gif",
+      "width": 74,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/346_shiny.gif",
+      "width": 74,
+      "height": 88
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "125",
+  "name": "Electabuzz",
+  "types": [
+    "Electric"
+  ],
+  "number": 125,
+  "stats": {
+    "stamina": 163,
+    "attack": 198,
+    "defence": 158
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST",
+    "LOW_KICK_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDER_PUNCH",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/125.png",
+      "width": 185,
+      "height": 190
+    },
+    "shiny": {
+      "url": "img/125_shiny.png",
+      "width": 185,
+      "height": 190
+    },
+    "normalAnimated": {
+      "url": "img/125.gif",
+      "width": 78,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/125_shiny.gif",
+      "width": 78,
+      "height": 78
+    }
+  }
+}

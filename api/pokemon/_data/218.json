@@ -1,0 +1,50 @@
+{
+  "id": "218",
+  "name": "Slugma",
+  "types": [
+    "Fire"
+  ],
+  "number": 218,
+  "stats": {
+    "stamina": 120,
+    "attack": 118,
+    "defence": 71
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_BURST",
+    "FLAME_CHARGE",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/218.png",
+      "width": 94,
+      "height": 95
+    },
+    "shiny": {
+      "url": "img/218_shiny.png",
+      "width": 94,
+      "height": 95
+    },
+    "normalAnimated": {
+      "url": "img/218.gif",
+      "width": 62,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "img/218_shiny.gif",
+      "width": 62,
+      "height": 63
+    }
+  }
+}

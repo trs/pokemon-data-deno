@@ -1,0 +1,52 @@
+{
+  "id": "144",
+  "name": "Articuno",
+  "types": [
+    "Ice",
+    "Flying"
+  ],
+  "number": 144,
+  "stats": {
+    "stamina": 207,
+    "attack": 192,
+    "defence": 236
+  },
+  "quickMoves": [
+    "FROST_BREATH_FAST",
+    "ICE_SHARD_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_BEAM",
+    "ICY_WIND",
+    "BLIZZARD",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/144.png",
+      "width": 225,
+      "height": 222
+    },
+    "shiny": {
+      "url": "img/144_shiny.png",
+      "width": 225,
+      "height": 222
+    },
+    "normalAnimated": {
+      "url": "img/144.gif",
+      "width": 172,
+      "height": 171
+    },
+    "shinyAnimated": {
+      "url": "img/144_shiny.gif",
+      "width": 172,
+      "height": 171
+    }
+  }
+}

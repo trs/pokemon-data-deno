@@ -1,0 +1,50 @@
+{
+  "id": "361",
+  "name": "Snorunt",
+  "types": [
+    "Ice"
+  ],
+  "number": 361,
+  "stats": {
+    "stamina": 137,
+    "attack": 95,
+    "defence": 95
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "HEX_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "ICY_WIND",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/361.png",
+      "width": 98,
+      "height": 107
+    },
+    "shiny": {
+      "url": "img/361_shiny.png",
+      "width": 98,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "img/361.gif",
+      "width": 44,
+      "height": 47
+    },
+    "shinyAnimated": {
+      "url": "img/361_shiny.gif",
+      "width": 44,
+      "height": 47
+    }
+  }
+}

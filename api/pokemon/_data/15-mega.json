@@ -1,0 +1,56 @@
+{
+  "id": "15-mega",
+  "name": "Beedrill",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "number": 15,
+  "stats": {
+    "stamina": 163,
+    "attack": 303,
+    "defence": 148
+  },
+  "quickMoves": [
+    "INFESTATION_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE_BOMB",
+    "AERIAL_ACE",
+    "X_SCISSOR",
+    "FELL_STINGER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega",
+      "code": "mega"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/15-mega.png",
+      "width": 162,
+      "height": 165
+    },
+    "shiny": {
+      "url": "img/15-mega_shiny.png",
+      "width": 162,
+      "height": 165
+    },
+    "normalAnimated": {
+      "url": "img/15-mega.gif",
+      "width": 2586,
+      "height": 0
+    },
+    "shinyAnimated": {
+      "url": "img/15-mega_shiny.gif",
+      "width": 2586,
+      "height": 0
+    }
+  }
+}

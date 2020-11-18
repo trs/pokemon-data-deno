@@ -1,0 +1,50 @@
+{
+  "id": "135",
+  "name": "Jolteon",
+  "types": [
+    "Electric"
+  ],
+  "number": 135,
+  "stats": {
+    "stamina": 163,
+    "attack": 232,
+    "defence": 182
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "DISCHARGE",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/135.png",
+      "width": 87,
+      "height": 114
+    },
+    "shiny": {
+      "url": "img/135_shiny.png",
+      "width": 87,
+      "height": 114
+    },
+    "normalAnimated": {
+      "url": "img/135.gif",
+      "width": 49,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/135_shiny.gif",
+      "width": 49,
+      "height": 69
+    }
+  }
+}

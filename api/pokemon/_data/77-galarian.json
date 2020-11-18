@@ -1,0 +1,50 @@
+{
+  "id": "77-galarian",
+  "name": "Ponyta",
+  "types": [
+    "Psychic"
+  ],
+  "number": 77,
+  "stats": {
+    "stamina": 137,
+    "attack": 170,
+    "defence": 127
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "PSYCHO_CUT_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "PSYBEAM",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/77-galarian.png",
+      "width": 131,
+      "height": 129
+    },
+    "shiny": {
+      "url": "img/77-galarian_shiny.png",
+      "width": 131,
+      "height": 129
+    },
+    "normalAnimated": {
+      "url": "img/77-galarian.gif",
+      "width": 53,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/77-galarian_shiny.gif",
+      "width": 53,
+      "height": 64
+    }
+  }
+}

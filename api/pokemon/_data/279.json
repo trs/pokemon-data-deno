@@ -1,0 +1,52 @@
+{
+  "id": "279",
+  "name": "Pelipper",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "number": 279,
+  "stats": {
+    "stamina": 155,
+    "attack": 175,
+    "defence": 174
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "HURRICANE",
+    "BLIZZARD",
+    "WEATHER_BALL_WATER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/279.png",
+      "width": 224,
+      "height": 143
+    },
+    "shiny": {
+      "url": "img/279_shiny.png",
+      "width": 224,
+      "height": 143
+    },
+    "normalAnimated": {
+      "url": "img/279.gif",
+      "width": 101,
+      "height": 92
+    },
+    "shinyAnimated": {
+      "url": "img/279_shiny.gif",
+      "width": 101,
+      "height": 92
+    }
+  }
+}

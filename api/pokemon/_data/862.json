@@ -1,0 +1,52 @@
+{
+  "id": "862",
+  "name": "Obstagoon",
+  "types": [
+    "Dark",
+    "Normal"
+  ],
+  "number": 862,
+  "stats": {
+    "stamina": 212,
+    "attack": 180,
+    "defence": 194
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "LICK_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_CHOP",
+    "NIGHT_SLASH",
+    "HYPER_BEAM",
+    "GUNK_SHOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/862.png",
+      "width": 135,
+      "height": 222
+    },
+    "shiny": {
+      "url": "img/862_shiny.png",
+      "width": 135,
+      "height": 222
+    },
+    "normalAnimated": {
+      "url": "img/862.gif",
+      "width": 63,
+      "height": 107
+    },
+    "shinyAnimated": {
+      "url": "img/862_shiny.gif",
+      "width": 63,
+      "height": 108
+    }
+  }
+}

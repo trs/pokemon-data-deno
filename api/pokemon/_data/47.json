@@ -1,0 +1,51 @@
+{
+  "id": "47",
+  "name": "Parasect",
+  "types": [
+    "Bug",
+    "Grass"
+  ],
+  "number": 47,
+  "stats": {
+    "stamina": 155,
+    "attack": 165,
+    "defence": 146
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "CROSS_POISON",
+    "X_SCISSOR",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/47.png",
+      "width": 125,
+      "height": 112
+    },
+    "shiny": {
+      "url": "img/47_shiny.png",
+      "width": 125,
+      "height": 112
+    },
+    "normalAnimated": {
+      "url": "img/47.gif",
+      "width": 77,
+      "height": 62
+    },
+    "shinyAnimated": {
+      "url": "img/47_shiny.gif",
+      "width": 77,
+      "height": 62
+    }
+  }
+}

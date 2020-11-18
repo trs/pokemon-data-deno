@@ -1,0 +1,52 @@
+{
+  "id": "475",
+  "name": "Gallade",
+  "types": [
+    "Psychic",
+    "Fighting"
+  ],
+  "number": 475,
+  "stats": {
+    "stamina": 169,
+    "attack": 237,
+    "defence": 195
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "LOW_KICK_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "PSYCHIC",
+    "LEAF_BLADE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/475.png",
+      "width": 117,
+      "height": 213
+    },
+    "shiny": {
+      "url": "img/475_shiny.png",
+      "width": 117,
+      "height": 213
+    },
+    "normalAnimated": {
+      "url": "img/475.gif",
+      "width": 52,
+      "height": 97
+    },
+    "shinyAnimated": {
+      "url": "img/475_shiny.gif",
+      "width": 52,
+      "height": 97
+    }
+  }
+}

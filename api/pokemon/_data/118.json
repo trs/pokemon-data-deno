@@ -1,0 +1,50 @@
+{
+  "id": "118",
+  "name": "Goldeen",
+  "types": [
+    "Water"
+  ],
+  "number": 118,
+  "stats": {
+    "stamina": 128,
+    "attack": 123,
+    "defence": 110
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "HORN_ATTACK",
+    "AQUA_TAIL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/118.png",
+      "width": 87,
+      "height": 66
+    },
+    "shiny": {
+      "url": "img/118_shiny.png",
+      "width": 87,
+      "height": 66
+    },
+    "normalAnimated": {
+      "url": "img/118.gif",
+      "width": 79,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/118_shiny.gif",
+      "width": 79,
+      "height": 54
+    }
+  }
+}

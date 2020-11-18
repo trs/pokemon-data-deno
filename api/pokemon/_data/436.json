@@ -1,0 +1,51 @@
+{
+  "id": "436",
+  "name": "Bronzor",
+  "types": [
+    "Steel",
+    "Psychic"
+  ],
+  "number": 436,
+  "stats": {
+    "stamina": 149,
+    "attack": 43,
+    "defence": 154
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "PSYSHOCK",
+    "HEAVY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/436.png",
+      "width": 67,
+      "height": 81
+    },
+    "shiny": {
+      "url": "img/436_shiny.png",
+      "width": 67,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "img/436.gif",
+      "width": 40,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "img/436_shiny.gif",
+      "width": 40,
+      "height": 55
+    }
+  }
+}

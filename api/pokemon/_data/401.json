@@ -1,0 +1,48 @@
+{
+  "id": "401",
+  "name": "Kricketot",
+  "types": [
+    "Bug"
+  ],
+  "number": 401,
+  "stats": {
+    "stamina": 114,
+    "attack": 45,
+    "defence": 74
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/401.png",
+      "width": 74,
+      "height": 106
+    },
+    "shiny": {
+      "url": "img/401_shiny.png",
+      "width": 74,
+      "height": 106
+    },
+    "normalAnimated": {
+      "url": "img/401.gif",
+      "width": 60,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "img/401_shiny.gif",
+      "width": 60,
+      "height": 61
+    }
+  }
+}

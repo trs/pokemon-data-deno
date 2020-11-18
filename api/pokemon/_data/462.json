@@ -1,0 +1,52 @@
+{
+  "id": "462",
+  "name": "Magnezone",
+  "types": [
+    "Electric",
+    "Steel"
+  ],
+  "number": 462,
+  "stats": {
+    "stamina": 172,
+    "attack": 238,
+    "defence": 205
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "ZAP_CANNON",
+    "WILD_CHARGE",
+    "FLASH_CANNON",
+    "MIRROR_SHOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/462.png",
+      "width": 230,
+      "height": 145
+    },
+    "shiny": {
+      "url": "img/462_shiny.png",
+      "width": 230,
+      "height": 145
+    },
+    "normalAnimated": {
+      "url": "img/462.gif",
+      "width": 109,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/462_shiny.gif",
+      "width": 109,
+      "height": 73
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "179",
+  "name": "Mareep",
+  "types": [
+    "Electric"
+  ],
+  "number": 179,
+  "stats": {
+    "stamina": 146,
+    "attack": 114,
+    "defence": 79
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "BODY_SLAM",
+    "THUNDERBOLT",
+    "DISCHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/179.png",
+      "width": 94,
+      "height": 99
+    },
+    "shiny": {
+      "url": "img/179_shiny.png",
+      "width": 94,
+      "height": 99
+    },
+    "normalAnimated": {
+      "url": "img/179.gif",
+      "width": 52,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/179_shiny.gif",
+      "width": 52,
+      "height": 54
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "499",
+  "name": "Pignite",
+  "types": [
+    "Fire",
+    "Fighting"
+  ],
+  "number": 499,
+  "stats": {
+    "stamina": 207,
+    "attack": 173,
+    "defence": 106
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/499.png",
+      "width": 127,
+      "height": 124
+    },
+    "shiny": {
+      "url": "img/499_shiny.png",
+      "width": 127,
+      "height": 124
+    },
+    "normalAnimated": {
+      "url": "img/499.gif",
+      "width": 73,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/499_shiny.gif",
+      "width": 73,
+      "height": 78
+    }
+  }
+}

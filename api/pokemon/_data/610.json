@@ -1,0 +1,50 @@
+{
+  "id": "610",
+  "name": "Axew",
+  "types": [
+    "Dragon"
+  ],
+  "number": 610,
+  "stats": {
+    "stamina": 130,
+    "attack": 154,
+    "defence": 101
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_CLAW",
+    "AQUA_TAIL",
+    "DRAGON_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/610.png",
+      "width": 78,
+      "height": 97
+    },
+    "shiny": {
+      "url": "img/610_shiny.png",
+      "width": 78,
+      "height": 97
+    },
+    "normalAnimated": {
+      "url": "img/610.gif",
+      "width": 47,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "img/610_shiny.gif",
+      "width": 47,
+      "height": 66
+    }
+  }
+}

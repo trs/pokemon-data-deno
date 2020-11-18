@@ -1,0 +1,51 @@
+{
+  "id": "304",
+  "name": "Aron",
+  "types": [
+    "Steel",
+    "Rock"
+  ],
+  "number": 304,
+  "stats": {
+    "stamina": 137,
+    "attack": 121,
+    "defence": 141
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "IRON_HEAD",
+    "ROCK_TOMB",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/304.png",
+      "width": 89,
+      "height": 80
+    },
+    "shiny": {
+      "url": "img/304_shiny.png",
+      "width": 89,
+      "height": 80
+    },
+    "normalAnimated": {
+      "url": "img/304.gif",
+      "width": 39,
+      "height": 45
+    },
+    "shinyAnimated": {
+      "url": "img/304_shiny.gif",
+      "width": 39,
+      "height": 45
+    }
+  }
+}

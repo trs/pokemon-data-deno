@@ -1,0 +1,54 @@
+{
+  "id": "143",
+  "name": "Snorlax",
+  "types": [
+    "Normal"
+  ],
+  "number": 143,
+  "stats": {
+    "stamina": 330,
+    "attack": 190,
+    "defence": 169
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "LICK_FAST"
+  ],
+  "chargeMoves": [
+    "HEAVY_SLAM",
+    "HYPER_BEAM",
+    "EARTHQUAKE",
+    "OUTRAGE",
+    "SKULL_BASH",
+    "BODY_SLAM",
+    "SUPER_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/143.png",
+      "width": 221,
+      "height": 213
+    },
+    "shiny": {
+      "url": "img/143_shiny.png",
+      "width": 221,
+      "height": 213
+    },
+    "normalAnimated": {
+      "url": "img/143.gif",
+      "width": 85,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "img/143_shiny.gif",
+      "width": 85,
+      "height": 80
+    }
+  }
+}

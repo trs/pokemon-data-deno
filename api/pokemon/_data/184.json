@@ -1,0 +1,51 @@
+{
+  "id": "184",
+  "name": "Azumarill",
+  "types": [
+    "Water",
+    "Fairy"
+  ],
+  "number": 184,
+  "stats": {
+    "stamina": 225,
+    "attack": 112,
+    "defence": 152
+  },
+  "quickMoves": [
+    "ROCK_SMASH_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "HYDRO_PUMP",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/184.png",
+      "width": 121,
+      "height": 103
+    },
+    "shiny": {
+      "url": "img/184_shiny.png",
+      "width": 121,
+      "height": 103
+    },
+    "normalAnimated": {
+      "url": "img/184.gif",
+      "width": 89,
+      "height": 90
+    },
+    "shinyAnimated": {
+      "url": "img/184_shiny.gif",
+      "width": 89,
+      "height": 90
+    }
+  }
+}

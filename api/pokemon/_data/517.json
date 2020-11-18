@@ -1,0 +1,50 @@
+{
+  "id": "517",
+  "name": "Munna",
+  "types": [
+    "Psychic"
+  ],
+  "number": 517,
+  "stats": {
+    "stamina": 183,
+    "attack": 111,
+    "defence": 92
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "DAZZLING_GLEAM",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/517.png",
+      "width": 88,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/517_shiny.png",
+      "width": 88,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/517.gif",
+      "width": 46,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/517_shiny.gif",
+      "width": 46,
+      "height": 54
+    }
+  }
+}

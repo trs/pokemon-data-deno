@@ -1,0 +1,50 @@
+{
+  "id": "120",
+  "name": "Staryu",
+  "types": [
+    "Water"
+  ],
+  "number": 120,
+  "stats": {
+    "stamina": 102,
+    "attack": 137,
+    "defence": 112
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "SWIFT",
+    "BUBBLE_BEAM",
+    "POWER_GEM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/120.png",
+      "width": 118,
+      "height": 118
+    },
+    "shiny": {
+      "url": "img/120_shiny.png",
+      "width": 118,
+      "height": 118
+    },
+    "normalAnimated": {
+      "url": "img/120.gif",
+      "width": 48,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/120_shiny.gif",
+      "width": 48,
+      "height": 50
+    }
+  }
+}

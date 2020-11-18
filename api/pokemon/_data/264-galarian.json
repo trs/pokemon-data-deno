@@ -1,0 +1,51 @@
+{
+  "id": "264-galarian",
+  "name": "Linoone",
+  "types": [
+    "Dark",
+    "Normal"
+  ],
+  "number": 264,
+  "stats": {
+    "stamina": 186,
+    "attack": 142,
+    "defence": 128
+  },
+  "quickMoves": [
+    "SNARL_FAST",
+    "LICK_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "BODY_SLAM",
+    "GUNK_SHOT"
+  ],
+  "forms": [
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/264-galarian.png",
+      "width": 192,
+      "height": 126
+    },
+    "shiny": {
+      "url": "img/264-galarian_shiny.png",
+      "width": 192,
+      "height": 126
+    },
+    "normalAnimated": {
+      "url": "img/264-galarian.gif",
+      "width": 87,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "img/264-galarian_shiny.gif",
+      "width": 87,
+      "height": 48
+    }
+  }
+}

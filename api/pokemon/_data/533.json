@@ -1,0 +1,50 @@
+{
+  "id": "533",
+  "name": "Gurdurr",
+  "types": [
+    "Fighting"
+  ],
+  "number": 533,
+  "stats": {
+    "stamina": 198,
+    "attack": 180,
+    "defence": 134
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "LOW_SWEEP",
+    "BRICK_BREAK",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/533.png",
+      "width": 205,
+      "height": 172
+    },
+    "shiny": {
+      "url": "img/533_shiny.png",
+      "width": 205,
+      "height": 172
+    },
+    "normalAnimated": {
+      "url": "img/533.gif",
+      "width": 98,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/533_shiny.gif",
+      "width": 98,
+      "height": 78
+    }
+  }
+}

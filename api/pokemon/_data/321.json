@@ -1,0 +1,50 @@
+{
+  "id": "321",
+  "name": "Wailord",
+  "types": [
+    "Water"
+  ],
+  "number": 321,
+  "stats": {
+    "stamina": 347,
+    "attack": 175,
+    "defence": 87
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "BLIZZARD",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/321.png",
+      "width": 251,
+      "height": 178
+    },
+    "shiny": {
+      "url": "img/321_shiny.png",
+      "width": 251,
+      "height": 178
+    },
+    "normalAnimated": {
+      "url": "img/321.gif",
+      "width": 146,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "img/321_shiny.gif",
+      "width": 146,
+      "height": 81
+    }
+  }
+}

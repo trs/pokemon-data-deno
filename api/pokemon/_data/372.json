@@ -1,0 +1,50 @@
+{
+  "id": "372",
+  "name": "Shelgon",
+  "types": [
+    "Dragon"
+  ],
+  "number": 372,
+  "stats": {
+    "stamina": 163,
+    "attack": 172,
+    "defence": 155
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "FLAMETHROWER",
+    "DRAGON_PULSE",
+    "TWISTER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/372.png",
+      "width": 137,
+      "height": 147
+    },
+    "shiny": {
+      "url": "img/372_shiny.png",
+      "width": 137,
+      "height": 147
+    },
+    "normalAnimated": {
+      "url": "img/372.gif",
+      "width": 57,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/372_shiny.gif",
+      "width": 57,
+      "height": 59
+    }
+  }
+}

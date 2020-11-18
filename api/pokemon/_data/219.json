@@ -1,0 +1,51 @@
+{
+  "id": "219",
+  "name": "Magcargo",
+  "types": [
+    "Fire",
+    "Rock"
+  ],
+  "number": 219,
+  "stats": {
+    "stamina": 137,
+    "attack": 139,
+    "defence": 191
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "HEAT_WAVE",
+    "OVERHEAT",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/219.png",
+      "width": 114,
+      "height": 120
+    },
+    "shiny": {
+      "url": "img/219_shiny.png",
+      "width": 114,
+      "height": 120
+    },
+    "normalAnimated": {
+      "url": "img/219.gif",
+      "width": 67,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "img/219_shiny.gif",
+      "width": 67,
+      "height": 70
+    }
+  }
+}

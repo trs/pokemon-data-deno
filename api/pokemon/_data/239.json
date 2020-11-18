@@ -1,0 +1,50 @@
+{
+  "id": "239",
+  "name": "Elekid",
+  "types": [
+    "Electric"
+  ],
+  "number": 239,
+  "stats": {
+    "stamina": 128,
+    "attack": 135,
+    "defence": 101
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST",
+    "LOW_KICK_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDER_PUNCH",
+    "BRICK_BREAK",
+    "DISCHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/239.png",
+      "width": 99,
+      "height": 107
+    },
+    "shiny": {
+      "url": "img/239_shiny.png",
+      "width": 99,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "img/239.gif",
+      "width": 73,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "img/239_shiny.gif",
+      "width": 73,
+      "height": 63
+    }
+  }
+}

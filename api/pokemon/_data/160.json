@@ -1,0 +1,51 @@
+{
+  "id": "160",
+  "name": "Feraligatr",
+  "types": [
+    "Water"
+  ],
+  "number": 160,
+  "stats": {
+    "stamina": 198,
+    "attack": 205,
+    "defence": 188
+  },
+  "quickMoves": [
+    "WATERFALL_FAST",
+    "BITE_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "HYDRO_PUMP",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/160.png",
+      "width": 194,
+      "height": 217
+    },
+    "shiny": {
+      "url": "img/160_shiny.png",
+      "width": 194,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "img/160.gif",
+      "width": 82,
+      "height": 98
+    },
+    "shinyAnimated": {
+      "url": "img/160_shiny.gif",
+      "width": 82,
+      "height": 98
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "382",
+  "name": "Kyogre",
+  "types": [
+    "Water"
+  ],
+  "number": 382,
+  "stats": {
+    "stamina": 205,
+    "attack": 270,
+    "defence": 228
+  },
+  "quickMoves": [
+    "WATERFALL_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "BLIZZARD",
+    "THUNDER",
+    "SURF"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/382.png",
+      "width": 245,
+      "height": 131
+    },
+    "shiny": {
+      "url": "img/382_shiny.png",
+      "width": 244,
+      "height": 132
+    },
+    "normalAnimated": {
+      "url": "img/382.gif",
+      "width": 234,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "img/382_shiny.gif",
+      "width": 234,
+      "height": 55
+    }
+  }
+}

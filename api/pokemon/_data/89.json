@@ -1,0 +1,52 @@
+{
+  "id": "89",
+  "name": "Muk",
+  "types": [
+    "Poison"
+  ],
+  "number": 89,
+  "stats": {
+    "stamina": 233,
+    "attack": 190,
+    "defence": 172
+  },
+  "quickMoves": [
+    "INFESTATION_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "GUNK_SHOT",
+    "SLUDGE_WAVE",
+    "THUNDER_PUNCH",
+    "ACID_SPRAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/89.png",
+      "width": 237,
+      "height": 152
+    },
+    "shiny": {
+      "url": "img/89_shiny.png",
+      "width": 237,
+      "height": 152
+    },
+    "normalAnimated": {
+      "url": "img/89.gif",
+      "width": 137,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/89_shiny.gif",
+      "width": 137,
+      "height": 79
+    }
+  }
+}

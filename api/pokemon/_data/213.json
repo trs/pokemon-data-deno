@@ -1,0 +1,51 @@
+{
+  "id": "213",
+  "name": "Shuckle",
+  "types": [
+    "Bug",
+    "Rock"
+  ],
+  "number": 213,
+  "stats": {
+    "stamina": 85,
+    "attack": 17,
+    "defence": 396
+  },
+  "quickMoves": [
+    "STRUGGLE_BUG_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_BLAST",
+    "STONE_EDGE",
+    "GYRO_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/213.png",
+      "width": 107,
+      "height": 84
+    },
+    "shiny": {
+      "url": "img/213_shiny.png",
+      "width": 107,
+      "height": 84
+    },
+    "normalAnimated": {
+      "url": "img/213.gif",
+      "width": 71,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/213_shiny.gif",
+      "width": 71,
+      "height": 57
+    }
+  }
+}

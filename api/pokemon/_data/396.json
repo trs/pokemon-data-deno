@@ -1,0 +1,50 @@
+{
+  "id": "396",
+  "name": "Starly",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 396,
+  "stats": {
+    "stamina": 120,
+    "attack": 101,
+    "defence": 58
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/396.png",
+      "width": 60,
+      "height": 76
+    },
+    "shiny": {
+      "url": "img/396_shiny.png",
+      "width": 60,
+      "height": 76
+    },
+    "normalAnimated": {
+      "url": "img/396.gif",
+      "width": 35,
+      "height": 46
+    },
+    "shinyAnimated": {
+      "url": "img/396_shiny.gif",
+      "width": 35,
+      "height": 46
+    }
+  }
+}

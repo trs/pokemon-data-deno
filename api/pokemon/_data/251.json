@@ -1,0 +1,52 @@
+{
+  "id": "251",
+  "name": "Celebi",
+  "types": [
+    "Psychic",
+    "Grass"
+  ],
+  "number": 251,
+  "stats": {
+    "stamina": 225,
+    "attack": 210,
+    "defence": 210
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "HYPER_BEAM",
+    "PSYCHIC",
+    "DAZZLING_GLEAM",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/251.png",
+      "width": 95,
+      "height": 101
+    },
+    "shiny": {
+      "url": "img/251_shiny.png",
+      "width": 95,
+      "height": 101
+    },
+    "normalAnimated": {
+      "url": "img/251.gif",
+      "width": 2586,
+      "height": 0
+    },
+    "shinyAnimated": {
+      "url": "img/251_shiny.gif",
+      "width": 2586,
+      "height": 0
+    }
+  }
+}

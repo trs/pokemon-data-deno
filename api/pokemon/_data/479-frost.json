@@ -1,0 +1,51 @@
+{
+  "id": "479-frost",
+  "name": "Rotom",
+  "types": [
+    "Electric",
+    "Ice"
+  ],
+  "number": 479,
+  "stats": {
+    "stamina": 137,
+    "attack": 204,
+    "defence": 219
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "BLIZZARD",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Frost",
+      "code": "frost"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/479-frost.png",
+      "width": 217,
+      "height": 128
+    },
+    "shiny": {
+      "url": "img/479-frost_shiny.png",
+      "width": 217,
+      "height": 128
+    },
+    "normalAnimated": {
+      "url": "img/479-frost.gif",
+      "width": 117,
+      "height": 65
+    },
+    "shinyAnimated": {
+      "url": "img/479-frost_shiny.gif",
+      "width": 117,
+      "height": 65
+    }
+  }
+}

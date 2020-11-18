@@ -1,0 +1,50 @@
+{
+  "id": "225",
+  "name": "Delibird",
+  "types": [
+    "Ice",
+    "Flying"
+  ],
+  "number": 225,
+  "stats": {
+    "stamina": 128,
+    "attack": 128,
+    "defence": 90
+  },
+  "quickMoves": [
+    "PRESENT_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_PUNCH",
+    "ICY_WIND",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/225.png",
+      "width": 103,
+      "height": 125
+    },
+    "shiny": {
+      "url": "img/225_shiny.png",
+      "width": 103,
+      "height": 125
+    },
+    "normalAnimated": {
+      "url": "img/225.gif",
+      "width": 59,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "img/225_shiny.gif",
+      "width": 59,
+      "height": 71
+    }
+  }
+}

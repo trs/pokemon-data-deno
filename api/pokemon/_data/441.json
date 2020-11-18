@@ -1,0 +1,51 @@
+{
+  "id": "441",
+  "name": "Chatot",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 441,
+  "stats": {
+    "stamina": 183,
+    "attack": 183,
+    "defence": 91
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SHADE",
+    "SKY_ATTACK",
+    "HEAT_WAVE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/441.png",
+      "width": 87,
+      "height": 104
+    },
+    "shiny": {
+      "url": "img/441_shiny.png",
+      "width": 87,
+      "height": 104
+    },
+    "normalAnimated": {
+      "url": "img/441.gif",
+      "width": 48,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/441_shiny.gif",
+      "width": 48,
+      "height": 60
+    }
+  }
+}

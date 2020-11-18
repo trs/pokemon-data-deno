@@ -1,0 +1,52 @@
+{
+  "id": "257",
+  "name": "Blaziken",
+  "types": [
+    "Fire",
+    "Fighting"
+  ],
+  "number": 257,
+  "stats": {
+    "stamina": 190,
+    "attack": 240,
+    "defence": 141
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "FOCUS_BLAST",
+    "OVERHEAT",
+    "BRAVE_BIRD",
+    "BLAZE_KICK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/257.png",
+      "width": 151,
+      "height": 180
+    },
+    "shiny": {
+      "url": "img/257_shiny.png",
+      "width": 151,
+      "height": 180
+    },
+    "normalAnimated": {
+      "url": "img/257.gif",
+      "width": 83,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "img/257_shiny.gif",
+      "width": 83,
+      "height": 96
+    }
+  }
+}

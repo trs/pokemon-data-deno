@@ -1,0 +1,52 @@
+{
+  "id": "262",
+  "name": "Mightyena",
+  "types": [
+    "Dark"
+  ],
+  "number": 262,
+  "stats": {
+    "stamina": 172,
+    "attack": 171,
+    "defence": 132
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "FIRE_FANG_FAST",
+    "THUNDER_FANG_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "PLAY_ROUGH",
+    "POISON_FANG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/262.png",
+      "width": 126,
+      "height": 151
+    },
+    "shiny": {
+      "url": "img/262_shiny.png",
+      "width": 126,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "img/262.gif",
+      "width": 73,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/262_shiny.gif",
+      "width": 73,
+      "height": 79
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "64",
+  "name": "Kadabra",
+  "types": [
+    "Psychic"
+  ],
+  "number": 64,
+  "stats": {
+    "stamina": 120,
+    "attack": 232,
+    "defence": 117
+  },
+  "quickMoves": [
+    "PSYCHO_CUT_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "DAZZLING_GLEAM",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/64.png",
+      "width": 163,
+      "height": 172
+    },
+    "shiny": {
+      "url": "img/64_shiny.png",
+      "width": 163,
+      "height": 172
+    },
+    "normalAnimated": {
+      "url": "img/64.gif",
+      "width": 70,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "img/64_shiny.gif",
+      "width": 70,
+      "height": 71
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "537",
+  "name": "Seismitoad",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 537,
+  "stats": {
+    "stamina": 233,
+    "attack": 188,
+    "defence": 150
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "MUDDY_WATER",
+    "EARTH_POWER",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/537.png",
+      "width": 206,
+      "height": 181
+    },
+    "shiny": {
+      "url": "img/537_shiny.png",
+      "width": 206,
+      "height": 181
+    },
+    "normalAnimated": {
+      "url": "img/537.gif",
+      "width": 95,
+      "height": 90
+    },
+    "shinyAnimated": {
+      "url": "img/537_shiny.gif",
+      "width": 95,
+      "height": 90
+    }
+  }
+}

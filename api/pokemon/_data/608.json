@@ -1,0 +1,51 @@
+{
+  "id": "608",
+  "name": "Lampent",
+  "types": [
+    "Ghost",
+    "Fire"
+  ],
+  "number": 608,
+  "stats": {
+    "stamina": 155,
+    "attack": 169,
+    "defence": 115
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "ENERGY_BALL",
+    "FLAME_BURST",
+    "HEAT_WAVE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/608.png",
+      "width": 133,
+      "height": 135
+    },
+    "shiny": {
+      "url": "img/608_shiny.png",
+      "width": 133,
+      "height": 135
+    },
+    "normalAnimated": {
+      "url": "img/608.gif",
+      "width": 98,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "img/608_shiny.gif",
+      "width": 98,
+      "height": 82
+    }
+  }
+}

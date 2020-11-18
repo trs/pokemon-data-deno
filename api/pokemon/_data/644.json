@@ -1,0 +1,52 @@
+{
+  "id": "644",
+  "name": "Zekrom",
+  "types": [
+    "Dragon",
+    "Electric"
+  ],
+  "number": 644,
+  "stats": {
+    "stamina": 205,
+    "attack": 275,
+    "defence": 211
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "OUTRAGE",
+    "WILD_CHARGE",
+    "FLASH_CANNON",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/644.png",
+      "width": 240,
+      "height": 240
+    },
+    "shiny": {
+      "url": "img/644_shiny.png",
+      "width": 240,
+      "height": 240
+    },
+    "normalAnimated": {
+      "url": "img/644.gif",
+      "width": 116,
+      "height": 136
+    },
+    "shinyAnimated": {
+      "url": "img/644_shiny.gif",
+      "width": 116,
+      "height": 136
+    }
+  }
+}

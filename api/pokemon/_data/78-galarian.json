@@ -1,0 +1,52 @@
+{
+  "id": "78-galarian",
+  "name": "Rapidash",
+  "types": [
+    "Psychic",
+    "Fairy"
+  ],
+  "number": 78,
+  "stats": {
+    "stamina": 163,
+    "attack": 207,
+    "defence": 162
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "PSYCHO_CUT_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "PSYCHIC",
+    "BODY_SLAM",
+    "MEGAHORN"
+  ],
+  "forms": [
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/78-galarian.png",
+      "width": 132,
+      "height": 199
+    },
+    "shiny": {
+      "url": "img/78-galarian_shiny.png",
+      "width": 132,
+      "height": 199
+    },
+    "normalAnimated": {
+      "url": "img/78-galarian.gif",
+      "width": 64,
+      "height": 102
+    },
+    "shinyAnimated": {
+      "url": "img/78-galarian_shiny.gif",
+      "width": 64,
+      "height": 102
+    }
+  }
+}

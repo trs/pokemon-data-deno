@@ -1,0 +1,51 @@
+{
+  "id": "263-galarian",
+  "name": "Zigzagoon",
+  "types": [
+    "Dark",
+    "Normal"
+  ],
+  "number": 263,
+  "stats": {
+    "stamina": 116,
+    "attack": 58,
+    "defence": 80
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "BODY_SLAM",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/263-galarian.png",
+      "width": 118,
+      "height": 98
+    },
+    "shiny": {
+      "url": "img/263-galarian_shiny.png",
+      "width": 118,
+      "height": 98
+    },
+    "normalAnimated": {
+      "url": "img/263-galarian.gif",
+      "width": 54,
+      "height": 43
+    },
+    "shinyAnimated": {
+      "url": "img/263-galarian_shiny.gif",
+      "width": 54,
+      "height": 44
+    }
+  }
+}

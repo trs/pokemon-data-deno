@@ -1,0 +1,51 @@
+{
+  "id": "338",
+  "name": "Solrock",
+  "types": [
+    "Rock",
+    "Psychic"
+  ],
+  "number": 338,
+  "stats": {
+    "stamina": 207,
+    "attack": 178,
+    "defence": 153
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "ROCK_SLIDE",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/338.png",
+      "width": 154,
+      "height": 148
+    },
+    "shiny": {
+      "url": "img/338_shiny.png",
+      "width": 154,
+      "height": 148
+    },
+    "normalAnimated": {
+      "url": "img/338.gif",
+      "width": 90,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/338_shiny.gif",
+      "width": 90,
+      "height": 79
+    }
+  }
+}

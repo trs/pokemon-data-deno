@@ -1,0 +1,50 @@
+{
+  "id": "61",
+  "name": "Poliwhirl",
+  "types": [
+    "Water"
+  ],
+  "number": 61,
+  "stats": {
+    "stamina": 163,
+    "attack": 130,
+    "defence": 123
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "MUD_SHOT_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "MUD_BOMB",
+    "BUBBLE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/61.png",
+      "width": 192,
+      "height": 141
+    },
+    "shiny": {
+      "url": "img/61_shiny.png",
+      "width": 192,
+      "height": 141
+    },
+    "normalAnimated": {
+      "url": "img/61.gif",
+      "width": 73,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/61_shiny.gif",
+      "width": 73,
+      "height": 50
+    }
+  }
+}

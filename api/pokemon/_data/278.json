@@ -1,0 +1,51 @@
+{
+  "id": "278",
+  "name": "Wingull",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "number": 278,
+  "stats": {
+    "stamina": 120,
+    "attack": 106,
+    "defence": 61
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "AIR_CUTTER",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/278.png",
+      "width": 192,
+      "height": 51
+    },
+    "shiny": {
+      "url": "img/278_shiny.png",
+      "width": 192,
+      "height": 51
+    },
+    "normalAnimated": {
+      "url": "img/278.gif",
+      "width": 143,
+      "height": 24
+    },
+    "shinyAnimated": {
+      "url": "img/278_shiny.gif",
+      "width": 143,
+      "height": 24
+    }
+  }
+}

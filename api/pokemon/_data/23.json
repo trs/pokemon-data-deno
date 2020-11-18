@@ -1,0 +1,50 @@
+{
+  "id": "23",
+  "name": "Ekans",
+  "types": [
+    "Poison"
+  ],
+  "number": 23,
+  "stats": {
+    "stamina": 111,
+    "attack": 110,
+    "defence": 97
+  },
+  "quickMoves": [
+    "POISON_STING_FAST",
+    "ACID_FAST"
+  ],
+  "chargeMoves": [
+    "WRAP",
+    "POISON_FANG",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/23.png",
+      "width": 73,
+      "height": 67
+    },
+    "shiny": {
+      "url": "img/23_shiny.png",
+      "width": 73,
+      "height": 67
+    },
+    "normalAnimated": {
+      "url": "img/23.gif",
+      "width": 46,
+      "height": 42
+    },
+    "shinyAnimated": {
+      "url": "img/23_shiny.gif",
+      "width": 46,
+      "height": 42
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "102",
+  "name": "Exeggcute",
+  "types": [
+    "Grass",
+    "Psychic"
+  ],
+  "number": 102,
+  "stats": {
+    "stamina": 155,
+    "attack": 107,
+    "defence": 125
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "PSYCHIC",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/102.png",
+      "width": 143,
+      "height": 60
+    },
+    "shiny": {
+      "url": "img/102_shiny.png",
+      "width": 143,
+      "height": 60
+    },
+    "normalAnimated": {
+      "url": "img/102.gif",
+      "width": 77,
+      "height": 29
+    },
+    "shinyAnimated": {
+      "url": "img/102_shiny.gif",
+      "width": 77,
+      "height": 29
+    }
+  }
+}

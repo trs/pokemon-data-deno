@@ -1,0 +1,51 @@
+{
+  "id": "41",
+  "name": "Zubat",
+  "types": [
+    "Poison",
+    "Flying"
+  ],
+  "number": 41,
+  "stats": {
+    "stamina": 120,
+    "attack": 83,
+    "defence": 73
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "POISON_FANG",
+    "AIR_CUTTER",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/41.png",
+      "width": 175,
+      "height": 74
+    },
+    "shiny": {
+      "url": "img/41_shiny.png",
+      "width": 175,
+      "height": 74
+    },
+    "normalAnimated": {
+      "url": "img/41.gif",
+      "width": 110,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "img/41_shiny.gif",
+      "width": 110,
+      "height": 89
+    }
+  }
+}

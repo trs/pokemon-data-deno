@@ -1,0 +1,51 @@
+{
+  "id": "217",
+  "name": "Ursaring",
+  "types": [
+    "Normal"
+  ],
+  "number": 217,
+  "stats": {
+    "stamina": 207,
+    "attack": 236,
+    "defence": 144
+  },
+  "quickMoves": [
+    "METAL_CLAW_FAST",
+    "COUNTER_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "HYPER_BEAM",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/217.png",
+      "width": 149,
+      "height": 197
+    },
+    "shiny": {
+      "url": "img/217_shiny.png",
+      "width": 149,
+      "height": 197
+    },
+    "normalAnimated": {
+      "url": "img/217.gif",
+      "width": 68,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/217_shiny.gif",
+      "width": 68,
+      "height": 95
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "306",
+  "name": "Aggron",
+  "types": [
+    "Steel",
+    "Rock"
+  ],
+  "number": 306,
+  "stats": {
+    "stamina": 172,
+    "attack": 198,
+    "defence": 257
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "IRON_TAIL_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDER",
+    "STONE_EDGE",
+    "HEAVY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/306.png",
+      "width": 238,
+      "height": 181
+    },
+    "shiny": {
+      "url": "img/306_shiny.png",
+      "width": 238,
+      "height": 181
+    },
+    "normalAnimated": {
+      "url": "img/306.gif",
+      "width": 106,
+      "height": 97
+    },
+    "shinyAnimated": {
+      "url": "img/306_shiny.gif",
+      "width": 106,
+      "height": 97
+    }
+  }
+}

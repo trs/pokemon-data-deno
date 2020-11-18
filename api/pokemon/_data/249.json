@@ -1,0 +1,51 @@
+{
+  "id": "249",
+  "name": "Lugia",
+  "types": [
+    "Psychic",
+    "Flying"
+  ],
+  "number": 249,
+  "stats": {
+    "stamina": 235,
+    "attack": 193,
+    "defence": 310
+  },
+  "quickMoves": [
+    "EXTRASENSORY_FAST",
+    "DRAGON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "SKY_ATTACK",
+    "HYDRO_PUMP",
+    "FUTURESIGHT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/249.png",
+      "width": 237,
+      "height": 226
+    },
+    "shiny": {
+      "url": "img/249_shiny.png",
+      "width": 237,
+      "height": 226
+    },
+    "normalAnimated": {
+      "url": "img/249.gif",
+      "width": 156,
+      "height": 127
+    },
+    "shinyAnimated": {
+      "url": "img/249_shiny.gif",
+      "width": 156,
+      "height": 128
+    }
+  }
+}

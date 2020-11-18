@@ -1,0 +1,50 @@
+{
+  "id": "331",
+  "name": "Cacnea",
+  "types": [
+    "Grass"
+  ],
+  "number": 331,
+  "stats": {
+    "stamina": 137,
+    "attack": 156,
+    "defence": 74
+  },
+  "quickMoves": [
+    "POISON_STING_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "BRICK_BREAK",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/331.png",
+      "width": 137,
+      "height": 85
+    },
+    "shiny": {
+      "url": "img/331_shiny.png",
+      "width": 137,
+      "height": 85
+    },
+    "normalAnimated": {
+      "url": "img/331.gif",
+      "width": 81,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/331_shiny.gif",
+      "width": 81,
+      "height": 50
+    }
+  }
+}

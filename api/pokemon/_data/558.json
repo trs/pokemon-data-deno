@@ -1,0 +1,51 @@
+{
+  "id": "558",
+  "name": "Crustle",
+  "types": [
+    "Bug",
+    "Rock"
+  ],
+  "number": 558,
+  "stats": {
+    "stamina": 172,
+    "attack": 188,
+    "defence": 200
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_BLAST",
+    "X_SCISSOR",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/558.png",
+      "width": 242,
+      "height": 209
+    },
+    "shiny": {
+      "url": "img/558_shiny.png",
+      "width": 242,
+      "height": 209
+    },
+    "normalAnimated": {
+      "url": "img/558.gif",
+      "width": 97,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "img/558_shiny.gif",
+      "width": 97,
+      "height": 83
+    }
+  }
+}

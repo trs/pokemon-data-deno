@@ -1,0 +1,50 @@
+{
+  "id": "204",
+  "name": "Pineco",
+  "types": [
+    "Bug"
+  ],
+  "number": 204,
+  "stats": {
+    "stamina": 137,
+    "attack": 108,
+    "defence": 122
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "ROCK_TOMB",
+    "SAND_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/204.png",
+      "width": 75,
+      "height": 81
+    },
+    "shiny": {
+      "url": "img/204_shiny.png",
+      "width": 75,
+      "height": 81
+    },
+    "normalAnimated": {
+      "url": "img/204.gif",
+      "width": 56,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/204_shiny.gif",
+      "width": 56,
+      "height": 59
+    }
+  }
+}

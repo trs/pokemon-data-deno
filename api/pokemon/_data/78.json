@@ -1,0 +1,52 @@
+{
+  "id": "78",
+  "name": "Rapidash",
+  "types": [
+    "Fire"
+  ],
+  "number": 78,
+  "stats": {
+    "stamina": 163,
+    "attack": 207,
+    "defence": 162
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "FIRE_SPIN_FAST",
+    "INCINERATE_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "DRILL_RUN",
+    "HEAT_WAVE",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/78.png",
+      "width": 171,
+      "height": 210
+    },
+    "shiny": {
+      "url": "img/78_shiny.png",
+      "width": 170,
+      "height": 211
+    },
+    "normalAnimated": {
+      "url": "img/78.gif",
+      "width": 91,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/78_shiny.gif",
+      "width": 91,
+      "height": 95
+    }
+  }
+}

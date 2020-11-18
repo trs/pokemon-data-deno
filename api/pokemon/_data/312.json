@@ -1,0 +1,51 @@
+{
+  "id": "312",
+  "name": "Minun",
+  "types": [
+    "Electric"
+  ],
+  "number": 312,
+  "stats": {
+    "stamina": 155,
+    "attack": 147,
+    "defence": 150
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "DISCHARGE",
+    "SWIFT",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/312.png",
+      "width": 69,
+      "height": 85
+    },
+    "shiny": {
+      "url": "img/312_shiny.png",
+      "width": 69,
+      "height": 85
+    },
+    "normalAnimated": {
+      "url": "img/312.gif",
+      "width": 67,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/312_shiny.gif",
+      "width": 67,
+      "height": 59
+    }
+  }
+}

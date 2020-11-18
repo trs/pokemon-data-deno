@@ -1,0 +1,51 @@
+{
+  "id": "76-alola",
+  "name": "Golem",
+  "types": [
+    "Rock",
+    "Electric"
+  ],
+  "number": 76,
+  "stats": {
+    "stamina": 190,
+    "attack": 211,
+    "defence": 198
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "STONE_EDGE",
+    "ROCK_BLAST",
+    "WILD_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/76-alola.png",
+      "width": 185,
+      "height": 207
+    },
+    "shiny": {
+      "url": "img/76-alola_shiny.png",
+      "width": 185,
+      "height": 207
+    },
+    "normalAnimated": {
+      "url": "img/76-alola.gif",
+      "width": 75,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/76-alola_shiny.gif",
+      "width": 75,
+      "height": 87
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "291",
+  "name": "Ninjask",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 291,
+  "stats": {
+    "stamina": 156,
+    "attack": 199,
+    "defence": 112
+  },
+  "quickMoves": [
+    "FURY_CUTTER_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "BUG_BUZZ",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/291.png",
+      "width": 106,
+      "height": 131
+    },
+    "shiny": {
+      "url": "img/291_shiny.png",
+      "width": 106,
+      "height": 131
+    },
+    "normalAnimated": {
+      "url": "img/291.gif",
+      "width": 91,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/291_shiny.gif",
+      "width": 91,
+      "height": 69
+    }
+  }
+}

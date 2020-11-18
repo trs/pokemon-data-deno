@@ -1,0 +1,51 @@
+{
+  "id": "182",
+  "name": "Bellossom",
+  "types": [
+    "Grass"
+  ],
+  "number": 182,
+  "stats": {
+    "stamina": 181,
+    "attack": 169,
+    "defence": 186
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "ACID_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "LEAF_BLADE",
+    "PETAL_BLIZZARD",
+    "DAZZLING_GLEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/182.png",
+      "width": 74,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/182_shiny.png",
+      "width": 74,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/182.gif",
+      "width": 57,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "img/182_shiny.gif",
+      "width": 57,
+      "height": 55
+    }
+  }
+}

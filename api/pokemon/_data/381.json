@@ -1,0 +1,51 @@
+{
+  "id": "381",
+  "name": "Latios",
+  "types": [
+    "Dragon",
+    "Psychic"
+  ],
+  "number": 381,
+  "stats": {
+    "stamina": 190,
+    "attack": 268,
+    "defence": 212
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "DRAGON_CLAW",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/381.png",
+      "width": 179,
+      "height": 137
+    },
+    "shiny": {
+      "url": "img/381_shiny.png",
+      "width": 179,
+      "height": 137
+    },
+    "normalAnimated": {
+      "url": "img/381.gif",
+      "width": 121,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "img/381_shiny.gif",
+      "width": 121,
+      "height": 80
+    }
+  }
+}

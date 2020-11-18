@@ -1,0 +1,53 @@
+{
+  "id": "352",
+  "name": "Kecleon",
+  "types": [
+    "Normal"
+  ],
+  "number": 352,
+  "stats": {
+    "stamina": 155,
+    "attack": 161,
+    "defence": 189
+  },
+  "quickMoves": [
+    "LICK_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "FOUL_PLAY",
+    "FLAMETHROWER",
+    "THUNDER",
+    "ICE_BEAM",
+    "AERIAL_ACE",
+    "SHADOW_SNEAK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/352.png",
+      "width": 67,
+      "height": 130
+    },
+    "shiny": {
+      "url": "img/352_shiny.png",
+      "width": 67,
+      "height": 130
+    },
+    "normalAnimated": {
+      "url": "img/352.gif",
+      "width": 51,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/352_shiny.gif",
+      "width": 51,
+      "height": 67
+    }
+  }
+}

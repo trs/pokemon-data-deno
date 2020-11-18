@@ -1,0 +1,52 @@
+{
+  "id": "73",
+  "name": "Tentacruel",
+  "types": [
+    "Water",
+    "Poison"
+  ],
+  "number": 73,
+  "stats": {
+    "stamina": 190,
+    "attack": 166,
+    "defence": 209
+  },
+  "quickMoves": [
+    "ACID_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "SLUDGE_WAVE",
+    "BLIZZARD",
+    "ACID_SPRAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/73.png",
+      "width": 156,
+      "height": 208
+    },
+    "shiny": {
+      "url": "img/73_shiny.png",
+      "width": 156,
+      "height": 208
+    },
+    "normalAnimated": {
+      "url": "img/73.gif",
+      "width": 68,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "img/73_shiny.gif",
+      "width": 68,
+      "height": 85
+    }
+  }
+}

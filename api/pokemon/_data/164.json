@@ -1,0 +1,51 @@
+{
+  "id": "164",
+  "name": "Noctowl",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 164,
+  "stats": {
+    "stamina": 225,
+    "attack": 145,
+    "defence": 156
+  },
+  "quickMoves": [
+    "WING_ATTACK_FAST",
+    "EXTRASENSORY_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "SKY_ATTACK",
+    "NIGHT_SHADE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/164.png",
+      "width": 248,
+      "height": 165
+    },
+    "shiny": {
+      "url": "img/164_shiny.png",
+      "width": 248,
+      "height": 165
+    },
+    "normalAnimated": {
+      "url": "img/164.gif",
+      "width": 111,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/164_shiny.gif",
+      "width": 111,
+      "height": 84
+    }
+  }
+}

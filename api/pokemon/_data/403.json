@@ -1,0 +1,50 @@
+{
+  "id": "403",
+  "name": "Shinx",
+  "types": [
+    "Electric"
+  ],
+  "number": 403,
+  "stats": {
+    "stamina": 128,
+    "attack": 117,
+    "defence": 64
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "DISCHARGE",
+    "THUNDERBOLT",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/403.png",
+      "width": 92,
+      "height": 89
+    },
+    "shiny": {
+      "url": "img/403_shiny.png",
+      "width": 92,
+      "height": 89
+    },
+    "normalAnimated": {
+      "url": "img/403.gif",
+      "width": 62,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/403_shiny.gif",
+      "width": 62,
+      "height": 59
+    }
+  }
+}

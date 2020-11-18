@@ -1,0 +1,51 @@
+{
+  "id": "18",
+  "name": "Pidgeot",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 18,
+  "stats": {
+    "stamina": 195,
+    "attack": 166,
+    "defence": 154
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "HURRICANE",
+    "AERIAL_ACE",
+    "BRAVE_BIRD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/18.png",
+      "width": 253,
+      "height": 181
+    },
+    "shiny": {
+      "url": "img/18_shiny.png",
+      "width": 253,
+      "height": 181
+    },
+    "normalAnimated": {
+      "url": "img/18.gif",
+      "width": 124,
+      "height": 124
+    },
+    "shinyAnimated": {
+      "url": "img/18_shiny.gif",
+      "width": 124,
+      "height": 124
+    }
+  }
+}

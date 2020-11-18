@@ -1,0 +1,50 @@
+{
+  "id": "25",
+  "name": "Pikachu",
+  "types": [
+    "Electric"
+  ],
+  "number": 25,
+  "stats": {
+    "stamina": 111,
+    "attack": 112,
+    "defence": 96
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DISCHARGE",
+    "THUNDERBOLT",
+    "WILD_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/25.png",
+      "width": 118,
+      "height": 122
+    },
+    "shiny": {
+      "url": "img/25_shiny.png",
+      "width": 118,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "img/25.gif",
+      "width": 77,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/25_shiny.gif",
+      "width": 77,
+      "height": 60
+    }
+  }
+}

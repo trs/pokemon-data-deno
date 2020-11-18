@@ -1,0 +1,50 @@
+{
+  "id": "173",
+  "name": "Cleffa",
+  "types": [
+    "Fairy"
+  ],
+  "number": 173,
+  "stats": {
+    "stamina": 137,
+    "attack": 75,
+    "defence": 79
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "PSYSHOCK",
+    "SIGNAL_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/173.png",
+      "width": 72,
+      "height": 67
+    },
+    "shiny": {
+      "url": "img/173_shiny.png",
+      "width": 72,
+      "height": 67
+    },
+    "normalAnimated": {
+      "url": "img/173.gif",
+      "width": 46,
+      "height": 44
+    },
+    "shinyAnimated": {
+      "url": "img/173_shiny.gif",
+      "width": 46,
+      "height": 44
+    }
+  }
+}

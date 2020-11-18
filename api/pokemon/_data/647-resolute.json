@@ -1,0 +1,52 @@
+{
+  "id": "647-resolute",
+  "name": "Keldeo",
+  "types": [
+    "Water",
+    "Fighting"
+  ],
+  "number": 647,
+  "stats": {
+    "stamina": 209,
+    "attack": 260,
+    "defence": 192
+  },
+  "quickMoves": [
+    "POISON_JAB_FAST",
+    "LOW_KICK_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_JET",
+    "CLOSE_COMBAT",
+    "HYDRO_PUMP",
+    "X_SCISSOR"
+  ],
+  "forms": [
+    {
+      "name": "Resolute",
+      "code": "resolute"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/647-resolute.png",
+      "width": 160,
+      "height": 166
+    },
+    "shiny": {
+      "url": "img/647-resolute_shiny.png",
+      "width": 160,
+      "height": 166
+    },
+    "normalAnimated": {
+      "url": "img/647-resolute.gif",
+      "width": 78,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "img/647-resolute_shiny.gif",
+      "width": 78,
+      "height": 86
+    }
+  }
+}

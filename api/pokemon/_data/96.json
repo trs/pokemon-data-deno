@@ -1,0 +1,50 @@
+{
+  "id": "96",
+  "name": "Drowzee",
+  "types": [
+    "Psychic"
+  ],
+  "number": 96,
+  "stats": {
+    "stamina": 155,
+    "attack": 89,
+    "defence": 136
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "PSYSHOCK",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/96.png",
+      "width": 139,
+      "height": 132
+    },
+    "shiny": {
+      "url": "img/96_shiny.png",
+      "width": 139,
+      "height": 132
+    },
+    "normalAnimated": {
+      "url": "img/96.gif",
+      "width": 62,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/96_shiny.gif",
+      "width": 62,
+      "height": 57
+    }
+  }
+}

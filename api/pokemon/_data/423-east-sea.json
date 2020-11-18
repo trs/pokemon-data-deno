@@ -1,0 +1,51 @@
+{
+  "id": "423-east-sea",
+  "name": "Gastrodon",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 423,
+  "stats": {
+    "stamina": 244,
+    "attack": 169,
+    "defence": 143
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "EARTH_POWER",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "East Sea",
+      "code": "east-sea"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/423-east-sea.png",
+      "width": 102,
+      "height": 124
+    },
+    "shiny": {
+      "url": "img/423-east-sea_shiny.png",
+      "width": 102,
+      "height": 124
+    },
+    "normalAnimated": {
+      "url": "img/423-east-sea.gif",
+      "width": 62,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/423-east-sea_shiny.gif",
+      "width": 62,
+      "height": 77
+    }
+  }
+}

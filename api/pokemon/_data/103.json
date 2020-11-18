@@ -1,0 +1,52 @@
+{
+  "id": "103",
+  "name": "Exeggutor",
+  "types": [
+    "Grass",
+    "Psychic"
+  ],
+  "number": 103,
+  "stats": {
+    "stamina": 216,
+    "attack": 233,
+    "defence": 149
+  },
+  "quickMoves": [
+    "BULLET_SEED_FAST",
+    "EXTRASENSORY_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "PSYCHIC",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/103.png",
+      "width": 245,
+      "height": 167
+    },
+    "shiny": {
+      "url": "img/103_shiny.png",
+      "width": 245,
+      "height": 167
+    },
+    "normalAnimated": {
+      "url": "img/103.gif",
+      "width": 142,
+      "height": 99
+    },
+    "shinyAnimated": {
+      "url": "img/103_shiny.gif",
+      "width": 142,
+      "height": 99
+    }
+  }
+}

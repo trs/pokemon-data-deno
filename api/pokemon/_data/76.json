@@ -1,0 +1,52 @@
+{
+  "id": "76",
+  "name": "Golem",
+  "types": [
+    "Rock",
+    "Ground"
+  ],
+  "number": 76,
+  "stats": {
+    "stamina": 190,
+    "attack": 211,
+    "defence": 198
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "STONE_EDGE",
+    "ROCK_BLAST",
+    "EARTHQUAKE",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/76.png",
+      "width": 203,
+      "height": 181
+    },
+    "shiny": {
+      "url": "img/76_shiny.png",
+      "width": 203,
+      "height": 181
+    },
+    "normalAnimated": {
+      "url": "img/76.gif",
+      "width": 94,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/76_shiny.gif",
+      "width": 94,
+      "height": 78
+    }
+  }
+}

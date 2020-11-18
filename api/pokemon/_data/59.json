@@ -1,0 +1,52 @@
+{
+  "id": "59",
+  "name": "Arcanine",
+  "types": [
+    "Fire"
+  ],
+  "number": 59,
+  "stats": {
+    "stamina": 207,
+    "attack": 227,
+    "defence": 166
+  },
+  "quickMoves": [
+    "FIRE_FANG_FAST",
+    "SNARL_FAST",
+    "THUNDER_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "WILD_CHARGE",
+    "CRUNCH",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/59.png",
+      "width": 172,
+      "height": 199
+    },
+    "shiny": {
+      "url": "img/59_shiny.png",
+      "width": 172,
+      "height": 199
+    },
+    "normalAnimated": {
+      "url": "img/59.gif",
+      "width": 74,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "img/59_shiny.gif",
+      "width": 74,
+      "height": 82
+    }
+  }
+}

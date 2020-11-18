@@ -1,0 +1,51 @@
+{
+  "id": "139",
+  "name": "Omastar",
+  "types": [
+    "Rock",
+    "Water"
+  ],
+  "number": 139,
+  "stats": {
+    "stamina": 172,
+    "attack": 207,
+    "defence": 201
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "HYDRO_PUMP",
+    "ROCK_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/139.png",
+      "width": 157,
+      "height": 151
+    },
+    "shiny": {
+      "url": "img/139_shiny.png",
+      "width": 157,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "img/139.gif",
+      "width": 73,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/139_shiny.gif",
+      "width": 73,
+      "height": 64
+    }
+  }
+}

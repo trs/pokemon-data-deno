@@ -1,0 +1,51 @@
+{
+  "id": "639",
+  "name": "Terrakion",
+  "types": [
+    "Rock",
+    "Fighting"
+  ],
+  "number": 639,
+  "stats": {
+    "stamina": 209,
+    "attack": 260,
+    "defence": 192
+  },
+  "quickMoves": [
+    "SMACK_DOWN_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "EARTHQUAKE",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/639.png",
+      "width": 240,
+      "height": 182
+    },
+    "shiny": {
+      "url": "img/639_shiny.png",
+      "width": 240,
+      "height": 182
+    },
+    "normalAnimated": {
+      "url": "img/639.gif",
+      "width": 99,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/639_shiny.gif",
+      "width": 99,
+      "height": 84
+    }
+  }
+}

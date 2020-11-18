@@ -1,0 +1,50 @@
+{
+  "id": "20",
+  "name": "Raticate",
+  "types": [
+    "Normal"
+  ],
+  "number": 20,
+  "stats": {
+    "stamina": 146,
+    "attack": 161,
+    "defence": 139
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "HYPER_FANG",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/20.png",
+      "width": 93,
+      "height": 107
+    },
+    "shiny": {
+      "url": "img/20_shiny.png",
+      "width": 93,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "img/20.gif",
+      "width": 68,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/20_shiny.gif",
+      "width": 68,
+      "height": 64
+    }
+  }
+}

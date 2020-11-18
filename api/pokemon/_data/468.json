@@ -1,0 +1,53 @@
+{
+  "id": "468",
+  "name": "Togekiss",
+  "types": [
+    "Fairy",
+    "Flying"
+  ],
+  "number": 468,
+  "stats": {
+    "stamina": 198,
+    "attack": 225,
+    "defence": 217
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "HIDDEN_POWER_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "DAZZLING_GLEAM",
+    "AERIAL_ACE",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/468.png",
+      "width": 248,
+      "height": 148
+    },
+    "shiny": {
+      "url": "img/468_shiny.png",
+      "width": 248,
+      "height": 148
+    },
+    "normalAnimated": {
+      "url": "img/468.gif",
+      "width": 93,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/468_shiny.gif",
+      "width": 93,
+      "height": 60
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "426",
+  "name": "Drifblim",
+  "types": [
+    "Ghost",
+    "Flying"
+  ],
+  "number": 426,
+  "stats": {
+    "stamina": 312,
+    "attack": 180,
+    "defence": 102
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "ICY_WIND",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/426.png",
+      "width": 102,
+      "height": 198
+    },
+    "shiny": {
+      "url": "img/426_shiny.png",
+      "width": 102,
+      "height": 198
+    },
+    "normalAnimated": {
+      "url": "img/426.gif",
+      "width": 47,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "img/426_shiny.gif",
+      "width": 47,
+      "height": 89
+    }
+  }
+}

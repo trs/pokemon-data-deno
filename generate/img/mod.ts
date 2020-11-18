@@ -16,7 +16,7 @@ export async function resolveImageRecord(file: DownlodedFile | null, format: 'pn
   const {width, height} = await readImageDimensions(file.fullPath, format);
 
   return {
-    url: file?.file ? `images/${file.file}` : null,
+    url: file?.file ? `img/${file.file}` : null,
     width,
     height
   };

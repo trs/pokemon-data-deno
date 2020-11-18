@@ -1,0 +1,55 @@
+{
+  "id": "6-mega-y",
+  "name": "Charizard",
+  "types": [
+    "Fire",
+    "Flying"
+  ],
+  "number": 6,
+  "stats": {
+    "stamina": 186,
+    "attack": 319,
+    "defence": 212
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "DRAGON_CLAW",
+    "OVERHEAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega Y",
+      "code": "mega-y"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/6-mega-y.png",
+      "width": 240,
+      "height": 232
+    },
+    "shiny": {
+      "url": "img/6-mega-y_shiny.png",
+      "width": 241,
+      "height": 232
+    },
+    "normalAnimated": {
+      "url": "img/6-mega-y.gif",
+      "width": 201,
+      "height": 166
+    },
+    "shinyAnimated": {
+      "url": "img/6-mega-y_shiny.gif",
+      "width": 201,
+      "height": 166
+    }
+  }
+}

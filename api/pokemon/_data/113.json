@@ -1,0 +1,50 @@
+{
+  "id": "113",
+  "name": "Chansey",
+  "types": [
+    "Normal"
+  ],
+  "number": 113,
+  "stats": {
+    "stamina": 487,
+    "attack": 60,
+    "defence": 128
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "HYPER_BEAM",
+    "DAZZLING_GLEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/113.png",
+      "width": 173,
+      "height": 146
+    },
+    "shiny": {
+      "url": "img/113_shiny.png",
+      "width": 173,
+      "height": 146
+    },
+    "normalAnimated": {
+      "url": "img/113.gif",
+      "width": 74,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/113_shiny.gif",
+      "width": 74,
+      "height": 58
+    }
+  }
+}

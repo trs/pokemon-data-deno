@@ -1,0 +1,51 @@
+{
+  "id": "627",
+  "name": "Rufflet",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 627,
+  "stats": {
+    "stamina": 172,
+    "attack": 150,
+    "defence": 97
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/627.png",
+      "width": 72,
+      "height": 102
+    },
+    "shiny": {
+      "url": "img/627_shiny.png",
+      "width": 72,
+      "height": 102
+    },
+    "normalAnimated": {
+      "url": "img/627.gif",
+      "width": 45,
+      "height": 65
+    },
+    "shinyAnimated": {
+      "url": "img/627_shiny.gif",
+      "width": 45,
+      "height": 65
+    }
+  }
+}

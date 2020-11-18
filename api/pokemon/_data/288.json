@@ -1,0 +1,50 @@
+{
+  "id": "288",
+  "name": "Vigoroth",
+  "types": [
+    "Normal"
+  ],
+  "number": 288,
+  "stats": {
+    "stamina": 190,
+    "attack": 159,
+    "defence": 145
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "BODY_SLAM",
+    "BULLDOZE",
+    "BRICK_BREAK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/288.png",
+      "width": 145,
+      "height": 149
+    },
+    "shiny": {
+      "url": "img/288_shiny.png",
+      "width": 145,
+      "height": 149
+    },
+    "normalAnimated": {
+      "url": "img/288.gif",
+      "width": 82,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "img/288_shiny.gif",
+      "width": 82,
+      "height": 80
+    }
+  }
+}

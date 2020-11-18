@@ -1,0 +1,50 @@
+{
+  "id": "310",
+  "name": "Manectric",
+  "types": [
+    "Electric"
+  ],
+  "number": 310,
+  "stats": {
+    "stamina": 172,
+    "attack": 215,
+    "defence": 127
+  },
+  "quickMoves": [
+    "SNARL_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDER",
+    "WILD_CHARGE",
+    "FLAME_BURST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/310.png",
+      "width": 132,
+      "height": 174
+    },
+    "shiny": {
+      "url": "img/310_shiny.png",
+      "width": 132,
+      "height": 174
+    },
+    "normalAnimated": {
+      "url": "img/310.gif",
+      "width": 63,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "img/310_shiny.gif",
+      "width": 63,
+      "height": 80
+    }
+  }
+}

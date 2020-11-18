@@ -1,0 +1,50 @@
+{
+  "id": "158",
+  "name": "Totodile",
+  "types": [
+    "Water"
+  ],
+  "number": 158,
+  "stats": {
+    "stamina": 137,
+    "attack": 117,
+    "defence": 109
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "AQUA_JET",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/158.png",
+      "width": 66,
+      "height": 74
+    },
+    "shiny": {
+      "url": "img/158_shiny.png",
+      "width": 66,
+      "height": 74
+    },
+    "normalAnimated": {
+      "url": "img/158.gif",
+      "width": 52,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/158_shiny.gif",
+      "width": 52,
+      "height": 58
+    }
+  }
+}

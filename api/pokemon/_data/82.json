@@ -1,0 +1,53 @@
+{
+  "id": "82",
+  "name": "Magneton",
+  "types": [
+    "Electric",
+    "Steel"
+  ],
+  "number": 82,
+  "stats": {
+    "stamina": 137,
+    "attack": 223,
+    "defence": 169
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "CHARGE_BEAM_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "ZAP_CANNON",
+    "MAGNET_BOMB",
+    "FLASH_CANNON",
+    "DISCHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/82.png",
+      "width": 138,
+      "height": 110
+    },
+    "shiny": {
+      "url": "img/82_shiny.png",
+      "width": 138,
+      "height": 110
+    },
+    "normalAnimated": {
+      "url": "img/82.gif",
+      "width": 89,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/82_shiny.gif",
+      "width": 89,
+      "height": 69
+    }
+  }
+}

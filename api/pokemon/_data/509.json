@@ -1,0 +1,50 @@
+{
+  "id": "509",
+  "name": "Purrloin",
+  "types": [
+    "Dark"
+  ],
+  "number": 509,
+  "stats": {
+    "stamina": 121,
+    "attack": 98,
+    "defence": 73
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "PLAY_ROUGH",
+    "DARK_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/509.png",
+      "width": 101,
+      "height": 126
+    },
+    "shiny": {
+      "url": "img/509_shiny.png",
+      "width": 101,
+      "height": 126
+    },
+    "normalAnimated": {
+      "url": "img/509.gif",
+      "width": 59,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "img/509_shiny.gif",
+      "width": 59,
+      "height": 70
+    }
+  }
+}

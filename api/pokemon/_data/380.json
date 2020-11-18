@@ -1,0 +1,52 @@
+{
+  "id": "380",
+  "name": "Latias",
+  "types": [
+    "Dragon",
+    "Psychic"
+  ],
+  "number": 380,
+  "stats": {
+    "stamina": 190,
+    "attack": 228,
+    "defence": 246
+  },
+  "quickMoves": [
+    "DRAGON_BREATH_FAST",
+    "ZEN_HEADBUTT_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "OUTRAGE",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/380.png",
+      "width": 159,
+      "height": 112
+    },
+    "shiny": {
+      "url": "img/380_shiny.png",
+      "width": 159,
+      "height": 112
+    },
+    "normalAnimated": {
+      "url": "img/380.gif",
+      "width": 108,
+      "height": 69
+    },
+    "shinyAnimated": {
+      "url": "img/380_shiny.gif",
+      "width": 108,
+      "height": 69
+    }
+  }
+}

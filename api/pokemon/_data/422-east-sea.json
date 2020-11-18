@@ -1,0 +1,50 @@
+{
+  "id": "422-east-sea",
+  "name": "Shellos",
+  "types": [
+    "Water"
+  ],
+  "number": 422,
+  "stats": {
+    "stamina": 183,
+    "attack": 103,
+    "defence": 105
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "MUD_BOMB",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "East Sea",
+      "code": "east-sea"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/422-east-sea.png",
+      "width": 69,
+      "height": 85
+    },
+    "shiny": {
+      "url": "img/422-east-sea_shiny.png",
+      "width": 69,
+      "height": 85
+    },
+    "normalAnimated": {
+      "url": "img/422-east-sea.gif",
+      "width": 51,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/422-east-sea_shiny.gif",
+      "width": 51,
+      "height": 60
+    }
+  }
+}

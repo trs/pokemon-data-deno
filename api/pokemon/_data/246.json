@@ -1,0 +1,51 @@
+{
+  "id": "246",
+  "name": "Larvitar",
+  "types": [
+    "Rock",
+    "Ground"
+  ],
+  "number": 246,
+  "stats": {
+    "stamina": 137,
+    "attack": 115,
+    "defence": 93
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "STOMP",
+    "CRUNCH",
+    "ANCIENT_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/246.png",
+      "width": 71,
+      "height": 99
+    },
+    "shiny": {
+      "url": "img/246_shiny.png",
+      "width": 71,
+      "height": 99
+    },
+    "normalAnimated": {
+      "url": "img/246.gif",
+      "width": 46,
+      "height": 65
+    },
+    "shinyAnimated": {
+      "url": "img/246_shiny.gif",
+      "width": 46,
+      "height": 65
+    }
+  }
+}

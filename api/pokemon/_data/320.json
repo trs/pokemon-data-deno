@@ -1,0 +1,50 @@
+{
+  "id": "320",
+  "name": "Wailmer",
+  "types": [
+    "Water"
+  ],
+  "number": 320,
+  "stats": {
+    "stamina": 277,
+    "attack": 136,
+    "defence": 68
+  },
+  "quickMoves": [
+    "SPLASH_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "HEAVY_SLAM",
+    "WATER_PULSE",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/320.png",
+      "width": 238,
+      "height": 144
+    },
+    "shiny": {
+      "url": "img/320_shiny.png",
+      "width": 238,
+      "height": 144
+    },
+    "normalAnimated": {
+      "url": "img/320.gif",
+      "width": 106,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/320_shiny.gif",
+      "width": 106,
+      "height": 68
+    }
+  }
+}

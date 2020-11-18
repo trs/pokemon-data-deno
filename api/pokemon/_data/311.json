@@ -1,0 +1,51 @@
+{
+  "id": "311",
+  "name": "Plusle",
+  "types": [
+    "Electric"
+  ],
+  "number": 311,
+  "stats": {
+    "stamina": 155,
+    "attack": 167,
+    "defence": 129
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "DISCHARGE",
+    "SWIFT",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/311.png",
+      "width": 69,
+      "height": 85
+    },
+    "shiny": {
+      "url": "img/311_shiny.png",
+      "width": 69,
+      "height": 85
+    },
+    "normalAnimated": {
+      "url": "img/311.gif",
+      "width": 67,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/311_shiny.gif",
+      "width": 67,
+      "height": 59
+    }
+  }
+}

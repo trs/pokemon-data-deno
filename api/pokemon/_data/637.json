@@ -1,0 +1,52 @@
+{
+  "id": "637",
+  "name": "Volcarona",
+  "types": [
+    "Bug",
+    "Fire"
+  ],
+  "number": 637,
+  "stats": {
+    "stamina": 198,
+    "attack": 264,
+    "defence": 189
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "OVERHEAT",
+    "BUG_BUZZ",
+    "SOLAR_BEAM",
+    "HURRICANE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/637.png",
+      "width": 246,
+      "height": 167
+    },
+    "shiny": {
+      "url": "img/637_shiny.png",
+      "width": 246,
+      "height": 167
+    },
+    "normalAnimated": {
+      "url": "img/637.gif",
+      "width": 129,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "img/637_shiny.gif",
+      "width": 129,
+      "height": 93
+    }
+  }
+}

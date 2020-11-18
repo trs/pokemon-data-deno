@@ -1,0 +1,50 @@
+{
+  "id": "66",
+  "name": "Machop",
+  "types": [
+    "Fighting"
+  ],
+  "number": 66,
+  "stats": {
+    "stamina": 172,
+    "attack": 137,
+    "defence": 82
+  },
+  "quickMoves": [
+    "ROCK_SMASH_FAST",
+    "KARATE_CHOP_FAST"
+  ],
+  "chargeMoves": [
+    "LOW_SWEEP",
+    "BRICK_BREAK",
+    "CROSS_CHOP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/66.png",
+      "width": 74,
+      "height": 120
+    },
+    "shiny": {
+      "url": "img/66_shiny.png",
+      "width": 74,
+      "height": 120
+    },
+    "normalAnimated": {
+      "url": "img/66.gif",
+      "width": 39,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "img/66_shiny.gif",
+      "width": 39,
+      "height": 63
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "35",
+  "name": "Clefairy",
+  "types": [
+    "Fairy"
+  ],
+  "number": 35,
+  "stats": {
+    "stamina": 172,
+    "attack": 107,
+    "defence": 108
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "DISARMING_VOICE",
+    "BODY_SLAM",
+    "MOONBLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/35.png",
+      "width": 89,
+      "height": 84
+    },
+    "shiny": {
+      "url": "img/35_shiny.png",
+      "width": 89,
+      "height": 84
+    },
+    "normalAnimated": {
+      "url": "img/35.gif",
+      "width": 56,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "img/35_shiny.gif",
+      "width": 56,
+      "height": 48
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "245",
+  "name": "Suicune",
+  "types": [
+    "Water"
+  ],
+  "number": 245,
+  "stats": {
+    "stamina": 225,
+    "attack": 180,
+    "defence": 235
+  },
+  "quickMoves": [
+    "EXTRASENSORY_FAST",
+    "SNARL_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "BUBBLE_BEAM",
+    "WATER_PULSE",
+    "ICE_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/245.png",
+      "width": 231,
+      "height": 205
+    },
+    "shiny": {
+      "url": "img/245_shiny.png",
+      "width": 231,
+      "height": 205
+    },
+    "normalAnimated": {
+      "url": "img/245.gif",
+      "width": 107,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "img/245_shiny.gif",
+      "width": 107,
+      "height": 86
+    }
+  }
+}

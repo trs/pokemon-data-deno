@@ -1,0 +1,50 @@
+{
+  "id": "351",
+  "name": "Castform",
+  "types": [
+    "Normal"
+  ],
+  "number": 351,
+  "stats": {
+    "stamina": 172,
+    "attack": 139,
+    "defence": 139
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "HEX_FAST"
+  ],
+  "chargeMoves": [
+    "HURRICANE",
+    "ENERGY_BALL",
+    "WEATHER_BALL_ROCK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/351.png",
+      "width": 57,
+      "height": 90
+    },
+    "shiny": {
+      "url": "img/351_shiny.png",
+      "width": 57,
+      "height": 90
+    },
+    "normalAnimated": {
+      "url": "img/351.gif",
+      "width": 37,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/351_shiny.gif",
+      "width": 37,
+      "height": 59
+    }
+  }
+}

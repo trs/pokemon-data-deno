@@ -1,0 +1,51 @@
+{
+  "id": "188",
+  "name": "Skiploom",
+  "types": [
+    "Grass",
+    "Flying"
+  ],
+  "number": 188,
+  "stats": {
+    "stamina": 146,
+    "attack": 91,
+    "defence": 120
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "DAZZLING_GLEAM",
+    "ENERGY_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/188.png",
+      "width": 138,
+      "height": 88
+    },
+    "shiny": {
+      "url": "img/188_shiny.png",
+      "width": 138,
+      "height": 88
+    },
+    "normalAnimated": {
+      "url": "img/188.gif",
+      "width": 64,
+      "height": 41
+    },
+    "shinyAnimated": {
+      "url": "img/188_shiny.gif",
+      "width": 64,
+      "height": 41
+    }
+  }
+}

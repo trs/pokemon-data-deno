@@ -1,0 +1,50 @@
+{
+  "id": "341",
+  "name": "Corphish",
+  "types": [
+    "Water"
+  ],
+  "number": 341,
+  "stats": {
+    "stamina": 125,
+    "attack": 141,
+    "defence": 99
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "VICE_GRIP",
+    "BUBBLE_BEAM",
+    "AQUA_JET"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/341.png",
+      "width": 126,
+      "height": 98
+    },
+    "shiny": {
+      "url": "img/341_shiny.png",
+      "width": 126,
+      "height": 98
+    },
+    "normalAnimated": {
+      "url": "img/341.gif",
+      "width": 64,
+      "height": 55
+    },
+    "shinyAnimated": {
+      "url": "img/341_shiny.gif",
+      "width": 64,
+      "height": 55
+    }
+  }
+}

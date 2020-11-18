@@ -1,0 +1,49 @@
+{
+  "id": "172",
+  "name": "Pichu",
+  "types": [
+    "Electric"
+  ],
+  "number": 172,
+  "stats": {
+    "stamina": 85,
+    "attack": 77,
+    "defence": 53
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDERBOLT",
+    "DISARMING_VOICE",
+    "THUNDER_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/172.png",
+      "width": 93,
+      "height": 111
+    },
+    "shiny": {
+      "url": "img/172_shiny.png",
+      "width": 93,
+      "height": 111
+    },
+    "normalAnimated": {
+      "url": "img/172.gif",
+      "width": 51,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "img/172_shiny.gif",
+      "width": 51,
+      "height": 52
+    }
+  }
+}

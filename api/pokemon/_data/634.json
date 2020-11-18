@@ -1,0 +1,51 @@
+{
+  "id": "634",
+  "name": "Zweilous",
+  "types": [
+    "Dark",
+    "Dragon"
+  ],
+  "number": 634,
+  "stats": {
+    "stamina": 176,
+    "attack": 159,
+    "defence": 135
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_PULSE",
+    "DARK_PULSE",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/634.png",
+      "width": 217,
+      "height": 180
+    },
+    "shiny": {
+      "url": "img/634_shiny.png",
+      "width": 217,
+      "height": 180
+    },
+    "normalAnimated": {
+      "url": "img/634.gif",
+      "width": 95,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/634_shiny.gif",
+      "width": 95,
+      "height": 79
+    }
+  }
+}

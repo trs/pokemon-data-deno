@@ -1,0 +1,50 @@
+{
+  "id": "90",
+  "name": "Shellder",
+  "types": [
+    "Water"
+  ],
+  "number": 90,
+  "stats": {
+    "stamina": 102,
+    "attack": 116,
+    "defence": 134
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "BUBBLE_BEAM",
+    "WATER_PULSE",
+    "ICY_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/90.png",
+      "width": 83,
+      "height": 65
+    },
+    "shiny": {
+      "url": "img/90_shiny.png",
+      "width": 83,
+      "height": 65
+    },
+    "normalAnimated": {
+      "url": "img/90.gif",
+      "width": 52,
+      "height": 37
+    },
+    "shinyAnimated": {
+      "url": "img/90_shiny.gif",
+      "width": 52,
+      "height": 37
+    }
+  }
+}

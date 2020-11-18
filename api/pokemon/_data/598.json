@@ -1,0 +1,53 @@
+{
+  "id": "598",
+  "name": "Ferrothorn",
+  "types": [
+    "Grass",
+    "Steel"
+  ],
+  "number": 598,
+  "stats": {
+    "stamina": 179,
+    "attack": 158,
+    "defence": 223
+  },
+  "quickMoves": [
+    "BULLET_SEED_FAST",
+    "METAL_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "POWER_WHIP",
+    "FLASH_CANNON",
+    "ACID_SPRAY",
+    "THUNDER",
+    "MIRROR_SHOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/598.png",
+      "width": 222,
+      "height": 124
+    },
+    "shiny": {
+      "url": "img/598_shiny.png",
+      "width": 222,
+      "height": 124
+    },
+    "normalAnimated": {
+      "url": "img/598.gif",
+      "width": 128,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "img/598_shiny.gif",
+      "width": 128,
+      "height": 70
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "141",
+  "name": "Kabutops",
+  "types": [
+    "Rock",
+    "Water"
+  ],
+  "number": 141,
+  "stats": {
+    "stamina": 155,
+    "attack": 220,
+    "defence": 186
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "ROCK_SMASH_FAST",
+    "WATERFALL_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "WATER_PULSE",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/141.png",
+      "width": 140,
+      "height": 183
+    },
+    "shiny": {
+      "url": "img/141_shiny.png",
+      "width": 140,
+      "height": 183
+    },
+    "normalAnimated": {
+      "url": "img/141.gif",
+      "width": 58,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/141_shiny.gif",
+      "width": 58,
+      "height": 73
+    }
+  }
+}

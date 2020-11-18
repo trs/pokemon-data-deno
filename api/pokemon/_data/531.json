@@ -1,0 +1,50 @@
+{
+  "id": "531",
+  "name": "Audino",
+  "types": [
+    "Normal"
+  ],
+  "number": 531,
+  "stats": {
+    "stamina": 230,
+    "attack": 114,
+    "defence": 163
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "DISARMING_VOICE",
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/531.png",
+      "width": 114,
+      "height": 149
+    },
+    "shiny": {
+      "url": "img/531_shiny.png",
+      "width": 114,
+      "height": 149
+    },
+    "normalAnimated": {
+      "url": "img/531.gif",
+      "width": 63,
+      "height": 75
+    },
+    "shinyAnimated": {
+      "url": "img/531_shiny.gif",
+      "width": 63,
+      "height": 75
+    }
+  }
+}

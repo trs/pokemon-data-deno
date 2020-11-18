@@ -1,0 +1,51 @@
+{
+  "id": "248",
+  "name": "Tyranitar",
+  "types": [
+    "Rock",
+    "Dark"
+  ],
+  "number": 248,
+  "stats": {
+    "stamina": 225,
+    "attack": 251,
+    "defence": 207
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "IRON_TAIL_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "CRUNCH",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/248.png",
+      "width": 163,
+      "height": 221
+    },
+    "shiny": {
+      "url": "img/248_shiny.png",
+      "width": 163,
+      "height": 221
+    },
+    "normalAnimated": {
+      "url": "img/248.gif",
+      "width": 75,
+      "height": 101
+    },
+    "shinyAnimated": {
+      "url": "img/248_shiny.gif",
+      "width": 75,
+      "height": 101
+    }
+  }
+}

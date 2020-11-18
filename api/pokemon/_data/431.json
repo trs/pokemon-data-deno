@@ -1,0 +1,50 @@
+{
+  "id": "431",
+  "name": "Glameow",
+  "types": [
+    "Normal"
+  ],
+  "number": 431,
+  "stats": {
+    "stamina": 135,
+    "attack": 109,
+    "defence": 82
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "THUNDERBOLT",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/431.png",
+      "width": 123,
+      "height": 152
+    },
+    "shiny": {
+      "url": "img/431_shiny.png",
+      "width": 123,
+      "height": 152
+    },
+    "normalAnimated": {
+      "url": "img/431.gif",
+      "width": 81,
+      "height": 99
+    },
+    "shinyAnimated": {
+      "url": "img/431_shiny.gif",
+      "width": 75,
+      "height": 96
+    }
+  }
+}

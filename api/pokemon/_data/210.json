@@ -1,0 +1,51 @@
+{
+  "id": "210",
+  "name": "Granbull",
+  "types": [
+    "Fairy"
+  ],
+  "number": 210,
+  "stats": {
+    "stamina": 207,
+    "attack": 212,
+    "defence": 131
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "SNARL_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "PLAY_ROUGH",
+    "CLOSE_COMBAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/210.png",
+      "width": 170,
+      "height": 179
+    },
+    "shiny": {
+      "url": "img/210_shiny.png",
+      "width": 170,
+      "height": 179
+    },
+    "normalAnimated": {
+      "url": "img/210.gif",
+      "width": 77,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/210_shiny.gif",
+      "width": 77,
+      "height": 84
+    }
+  }
+}

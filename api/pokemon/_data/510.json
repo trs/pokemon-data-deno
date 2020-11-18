@@ -1,0 +1,50 @@
+{
+  "id": "510",
+  "name": "Liepard",
+  "types": [
+    "Dark"
+  ],
+  "number": 510,
+  "stats": {
+    "stamina": 162,
+    "attack": 187,
+    "defence": 106
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "GUNK_SHOT",
+    "PLAY_ROUGH",
+    "DARK_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/510.png",
+      "width": 131,
+      "height": 247
+    },
+    "shiny": {
+      "url": "img/510_shiny.png",
+      "width": 131,
+      "height": 247
+    },
+    "normalAnimated": {
+      "url": "img/510.gif",
+      "width": 60,
+      "height": 109
+    },
+    "shinyAnimated": {
+      "url": "img/510_shiny.gif",
+      "width": 60,
+      "height": 109
+    }
+  }
+}

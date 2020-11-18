@@ -1,0 +1,50 @@
+{
+  "id": "493-grass",
+  "name": "Arceus",
+  "types": [
+    "Grass"
+  ],
+  "number": 493,
+  "stats": {
+    "stamina": 237,
+    "attack": 238,
+    "defence": 238
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "forms": [
+    {
+      "name": "Grass",
+      "code": "grass"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/493-grass.png",
+      "width": 149,
+      "height": 217
+    },
+    "shiny": {
+      "url": "img/493-grass_shiny.png",
+      "width": 149,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "img/493-grass.gif",
+      "width": 150,
+      "height": 150
+    },
+    "shinyAnimated": {
+      "url": "img/493-grass_shiny.gif",
+      "width": 86,
+      "height": 115
+    }
+  }
+}

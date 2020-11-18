@@ -1,0 +1,52 @@
+{
+  "id": "645-incarnate",
+  "name": "Landorus",
+  "types": [
+    "Ground",
+    "Flying"
+  ],
+  "number": 645,
+  "stats": {
+    "stamina": 205,
+    "attack": 261,
+    "defence": 182
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "EARTH_POWER",
+    "OUTRAGE",
+    "ROCK_SLIDE",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Incarnate",
+      "code": "incarnate"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/645-incarnate.png",
+      "width": 156,
+      "height": 178
+    },
+    "shiny": {
+      "url": "img/645-incarnate_shiny.png",
+      "width": 156,
+      "height": 178
+    },
+    "normalAnimated": {
+      "url": "img/645-incarnate.gif",
+      "width": 84,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "img/645-incarnate_shiny.gif",
+      "width": 84,
+      "height": 93
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "292",
+  "name": "Shedinja",
+  "types": [
+    "Bug",
+    "Ghost"
+  ],
+  "number": 292,
+  "stats": {
+    "stamina": 1,
+    "attack": 153,
+    "defence": 73
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_SNEAK",
+    "AERIAL_ACE",
+    "DIG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/292.png",
+      "width": 111,
+      "height": 87
+    },
+    "shiny": {
+      "url": "img/292_shiny.png",
+      "width": 111,
+      "height": 87
+    },
+    "normalAnimated": {
+      "url": "img/292.gif",
+      "width": 57,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/292_shiny.gif",
+      "width": 57,
+      "height": 58
+    }
+  }
+}

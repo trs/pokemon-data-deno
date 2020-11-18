@@ -1,0 +1,52 @@
+{
+  "id": "131",
+  "name": "Lapras",
+  "types": [
+    "Water",
+    "Ice"
+  ],
+  "number": 131,
+  "stats": {
+    "stamina": 277,
+    "attack": 165,
+    "defence": 174
+  },
+  "quickMoves": [
+    "FROST_BREATH_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "HYDRO_PUMP",
+    "SURF",
+    "BLIZZARD",
+    "SKULL_BASH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/131.png",
+      "width": 256,
+      "height": 206
+    },
+    "shiny": {
+      "url": "img/131_shiny.png",
+      "width": 256,
+      "height": 206
+    },
+    "normalAnimated": {
+      "url": "img/131.gif",
+      "width": 94,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/131_shiny.gif",
+      "width": 94,
+      "height": 84
+    }
+  }
+}

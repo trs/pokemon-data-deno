@@ -1,0 +1,51 @@
+{
+  "id": "6",
+  "name": "Charizard",
+  "types": [
+    "Fire",
+    "Flying"
+  ],
+  "number": 6,
+  "stats": {
+    "stamina": 186,
+    "attack": 223,
+    "defence": 173
+  },
+  "quickMoves": [
+    "FIRE_SPIN_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "DRAGON_CLAW",
+    "OVERHEAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/6.png",
+      "width": 235,
+      "height": 219
+    },
+    "shiny": {
+      "url": "img/6_shiny.png",
+      "width": 235,
+      "height": 219
+    },
+    "normalAnimated": {
+      "url": "img/6.gif",
+      "width": 133,
+      "height": 140
+    },
+    "shinyAnimated": {
+      "url": "img/6_shiny.gif",
+      "width": 133,
+      "height": 140
+    }
+  }
+}

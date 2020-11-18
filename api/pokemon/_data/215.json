@@ -1,0 +1,51 @@
+{
+  "id": "215",
+  "name": "Sneasel",
+  "types": [
+    "Dark",
+    "Ice"
+  ],
+  "number": 215,
+  "stats": {
+    "stamina": 146,
+    "attack": 189,
+    "defence": 146
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "FEINT_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "ICE_PUNCH",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/215.png",
+      "width": 81,
+      "height": 122
+    },
+    "shiny": {
+      "url": "img/215_shiny.png",
+      "width": 81,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "img/215.gif",
+      "width": 47,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "img/215_shiny.gif",
+      "width": 47,
+      "height": 72
+    }
+  }
+}

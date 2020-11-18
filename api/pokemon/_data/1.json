@@ -1,0 +1,51 @@
+{
+  "id": "1",
+  "name": "Bulbasaur",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "number": 1,
+  "stats": {
+    "stamina": 128,
+    "attack": 118,
+    "defence": 111
+  },
+  "quickMoves": [
+    "VINE_WHIP_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "SLUDGE_BOMB",
+    "SEED_BOMB",
+    "POWER_WHIP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/1.png",
+      "width": 77,
+      "height": 92
+    },
+    "shiny": {
+      "url": "img/1_shiny.png",
+      "width": 77,
+      "height": 92
+    },
+    "normalAnimated": {
+      "url": "img/1.gif",
+      "width": 45,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "img/1_shiny.gif",
+      "width": 45,
+      "height": 49
+    }
+  }
+}

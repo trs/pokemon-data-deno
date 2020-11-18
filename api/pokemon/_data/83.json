@@ -1,0 +1,51 @@
+{
+  "id": "83",
+  "name": "Farfetch'd",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 83,
+  "stats": {
+    "stamina": 141,
+    "attack": 124,
+    "defence": 115
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "AIR_CUTTER",
+    "LEAF_BLADE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/83.png",
+      "width": 89,
+      "height": 114
+    },
+    "shiny": {
+      "url": "img/83_shiny.png",
+      "width": 89,
+      "height": 114
+    },
+    "normalAnimated": {
+      "url": "img/83.gif",
+      "width": 44,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/83_shiny.gif",
+      "width": 44,
+      "height": 50
+    }
+  }
+}

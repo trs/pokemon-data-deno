@@ -1,0 +1,40 @@
+{
+  "id": "576",
+  "name": "Gothitelle",
+  "types": [
+    "Psychic"
+  ],
+  "number": 576,
+  "stats": {
+    "stamina": 172,
+    "attack": 176,
+    "defence": 205
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "FUTURESIGHT",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/576.gif",
+      "width": 62,
+      "height": 101
+    },
+    "shinyAnimated": {
+      "url": "img/576_shiny.gif",
+      "width": 62,
+      "height": 101
+    }
+  }
+}

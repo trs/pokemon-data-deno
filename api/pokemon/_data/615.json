@@ -1,0 +1,51 @@
+{
+  "id": "615",
+  "name": "Cryogonal",
+  "types": [
+    "Ice"
+  ],
+  "number": 615,
+  "stats": {
+    "stamina": 190,
+    "attack": 190,
+    "defence": 218
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "FROST_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "AURORA_BEAM",
+    "NIGHT_SLASH",
+    "SOLAR_BEAM",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/615.png",
+      "width": 137,
+      "height": 153
+    },
+    "shiny": {
+      "url": "img/615_shiny.png",
+      "width": 137,
+      "height": 153
+    },
+    "normalAnimated": {
+      "url": "img/615.gif",
+      "width": 78,
+      "height": 99
+    },
+    "shinyAnimated": {
+      "url": "img/615_shiny.gif",
+      "width": 78,
+      "height": 99
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "420",
+  "name": "Cherubi",
+  "types": [
+    "Grass"
+  ],
+  "number": 420,
+  "stats": {
+    "stamina": 128,
+    "attack": 108,
+    "defence": 92
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BULLET_SEED_FAST"
+  ],
+  "chargeMoves": [
+    "DAZZLING_GLEAM",
+    "PETAL_BLIZZARD",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/420.png",
+      "width": 74,
+      "height": 84
+    },
+    "shiny": {
+      "url": "img/420_shiny.png",
+      "width": 74,
+      "height": 84
+    },
+    "normalAnimated": {
+      "url": "img/420.gif",
+      "width": 50,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "img/420_shiny.gif",
+      "width": 50,
+      "height": 48
+    }
+  }
+}

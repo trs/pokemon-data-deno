@@ -1,0 +1,51 @@
+{
+  "id": "469",
+  "name": "Yanmega",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 469,
+  "stats": {
+    "stamina": 200,
+    "attack": 231,
+    "defence": 156
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "AERIAL_ACE",
+    "BUG_BUZZ"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/469.png",
+      "width": 217,
+      "height": 99
+    },
+    "shiny": {
+      "url": "img/469_shiny.png",
+      "width": 217,
+      "height": 99
+    },
+    "normalAnimated": {
+      "url": "img/469.gif",
+      "width": 143,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/469_shiny.gif",
+      "width": 143,
+      "height": 67
+    }
+  }
+}

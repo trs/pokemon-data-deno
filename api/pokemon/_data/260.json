@@ -1,0 +1,52 @@
+{
+  "id": "260",
+  "name": "Swampert",
+  "types": [
+    "Water",
+    "Ground"
+  ],
+  "number": 260,
+  "stats": {
+    "stamina": 225,
+    "attack": 208,
+    "defence": 175
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "SLUDGE_WAVE",
+    "SURF",
+    "MUDDY_WATER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/260.png",
+      "width": 163,
+      "height": 151
+    },
+    "shiny": {
+      "url": "img/260_shiny.png",
+      "width": 163,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "img/260.gif",
+      "width": 94,
+      "height": 90
+    },
+    "shinyAnimated": {
+      "url": "img/260_shiny.gif",
+      "width": 94,
+      "height": 90
+    }
+  }
+}

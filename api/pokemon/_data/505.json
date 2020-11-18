@@ -1,0 +1,50 @@
+{
+  "id": "505",
+  "name": "Watchog",
+  "types": [
+    "Normal"
+  ],
+  "number": 505,
+  "stats": {
+    "stamina": 155,
+    "attack": 165,
+    "defence": 139
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "HYPER_FANG",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/505.png",
+      "width": 100,
+      "height": 160
+    },
+    "shiny": {
+      "url": "img/505_shiny.png",
+      "width": 100,
+      "height": 160
+    },
+    "normalAnimated": {
+      "url": "img/505.gif",
+      "width": 48,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/505_shiny.gif",
+      "width": 48,
+      "height": 79
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "317",
+  "name": "Swalot",
+  "types": [
+    "Poison"
+  ],
+  "number": 317,
+  "stats": {
+    "stamina": 225,
+    "attack": 140,
+    "defence": 159
+  },
+  "quickMoves": [
+    "ROCK_SMASH_FAST",
+    "INFESTATION_FAST"
+  ],
+  "chargeMoves": [
+    "GUNK_SHOT",
+    "SLUDGE_BOMB",
+    "ICE_BEAM",
+    "ACID_SPRAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/317.png",
+      "width": 203,
+      "height": 187
+    },
+    "shiny": {
+      "url": "img/317_shiny.png",
+      "width": 203,
+      "height": 187
+    },
+    "normalAnimated": {
+      "url": "img/317.gif",
+      "width": 79,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "img/317_shiny.gif",
+      "width": 79,
+      "height": 70
+    }
+  }
+}

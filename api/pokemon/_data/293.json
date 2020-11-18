@@ -1,0 +1,50 @@
+{
+  "id": "293",
+  "name": "Whismur",
+  "types": [
+    "Normal"
+  ],
+  "number": 293,
+  "stats": {
+    "stamina": 162,
+    "attack": 92,
+    "defence": 42
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "STOMP",
+    "DISARMING_VOICE",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/293.png",
+      "width": 101,
+      "height": 96
+    },
+    "shiny": {
+      "url": "img/293_shiny.png",
+      "width": 101,
+      "height": 96
+    },
+    "normalAnimated": {
+      "url": "img/293.gif",
+      "width": 51,
+      "height": 48
+    },
+    "shinyAnimated": {
+      "url": "img/293_shiny.gif",
+      "width": 51,
+      "height": 48
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "81",
+  "name": "Magnemite",
+  "types": [
+    "Electric",
+    "Steel"
+  ],
+  "number": 81,
+  "stats": {
+    "stamina": 93,
+    "attack": 165,
+    "defence": 121
+  },
+  "quickMoves": [
+    "SPARK_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "DISCHARGE",
+    "MAGNET_BOMB",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/81.png",
+      "width": 94,
+      "height": 59
+    },
+    "shiny": {
+      "url": "img/81_shiny.png",
+      "width": 94,
+      "height": 59
+    },
+    "normalAnimated": {
+      "url": "img/81.gif",
+      "width": 49,
+      "height": 35
+    },
+    "shinyAnimated": {
+      "url": "img/81_shiny.gif",
+      "width": 49,
+      "height": 35
+    }
+  }
+}

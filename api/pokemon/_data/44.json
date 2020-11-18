@@ -1,0 +1,51 @@
+{
+  "id": "44",
+  "name": "Gloom",
+  "types": [
+    "Grass",
+    "Poison"
+  ],
+  "number": 44,
+  "stats": {
+    "stamina": 155,
+    "attack": 153,
+    "defence": 136
+  },
+  "quickMoves": [
+    "RAZOR_LEAF_FAST",
+    "ACID_FAST"
+  ],
+  "chargeMoves": [
+    "PETAL_BLIZZARD",
+    "SLUDGE_BOMB",
+    "MOONBLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/44.png",
+      "width": 111,
+      "height": 96
+    },
+    "shiny": {
+      "url": "img/44_shiny.png",
+      "width": 111,
+      "height": 96
+    },
+    "normalAnimated": {
+      "url": "img/44.gif",
+      "width": 62,
+      "height": 53
+    },
+    "shinyAnimated": {
+      "url": "img/44_shiny.gif",
+      "width": 62,
+      "height": 53
+    }
+  }
+}

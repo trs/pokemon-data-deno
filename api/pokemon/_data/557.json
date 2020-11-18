@@ -1,0 +1,51 @@
+{
+  "id": "557",
+  "name": "Dwebble",
+  "types": [
+    "Bug",
+    "Rock"
+  ],
+  "number": 557,
+  "stats": {
+    "stamina": 137,
+    "attack": 118,
+    "defence": 128
+  },
+  "quickMoves": [
+    "CUT_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_BLAST",
+    "X_SCISSOR",
+    "ROCK_TOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/557.png",
+      "width": 83,
+      "height": 78
+    },
+    "shiny": {
+      "url": "img/557_shiny.png",
+      "width": 83,
+      "height": 78
+    },
+    "normalAnimated": {
+      "url": "img/557.gif",
+      "width": 53,
+      "height": 42
+    },
+    "shinyAnimated": {
+      "url": "img/557_shiny.gif",
+      "width": 53,
+      "height": 42
+    }
+  }
+}

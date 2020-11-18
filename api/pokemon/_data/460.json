@@ -1,0 +1,52 @@
+{
+  "id": "460",
+  "name": "Abomasnow",
+  "types": [
+    "Grass",
+    "Ice"
+  ],
+  "number": 460,
+  "stats": {
+    "stamina": 207,
+    "attack": 178,
+    "defence": 158
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "BLIZZARD",
+    "ENERGY_BALL",
+    "OUTRAGE",
+    "WEATHER_BALL_ICE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/460.png",
+      "width": 250,
+      "height": 174
+    },
+    "shiny": {
+      "url": "img/460_shiny.png",
+      "width": 250,
+      "height": 174
+    },
+    "normalAnimated": {
+      "url": "img/460.gif",
+      "width": 128,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/460_shiny.gif",
+      "width": 128,
+      "height": 87
+    }
+  }
+}

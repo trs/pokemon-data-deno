@@ -1,0 +1,51 @@
+{
+  "id": "157",
+  "name": "Typhlosion",
+  "types": [
+    "Fire"
+  ],
+  "number": 157,
+  "stats": {
+    "stamina": 186,
+    "attack": 223,
+    "defence": 173
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "SHADOW_CLAW_FAST",
+    "INCINERATE_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "OVERHEAT",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/157.png",
+      "width": 130,
+      "height": 205
+    },
+    "shiny": {
+      "url": "img/157_shiny.png",
+      "width": 130,
+      "height": 205
+    },
+    "normalAnimated": {
+      "url": "img/157.gif",
+      "width": 62,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/157_shiny.gif",
+      "width": 62,
+      "height": 95
+    }
+  }
+}

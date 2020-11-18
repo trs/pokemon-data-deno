@@ -1,0 +1,50 @@
+{
+  "id": "294",
+  "name": "Loudred",
+  "types": [
+    "Normal"
+  ],
+  "number": 294,
+  "stats": {
+    "stamina": 197,
+    "attack": 134,
+    "defence": 81
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "STOMP",
+    "DISARMING_VOICE",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/294.png",
+      "width": 144,
+      "height": 138
+    },
+    "shiny": {
+      "url": "img/294_shiny.png",
+      "width": 144,
+      "height": 138
+    },
+    "normalAnimated": {
+      "url": "img/294.gif",
+      "width": 93,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/294_shiny.gif",
+      "width": 93,
+      "height": 78
+    }
+  }
+}

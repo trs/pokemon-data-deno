@@ -1,0 +1,51 @@
+{
+  "id": "607",
+  "name": "Litwick",
+  "types": [
+    "Ghost",
+    "Fire"
+  ],
+  "number": 607,
+  "stats": {
+    "stamina": 137,
+    "attack": 108,
+    "defence": 98
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "FLAME_BURST",
+    "HEAT_WAVE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/607.png",
+      "width": 66,
+      "height": 108
+    },
+    "shiny": {
+      "url": "img/607_shiny.png",
+      "width": 66,
+      "height": 108
+    },
+    "normalAnimated": {
+      "url": "img/607.gif",
+      "width": 43,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/607_shiny.gif",
+      "width": 43,
+      "height": 68
+    }
+  }
+}

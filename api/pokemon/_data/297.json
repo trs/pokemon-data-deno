@@ -1,0 +1,51 @@
+{
+  "id": "297",
+  "name": "Hariyama",
+  "types": [
+    "Fighting"
+  ],
+  "number": 297,
+  "stats": {
+    "stamina": 302,
+    "attack": 209,
+    "defence": 114
+  },
+  "quickMoves": [
+    "COUNTER_FAST",
+    "BULLET_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "HEAVY_SLAM",
+    "CLOSE_COMBAT",
+    "DYNAMIC_PUNCH",
+    "SUPER_POWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/297.png",
+      "width": 228,
+      "height": 220
+    },
+    "shiny": {
+      "url": "img/297_shiny.png",
+      "width": 228,
+      "height": 220
+    },
+    "normalAnimated": {
+      "url": "img/297.gif",
+      "width": 102,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/297_shiny.gif",
+      "width": 102,
+      "height": 87
+    }
+  }
+}

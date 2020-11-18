@@ -1,0 +1,50 @@
+{
+  "id": "30",
+  "name": "Nidorina",
+  "types": [
+    "Poison"
+  ],
+  "number": 30,
+  "stats": {
+    "stamina": 172,
+    "attack": 117,
+    "defence": 120
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "POISON_STING_FAST"
+  ],
+  "chargeMoves": [
+    "POISON_FANG",
+    "DIG",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/30.png",
+      "width": 81,
+      "height": 95
+    },
+    "shiny": {
+      "url": "img/30_shiny.png",
+      "width": 81,
+      "height": 95
+    },
+    "normalAnimated": {
+      "url": "img/30.gif",
+      "width": 41,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "img/30_shiny.gif",
+      "width": 41,
+      "height": 56
+    }
+  }
+}

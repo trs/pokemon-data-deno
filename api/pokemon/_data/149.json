@@ -1,0 +1,53 @@
+{
+  "id": "149",
+  "name": "Dragonite",
+  "types": [
+    "Dragon",
+    "Flying"
+  ],
+  "number": 149,
+  "stats": {
+    "stamina": 209,
+    "attack": 263,
+    "defence": 198
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "STEEL_WING_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "HURRICANE",
+    "HYPER_BEAM",
+    "OUTRAGE",
+    "DRAGON_CLAW"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/149.png",
+      "width": 146,
+      "height": 180
+    },
+    "shiny": {
+      "url": "img/149_shiny.png",
+      "width": 146,
+      "height": 180
+    },
+    "normalAnimated": {
+      "url": "img/149.gif",
+      "width": 85,
+      "height": 98
+    },
+    "shinyAnimated": {
+      "url": "img/149_shiny.gif",
+      "width": 85,
+      "height": 98
+    }
+  }
+}

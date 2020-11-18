@@ -1,0 +1,50 @@
+{
+  "id": "128",
+  "name": "Tauros",
+  "types": [
+    "Normal"
+  ],
+  "number": 128,
+  "stats": {
+    "stamina": 181,
+    "attack": 198,
+    "defence": 183
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "HORN_ATTACK",
+    "IRON_HEAD",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/128.png",
+      "width": 183,
+      "height": 193
+    },
+    "shiny": {
+      "url": "img/128_shiny.png",
+      "width": 183,
+      "height": 193
+    },
+    "normalAnimated": {
+      "url": "img/128.gif",
+      "width": 97,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/128_shiny.gif",
+      "width": 97,
+      "height": 95
+    }
+  }
+}

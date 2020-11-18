@@ -1,0 +1,50 @@
+{
+  "id": "497",
+  "name": "Serperior",
+  "types": [
+    "Grass"
+  ],
+  "number": 497,
+  "stats": {
+    "stamina": 181,
+    "attack": 161,
+    "defence": 204
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "LEAF_TORNADO",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/497.png",
+      "width": 157,
+      "height": 179
+    },
+    "shiny": {
+      "url": "img/497_shiny.png",
+      "width": 157,
+      "height": 179
+    },
+    "normalAnimated": {
+      "url": "img/497.gif",
+      "width": 90,
+      "height": 108
+    },
+    "shinyAnimated": {
+      "url": "img/497_shiny.gif",
+      "width": 90,
+      "height": 108
+    }
+  }
+}

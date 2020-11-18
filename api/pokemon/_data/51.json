@@ -1,0 +1,50 @@
+{
+  "id": "51",
+  "name": "Dugtrio",
+  "types": [
+    "Ground"
+  ],
+  "number": 51,
+  "stats": {
+    "stamina": 111,
+    "attack": 167,
+    "defence": 136
+  },
+  "quickMoves": [
+    "SUCKER_PUNCH_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "EARTHQUAKE",
+    "MUD_BOMB",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/51.png",
+      "width": 134,
+      "height": 106
+    },
+    "shiny": {
+      "url": "img/51_shiny.png",
+      "width": 134,
+      "height": 106
+    },
+    "normalAnimated": {
+      "url": "img/51.gif",
+      "width": 65,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/51_shiny.gif",
+      "width": 65,
+      "height": 50
+    }
+  }
+}

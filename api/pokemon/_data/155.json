@@ -1,0 +1,50 @@
+{
+  "id": "155",
+  "name": "Cyndaquil",
+  "types": [
+    "Fire"
+  ],
+  "number": 155,
+  "stats": {
+    "stamina": 118,
+    "attack": 116,
+    "defence": 93
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "SWIFT",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/155.png",
+      "width": 49,
+      "height": 56
+    },
+    "shiny": {
+      "url": "img/155_shiny.png",
+      "width": 49,
+      "height": 56
+    },
+    "normalAnimated": {
+      "url": "img/155.gif",
+      "width": 38,
+      "height": 45
+    },
+    "shinyAnimated": {
+      "url": "img/155_shiny.gif",
+      "width": 38,
+      "height": 45
+    }
+  }
+}

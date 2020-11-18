@@ -1,0 +1,51 @@
+{
+  "id": "9",
+  "name": "Blastoise",
+  "types": [
+    "Water"
+  ],
+  "number": 9,
+  "stats": {
+    "stamina": 188,
+    "attack": 171,
+    "defence": 207
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "FLASH_CANNON",
+    "ICE_BEAM",
+    "HYDRO_PUMP",
+    "SKULL_BASH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/9.png",
+      "width": 175,
+      "height": 159
+    },
+    "shiny": {
+      "url": "img/9_shiny.png",
+      "width": 175,
+      "height": 159
+    },
+    "normalAnimated": {
+      "url": "img/9.gif",
+      "width": 88,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "img/9_shiny.gif",
+      "width": 88,
+      "height": 83
+    }
+  }
+}

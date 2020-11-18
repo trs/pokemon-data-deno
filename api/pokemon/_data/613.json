@@ -1,0 +1,50 @@
+{
+  "id": "613",
+  "name": "Cubchoo",
+  "types": [
+    "Ice"
+  ],
+  "number": 613,
+  "stats": {
+    "stamina": 146,
+    "attack": 128,
+    "defence": 74
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "ICE_PUNCH",
+    "ICY_WIND",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/613.png",
+      "width": 69,
+      "height": 98
+    },
+    "shiny": {
+      "url": "img/613_shiny.png",
+      "width": 69,
+      "height": 98
+    },
+    "normalAnimated": {
+      "url": "img/613.gif",
+      "width": 51,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/613_shiny.gif",
+      "width": 51,
+      "height": 59
+    }
+  }
+}

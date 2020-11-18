@@ -1,0 +1,53 @@
+{
+  "id": "89-alola",
+  "name": "Muk",
+  "types": [
+    "Poison",
+    "Dark"
+  ],
+  "number": 89,
+  "stats": {
+    "stamina": 233,
+    "attack": 190,
+    "defence": 172
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "POISON_JAB_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "GUNK_SHOT",
+    "SLUDGE_WAVE",
+    "ACID_SPRAY"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/89-alola.png",
+      "width": 238,
+      "height": 151
+    },
+    "shiny": {
+      "url": "img/89-alola_shiny.png",
+      "width": 238,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "img/89-alola.gif",
+      "width": 148,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "img/89-alola_shiny.gif",
+      "width": 148,
+      "height": 86
+    }
+  }
+}

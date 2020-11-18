@@ -1,0 +1,50 @@
+{
+  "id": "438",
+  "name": "Bonsly",
+  "types": [
+    "Rock"
+  ],
+  "number": 438,
+  "stats": {
+    "stamina": 137,
+    "attack": 124,
+    "defence": 133
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_TOMB",
+    "EARTHQUAKE",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/438.png",
+      "width": 59,
+      "height": 97
+    },
+    "shiny": {
+      "url": "img/438_shiny.png",
+      "width": 59,
+      "height": 97
+    },
+    "normalAnimated": {
+      "url": "img/438.gif",
+      "width": 37,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/438_shiny.gif",
+      "width": 37,
+      "height": 57
+    }
+  }
+}

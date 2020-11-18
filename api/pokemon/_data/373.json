@@ -1,0 +1,52 @@
+{
+  "id": "373",
+  "name": "Salamence",
+  "types": [
+    "Dragon",
+    "Flying"
+  ],
+  "number": 373,
+  "stats": {
+    "stamina": 216,
+    "attack": 277,
+    "defence": 168
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "FIRE_FANG_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "HYDRO_PUMP",
+    "DRACO_METEOR"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/373.png",
+      "width": 247,
+      "height": 168
+    },
+    "shiny": {
+      "url": "img/373_shiny.png",
+      "width": 248,
+      "height": 168
+    },
+    "normalAnimated": {
+      "url": "img/373.gif",
+      "width": 137,
+      "height": 92
+    },
+    "shinyAnimated": {
+      "url": "img/373_shiny.gif",
+      "width": 137,
+      "height": 92
+    }
+  }
+}

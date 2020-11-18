@@ -1,0 +1,51 @@
+{
+  "id": "547",
+  "name": "Whimsicott",
+  "types": [
+    "Grass",
+    "Fairy"
+  ],
+  "number": 547,
+  "stats": {
+    "stamina": 155,
+    "attack": 164,
+    "defence": 176
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "HURRICANE",
+    "MOONBLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/547.png",
+      "width": 103,
+      "height": 98
+    },
+    "shiny": {
+      "url": "img/547_shiny.png",
+      "width": 103,
+      "height": 98
+    },
+    "normalAnimated": {
+      "url": "img/547.gif",
+      "width": 75,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/547_shiny.gif",
+      "width": 75,
+      "height": 67
+    }
+  }
+}

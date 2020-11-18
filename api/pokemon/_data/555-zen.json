@@ -1,0 +1,53 @@
+{
+  "id": "555-zen",
+  "name": "Darmanitan",
+  "types": [
+    "Fire",
+    "Psychic"
+  ],
+  "number": 555,
+  "stats": {
+    "stamina": 233,
+    "attack": 243,
+    "defence": 202
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "FIRE_FANG_FAST",
+    "INCINERATE_FAST"
+  ],
+  "chargeMoves": [
+    "OVERHEAT",
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Zen",
+      "code": "zen"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/555-zen.png",
+      "width": 152,
+      "height": 146
+    },
+    "shiny": {
+      "url": "img/555-zen_shiny.png",
+      "width": 152,
+      "height": 146
+    },
+    "normalAnimated": {
+      "url": "img/555-zen.gif",
+      "width": 62,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/555-zen_shiny.gif",
+      "width": 62,
+      "height": 58
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "299",
+  "name": "Nosepass",
+  "types": [
+    "Rock"
+  ],
+  "number": 299,
+  "stats": {
+    "stamina": 102,
+    "attack": 82,
+    "defence": 215
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_BLAST",
+    "ROCK_SLIDE",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/299.png",
+      "width": 133,
+      "height": 135
+    },
+    "shiny": {
+      "url": "img/299_shiny.png",
+      "width": 133,
+      "height": 135
+    },
+    "normalAnimated": {
+      "url": "img/299.gif",
+      "width": 62,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/299_shiny.gif",
+      "width": 62,
+      "height": 58
+    }
+  }
+}

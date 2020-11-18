@@ -1,0 +1,51 @@
+{
+  "id": "85",
+  "name": "Dodrio",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 85,
+  "stats": {
+    "stamina": 155,
+    "attack": 218,
+    "defence": 140
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "DRILL_PECK",
+    "AERIAL_ACE",
+    "BRAVE_BIRD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/85.png",
+      "width": 132,
+      "height": 208
+    },
+    "shiny": {
+      "url": "img/85_shiny.png",
+      "width": 132,
+      "height": 208
+    },
+    "normalAnimated": {
+      "url": "img/85.gif",
+      "width": 68,
+      "height": 102
+    },
+    "shinyAnimated": {
+      "url": "img/85_shiny.gif",
+      "width": 68,
+      "height": 102
+    }
+  }
+}

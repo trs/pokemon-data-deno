@@ -1,0 +1,50 @@
+{
+  "id": "512",
+  "name": "Simisage",
+  "types": [
+    "Grass"
+  ],
+  "number": 512,
+  "stats": {
+    "stamina": 181,
+    "attack": 206,
+    "defence": 133
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "SOLAR_BEAM",
+    "GRASS_KNOT",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/512.png",
+      "width": 141,
+      "height": 186
+    },
+    "shiny": {
+      "url": "img/512_shiny.png",
+      "width": 141,
+      "height": 186
+    },
+    "normalAnimated": {
+      "url": "img/512.gif",
+      "width": 71,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/512_shiny.gif",
+      "width": 71,
+      "height": 95
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "38",
+  "name": "Ninetales",
+  "types": [
+    "Fire"
+  ],
+  "number": 38,
+  "stats": {
+    "stamina": 177,
+    "attack": 169,
+    "defence": 190
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "HEAT_WAVE",
+    "OVERHEAT",
+    "SOLAR_BEAM",
+    "PSYSHOCK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/38.png",
+      "width": 164,
+      "height": 172
+    },
+    "shiny": {
+      "url": "img/38_shiny.png",
+      "width": 164,
+      "height": 172
+    },
+    "normalAnimated": {
+      "url": "img/38.gif",
+      "width": 79,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/38_shiny.gif",
+      "width": 79,
+      "height": 77
+    }
+  }
+}

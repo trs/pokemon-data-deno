@@ -1,0 +1,50 @@
+{
+  "id": "428",
+  "name": "Lopunny",
+  "types": [
+    "Normal"
+  ],
+  "number": 428,
+  "stats": {
+    "stamina": 163,
+    "attack": 156,
+    "defence": 194
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "LOW_KICK_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_PUNCH",
+    "HYPER_BEAM",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/428.png",
+      "width": 112,
+      "height": 169
+    },
+    "shiny": {
+      "url": "img/428_shiny.png",
+      "width": 112,
+      "height": 169
+    },
+    "normalAnimated": {
+      "url": "img/428.gif",
+      "width": 57,
+      "height": 87
+    },
+    "shinyAnimated": {
+      "url": "img/428_shiny.gif",
+      "width": 57,
+      "height": 87
+    }
+  }
+}

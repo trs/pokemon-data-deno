@@ -1,0 +1,50 @@
+{
+  "id": "493-bug",
+  "name": "Arceus",
+  "types": [
+    "Bug"
+  ],
+  "number": 493,
+  "stats": {
+    "stamina": 237,
+    "attack": 238,
+    "defence": 238
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "forms": [
+    {
+      "name": "Bug",
+      "code": "bug"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/493-bug.png",
+      "width": 149,
+      "height": 217
+    },
+    "shiny": {
+      "url": "img/493-bug_shiny.png",
+      "width": 149,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "img/493-bug.gif",
+      "width": 150,
+      "height": 150
+    },
+    "shinyAnimated": {
+      "url": "img/493-bug_shiny.gif",
+      "width": 86,
+      "height": 116
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "378",
+  "name": "Regice",
+  "types": [
+    "Ice"
+  ],
+  "number": 378,
+  "stats": {
+    "stamina": 190,
+    "attack": 179,
+    "defence": 309
+  },
+  "quickMoves": [
+    "FROST_BREATH_FAST",
+    "ROCK_SMASH_FAST",
+    "LOCK_ON_FAST"
+  ],
+  "chargeMoves": [
+    "BLIZZARD",
+    "EARTHQUAKE",
+    "FOCUS_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/378.png",
+      "width": 226,
+      "height": 185
+    },
+    "shiny": {
+      "url": "img/378_shiny.png",
+      "width": 226,
+      "height": 185
+    },
+    "normalAnimated": {
+      "url": "img/378.gif",
+      "width": 107,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "img/378_shiny.gif",
+      "width": 107,
+      "height": 82
+    }
+  }
+}

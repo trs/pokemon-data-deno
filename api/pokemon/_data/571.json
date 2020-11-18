@@ -1,0 +1,50 @@
+{
+  "id": "571",
+  "name": "Zoroark",
+  "types": [
+    "Dark"
+  ],
+  "number": 571,
+  "stats": {
+    "stamina": 155,
+    "attack": 250,
+    "defence": 127
+  },
+  "quickMoves": [
+    "SHADOW_CLAW_FAST",
+    "SNARL_FAST"
+  ],
+  "chargeMoves": [
+    "FOUL_PLAY",
+    "SLUDGE_BOMB",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/571.png",
+      "width": 168,
+      "height": 197
+    },
+    "shiny": {
+      "url": "img/571_shiny.png",
+      "width": 168,
+      "height": 197
+    },
+    "normalAnimated": {
+      "url": "img/571.gif",
+      "width": 86,
+      "height": 94
+    },
+    "shinyAnimated": {
+      "url": "img/571_shiny.gif",
+      "width": 86,
+      "height": 94
+    }
+  }
+}

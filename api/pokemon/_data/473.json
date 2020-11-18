@@ -1,0 +1,51 @@
+{
+  "id": "473",
+  "name": "Mamoswine",
+  "types": [
+    "Ice",
+    "Ground"
+  ],
+  "number": 473,
+  "stats": {
+    "stamina": 242,
+    "attack": 247,
+    "defence": 146
+  },
+  "quickMoves": [
+    "MUD_SLAP_FAST",
+    "POWDER_SNOW_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "BULLDOZE",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/473.png",
+      "width": 247,
+      "height": 197
+    },
+    "shiny": {
+      "url": "img/473_shiny.png",
+      "width": 247,
+      "height": 197
+    },
+    "normalAnimated": {
+      "url": "img/473.gif",
+      "width": 104,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/473_shiny.gif",
+      "width": 104,
+      "height": 84
+    }
+  }
+}

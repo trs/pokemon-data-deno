@@ -1,0 +1,50 @@
+{
+  "id": "156",
+  "name": "Quilava",
+  "types": [
+    "Fire"
+  ],
+  "number": 156,
+  "stats": {
+    "stamina": 151,
+    "attack": 158,
+    "defence": 126
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "DIG",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/156.png",
+      "width": 89,
+      "height": 72
+    },
+    "shiny": {
+      "url": "img/156_shiny.png",
+      "width": 89,
+      "height": 72
+    },
+    "normalAnimated": {
+      "url": "img/156.gif",
+      "width": 52,
+      "height": 42
+    },
+    "shinyAnimated": {
+      "url": "img/156_shiny.gif",
+      "width": 52,
+      "height": 42
+    }
+  }
+}

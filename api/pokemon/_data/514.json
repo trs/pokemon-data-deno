@@ -1,0 +1,50 @@
+{
+  "id": "514",
+  "name": "Simisear",
+  "types": [
+    "Fire"
+  ],
+  "number": 514,
+  "stats": {
+    "stamina": 181,
+    "attack": 206,
+    "defence": 133
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "FLAMETHROWER",
+    "FIRE_BLAST",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/514.png",
+      "width": 132,
+      "height": 157
+    },
+    "shiny": {
+      "url": "img/514_shiny.png",
+      "width": 132,
+      "height": 157
+    },
+    "normalAnimated": {
+      "url": "img/514.gif",
+      "width": 76,
+      "height": 81
+    },
+    "shinyAnimated": {
+      "url": "img/514_shiny.gif",
+      "width": 76,
+      "height": 81
+    }
+  }
+}

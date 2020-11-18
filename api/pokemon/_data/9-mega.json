@@ -1,0 +1,55 @@
+{
+  "id": "9-mega",
+  "name": "Blastoise",
+  "types": [
+    "Water"
+  ],
+  "number": 9,
+  "stats": {
+    "stamina": 188,
+    "attack": 264,
+    "defence": 237
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "FLASH_CANNON",
+    "ICE_BEAM",
+    "HYDRO_PUMP",
+    "SKULL_BASH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega",
+      "code": "mega"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/9-mega.png",
+      "width": 232,
+      "height": 226
+    },
+    "shiny": {
+      "url": "img/9-mega_shiny.png",
+      "width": 232,
+      "height": 226
+    },
+    "normalAnimated": {
+      "url": "img/9-mega.gif",
+      "width": 110,
+      "height": 114
+    },
+    "shinyAnimated": {
+      "url": "img/9-mega_shiny.gif",
+      "width": 110,
+      "height": 114
+    }
+  }
+}

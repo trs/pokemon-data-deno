@@ -1,0 +1,51 @@
+{
+  "id": "221",
+  "name": "Piloswine",
+  "types": [
+    "Ice",
+    "Ground"
+  ],
+  "number": 221,
+  "stats": {
+    "stamina": 225,
+    "attack": 181,
+    "defence": 138
+  },
+  "quickMoves": [
+    "ICE_SHARD_FAST",
+    "POWDER_SNOW_FAST"
+  ],
+  "chargeMoves": [
+    "AVALANCHE",
+    "BULLDOZE",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/221.png",
+      "width": 155,
+      "height": 169
+    },
+    "shiny": {
+      "url": "img/221_shiny.png",
+      "width": 155,
+      "height": 169
+    },
+    "normalAnimated": {
+      "url": "img/221.gif",
+      "width": 70,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "img/221_shiny.gif",
+      "width": 70,
+      "height": 72
+    }
+  }
+}

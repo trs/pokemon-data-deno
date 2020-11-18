@@ -1,0 +1,50 @@
+{
+  "id": "136",
+  "name": "Flareon",
+  "types": [
+    "Fire"
+  ],
+  "number": 136,
+  "stats": {
+    "stamina": 163,
+    "attack": 246,
+    "defence": 179
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "FIRE_SPIN_FAST"
+  ],
+  "chargeMoves": [
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "OVERHEAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/136.png",
+      "width": 107,
+      "height": 182
+    },
+    "shiny": {
+      "url": "img/136_shiny.png",
+      "width": 107,
+      "height": 182
+    },
+    "normalAnimated": {
+      "url": "img/136.gif",
+      "width": 59,
+      "height": 93
+    },
+    "shinyAnimated": {
+      "url": "img/136_shiny.gif",
+      "width": 59,
+      "height": 93
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "493",
+  "name": "Arceus",
+  "types": [
+    "Normal"
+  ],
+  "number": 493,
+  "stats": {
+    "stamina": 237,
+    "attack": 238,
+    "defence": 238
+  },
+  "quickMoves": [
+    "IRON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/493.png",
+      "width": 149,
+      "height": 217
+    },
+    "shiny": {
+      "url": "img/493_shiny.png",
+      "width": 149,
+      "height": 217
+    },
+    "normalAnimated": {
+      "url": "img/493.gif",
+      "width": 82,
+      "height": 114
+    },
+    "shinyAnimated": {
+      "url": "img/493_shiny.gif",
+      "width": 82,
+      "height": 114
+    }
+  }
+}

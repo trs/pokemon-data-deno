@@ -1,0 +1,51 @@
+{
+  "id": "520",
+  "name": "Tranquill",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 520,
+  "stats": {
+    "stamina": 158,
+    "attack": 144,
+    "defence": 107
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "HEAT_WAVE",
+    "AERIAL_ACE",
+    "SKY_ATTACK"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/520.png",
+      "width": 187,
+      "height": 117
+    },
+    "shiny": {
+      "url": "img/520_shiny.png",
+      "width": 187,
+      "height": 117
+    },
+    "normalAnimated": {
+      "url": "img/520.gif",
+      "width": 144,
+      "height": 124
+    },
+    "shinyAnimated": {
+      "url": "img/520_shiny.gif",
+      "width": 144,
+      "height": 124
+    }
+  }
+}

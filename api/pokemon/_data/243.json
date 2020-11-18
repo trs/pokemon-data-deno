@@ -1,0 +1,51 @@
+{
+  "id": "243",
+  "name": "Raikou",
+  "types": [
+    "Electric"
+  ],
+  "number": 243,
+  "stats": {
+    "stamina": 207,
+    "attack": 241,
+    "defence": 195
+  },
+  "quickMoves": [
+    "THUNDER_SHOCK_FAST",
+    "VOLT_SWITCH_FAST"
+  ],
+  "chargeMoves": [
+    "THUNDER",
+    "THUNDERBOLT",
+    "WILD_CHARGE",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/243.png",
+      "width": 195,
+      "height": 188
+    },
+    "shiny": {
+      "url": "img/243_shiny.png",
+      "width": 195,
+      "height": 188
+    },
+    "normalAnimated": {
+      "url": "img/243.gif",
+      "width": 68,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "img/243_shiny.gif",
+      "width": 68,
+      "height": 82
+    }
+  }
+}

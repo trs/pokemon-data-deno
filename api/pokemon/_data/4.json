@@ -1,0 +1,50 @@
+{
+  "id": "4",
+  "name": "Charmander",
+  "types": [
+    "Fire"
+  ],
+  "number": 4,
+  "stats": {
+    "stamina": 118,
+    "attack": 116,
+    "defence": 93
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "FLAME_BURST",
+    "FLAMETHROWER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/4.png",
+      "width": 71,
+      "height": 93
+    },
+    "shiny": {
+      "url": "img/4_shiny.png",
+      "width": 71,
+      "height": 93
+    },
+    "normalAnimated": {
+      "url": "img/4.gif",
+      "width": 48,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/4_shiny.gif",
+      "width": 48,
+      "height": 57
+    }
+  }
+}

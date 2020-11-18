@@ -1,0 +1,51 @@
+{
+  "id": "193",
+  "name": "Yanma",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 193,
+  "stats": {
+    "stamina": 163,
+    "attack": 154,
+    "defence": 94
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "AERIAL_ACE",
+    "SILVER_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/193.png",
+      "width": 219,
+      "height": 116
+    },
+    "shiny": {
+      "url": "img/193_shiny.png",
+      "width": 219,
+      "height": 116
+    },
+    "normalAnimated": {
+      "url": "img/193.gif",
+      "width": 120,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/193_shiny.gif",
+      "width": 120,
+      "height": 77
+    }
+  }
+}

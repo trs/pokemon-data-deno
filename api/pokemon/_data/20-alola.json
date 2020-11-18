@@ -1,0 +1,51 @@
+{
+  "id": "20-alola",
+  "name": "Raticate",
+  "types": [
+    "Dark",
+    "Normal"
+  ],
+  "number": 20,
+  "stats": {
+    "stamina": 181,
+    "attack": 135,
+    "defence": 154
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "HYPER_FANG",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/20-alola.png",
+      "width": 104,
+      "height": 108
+    },
+    "shiny": {
+      "url": "img/20-alola_shiny.png",
+      "width": 104,
+      "height": 108
+    },
+    "normalAnimated": {
+      "url": "img/20-alola.gif",
+      "width": 70,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/20-alola_shiny.gif",
+      "width": 69,
+      "height": 59
+    }
+  }
+}

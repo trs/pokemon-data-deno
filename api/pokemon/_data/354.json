@@ -1,0 +1,50 @@
+{
+  "id": "354",
+  "name": "Banette",
+  "types": [
+    "Ghost"
+  ],
+  "number": 354,
+  "stats": {
+    "stamina": 162,
+    "attack": 218,
+    "defence": 126
+  },
+  "quickMoves": [
+    "HEX_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_BALL",
+    "DAZZLING_GLEAM",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/354.png",
+      "width": 109,
+      "height": 139
+    },
+    "shiny": {
+      "url": "img/354_shiny.png",
+      "width": 109,
+      "height": 139
+    },
+    "normalAnimated": {
+      "url": "img/354.gif",
+      "width": 62,
+      "height": 67
+    },
+    "shinyAnimated": {
+      "url": "img/354_shiny.gif",
+      "width": 62,
+      "height": 67
+    }
+  }
+}

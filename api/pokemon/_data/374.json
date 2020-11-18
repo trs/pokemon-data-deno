@@ -1,0 +1,48 @@
+{
+  "id": "374",
+  "name": "Beldum",
+  "types": [
+    "Steel",
+    "Psychic"
+  ],
+  "number": 374,
+  "stats": {
+    "stamina": 120,
+    "attack": 96,
+    "defence": 132
+  },
+  "quickMoves": [
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/374.png",
+      "width": 65,
+      "height": 48
+    },
+    "shiny": {
+      "url": "img/374_shiny.png",
+      "width": 65,
+      "height": 48
+    },
+    "normalAnimated": {
+      "url": "img/374.gif",
+      "width": 46,
+      "height": 33
+    },
+    "shinyAnimated": {
+      "url": "img/374_shiny.gif",
+      "width": 46,
+      "height": 33
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "648-pirouette",
+  "name": "Meloetta",
+  "types": [
+    "Normal",
+    "Fighting"
+  ],
+  "number": 648,
+  "stats": {
+    "stamina": 225,
+    "attack": 269,
+    "defence": 188
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "LOW_KICK_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "FIRE_PUNCH",
+    "ICE_PUNCH",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Pirouette",
+      "code": "pirouette"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/648-pirouette.png",
+      "width": 107,
+      "height": 163
+    },
+    "shiny": {
+      "url": "img/648-pirouette_shiny.png",
+      "width": 107,
+      "height": 163
+    },
+    "normalAnimated": {
+      "url": "img/648-pirouette.gif",
+      "width": 59,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "img/648-pirouette_shiny.gif",
+      "width": 59,
+      "height": 89
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "602",
+  "name": "Tynamo",
+  "types": [
+    "Electric"
+  ],
+  "number": 602,
+  "stats": {
+    "stamina": 111,
+    "attack": 105,
+    "defence": 78
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "SPARK_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/602.png",
+      "width": 77,
+      "height": 37
+    },
+    "shiny": {
+      "url": "img/602_shiny.png",
+      "width": 77,
+      "height": 37
+    },
+    "normalAnimated": {
+      "url": "img/602.gif",
+      "width": 49,
+      "height": 26
+    },
+    "shinyAnimated": {
+      "url": "img/602_shiny.gif",
+      "width": 49,
+      "height": 26
+    }
+  }
+}

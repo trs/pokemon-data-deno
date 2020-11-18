@@ -1,0 +1,50 @@
+{
+  "id": "368",
+  "name": "Gorebyss",
+  "types": [
+    "Water"
+  ],
+  "number": 368,
+  "stats": {
+    "stamina": 146,
+    "attack": 211,
+    "defence": 179
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "DRAINING_KISS",
+    "PSYCHIC",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/368.png",
+      "width": 139,
+      "height": 111
+    },
+    "shiny": {
+      "url": "img/368_shiny.png",
+      "width": 139,
+      "height": 111
+    },
+    "normalAnimated": {
+      "url": "img/368.gif",
+      "width": 82,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/368_shiny.gif",
+      "width": 82,
+      "height": 74
+    }
+  }
+}

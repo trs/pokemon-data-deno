@@ -1,0 +1,50 @@
+{
+  "id": "549",
+  "name": "Lilligant",
+  "types": [
+    "Grass"
+  ],
+  "number": 549,
+  "stats": {
+    "stamina": 172,
+    "attack": 214,
+    "defence": 155
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "PETAL_BLIZZARD",
+    "HYPER_BEAM",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/549.png",
+      "width": 112,
+      "height": 143
+    },
+    "shiny": {
+      "url": "img/549_shiny.png",
+      "width": 112,
+      "height": 143
+    },
+    "normalAnimated": {
+      "url": "img/549.gif",
+      "width": 67,
+      "height": 89
+    },
+    "shinyAnimated": {
+      "url": "img/549_shiny.gif",
+      "width": 67,
+      "height": 89
+    }
+  }
+}

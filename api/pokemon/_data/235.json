@@ -1,0 +1,41 @@
+{
+  "id": "235",
+  "name": "Smeargle",
+  "types": [
+    "Normal"
+  ],
+  "number": 235,
+  "stats": {
+    "stamina": 146,
+    "attack": 40,
+    "defence": 83
+  },
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/235.png",
+      "width": 94,
+      "height": 126
+    },
+    "shiny": {
+      "url": "img/235_shiny.png",
+      "width": 94,
+      "height": 126
+    },
+    "normalAnimated": {
+      "url": "img/235.gif",
+      "width": 58,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/235_shiny.gif",
+      "width": 58,
+      "height": 74
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "486",
+  "name": "Regigigas",
+  "types": [
+    "Normal"
+  ],
+  "number": 486,
+  "stats": {
+    "stamina": 221,
+    "attack": 287,
+    "defence": 210
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "HIDDEN_POWER_FAST"
+  ],
+  "chargeMoves": [
+    "GIGA_IMPACT",
+    "FOCUS_BLAST",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/486.png",
+      "width": 253,
+      "height": 169
+    },
+    "shiny": {
+      "url": "img/486_shiny.png",
+      "width": 253,
+      "height": 169
+    },
+    "normalAnimated": {
+      "url": "img/486.gif",
+      "width": 166,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "img/486_shiny.gif",
+      "width": 166,
+      "height": 96
+    }
+  }
+}

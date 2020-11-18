@@ -1,0 +1,51 @@
+{
+  "id": "592",
+  "name": "Frillish",
+  "types": [
+    "Water",
+    "Ghost"
+  ],
+  "number": 592,
+  "stats": {
+    "stamina": 146,
+    "attack": 115,
+    "defence": 134
+  },
+  "quickMoves": [
+    "BUBBLE_FAST",
+    "HEX_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SHADE",
+    "ICE_BEAM",
+    "OMINOUS_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/592.png",
+      "width": 110,
+      "height": 134
+    },
+    "shiny": {
+      "url": "img/592_shiny.png",
+      "width": 110,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "img/592.gif",
+      "width": 68,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "img/592_shiny.gif",
+      "width": 68,
+      "height": 86
+    }
+  }
+}

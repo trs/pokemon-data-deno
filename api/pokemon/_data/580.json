@@ -1,0 +1,51 @@
+{
+  "id": "580",
+  "name": "Ducklett",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "number": 580,
+  "stats": {
+    "stamina": 158,
+    "attack": 84,
+    "defence": 96
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "WING_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "BUBBLE_BEAM",
+    "BRAVE_BIRD"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/580.png",
+      "width": 68,
+      "height": 98
+    },
+    "shiny": {
+      "url": "img/580_shiny.png",
+      "width": 68,
+      "height": 98
+    },
+    "normalAnimated": {
+      "url": "img/580.gif",
+      "width": 42,
+      "height": 62
+    },
+    "shinyAnimated": {
+      "url": "img/580_shiny.gif",
+      "width": 42,
+      "height": 62
+    }
+  }
+}

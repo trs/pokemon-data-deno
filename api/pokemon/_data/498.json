@@ -1,0 +1,50 @@
+{
+  "id": "498",
+  "name": "Tepig",
+  "types": [
+    "Fire"
+  ],
+  "number": 498,
+  "stats": {
+    "stamina": 163,
+    "attack": 115,
+    "defence": 85
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/498.png",
+      "width": 79,
+      "height": 111
+    },
+    "shiny": {
+      "url": "img/498_shiny.png",
+      "width": 79,
+      "height": 111
+    },
+    "normalAnimated": {
+      "url": "img/498.gif",
+      "width": 46,
+      "height": 62
+    },
+    "shinyAnimated": {
+      "url": "img/498_shiny.gif",
+      "width": 46,
+      "height": 62
+    }
+  }
+}

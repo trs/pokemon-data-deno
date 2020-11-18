@@ -1,0 +1,51 @@
+{
+  "id": "165",
+  "name": "Ledyba",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 165,
+  "stats": {
+    "stamina": 120,
+    "attack": 72,
+    "defence": 118
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "BUG_BITE_FAST"
+  ],
+  "chargeMoves": [
+    "SILVER_WIND",
+    "SWIFT",
+    "AERIAL_ACE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/165.png",
+      "width": 133,
+      "height": 120
+    },
+    "shiny": {
+      "url": "img/165_shiny.png",
+      "width": 133,
+      "height": 120
+    },
+    "normalAnimated": {
+      "url": "img/165.gif",
+      "width": 61,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/165_shiny.gif",
+      "width": 61,
+      "height": 50
+    }
+  }
+}

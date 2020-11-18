@@ -1,0 +1,50 @@
+{
+  "id": "295",
+  "name": "Exploud",
+  "types": [
+    "Normal"
+  ],
+  "number": 295,
+  "stats": {
+    "stamina": 232,
+    "attack": 179,
+    "defence": 137
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "ASTONISH_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "DISARMING_VOICE",
+    "FIRE_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/295.png",
+      "width": 167,
+      "height": 169
+    },
+    "shiny": {
+      "url": "img/295_shiny.png",
+      "width": 167,
+      "height": 169
+    },
+    "normalAnimated": {
+      "url": "img/295.gif",
+      "width": 82,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/295_shiny.gif",
+      "width": 82,
+      "height": 84
+    }
+  }
+}

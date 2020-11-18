@@ -1,0 +1,50 @@
+{
+  "id": "620",
+  "name": "Mienshao",
+  "types": [
+    "Fighting"
+  ],
+  "number": 620,
+  "stats": {
+    "stamina": 163,
+    "attack": 258,
+    "defence": 127
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "GRASS_KNOT",
+    "STONE_EDGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/620.png",
+      "width": 215,
+      "height": 211
+    },
+    "shiny": {
+      "url": "img/620_shiny.png",
+      "width": 215,
+      "height": 211
+    },
+    "normalAnimated": {
+      "url": "img/620.gif",
+      "width": 105,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "img/620_shiny.gif",
+      "width": 105,
+      "height": 96
+    }
+  }
+}

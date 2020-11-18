@@ -1,0 +1,51 @@
+{
+  "id": "322",
+  "name": "Numel",
+  "types": [
+    "Fire",
+    "Ground"
+  ],
+  "number": 322,
+  "stats": {
+    "stamina": 155,
+    "attack": 119,
+    "defence": 79
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "BULLDOZE",
+    "HEAT_WAVE",
+    "STOMP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/322.png",
+      "width": 104,
+      "height": 105
+    },
+    "shiny": {
+      "url": "img/322_shiny.png",
+      "width": 104,
+      "height": 105
+    },
+    "normalAnimated": {
+      "url": "img/322.gif",
+      "width": 52,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "img/322_shiny.gif",
+      "width": 52,
+      "height": 56
+    }
+  }
+}

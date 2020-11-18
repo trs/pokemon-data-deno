@@ -1,0 +1,51 @@
+{
+  "id": "65",
+  "name": "Alakazam",
+  "types": [
+    "Psychic"
+  ],
+  "number": 65,
+  "stats": {
+    "stamina": 146,
+    "attack": 271,
+    "defence": 167
+  },
+  "quickMoves": [
+    "PSYCHO_CUT_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "FOCUS_BLAST",
+    "SHADOW_BALL",
+    "FIRE_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/65.png",
+      "width": 183,
+      "height": 199
+    },
+    "shiny": {
+      "url": "img/65_shiny.png",
+      "width": 183,
+      "height": 199
+    },
+    "normalAnimated": {
+      "url": "img/65.gif",
+      "width": 77,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/65_shiny.gif",
+      "width": 77,
+      "height": 79
+    }
+  }
+}

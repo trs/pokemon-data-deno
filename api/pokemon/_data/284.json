@@ -1,0 +1,53 @@
+{
+  "id": "284",
+  "name": "Masquerain",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 284,
+  "stats": {
+    "stamina": 172,
+    "attack": 192,
+    "defence": 150
+  },
+  "quickMoves": [
+    "INFESTATION_FAST",
+    "AIR_SLASH_FAST"
+  ],
+  "chargeMoves": [
+    "AIR_CUTTER",
+    "OMINOUS_WIND",
+    "SILVER_WIND",
+    "BUBBLE_BEAM",
+    "LUNGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/284.png",
+      "width": 169,
+      "height": 117
+    },
+    "shiny": {
+      "url": "img/284_shiny.png",
+      "width": 169,
+      "height": 117
+    },
+    "normalAnimated": {
+      "url": "img/284.gif",
+      "width": 77,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/284_shiny.gif",
+      "width": 77,
+      "height": 58
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "49",
+  "name": "Venomoth",
+  "types": [
+    "Bug",
+    "Poison"
+  ],
+  "number": 49,
+  "stats": {
+    "stamina": 172,
+    "attack": 179,
+    "defence": 143
+  },
+  "quickMoves": [
+    "INFESTATION_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "SILVER_WIND",
+    "PSYCHIC",
+    "BUG_BUZZ",
+    "POISON_FANG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/49.png",
+      "width": 204,
+      "height": 183
+    },
+    "shiny": {
+      "url": "img/49_shiny.png",
+      "width": 204,
+      "height": 183
+    },
+    "normalAnimated": {
+      "url": "img/49.gif",
+      "width": 123,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "img/49_shiny.gif",
+      "width": 123,
+      "height": 85
+    }
+  }
+}

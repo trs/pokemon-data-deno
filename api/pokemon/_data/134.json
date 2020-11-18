@@ -1,0 +1,49 @@
+{
+  "id": "134",
+  "name": "Vaporeon",
+  "types": [
+    "Water"
+  ],
+  "number": 134,
+  "stats": {
+    "stamina": 277,
+    "attack": 205,
+    "defence": 161
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "HYDRO_PUMP",
+    "AQUA_TAIL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/134.png",
+      "width": 178,
+      "height": 127
+    },
+    "shiny": {
+      "url": "img/134_shiny.png",
+      "width": 178,
+      "height": 127
+    },
+    "normalAnimated": {
+      "url": "img/134.gif",
+      "width": 102,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "img/134_shiny.gif",
+      "width": 102,
+      "height": 72
+    }
+  }
+}

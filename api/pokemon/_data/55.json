@@ -1,0 +1,53 @@
+{
+  "id": "55",
+  "name": "Golduck",
+  "types": [
+    "Water"
+  ],
+  "number": 55,
+  "stats": {
+    "stamina": 190,
+    "attack": 191,
+    "defence": 162
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "CONFUSION_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "HYDRO_PUMP",
+    "ICE_BEAM",
+    "BUBBLE_BEAM",
+    "SYNCHRONOISE",
+    "CROSS_CHOP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/55.png",
+      "width": 168,
+      "height": 186
+    },
+    "shiny": {
+      "url": "img/55_shiny.png",
+      "width": 168,
+      "height": 186
+    },
+    "normalAnimated": {
+      "url": "img/55.gif",
+      "width": 68,
+      "height": 74
+    },
+    "shinyAnimated": {
+      "url": "img/55_shiny.gif",
+      "width": 68,
+      "height": 74
+    }
+  }
+}

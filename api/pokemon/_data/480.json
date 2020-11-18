@@ -1,0 +1,50 @@
+{
+  "id": "480",
+  "name": "Uxie",
+  "types": [
+    "Psychic"
+  ],
+  "number": 480,
+  "stats": {
+    "stamina": 181,
+    "attack": 156,
+    "defence": 270
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "EXTRASENSORY_FAST"
+  ],
+  "chargeMoves": [
+    "FUTURESIGHT",
+    "SWIFT",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/480.png",
+      "width": 94,
+      "height": 115
+    },
+    "shiny": {
+      "url": "img/480_shiny.png",
+      "width": 94,
+      "height": 115
+    },
+    "normalAnimated": {
+      "url": "img/480.gif",
+      "width": 63,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/480_shiny.gif",
+      "width": 63,
+      "height": 78
+    }
+  }
+}

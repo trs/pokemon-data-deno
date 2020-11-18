@@ -1,0 +1,51 @@
+{
+  "id": "442",
+  "name": "Spiritomb",
+  "types": [
+    "Ghost",
+    "Dark"
+  ],
+  "number": 442,
+  "stats": {
+    "stamina": 137,
+    "attack": 169,
+    "defence": 199
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "SHADOW_SNEAK",
+    "OMINOUS_WIND",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/442.png",
+      "width": 195,
+      "height": 199
+    },
+    "shiny": {
+      "url": "img/442_shiny.png",
+      "width": 195,
+      "height": 199
+    },
+    "normalAnimated": {
+      "url": "img/442.gif",
+      "width": 78,
+      "height": 73
+    },
+    "shinyAnimated": {
+      "url": "img/442_shiny.gif",
+      "width": 78,
+      "height": 73
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "240",
+  "name": "Magby",
+  "types": [
+    "Fire"
+  ],
+  "number": 240,
+  "stats": {
+    "stamina": 128,
+    "attack": 151,
+    "defence": 99
+  },
+  "quickMoves": [
+    "EMBER_FAST",
+    "KARATE_CHOP_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "FIRE_PUNCH",
+    "FLAME_BURST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/240.png",
+      "width": 74,
+      "height": 101
+    },
+    "shiny": {
+      "url": "img/240_shiny.png",
+      "width": 74,
+      "height": 101
+    },
+    "normalAnimated": {
+      "url": "img/240.gif",
+      "width": 46,
+      "height": 62
+    },
+    "shinyAnimated": {
+      "url": "img/240_shiny.gif",
+      "width": 46,
+      "height": 62
+    }
+  }
+}

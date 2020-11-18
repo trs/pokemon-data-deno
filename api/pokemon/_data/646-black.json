@@ -1,0 +1,52 @@
+{
+  "id": "646-black",
+  "name": "Kyurem",
+  "types": [
+    "Dragon",
+    "Ice"
+  ],
+  "number": 646,
+  "stats": {
+    "stamina": 245,
+    "attack": 310,
+    "defence": 183
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "SHADOW_CLAW_FAST"
+  ],
+  "chargeMoves": [
+    "IRON_HEAD",
+    "BLIZZARD",
+    "STONE_EDGE",
+    "OUTRAGE"
+  ],
+  "forms": [
+    {
+      "name": "Black",
+      "code": "black"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/646-black.png",
+      "width": 249,
+      "height": 233
+    },
+    "shiny": {
+      "url": "img/646-black_shiny.png",
+      "width": 249,
+      "height": 233
+    },
+    "normalAnimated": {
+      "url": "img/646-black.gif",
+      "width": 115,
+      "height": 128
+    },
+    "shinyAnimated": {
+      "url": "img/646-black_shiny.gif",
+      "width": 115,
+      "height": 128
+    }
+  }
+}

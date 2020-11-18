@@ -1,0 +1,50 @@
+{
+  "id": "185",
+  "name": "Sudowoodo",
+  "types": [
+    "Rock"
+  ],
+  "number": 185,
+  "stats": {
+    "stamina": 172,
+    "attack": 167,
+    "defence": 176
+  },
+  "quickMoves": [
+    "ROCK_THROW_FAST",
+    "COUNTER_FAST"
+  ],
+  "chargeMoves": [
+    "STONE_EDGE",
+    "EARTHQUAKE",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/185.png",
+      "width": 139,
+      "height": 159
+    },
+    "shiny": {
+      "url": "img/185_shiny.png",
+      "width": 139,
+      "height": 159
+    },
+    "normalAnimated": {
+      "url": "img/185.gif",
+      "width": 58,
+      "height": 66
+    },
+    "shinyAnimated": {
+      "url": "img/185_shiny.gif",
+      "width": 58,
+      "height": 66
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "479-mow",
+  "name": "Rotom",
+  "types": [
+    "Electric",
+    "Grass"
+  ],
+  "number": 479,
+  "stats": {
+    "stamina": 137,
+    "attack": 204,
+    "defence": 219
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "OMINOUS_WIND",
+    "THUNDERBOLT",
+    "THUNDER"
+  ],
+  "forms": [
+    {
+      "name": "Mow",
+      "code": "mow"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/479-mow.png",
+      "width": 150,
+      "height": 107
+    },
+    "shiny": {
+      "url": "img/479-mow_shiny.png",
+      "width": 150,
+      "height": 107
+    },
+    "normalAnimated": {
+      "url": "img/479-mow.gif",
+      "width": 93,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/479-mow_shiny.gif",
+      "width": 93,
+      "height": 59
+    }
+  }
+}

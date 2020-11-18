@@ -1,0 +1,54 @@
+{
+  "id": "452",
+  "name": "Drapion",
+  "types": [
+    "Poison",
+    "Dark"
+  ],
+  "number": 452,
+  "stats": {
+    "stamina": 172,
+    "attack": 180,
+    "defence": 202
+  },
+  "quickMoves": [
+    "POISON_STING_FAST",
+    "INFESTATION_FAST",
+    "BITE_FAST",
+    "ICE_FANG_FAST"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "AQUA_TAIL",
+    "SLUDGE_BOMB",
+    "FELL_STINGER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/452.png",
+      "width": 225,
+      "height": 161
+    },
+    "shiny": {
+      "url": "img/452_shiny.png",
+      "width": 225,
+      "height": 161
+    },
+    "normalAnimated": {
+      "url": "img/452.gif",
+      "width": 141,
+      "height": 85
+    },
+    "shinyAnimated": {
+      "url": "img/452_shiny.gif",
+      "width": 141,
+      "height": 85
+    }
+  }
+}
