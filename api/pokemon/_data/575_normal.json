@@ -4,7 +4,7 @@
   "types": [
     "Psychic"
   ],
-  "dex": 575,
+  "number": 575,
   "stats": {
     "stamina": 155,
     "attack": 137,

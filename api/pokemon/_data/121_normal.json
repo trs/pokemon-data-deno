@@ -5,7 +5,7 @@
     "Water",
     "Psychic"
   ],
-  "dex": 121,
+  "number": 121,
   "stats": {
     "stamina": 155,
     "attack": 210,

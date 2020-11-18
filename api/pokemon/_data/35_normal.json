@@ -4,7 +4,7 @@
   "types": [
     "Fairy"
   ],
-  "dex": 35,
+  "number": 35,
   "stats": {
     "stamina": 172,
     "attack": 107,

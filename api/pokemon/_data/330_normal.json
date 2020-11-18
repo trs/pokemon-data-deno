@@ -5,7 +5,7 @@
     "Ground",
     "Dragon"
   ],
-  "dex": 330,
+  "number": 330,
   "stats": {
     "stamina": 190,
     "attack": 205,

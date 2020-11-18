@@ -5,7 +5,7 @@
     "Grass",
     "Fighting"
   ],
-  "dex": 286,
+  "number": 286,
   "stats": {
     "stamina": 155,
     "attack": 241,

@@ -5,7 +5,7 @@
     "Poison",
     "Ground"
   ],
-  "dex": 31,
+  "number": 31,
   "stats": {
     "stamina": 207,
     "attack": 180,

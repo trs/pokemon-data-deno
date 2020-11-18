@@ -4,7 +4,7 @@
   "types": [
     "Fire"
   ],
-  "dex": 4,
+  "number": 4,
   "stats": {
     "stamina": 118,
     "attack": 116,

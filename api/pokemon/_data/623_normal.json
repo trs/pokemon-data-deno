@@ -5,7 +5,7 @@
     "Ground",
     "Ghost"
   ],
-  "dex": 623,
+  "number": 623,
   "stats": {
     "stamina": 205,
     "attack": 222,

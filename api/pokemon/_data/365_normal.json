@@ -5,7 +5,7 @@
     "Ice",
     "Water"
   ],
-  "dex": 365,
+  "number": 365,
   "stats": {
     "stamina": 242,
     "attack": 182,

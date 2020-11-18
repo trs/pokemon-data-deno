@@ -4,7 +4,7 @@
   "types": [
     "Dragon"
   ],
-  "dex": 148,
+  "number": 148,
   "stats": {
     "stamina": 156,
     "attack": 163,

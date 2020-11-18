@@ -5,7 +5,7 @@
     "Fire",
     "Flying"
   ],
-  "dex": 250,
+  "number": 250,
   "stats": {
     "stamina": 214,
     "attack": 239,

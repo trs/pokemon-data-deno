@@ -5,7 +5,7 @@
     "Dragon",
     "Ice"
   ],
-  "dex": 646,
+  "number": 646,
   "stats": {
     "stamina": 245,
     "attack": 310,

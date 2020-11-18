@@ -5,7 +5,7 @@
     "Ground",
     "Rock"
   ],
-  "dex": 111,
+  "number": 111,
   "stats": {
     "stamina": 190,
     "attack": 140,

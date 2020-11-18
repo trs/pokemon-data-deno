@@ -5,7 +5,7 @@
     "Ground",
     "Psychic"
   ],
-  "dex": 343,
+  "number": 343,
   "stats": {
     "stamina": 120,
     "attack": 77,

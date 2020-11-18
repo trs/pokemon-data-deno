@@ -5,7 +5,7 @@
     "Ground",
     "Steel"
   ],
-  "dex": 530,
+  "number": 530,
   "stats": {
     "stamina": 242,
     "attack": 255,

@@ -5,7 +5,7 @@
     "Bug",
     "Grass"
   ],
-  "dex": 540,
+  "number": 540,
   "stats": {
     "stamina": 128,
     "attack": 96,

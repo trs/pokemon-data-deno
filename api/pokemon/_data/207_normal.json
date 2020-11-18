@@ -5,7 +5,7 @@
     "Ground",
     "Flying"
   ],
-  "dex": 207,
+  "number": 207,
   "stats": {
     "stamina": 163,
     "attack": 143,

@@ -4,7 +4,7 @@
   "types": [
     "Poison"
   ],
-  "dex": 30,
+  "number": 30,
   "stats": {
     "stamina": 172,
     "attack": 117,

@@ -5,7 +5,7 @@
     "Bug",
     "Rock"
   ],
-  "dex": 213,
+  "number": 213,
   "stats": {
     "stamina": 85,
     "attack": 17,

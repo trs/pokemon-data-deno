@@ -5,7 +5,7 @@
     "Grass",
     "Steel"
   ],
-  "dex": 598,
+  "number": 598,
   "stats": {
     "stamina": 179,
     "attack": 158,

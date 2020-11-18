@@ -5,7 +5,7 @@
     "Dragon",
     "Flying"
   ],
-  "dex": 384,
+  "number": 384,
   "stats": {
     "stamina": 213,
     "attack": 284,

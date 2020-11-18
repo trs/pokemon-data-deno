@@ -4,7 +4,7 @@
   "types": [
     "Rock"
   ],
-  "dex": 377,
+  "number": 377,
   "stats": {
     "stamina": 190,
     "attack": 179,

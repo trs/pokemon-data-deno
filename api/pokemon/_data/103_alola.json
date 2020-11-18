@@ -5,7 +5,7 @@
     "Grass",
     "Dragon"
   ],
-  "dex": 103,
+  "number": 103,
   "stats": {
     "stamina": 216,
     "attack": 230,

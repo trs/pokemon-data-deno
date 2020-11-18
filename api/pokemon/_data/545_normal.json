@@ -5,7 +5,7 @@
     "Bug",
     "Poison"
   ],
-  "dex": 545,
+  "number": 545,
   "stats": {
     "stamina": 155,
     "attack": 203,

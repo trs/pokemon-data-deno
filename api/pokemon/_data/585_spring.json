@@ -5,7 +5,7 @@
     "Normal",
     "Grass"
   ],
-  "dex": 585,
+  "number": 585,
   "stats": {
     "stamina": 155,
     "attack": 115,

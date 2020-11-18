@@ -5,7 +5,7 @@
     "Water",
     "Poison"
   ],
-  "dex": 73,
+  "number": 73,
   "stats": {
     "stamina": 190,
     "attack": 166,

@@ -5,7 +5,7 @@
     "Fire",
     "Ghost"
   ],
-  "dex": 105,
+  "number": 105,
   "stats": {
     "stamina": 155,
     "attack": 144,

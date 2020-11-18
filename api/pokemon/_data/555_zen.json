@@ -5,7 +5,7 @@
     "Fire",
     "Psychic"
   ],
-  "dex": 555,
+  "number": 555,
   "stats": {
     "stamina": 233,
     "attack": 243,

@@ -39,7 +39,7 @@ async function listPokemon() {
       form: pokemon.form,
       images: pokemon.images,
       name: pokemon.name,
-      types: pokemon.types.map(({name}: any) => name)
+      types: pokemon.types
     });
   }
 

@@ -5,7 +5,7 @@
     "Fire",
     "Dragon"
   ],
-  "dex": 6,
+  "number": 6,
   "stats": {
     "stamina": 186,
     "attack": 273,

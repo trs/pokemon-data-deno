@@ -5,7 +5,7 @@
     "Water",
     "Flying"
   ],
-  "dex": 580,
+  "number": 580,
   "stats": {
     "stamina": 158,
     "attack": 84,

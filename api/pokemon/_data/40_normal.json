@@ -5,7 +5,7 @@
     "Normal",
     "Fairy"
   ],
-  "dex": 40,
+  "number": 40,
   "stats": {
     "stamina": 295,
     "attack": 156,

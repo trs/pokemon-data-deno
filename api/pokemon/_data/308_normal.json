@@ -5,7 +5,7 @@
     "Fighting",
     "Psychic"
   ],
-  "dex": 308,
+  "number": 308,
   "stats": {
     "stamina": 155,
     "attack": 121,

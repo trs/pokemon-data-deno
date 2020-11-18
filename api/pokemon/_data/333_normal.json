@@ -5,7 +5,7 @@
     "Normal",
     "Flying"
   ],
-  "dex": 333,
+  "number": 333,
   "stats": {
     "stamina": 128,
     "attack": 76,

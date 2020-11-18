@@ -5,7 +5,7 @@
     "Fire",
     "Fighting"
   ],
-  "dex": 500,
+  "number": 500,
   "stats": {
     "stamina": 242,
     "attack": 235,

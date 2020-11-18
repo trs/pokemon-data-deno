@@ -5,7 +5,7 @@
     "Electric",
     "Psychic"
   ],
-  "dex": 26,
+  "number": 26,
   "stats": {
     "stamina": 155,
     "attack": 201,

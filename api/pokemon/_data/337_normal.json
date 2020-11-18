@@ -5,7 +5,7 @@
     "Rock",
     "Psychic"
   ],
-  "dex": 337,
+  "number": 337,
   "stats": {
     "stamina": 207,
     "attack": 178,

@@ -5,7 +5,7 @@
     "Bug",
     "Flying"
   ],
-  "dex": 165,
+  "number": 165,
   "stats": {
     "stamina": 120,
     "attack": 72,

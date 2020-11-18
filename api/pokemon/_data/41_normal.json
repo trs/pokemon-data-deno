@@ -5,7 +5,7 @@
     "Poison",
     "Flying"
   ],
-  "dex": 41,
+  "number": 41,
   "stats": {
     "stamina": 120,
     "attack": 83,

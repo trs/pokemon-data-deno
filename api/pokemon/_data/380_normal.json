@@ -5,7 +5,7 @@
     "Dragon",
     "Psychic"
   ],
-  "dex": 380,
+  "number": 380,
   "stats": {
     "stamina": 190,
     "attack": 228,

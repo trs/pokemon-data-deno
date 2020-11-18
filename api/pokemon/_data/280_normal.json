@@ -5,7 +5,7 @@
     "Psychic",
     "Fairy"
   ],
-  "dex": 280,
+  "number": 280,
   "stats": {
     "stamina": 99,
     "attack": 79,

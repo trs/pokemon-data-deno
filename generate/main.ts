@@ -13,12 +13,12 @@ const pokemonNamesAssetMap = await assets.getAssetPokemonNames(textAssets);
 const pokemonTypeNamesAssetMap = await assets.getAssetPokemonTypeNames(textAssets);
 
 async function generatePokemon(pokemon: master.PokemonMaster) {
-  const nameAsset = pokemonNamesAssetMap.get(pokemon.dex);
+  const nameAsset = pokemonNamesAssetMap.get(pokemon.number);
   const name = nameAsset
     ? nameAsset.name
     : pokemon.uniqueId; // TODO convert into usable name
 
-  const id = snakeCase([pokemon.dex, ...pokemon.forms.map(({code}) => code)].join(' '));
+  const id = snakeCase([pokemon.number, ...pokemon.forms.map(({code}) => code)].join(' '));
 
   const types = pokemon.types.map((type) => pokemonTypeNamesAssetMap.get(type)?.name);
 

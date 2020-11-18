@@ -5,7 +5,7 @@
     "Water",
     "Dragon"
   ],
-  "dex": 230,
+  "number": 230,
   "stats": {
     "stamina": 181,
     "attack": 194,

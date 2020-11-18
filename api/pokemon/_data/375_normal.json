@@ -5,7 +5,7 @@
     "Steel",
     "Psychic"
   ],
-  "dex": 375,
+  "number": 375,
   "stats": {
     "stamina": 155,
     "attack": 138,

@@ -5,7 +5,7 @@
     "Normal",
     "Psychic"
   ],
-  "dex": 203,
+  "number": 203,
   "stats": {
     "stamina": 172,
     "attack": 182,

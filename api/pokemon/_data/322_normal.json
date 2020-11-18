@@ -5,7 +5,7 @@
     "Fire",
     "Ground"
   ],
-  "dex": 322,
+  "number": 322,
   "stats": {
     "stamina": 155,
     "attack": 119,

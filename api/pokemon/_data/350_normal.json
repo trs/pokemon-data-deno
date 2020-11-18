@@ -4,7 +4,7 @@
   "types": [
     "Water"
   ],
-  "dex": 350,
+  "number": 350,
   "stats": {
     "stamina": 216,
     "attack": 192,

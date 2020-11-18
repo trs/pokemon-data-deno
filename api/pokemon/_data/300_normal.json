@@ -4,7 +4,7 @@
   "types": [
     "Normal"
   ],
-  "dex": 300,
+  "number": 300,
   "stats": {
     "stamina": 137,
     "attack": 84,

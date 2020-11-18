@@ -4,7 +4,7 @@
   "types": [
     "Grass"
   ],
-  "dex": 495,
+  "number": 495,
   "stats": {
     "stamina": 128,
     "attack": 88,

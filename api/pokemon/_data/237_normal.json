@@ -4,7 +4,7 @@
   "types": [
     "Fighting"
   ],
-  "dex": 237,
+  "number": 237,
   "stats": {
     "stamina": 137,
     "attack": 173,

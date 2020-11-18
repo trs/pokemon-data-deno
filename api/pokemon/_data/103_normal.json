@@ -5,7 +5,7 @@
     "Grass",
     "Psychic"
   ],
-  "dex": 103,
+  "number": 103,
   "stats": {
     "stamina": 216,
     "attack": 233,

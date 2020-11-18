@@ -5,7 +5,7 @@
     "Rock",
     "Electric"
   ],
-  "dex": 74,
+  "number": 74,
   "stats": {
     "stamina": 120,
     "attack": 132,

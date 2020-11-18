@@ -5,7 +5,7 @@
     "Water",
     "Ground"
   ],
-  "dex": 260,
+  "number": 260,
   "stats": {
     "stamina": 225,
     "attack": 208,

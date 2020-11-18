@@ -5,7 +5,7 @@
     "Ice",
     "Flying"
   ],
-  "dex": 225,
+  "number": 225,
   "stats": {
     "stamina": 128,
     "attack": 128,

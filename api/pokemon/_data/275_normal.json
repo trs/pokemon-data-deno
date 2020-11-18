@@ -5,7 +5,7 @@
     "Grass",
     "Dark"
   ],
-  "dex": 275,
+  "number": 275,
   "stats": {
     "stamina": 207,
     "attack": 200,

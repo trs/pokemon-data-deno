@@ -5,7 +5,7 @@
     "Water",
     "Fighting"
   ],
-  "dex": 647,
+  "number": 647,
   "stats": {
     "stamina": 209,
     "attack": 260,

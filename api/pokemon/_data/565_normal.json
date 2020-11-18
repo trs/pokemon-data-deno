@@ -5,7 +5,7 @@
     "Water",
     "Rock"
   ],
-  "dex": 565,
+  "number": 565,
   "stats": {
     "stamina": 179,
     "attack": 192,

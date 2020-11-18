@@ -4,7 +4,7 @@
   "types": [
     "Ghost"
   ],
-  "dex": 200,
+  "number": 200,
   "stats": {
     "stamina": 155,
     "attack": 167,

@@ -4,7 +4,7 @@
   "types": [
     "Steel"
   ],
-  "dex": 600,
+  "number": 600,
   "stats": {
     "stamina": 155,
     "attack": 150,

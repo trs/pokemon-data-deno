@@ -5,7 +5,7 @@
     "Rock",
     "Flying"
   ],
-  "dex": 567,
+  "number": 567,
   "stats": {
     "stamina": 181,
     "attack": 292,

@@ -5,7 +5,7 @@
     "Grass",
     "Ground"
   ],
-  "dex": 389,
+  "number": 389,
   "stats": {
     "stamina": 216,
     "attack": 202,

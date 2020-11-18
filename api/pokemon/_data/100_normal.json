@@ -4,7 +4,7 @@
   "types": [
     "Electric"
   ],
-  "dex": 100,
+  "number": 100,
   "stats": {
     "stamina": 120,
     "attack": 109,

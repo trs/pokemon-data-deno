@@ -4,7 +4,7 @@
   "types": [
     "Ground"
   ],
-  "dex": 28,
+  "number": 28,
   "stats": {
     "stamina": 181,
     "attack": 182,

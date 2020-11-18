@@ -5,7 +5,7 @@
     "Steel",
     "Rock"
   ],
-  "dex": 306,
+  "number": 306,
   "stats": {
     "stamina": 172,
     "attack": 198,

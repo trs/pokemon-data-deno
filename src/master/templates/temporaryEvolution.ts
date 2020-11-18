@@ -18,4 +18,4 @@ export const isTemporaryEvolutionTemplate = (template: GameMasterTemplate): temp
   TEMPLATE_TEMP_EVO_REGEX.test(template.templateId)
   && typeof template?.data?.temporaryEvolutionSettings === 'object';
 
-export const buildTemporaryEvolutionTemplateId = (number: string, name: string): string => `TEMPORARY_EVOLUTION_V${number.padStart(4, '0')}_POKEMON_${name}`;
+export const buildTemporaryEvolutionTemplateId = (number: number, name: string): string => `TEMPORARY_EVOLUTION_V${String(number).padStart(4, '0')}_POKEMON_${name}`;

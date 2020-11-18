@@ -5,7 +5,7 @@
     "Rock",
     "Fighting"
   ],
-  "dex": 639,
+  "number": 639,
   "stats": {
     "stamina": 209,
     "attack": 260,

@@ -5,7 +5,7 @@
     "Bug",
     "Ground"
   ],
-  "dex": 290,
+  "number": 290,
   "stats": {
     "stamina": 104,
     "attack": 80,

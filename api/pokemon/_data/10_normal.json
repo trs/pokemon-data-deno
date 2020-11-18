@@ -4,7 +4,7 @@
   "types": [
     "Bug"
   ],
-  "dex": 10,
+  "number": 10,
   "stats": {
     "stamina": 128,
     "attack": 55,

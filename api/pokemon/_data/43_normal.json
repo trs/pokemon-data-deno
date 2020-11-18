@@ -5,7 +5,7 @@
     "Grass",
     "Poison"
   ],
-  "dex": 43,
+  "number": 43,
   "stats": {
     "stamina": 128,
     "attack": 131,
