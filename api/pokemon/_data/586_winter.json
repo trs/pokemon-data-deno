@@ -22,7 +22,10 @@
     "HYPER_BEAM"
   ],
   "forms": [
-    "Winter"
+    {
+      "name": "Winter",
+      "code": "winter"
+    }
   ],
   "images": {
     "normal": {

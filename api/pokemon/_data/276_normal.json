@@ -19,7 +19,10 @@
     "AERIAL_ACE"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

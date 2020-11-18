@@ -21,7 +21,10 @@
     "BUG_BUZZ"
   ],
   "forms": [
-    "Plant"
+    {
+      "name": "Plant",
+      "code": "plant"
+    }
   ],
   "images": {
     "normal": {

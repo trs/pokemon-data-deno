@@ -21,7 +21,10 @@
     "BUBBLE_BEAM"
   ],
   "forms": [
-    "Female"
+    {
+      "name": "Female",
+      "code": "female"
+    }
   ],
   "images": {
     "normal": {

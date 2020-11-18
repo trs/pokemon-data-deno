@@ -23,7 +23,10 @@
     "ACID_SPRAY"
   ],
   "forms": [
-    "Alola"
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
   ],
   "images": {
     "normal": {

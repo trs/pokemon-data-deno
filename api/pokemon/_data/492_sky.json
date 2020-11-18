@@ -21,7 +21,10 @@
     "SOLAR_BEAM"
   ],
   "forms": [
-    "Sky"
+    {
+      "name": "Sky",
+      "code": "sky"
+    }
   ],
   "images": {
     "normal": {

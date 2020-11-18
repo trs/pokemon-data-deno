@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Electric"
+    {
+      "name": "Electric",
+      "code": "electric"
+    }
   ],
   "images": {
     "normal": {

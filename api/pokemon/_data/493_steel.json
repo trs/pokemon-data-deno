@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Steel"
+    {
+      "name": "Steel",
+      "code": "steel"
+    }
   ],
   "images": {
     "normal": {

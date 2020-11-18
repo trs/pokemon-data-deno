@@ -21,7 +21,10 @@
     "HURRICANE"
   ],
   "forms": [
-    "Therian"
+    {
+      "name": "Therian",
+      "code": "therian"
+    }
   ],
   "images": {
     "normal": {

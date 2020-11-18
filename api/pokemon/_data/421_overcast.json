@@ -20,7 +20,10 @@
     "SOLAR_BEAM"
   ],
   "forms": [
-    "Overcast"
+    {
+      "name": "Overcast",
+      "code": "overcast"
+    }
   ],
   "images": {
     "normal": {

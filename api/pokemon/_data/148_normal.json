@@ -20,7 +20,10 @@
     "DRAGON_PULSE"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

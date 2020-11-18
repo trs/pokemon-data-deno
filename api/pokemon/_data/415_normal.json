@@ -18,7 +18,10 @@
     "BUG_BUZZ"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

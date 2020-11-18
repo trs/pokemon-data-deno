@@ -21,7 +21,10 @@
     "CLOSE_COMBAT"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

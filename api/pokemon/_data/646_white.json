@@ -22,7 +22,10 @@
     "FOCUS_BLAST"
   ],
   "forms": [
-    "White"
+    {
+      "name": "White",
+      "code": "white"
+    }
   ],
   "images": {
     "normal": {

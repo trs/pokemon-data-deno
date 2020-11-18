@@ -21,7 +21,10 @@
     "WEATHER_BALL_FIRE"
   ],
   "forms": [
-    "Sunny"
+    {
+      "name": "Sunny",
+      "code": "sunny"
+    }
   ],
   "images": {
     "normal": {

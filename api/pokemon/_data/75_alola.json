@@ -21,7 +21,10 @@
     "ROCK_BLAST"
   ],
   "forms": [
-    "Alola"
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
   ],
   "images": {
     "normal": {

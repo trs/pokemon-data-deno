@@ -23,7 +23,10 @@
     "GRASS_KNOT"
   ],
   "forms": [
-    "Alola"
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
   ],
   "images": {
     "normal": {

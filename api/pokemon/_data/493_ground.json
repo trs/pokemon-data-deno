@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Ground"
+    {
+      "name": "Ground",
+      "code": "ground"
+    }
   ],
   "images": {
     "normal": {

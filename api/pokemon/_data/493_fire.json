@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Fire"
+    {
+      "name": "Fire",
+      "code": "fire"
+    }
   ],
   "images": {
     "normal": {

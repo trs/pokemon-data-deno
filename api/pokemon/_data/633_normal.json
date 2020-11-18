@@ -21,7 +21,10 @@
     "BODY_SLAM"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

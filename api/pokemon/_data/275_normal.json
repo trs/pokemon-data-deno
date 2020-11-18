@@ -23,7 +23,10 @@
     "LEAF_TORNADO"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

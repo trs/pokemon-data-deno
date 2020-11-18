@@ -22,7 +22,10 @@
     "WEATHER_BALL_ICE"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

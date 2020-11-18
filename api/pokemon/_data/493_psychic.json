@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Psychic"
+    {
+      "name": "Psychic",
+      "code": "psychic"
+    }
   ],
   "images": {
     "normal": {

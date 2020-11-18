@@ -20,7 +20,10 @@
     "WEATHER_BALL_WATER"
   ],
   "forms": [
-    "Rainy"
+    {
+      "name": "Rainy",
+      "code": "rainy"
+    }
   ],
   "images": {
     "normal": {

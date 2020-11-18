@@ -21,7 +21,10 @@
     "SHADOW_SNEAK"
   ],
   "forms": [
-    "Altered"
+    {
+      "name": "Altered",
+      "code": "altered"
+    }
   ],
   "images": {
     "normal": {

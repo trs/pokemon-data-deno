@@ -22,7 +22,10 @@
     "POWER_UP_PUNCH"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

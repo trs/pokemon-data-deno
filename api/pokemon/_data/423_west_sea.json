@@ -21,7 +21,10 @@
     "BODY_SLAM"
   ],
   "forms": [
-    "West Sea"
+    {
+      "name": "West Sea",
+      "code": "west-sea"
+    }
   ],
   "images": {
     "normal": {

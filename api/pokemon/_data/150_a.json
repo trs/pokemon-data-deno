@@ -21,7 +21,10 @@
     "FUTURESIGHT"
   ],
   "forms": [
-    "A"
+    {
+      "name": "A",
+      "code": "a"
+    }
   ],
   "images": {
     "normal": {

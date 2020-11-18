@@ -22,7 +22,10 @@
     "FOCUS_BLAST"
   ],
   "forms": [
-    "Incarnate"
+    {
+      "name": "Incarnate",
+      "code": "incarnate"
+    }
   ],
   "images": {
     "normal": {

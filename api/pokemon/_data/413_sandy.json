@@ -21,7 +21,10 @@
     "BUG_BUZZ"
   ],
   "forms": [
-    "Sandy"
+    {
+      "name": "Sandy",
+      "code": "sandy"
+    }
   ],
   "images": {
     "normal": {

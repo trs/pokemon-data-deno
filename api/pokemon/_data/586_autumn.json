@@ -22,7 +22,10 @@
     "HYPER_BEAM"
   ],
   "forms": [
-    "Autumn"
+    {
+      "name": "Autumn",
+      "code": "autumn"
+    }
   ],
   "images": {
     "normal": {

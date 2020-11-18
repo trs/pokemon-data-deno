@@ -22,7 +22,10 @@
     "HYPER_BEAM"
   ],
   "forms": [
-    "Aria"
+    {
+      "name": "Aria",
+      "code": "aria"
+    }
   ],
   "images": {
     "normal": {

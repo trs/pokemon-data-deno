@@ -22,7 +22,10 @@
     "FOCUS_BLAST"
   ],
   "forms": [
-    "Therian"
+    {
+      "name": "Therian",
+      "code": "therian"
+    }
   ],
   "images": {
     "normal": {

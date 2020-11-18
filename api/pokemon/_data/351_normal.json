@@ -20,7 +20,10 @@
     "WEATHER_BALL_ROCK"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

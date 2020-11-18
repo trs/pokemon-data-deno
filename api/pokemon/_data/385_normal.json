@@ -21,7 +21,10 @@
     "DOOM_DESIRE"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

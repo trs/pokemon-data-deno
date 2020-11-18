@@ -22,7 +22,10 @@
     "ICE_PUNCH"
   ],
   "forms": [
-    "Alola"
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
   ],
   "images": {
     "normal": {

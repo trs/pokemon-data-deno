@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Ice"
+    {
+      "name": "Ice",
+      "code": "ice"
+    }
   ],
   "images": {
     "normal": {

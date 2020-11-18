@@ -23,7 +23,10 @@
     "MIRROR_SHOT"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

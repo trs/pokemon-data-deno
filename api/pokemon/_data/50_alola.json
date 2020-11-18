@@ -21,7 +21,10 @@
     "ROCK_TOMB"
   ],
   "forms": [
-    "Alola"
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
   ],
   "images": {
     "normal": {

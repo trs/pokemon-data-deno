@@ -21,7 +21,10 @@
     "THUNDER"
   ],
   "forms": [
-    "Wash"
+    {
+      "name": "Wash",
+      "code": "wash"
+    }
   ],
   "images": {
     "normal": {

@@ -20,7 +20,10 @@
     "SWIFT"
   ],
   "forms": [
-    "Speed"
+    {
+      "name": "Speed",
+      "code": "speed"
+    }
   ],
   "images": {
     "normal": {

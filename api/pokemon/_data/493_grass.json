@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Grass"
+    {
+      "name": "Grass",
+      "code": "grass"
+    }
   ],
   "images": {
     "normal": {

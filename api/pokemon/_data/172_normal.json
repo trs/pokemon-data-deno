@@ -19,7 +19,10 @@
     "THUNDER_PUNCH"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

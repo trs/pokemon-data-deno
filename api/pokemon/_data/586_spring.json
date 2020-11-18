@@ -22,7 +22,10 @@
     "HYPER_BEAM"
   ],
   "forms": [
-    "Spring"
+    {
+      "name": "Spring",
+      "code": "spring"
+    }
   ],
   "images": {
     "normal": {

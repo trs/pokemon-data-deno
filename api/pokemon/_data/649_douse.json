@@ -21,7 +21,10 @@
     "GUNK_SHOT"
   ],
   "forms": [
-    "Douse"
+    {
+      "name": "Douse",
+      "code": "douse"
+    }
   ],
   "images": {
     "normal": {

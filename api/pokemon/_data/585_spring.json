@@ -21,7 +21,10 @@
     "WILD_CHARGE"
   ],
   "forms": [
-    "Spring"
+    {
+      "name": "Spring",
+      "code": "spring"
+    }
   ],
   "images": {
     "normal": {

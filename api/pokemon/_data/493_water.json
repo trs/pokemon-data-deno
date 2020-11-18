@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Water"
+    {
+      "name": "Water",
+      "code": "water"
+    }
   ],
   "images": {
     "normal": {

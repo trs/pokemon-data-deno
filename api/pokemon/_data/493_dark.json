@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Dark"
+    {
+      "name": "Dark",
+      "code": "dark"
+    }
   ],
   "images": {
     "normal": {

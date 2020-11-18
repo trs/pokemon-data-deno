@@ -21,7 +21,10 @@
     "WILD_CHARGE"
   ],
   "forms": [
-    "Winter"
+    {
+      "name": "Winter",
+      "code": "winter"
+    }
   ],
   "images": {
     "normal": {

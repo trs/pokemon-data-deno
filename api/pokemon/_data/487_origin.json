@@ -21,7 +21,10 @@
     "SHADOW_BALL"
   ],
   "forms": [
-    "Origin"
+    {
+      "name": "Origin",
+      "code": "origin"
+    }
   ],
   "images": {
     "normal": {

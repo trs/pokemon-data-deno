@@ -20,7 +20,10 @@
     "DAZZLING_GLEAM"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

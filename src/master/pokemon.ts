@@ -1,4 +1,4 @@
-import { titleCase } from 'https://deno.land/x/case@v2.1.0/mod.ts';
+import { titleCase, paramCase } from 'https://deno.land/x/case@v2.1.0/mod.ts';
 
 import { isFormsTemplate, buildPokemonTemplateId, buildTemporaryEvolutionTemplateId, extractFormsTemplateValues } from './templates/mod.ts';
 
@@ -25,7 +25,10 @@ export interface PokemonMaster {
   quickMoves: string[];
   chargeMoves: string[];
   assetId: string;
-  forms: string[];
+  forms: {
+    name: string;
+    code: string;
+  }[];
 }
 
 export interface PokemonStatsMaster {
@@ -72,6 +75,7 @@ export function * getPokemon(gm: GameMaster): Generator<PokemonMaster> {
       const dex = Number(dexStr);
       const uniqueId = pokemonTemplate.data.pokemon.uniqueId.replace(/(_FEMALE|_MALE)$/, '');
       const formName = getFormName(uniqueId, form?.form ?? `${uniqueId}_NORMAL)`);
+      const forms = SPLIT_FORMS.some((split) => split.test(formName)) ? formName.split(' ') : [formName];
 
       const pokemon = {
         templateId: pokemonTemplate.templateId,
@@ -86,7 +90,7 @@ export function * getPokemon(gm: GameMaster): Generator<PokemonMaster> {
         quickMoves: pokemonTemplate.data.pokemon.quickMoves,
         chargeMoves: pokemonTemplate.data.pokemon.cinematicMoves,
         assetId: buildAssetId(dex, form),
-        forms: SPLIT_FORMS.some((split) => split.test(formName)) ? formName.split(' ') : [formName]
+        forms: forms.map(getFormRecord)
       };
 
       yield pokemon;
@@ -110,7 +114,7 @@ export function * getPokemon(gm: GameMaster): Generator<PokemonMaster> {
               defence: tempEvo.stats.baseDefense
             },
             types: [tempEvo.typeOverride1, tempEvo.typeOverride2].filter(isValidType),
-            forms: [...pokemon.forms, getTempEvoName(evo.temporaryEvolutionId)]
+            forms: [...forms, getTempEvoName(evo.temporaryEvolutionId)].map(getFormRecord)
           }
         }
       }
@@ -126,4 +130,11 @@ function getFormName(uniqueId: string, formId: string) {
 function getTempEvoName(evoId: string) {
   const formName = evoId.replace('TEMP_EVOLUTION_', '');
   return titleCase(formName);
+}
+
+function getFormRecord(form: string) {
+  return {
+    name: form,
+    code: paramCase(form)
+  }
 }

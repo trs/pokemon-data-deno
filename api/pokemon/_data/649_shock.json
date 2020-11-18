@@ -21,7 +21,10 @@
     "ZAP_CANNON"
   ],
   "forms": [
-    "Shock"
+    {
+      "name": "Shock",
+      "code": "shock"
+    }
   ],
   "images": {
     "normal": {

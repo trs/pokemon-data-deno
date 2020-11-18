@@ -22,7 +22,10 @@
     "THUNDER_PUNCH"
   ],
   "forms": [
-    "Incarnate"
+    {
+      "name": "Incarnate",
+      "code": "incarnate"
+    }
   ],
   "images": {
     "normal": {

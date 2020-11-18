@@ -21,7 +21,10 @@
     "ICE_BEAM"
   ],
   "forms": [
-    "Chill"
+    {
+      "name": "Chill",
+      "code": "chill"
+    }
   ],
   "images": {
     "normal": {

@@ -21,7 +21,10 @@
     "THUNDER"
   ],
   "forms": [
-    "Mow"
+    {
+      "name": "Mow",
+      "code": "mow"
+    }
   ],
   "images": {
     "normal": {

@@ -19,7 +19,10 @@
     "ICE_BEAM"
   ],
   "forms": [
-    "Galarian"
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    }
   ],
   "images": {
     "normal": {

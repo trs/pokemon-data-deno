@@ -21,7 +21,10 @@
     "OMINOUS_WIND"
   ],
   "forms": [
-    "Female"
+    {
+      "name": "Female",
+      "code": "female"
+    }
   ],
   "images": {
     "normal": {

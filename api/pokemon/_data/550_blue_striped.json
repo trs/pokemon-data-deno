@@ -20,7 +20,10 @@
     "MUDDY_WATER"
   ],
   "forms": [
-    "Blue Striped"
+    {
+      "name": "Blue Striped",
+      "code": "blue-striped"
+    }
   ],
   "images": {
     "normal": {

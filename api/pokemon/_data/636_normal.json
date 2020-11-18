@@ -21,7 +21,10 @@
     "FLAME_WHEEL"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

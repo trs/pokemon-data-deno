@@ -20,7 +20,10 @@
     "BODY_SLAM"
   ],
   "forms": [
-    "East Sea"
+    {
+      "name": "East Sea",
+      "code": "east-sea"
+    }
   ],
   "images": {
     "normal": {

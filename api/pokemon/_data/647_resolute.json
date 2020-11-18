@@ -22,7 +22,10 @@
     "X_SCISSOR"
   ],
   "forms": [
-    "Resolute"
+    {
+      "name": "Resolute",
+      "code": "resolute"
+    }
   ],
   "images": {
     "normal": {

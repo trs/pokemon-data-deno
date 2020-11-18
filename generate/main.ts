@@ -18,7 +18,7 @@ async function generatePokemon(pokemon: master.PokemonMaster) {
     ? nameAsset.name
     : pokemon.uniqueId; // TODO convert into usable name
 
-  const id = snakeCase([pokemon.dex, ...pokemon.forms].join(' '));
+  const id = snakeCase([pokemon.dex, ...pokemon.forms.map(({code}) => code)].join(' '));
 
   const types = pokemon.types.map((type) => pokemonTypeNamesAssetMap.get(type)?.name);
 
@@ -27,7 +27,7 @@ async function generatePokemon(pokemon: master.PokemonMaster) {
       dir: IMG_DIR,
       file: `${id}.png`
     }),
-    assets.getAssetPokemonGif(name, pokemon.forms, {
+    assets.getAssetPokemonGif(name, pokemon.forms.map(({name}) => name), {
       dir: IMG_DIR,
       file: `${id}.gif`
     })
@@ -38,7 +38,7 @@ async function generatePokemon(pokemon: master.PokemonMaster) {
       dir: IMG_DIR,
       file: `${id}_shiny.png`
     }, true),
-    assets.getAssetPokemonGif(name, pokemon.forms, {
+    assets.getAssetPokemonGif(name, pokemon.forms.map(({name}) => name), {
       dir: IMG_DIR,
       file: `${id}_shiny.gif`
     }, true)

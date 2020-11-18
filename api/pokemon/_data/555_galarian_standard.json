@@ -21,8 +21,14 @@
     "ICE_PUNCH"
   ],
   "forms": [
-    "Galarian",
-    "Standard"
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    },
+    {
+      "name": "Standard",
+      "code": "standard"
+    }
   ],
   "images": {
     "normal": {

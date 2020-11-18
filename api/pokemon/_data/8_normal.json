@@ -20,7 +20,10 @@
     "HYDRO_PUMP"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

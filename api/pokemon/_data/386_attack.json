@@ -20,7 +20,10 @@
     "DARK_PULSE"
   ],
   "forms": [
-    "Attack"
+    {
+      "name": "Attack",
+      "code": "attack"
+    }
   ],
   "images": {
     "normal": {

@@ -21,7 +21,10 @@
     "WILD_CHARGE"
   ],
   "forms": [
-    "Summer"
+    {
+      "name": "Summer",
+      "code": "summer"
+    }
   ],
   "images": {
     "normal": {

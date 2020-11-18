@@ -21,7 +21,10 @@
     "THUNDER"
   ],
   "forms": [
-    "Frost"
+    {
+      "name": "Frost",
+      "code": "frost"
+    }
   ],
   "images": {
     "normal": {

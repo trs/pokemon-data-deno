@@ -21,7 +21,10 @@
     "FLAMETHROWER"
   ],
   "forms": [
-    "Burn"
+    {
+      "name": "Burn",
+      "code": "burn"
+    }
   ],
   "images": {
     "normal": {

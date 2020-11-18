@@ -21,8 +21,14 @@
     "SOLAR_BEAM"
   ],
   "forms": [
-    "Normal",
-    "Mega"
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega",
+      "code": "mega"
+    }
   ],
   "images": {
     "normal": {

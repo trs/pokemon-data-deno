@@ -22,7 +22,10 @@
     "ROCK_SLIDE"
   ],
   "forms": [
-    "Standard"
+    {
+      "name": "Standard",
+      "code": "standard"
+    }
   ],
   "images": {
     "normal": {

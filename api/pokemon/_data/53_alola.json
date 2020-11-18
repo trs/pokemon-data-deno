@@ -20,7 +20,10 @@
     "PLAY_ROUGH"
   ],
   "forms": [
-    "Alola"
+    {
+      "name": "Alola",
+      "code": "alola"
+    }
   ],
   "images": {
     "normal": {

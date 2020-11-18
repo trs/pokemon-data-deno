@@ -21,8 +21,14 @@
     "OVERHEAT"
   ],
   "forms": [
-    "Normal",
-    "Mega Y"
+    {
+      "name": "Normal",
+      "code": "normal"
+    },
+    {
+      "name": "Mega Y",
+      "code": "mega-y"
+    }
   ],
   "images": {
     "normal": {

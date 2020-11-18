@@ -20,7 +20,10 @@
     "MUDDY_WATER"
   ],
   "forms": [
-    "Red Striped"
+    {
+      "name": "Red Striped",
+      "code": "red-striped"
+    }
   ],
   "images": {
     "normal": {

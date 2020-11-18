@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Flying"
+    {
+      "name": "Flying",
+      "code": "flying"
+    }
   ],
   "images": {
     "normal": {

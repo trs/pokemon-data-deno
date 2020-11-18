@@ -21,7 +21,10 @@
     "THUNDER"
   ],
   "forms": [
-    "Fan"
+    {
+      "name": "Fan",
+      "code": "fan"
+    }
   ],
   "images": {
     "normal": {

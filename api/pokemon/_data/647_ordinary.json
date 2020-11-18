@@ -22,7 +22,10 @@
     "X_SCISSOR"
   ],
   "forms": [
-    "Ordinary"
+    {
+      "name": "Ordinary",
+      "code": "ordinary"
+    }
   ],
   "images": {
     "normal": {

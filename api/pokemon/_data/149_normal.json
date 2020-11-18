@@ -23,7 +23,10 @@
     "DRAGON_CLAW"
   ],
   "forms": [
-    "Normal"
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
   ],
   "images": {
     "normal": {

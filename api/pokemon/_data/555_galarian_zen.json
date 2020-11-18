@@ -22,8 +22,14 @@
     "ICE_PUNCH"
   ],
   "forms": [
-    "Galarian",
-    "Zen"
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    },
+    {
+      "name": "Zen",
+      "code": "zen"
+    }
   ],
   "images": {
     "normal": {

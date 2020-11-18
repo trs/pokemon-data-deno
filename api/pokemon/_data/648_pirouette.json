@@ -22,7 +22,10 @@
     "HYPER_BEAM"
   ],
   "forms": [
-    "Pirouette"
+    {
+      "name": "Pirouette",
+      "code": "pirouette"
+    }
   ],
   "images": {
     "normal": {

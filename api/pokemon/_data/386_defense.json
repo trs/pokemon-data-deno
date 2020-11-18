@@ -20,7 +20,10 @@
     "ROCK_SLIDE"
   ],
   "forms": [
-    "Defense"
+    {
+      "name": "Defense",
+      "code": "defense"
+    }
   ],
   "images": {
     "normal": {

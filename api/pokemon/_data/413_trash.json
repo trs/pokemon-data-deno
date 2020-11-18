@@ -21,7 +21,10 @@
     "BUG_BUZZ"
   ],
   "forms": [
-    "Trash"
+    {
+      "name": "Trash",
+      "code": "trash"
+    }
   ],
   "images": {
     "normal": {

@@ -20,7 +20,10 @@
     "SOLAR_BEAM"
   ],
   "forms": [
-    "Land"
+    {
+      "name": "Land",
+      "code": "land"
+    }
   ],
   "images": {
     "normal": {

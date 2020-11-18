@@ -20,7 +20,10 @@
     "OUTRAGE"
   ],
   "forms": [
-    "Bug"
+    {
+      "name": "Bug",
+      "code": "bug"
+    }
   ],
   "images": {
     "normal": {

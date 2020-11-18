@@ -22,7 +22,10 @@
     "THUNDER_PUNCH"
   ],
   "forms": [
-    "Therian"
+    {
+      "name": "Therian",
+      "code": "therian"
+    }
   ],
   "images": {
     "normal": {

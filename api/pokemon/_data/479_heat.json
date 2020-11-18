@@ -21,7 +21,10 @@
     "THUNDER"
   ],
   "forms": [
-    "Heat"
+    {
+      "name": "Heat",
+      "code": "heat"
+    }
   ],
   "images": {
     "normal": {
