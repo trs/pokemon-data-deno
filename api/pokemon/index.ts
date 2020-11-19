@@ -1,5 +1,5 @@
 import {allowCors} from '../_cors.ts';
-import {API_DIR} from '../../const.ts';
+import {API_POKEMON_DIR} from '../../const.ts';
 
 export default allowCors(async (headers, req) => {
   try {
@@ -31,8 +31,8 @@ export default allowCors(async (headers, req) => {
 
 async function listPokemon() {
   const pokedex: any[] = [];
-  for await (const {name} of Deno.readDir(API_DIR)) {
-    const pokemon = JSON.parse(await Deno.readTextFile(`${API_DIR}/${name}`));
+  for await (const {name} of Deno.readDir(API_POKEMON_DIR)) {
+    const pokemon = JSON.parse(await Deno.readTextFile(`${API_POKEMON_DIR}/${name}`));
     pokedex.push({
       id: pokemon.id,
       number: pokemon.number,

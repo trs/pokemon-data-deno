@@ -1,5 +1,5 @@
 import {allowCors} from '../_cors.ts';
-import {API_POKEMON_DIR} from '../../const.ts';
+import {API_TYPES_DIR} from '../../const.ts';
 
 export default allowCors(async (headers, req) => {
   try {
@@ -8,26 +8,26 @@ export default allowCors(async (headers, req) => {
     if (!id) {
       req.respond({
         status: 400,
-        body: JSON.stringify({message: 'Missing ID parameter'})
+        body: JSON.stringify({message: 'Missing name parameter'})
       });
       return;
     }
 
-    const pokemonFilePath = `${API_POKEMON_DIR}/${id}.json`;
+    const typeFilePath = `${API_TYPES_DIR}/${id}.json`;
 
-    const exists = await Deno.stat(pokemonFilePath)
+    const exists = await Deno.stat(typeFilePath)
       .then((info) => info.isFile)
       .catch(() => false);
 
     if (!exists) {
       req.respond({
         status: 400,
-        body: JSON.stringify({message: `No pokemon with that ID found: ${id}`})
+        body: JSON.stringify({message: `No type with that name found: ${id}`})
       });
       return;
     }
 
-    const pokemonFile = await Deno.readTextFile(pokemonFilePath);
+    const pokemonFile = await Deno.readTextFile(typeFilePath);
 
     headers.set('Content-Type', 'application/json; charset=utf8');
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');

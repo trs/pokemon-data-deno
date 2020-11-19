@@ -4,21 +4,22 @@ import type {GameMaster} from './mod.ts';
 
 const TYPES_ORDER = [
   'NORMAL',
-  'FIRE',
-  'WATER',
-  'ELECTRIC',
-  'GRASS',
-  'ICE',
   'FIGHTING',
+  'FLYING',
   'POISON',
   'GROUND',
-  'FLYING',
-  'PSYCIC',
+  'ROCK',
   'BUG',
-  'GROUND',
   'GHOST',
-  'DARK',
   'STEEL',
+  'FIRE',
+  'WATER',
+  'GRASS',
+  'ELECTRIC',
+  'PSYCHIC',
+  'ICE',
+  'DRAGON',
+  'DARK',
   'FAIRY'
 ];
 
@@ -28,44 +29,51 @@ export interface PokemonMasterType {
 }
 
 export interface PokemonMasterTypeEffectiveness {
-  templateId: string;
+  templateId: string[];
   value: number;
 }
 
-export function getPokemonTypes(gm: GameMaster): PokemonMasterType[] {
-  const types: PokemonMasterType[] = []
+export function * getPokemonTypes(gm: GameMaster): Generator<PokemonMasterType> {
   for (const template of gm) {
     if (!isPokemonTypeTemplate(template)) continue;
 
     const attackScalar = template.data.typeEffective.attackScalar.map((value, index) => ({
-      templateId: buildTypeTemplateId(TYPES_ORDER[index]),
+      templateId: [buildTypeTemplateId(TYPES_ORDER[index])],
       value
     }))
 
-    types.push({
+    yield {
       templateId: template.templateId,
       attackScalar
-    });
+    }
   }
-  return types;
 }
 
-export function getPokemonTypeEffectiveness(gm: GameMaster) {
-  const types = getPokemonTypes(gm);
-  const typeTemplateIds = types.map(({templateId}) => templateId);
+export function * getPokemonTypeEffectiveness(gm: GameMaster): Generator<PokemonMasterType> {
+  for (const {attackScalar, templateId} of getPokemonTypes(gm)) {
+    // Build unique combinations of type effectiveness scalars
+    const combinations: PokemonMasterTypeEffectiveness[] = [];
+    for (let i = 0; i < attackScalar.length; i++) {
+      let scalar1 = attackScalar[i];
+      for (const scalar2 of attackScalar.slice(i + 1)) {
+        if (combinations.some(({templateId}) =>
+          templateId.join('') === [...scalar1.templateId, ...scalar2.templateId].join('')
+          || templateId.join('') === [...scalar2.templateId, ...scalar1.templateId].join('')
+        )) continue;
 
-  const typeCombinations = typeTemplateIds.flatMap(
-    (id, i) => typeTemplateIds.slice(i + 1).map((id2) => [id, id2])
-  ) as [string, string][];
+        combinations.push({
+          templateId: [...scalar1.templateId, ...scalar2.templateId],
+          value: Number((scalar1.value * scalar2.value).toFixed(6))
+        })
+      }
+    }
 
-  const possibleTypes = [
-    ...typeTemplateIds.map((id) => [id]),
-    ...typeCombinations
-  ] as [string, string | undefined][];
-
-  return possibleTypes.map(([templateId1, templateId2]) => {
-    const vsType1 = types.find(({templateId}) => templateId === templateId1)!;
-
-    // TODO: combine type effectiveness
-  });
+    yield {
+      templateId,
+      attackScalar: [
+        ...attackScalar,
+        ...combinations
+      ]
+    }
+  }
 }

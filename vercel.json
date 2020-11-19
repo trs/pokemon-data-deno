@@ -6,9 +6,13 @@
 		}
 	],
 	"functions": {
-		"api/**/*.ts": {
+		"api/pokemon/*.ts": {
 			"runtime": "vercel-deno@0.7.5",
       "includeFiles": "api/pokemon/_data/**"
+		},
+		"api/types/*.ts": {
+			"runtime": "vercel-deno@0.7.5",
+      "includeFiles": "api/types/_data/**"
 		}
 	}
 }
