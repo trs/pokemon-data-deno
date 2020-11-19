@@ -3,9 +3,10 @@ import {API_TYPES_DIR} from '../../const.ts';
 
 export default allowCors(async (headers, req) => {
   try {
+    headers.set('Content-Type', 'application/json; charset=utf8');
+
     const types = await listTypes();
 
-    headers.set('Content-Type', 'application/json; charset=utf8');
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,

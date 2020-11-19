@@ -3,12 +3,15 @@ import {API_TYPES_DIR} from '../../const.ts';
 
 export default allowCors(async (headers, req) => {
   try {
+    headers.set('Content-Type', 'application/json; charset=utf8');
+
     const params = new URLSearchParams(req.url.split('?')?.[1] ?? '');
     const id = params.get('id');
     if (!id) {
       req.respond({
         status: 400,
-        body: JSON.stringify({message: 'Missing name parameter'})
+        body: JSON.stringify({message: 'Missing name parameter'}),
+        headers
       });
       return;
     }
@@ -37,14 +40,14 @@ export default allowCors(async (headers, req) => {
     if (!path) {
       req.respond({
         status: 400,
-        body: JSON.stringify({message: `No type with that name found: ${id}`})
+        body: JSON.stringify({message: `No type with that name found: ${id}`}),
+        headers
       });
       return;
     }
 
     const typeFile = await Deno.readTextFile(path);
 
-    headers.set('Content-Type', 'application/json; charset=utf8');
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,

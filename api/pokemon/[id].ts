@@ -3,12 +3,15 @@ import {API_POKEMON_DIR} from '../../const.ts';
 
 export default allowCors(async (headers, req) => {
   try {
+    headers.set('Content-Type', 'application/json; charset=utf8');
+
     const params = new URLSearchParams(req.url.split('?')?.[1] ?? '');
     const id = params.get('id');
     if (!id) {
       req.respond({
         status: 400,
-        body: JSON.stringify({message: 'Missing ID parameter'})
+        body: JSON.stringify({message: 'Missing ID parameter'}),
+        headers
       });
       return;
     }
@@ -22,14 +25,14 @@ export default allowCors(async (headers, req) => {
     if (!exists) {
       req.respond({
         status: 400,
-        body: JSON.stringify({message: `No pokemon with that ID found: ${id}`})
+        body: JSON.stringify({message: `No pokemon with that ID found: ${id}`}),
+        headers
       });
       return;
     }
 
     const pokemonFile = await Deno.readTextFile(pokemonFilePath);
 
-    headers.set('Content-Type', 'application/json; charset=utf8');
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,

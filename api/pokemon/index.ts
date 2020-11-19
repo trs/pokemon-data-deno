@@ -3,6 +3,8 @@ import {API_POKEMON_DIR} from '../../const.ts';
 
 export default allowCors(async (headers, req) => {
   try {
+    headers.set('Content-Type', 'application/json; charset=utf8');
+
     const {searchParams} = new URL(req.url, 'https://127.0.0.1/');
 
     const pokedex = await listPokemon();
@@ -12,7 +14,6 @@ export default allowCors(async (headers, req) => {
     const start = page * count;
     const end = start + count;
 
-    headers.set('Content-Type', 'application/json; charset=utf8');
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,
