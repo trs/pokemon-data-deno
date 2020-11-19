@@ -1,0 +1,116 @@
+{
+  "types": [
+    "Ground",
+    "Rock"
+  ],
+  "defendEffectiveness": [
+    {
+      "types": [
+        "Bug"
+      ],
+      "value": 1
+    },
+    {
+      "types": [
+        "Dark"
+      ],
+      "value": 1
+    },
+    {
+      "types": [
+        "Dragon"
+      ],
+      "value": 1
+    },
+    {
+      "types": [
+        "Electric"
+      ],
+      "value": 0.390625
+    },
+    {
+      "types": [
+        "Fairy"
+      ],
+      "value": 1
+    },
+    {
+      "types": [
+        "Fighting"
+      ],
+      "value": 1.6
+    },
+    {
+      "types": [
+        "Fire"
+      ],
+      "value": 0.625
+    },
+    {
+      "types": [
+        "Flying"
+      ],
+      "value": 0.625
+    },
+    {
+      "types": [
+        "Ghost"
+      ],
+      "value": 1
+    },
+    {
+      "types": [
+        "Grass"
+      ],
+      "value": 2.56
+    },
+    {
+      "types": [
+        "Ground"
+      ],
+      "value": 1.6
+    },
+    {
+      "types": [
+        "Ice"
+      ],
+      "value": 1.6
+    },
+    {
+      "types": [
+        "Normal"
+      ],
+      "value": 0.625
+    },
+    {
+      "types": [
+        "Poison"
+      ],
+      "value": 0.390625
+    },
+    {
+      "types": [
+        "Psychic"
+      ],
+      "value": 1
+    },
+    {
+      "types": [
+        "Rock"
+      ],
+      "value": 0.625
+    },
+    {
+      "types": [
+        "Steel"
+      ],
+      "value": 1.6
+    },
+    {
+      "types": [
+        "Water"
+      ],
+      "value": 2.56
+    }
+  ]
+}

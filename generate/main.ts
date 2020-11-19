@@ -75,18 +75,20 @@ async function generatePokemon(pokemon: master.PokemonMaster) {
   }, null, 2));
 }
 
-async function generateType(type: master.PokemonMasterType) {
-  const typeName = pokemonTypeNamesAssetMap.get(type.templateId)!.name;
-  const attackEffectiveness = type.attackScalar.map((eff) => {
+async function generateDefenderType(type: master.PokemonMasterTypeDefend) {
+  const typeNames = type.templateId.map((templateId) => pokemonTypeNamesAssetMap.get(templateId)!.name);
+  const defendEffectiveness = type.defendScalar.map((eff) => {
     return {
       types: eff.templateId.map((templateId) => pokemonTypeNamesAssetMap.get(templateId)!.name),
       value: eff.value
     };
-  })
+  });
 
-  await Deno.writeTextFile(`${API_TYPES_DIR}/${typeName.toLocaleLowerCase()}.json`, JSON.stringify({
-    type: typeName,
-    attackEffectiveness
+  const name = typeNames.join(',').toLocaleLowerCase();
+
+  await Deno.writeTextFile(`${API_TYPES_DIR}/${name}.json`, JSON.stringify({
+    types: typeNames,
+    defendEffectiveness
   }, null, 2));
 }
 
@@ -96,8 +98,8 @@ for await (const pokemon of master.getPokemon(gm)) {
   promises.push(generatePokemon(pokemon));
 }
 
-for (const type of master.getPokemonTypeEffectiveness(gm)) {
-  promises.push(generateType(type));
+for (const type of master.getDefenderTypeEffectiveness(gm)) {
+  promises.push(generateDefenderType(type));
 }
 
 await Promise.all(promises);

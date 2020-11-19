@@ -13,13 +13,28 @@ export default allowCors(async (headers, req) => {
       return;
     }
 
-    const typeFilePath = `${API_TYPES_DIR}/${id}.json`;
+    const [type1, type2] = id.split(',');
 
-    const exists = await Deno.stat(typeFilePath)
-      .then((info) => info.isFile)
-      .catch(() => false);
+    const combinations = [
+      [type1, type2].filter(Boolean),
+      [type2, type1].filter(Boolean)
+    ];
 
-    if (!exists) {
+    let path: string | undefined;
+    for (const combination of combinations) {
+      const typeFilePath = `${API_TYPES_DIR}/${combination.join(',')}.json`;
+      try {
+        const exists = await Deno.stat(typeFilePath);
+        if (exists.isFile) {
+          path = typeFilePath;
+          break;
+        }
+      } catch {
+        continue;
+      }
+    }
+
+    if (!path) {
       req.respond({
         status: 400,
         body: JSON.stringify({message: `No type with that name found: ${id}`})
@@ -27,13 +42,13 @@ export default allowCors(async (headers, req) => {
       return;
     }
 
-    const pokemonFile = await Deno.readTextFile(typeFilePath);
+    const typeFile = await Deno.readTextFile(path);
 
     headers.set('Content-Type', 'application/json; charset=utf8');
     headers.set('Cache-Control', 'max-age=0, s-maxage=86400');
     req.respond({
       status: 200,
-      body: pokemonFile,
+      body: typeFile,
       headers
     });
   } catch (err) {

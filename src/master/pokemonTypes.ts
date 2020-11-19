@@ -23,9 +23,14 @@ const TYPES_ORDER = [
   'FAIRY'
 ];
 
-export interface PokemonMasterType {
+export interface PokemonMasterTypeAttack {
   templateId: string;
   attackScalar: PokemonMasterTypeEffectiveness[];
+}
+
+export interface PokemonMasterTypeDefend {
+  templateId: string[];
+  defendScalar: PokemonMasterTypeEffectiveness[];
 }
 
 export interface PokemonMasterTypeEffectiveness {
@@ -33,7 +38,7 @@ export interface PokemonMasterTypeEffectiveness {
   value: number;
 }
 
-export function * getPokemonTypes(gm: GameMaster): Generator<PokemonMasterType> {
+export function * getPokemonTypes(gm: GameMaster): Generator<PokemonMasterTypeAttack> {
   for (const template of gm) {
     if (!isPokemonTypeTemplate(template)) continue;
 
@@ -49,7 +54,29 @@ export function * getPokemonTypes(gm: GameMaster): Generator<PokemonMasterType> 
   }
 }
 
-export function * getPokemonTypeEffectiveness(gm: GameMaster): Generator<PokemonMasterType> {
+function getTypeCombinations(gm: GameMaster) {
+  const typeTemplateIds = [...getPokemonTypes(gm)].map(({templateId}) => [templateId]);
+
+  const combinations: string[][] = [];
+  for (let i = 0; i < typeTemplateIds.length; i++) {
+    const templateId1 = typeTemplateIds[i];
+    for (const templateId2 of typeTemplateIds.slice(i + 1)) {
+      if (combinations.some((templateId) =>
+        templateId.join('') === [...templateId1, ...templateId2].join('')
+        || templateId.join('') === [...templateId2, ...templateId1].join('')
+      )) continue;
+
+      combinations.push([...templateId1, ...templateId2]);
+    }
+  }
+
+  return [
+    ...typeTemplateIds,
+    ...combinations
+  ]
+}
+
+export function * getAttackerTypeEffectiveness(gm: GameMaster): Generator<PokemonMasterTypeAttack> {
   for (const {attackScalar, templateId} of getPokemonTypes(gm)) {
     // Build unique combinations of type effectiveness scalars
     const combinations: PokemonMasterTypeEffectiveness[] = [];
@@ -76,4 +103,29 @@ export function * getPokemonTypeEffectiveness(gm: GameMaster): Generator<Pokemon
       ]
     }
   }
+}
+
+export function * getDefenderTypeEffectiveness(gm: GameMaster): Generator<PokemonMasterTypeDefend> {
+  const typeCombinations = getTypeCombinations(gm);
+
+  for (const defender of typeCombinations) {
+    const defendScalar: PokemonMasterTypeEffectiveness[] = []
+    for (const attacker of getAttackerTypeEffectiveness(gm)) {
+      const scalar = attacker.attackScalar.find(({templateId: [type1, type2]}) =>
+        [type1, type2].filter(Boolean).join('') === defender.join('')
+        || [type2, type1].filter(Boolean).join('') === defender.join('')
+      )!;
+
+      defendScalar.push({
+        templateId: [attacker.templateId],
+        value: scalar.value
+      });
+    }
+
+    yield {
+      templateId: defender,
+      defendScalar
+    };
+  }
+
 }
