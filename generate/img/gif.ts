@@ -2,7 +2,7 @@ import { BinaryReader } from 'https://deno.land/x/binary_reader@v0.1.4/mod.ts';
 
 const SIG = 'GIF';
 
-function validSignature(reader: BinaryReader) {
+export function validSignature(reader: BinaryReader) {
   const signature = reader.readString(3);
   const version = reader.readBytes(3);
 
@@ -10,20 +10,7 @@ function validSignature(reader: BinaryReader) {
   return valid;
 }
 
-async function loadGIF(filePath: string) {
-  const buffer = await Deno.readFile(filePath);
-  const reader = new BinaryReader(buffer);
-
-  if (!validSignature(reader)) {
-    // throw new Error('Not a valid GIF');
-  }
-
-  return reader;
-}
-
-export async function readDimensions(filePath: string) {
-  const reader = await loadGIF(filePath);
-
+export async function readDimensions(reader: BinaryReader) {
   const width = reader.readUint16(true);
   const height = reader.readUint16(true);
 
@@ -31,4 +18,9 @@ export async function readDimensions(filePath: string) {
     width,
     height
   }
+}
+
+export async function isGif(reader: BinaryReader) {
+  reader.seek(0);
+  return validSignature(reader);
 }

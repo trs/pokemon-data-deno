@@ -19,8 +19,6 @@ function readChunk(reader: BinaryReader) {
   const data = new BinaryReader(reader.readBytes(length));
   const crc = reader.readBytes(4);
 
-  // TODO: validate crc?
-
   return {
     length,
     type,
@@ -44,23 +42,16 @@ function readIHDR(reader: BinaryReader) {
   };
 }
 
-async function loadPNG(filePath: string) {
-  const buffer = await Deno.readFile(filePath);
-  const reader = new BinaryReader(buffer);
-
-  if (!validSignature(reader)) {
-    throw new Error('Not a valid PNG');
-  }
-
-  return reader;
-}
-
-export async function readDimensions(filePath: string) {
-  const reader = await loadPNG(filePath);
+export async function readDimensions(reader: BinaryReader) {
   const ihdr = readIHDR(reader);
 
   return {
     width: ihdr.width,
     height: ihdr.height
   };
+}
+
+export function isPng(reader: BinaryReader) {
+  reader.seek(0);
+  return validSignature(reader)
 }

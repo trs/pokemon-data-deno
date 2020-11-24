@@ -51,10 +51,10 @@ async function generatePokemon(pokemon: master.PokemonMaster) {
   ]);
 
   const [normal, shiny, normalAnimated, shinyAnimated] = await Promise.all([
-    await resolveImageRecord(imgNormal, 'png'),
-    await resolveImageRecord(imgShiny, 'png'),
-    await resolveImageRecord(gifNormal, 'gif'),
-    await resolveImageRecord(gifShiny, 'gif'),
+    await resolveImageRecord(imgNormal),
+    await resolveImageRecord(imgShiny),
+    await resolveImageRecord(gifNormal),
+    await resolveImageRecord(gifShiny),
   ]);
 
   delete (pokemon as any).templateId;

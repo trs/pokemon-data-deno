@@ -40,13 +40,13 @@
     },
     "normalAnimated": {
       "url": "img/251.gif",
-      "width": 2586,
-      "height": 0
+      "width": 67,
+      "height": 65
     },
     "shinyAnimated": {
       "url": "img/251_shiny.gif",
-      "width": 2586,
-      "height": 0
+      "width": 67,
+      "height": 65
     }
   }
 }
