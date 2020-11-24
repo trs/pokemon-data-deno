@@ -1,5 +1,5 @@
 {
-  "id": "150-a",
+  "id": "150-armored",
   "name": "Mewtwo",
   "types": [
     "Psychic"
@@ -22,18 +22,18 @@
   ],
   "forms": [
     {
-      "name": "A",
-      "code": "a"
+      "name": "Armored",
+      "code": "armored"
     }
   ],
   "images": {
     "normal": {
-      "url": "img/150-a.png",
+      "url": "img/150-armored.png",
       "width": 237,
       "height": 208
     },
     "shiny": {
-      "url": "img/150-a_shiny.png",
+      "url": "img/150-armored_shiny.png",
       "width": 237,
       "height": 208
     }

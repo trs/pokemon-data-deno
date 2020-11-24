@@ -90,7 +90,7 @@ export function * getPokemon(gm: GameMaster): Generator<PokemonMaster> {
         quickMoves: pokemonTemplate.data.pokemon.quickMoves,
         chargeMoves: pokemonTemplate.data.pokemon.cinematicMoves,
         assetId: buildAssetId(number, form),
-        forms: forms.map(getFormRecord)
+        forms: forms.map(getFormRecord(number))
       };
 
       yield pokemon;
@@ -114,7 +114,7 @@ export function * getPokemon(gm: GameMaster): Generator<PokemonMaster> {
               defence: tempEvo.stats.baseDefense
             },
             types: [tempEvo.typeOverride1, tempEvo.typeOverride2].filter(isValidType),
-            forms: [...forms, getTempEvoName(evo.temporaryEvolutionId)].map(getFormRecord)
+            forms: [...forms, getTempEvoName(evo.temporaryEvolutionId)].map(getFormRecord(number))
           }
         }
       }
@@ -132,9 +132,15 @@ function getTempEvoName(evoId: string) {
   return titleCase(formName);
 }
 
-function getFormRecord(form: string) {
-  return {
-    name: form,
-    code: paramCase(form)
-  }
+function getFormRecord(num: number) {
+  return (form: string) => {
+    if (num === 150 && form === 'A') {
+      form = 'Armored';
+    }
+
+    return {
+      name: form,
+      code: paramCase(form)
+    };
+  };
 }
