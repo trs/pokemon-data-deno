@@ -80,7 +80,15 @@ async function generateDefenderType(type: master.PokemonMasterTypeDefend) {
   const defendEffectiveness = type.defendScalar.map((eff) => {
     return {
       types: eff.templateId.map((templateId) => pokemonTypeNamesAssetMap.get(templateId)!.name),
-      value: eff.value
+      value: eff.value,
+      grade:
+        eff.value === 2.56 ? 6
+        : eff.value === 1.6 ? 5
+        : eff.value === 1 ? 4
+        : eff.value === 0.625 ? 3
+        : eff.value === 0.390625 ? 2
+        : eff.value === 0.244141 ? 1
+        : 0
     };
   });
 

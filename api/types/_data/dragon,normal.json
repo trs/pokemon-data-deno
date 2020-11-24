@@ -8,109 +8,127 @@
       "types": [
         "Bug"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Dark"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Dragon"
       ],
-      "value": 1.6
+      "value": 1.6,
+      "grade": 5
     },
     {
       "types": [
         "Electric"
       ],
-      "value": 0.625
+      "value": 0.625,
+      "grade": 3
     },
     {
       "types": [
         "Fairy"
       ],
-      "value": 1.6
+      "value": 1.6,
+      "grade": 5
     },
     {
       "types": [
         "Fighting"
       ],
-      "value": 1.6
+      "value": 1.6,
+      "grade": 5
     },
     {
       "types": [
         "Fire"
       ],
-      "value": 0.625
+      "value": 0.625,
+      "grade": 3
     },
     {
       "types": [
         "Flying"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Ghost"
       ],
-      "value": 0.390625
+      "value": 0.390625,
+      "grade": 2
     },
     {
       "types": [
         "Grass"
       ],
-      "value": 0.625
+      "value": 0.625,
+      "grade": 3
     },
     {
       "types": [
         "Ground"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Ice"
       ],
-      "value": 1.6
+      "value": 1.6,
+      "grade": 5
     },
     {
       "types": [
         "Normal"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Poison"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Psychic"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Rock"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Steel"
       ],
-      "value": 1
+      "value": 1,
+      "grade": 4
     },
     {
       "types": [
         "Water"
       ],
-      "value": 0.625
+      "value": 0.625,
+      "grade": 3
     }
   ]
 }
