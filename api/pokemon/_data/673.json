@@ -1,0 +1,42 @@
+{
+  "id": "673",
+  "name": "GOGOAT",
+  "types": [
+    "Grass"
+  ],
+  "number": 673,
+  "stats": {
+    "stamina": 265,
+    "attack": 196,
+    "defence": 146
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "ROCK_SMASH_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "ROCK_SLIDE",
+    "LEAF_BLADE",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/673.gif",
+      "width": 57,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "img/673_shiny.gif",
+      "width": 57,
+      "height": 83
+    }
+  }
+}

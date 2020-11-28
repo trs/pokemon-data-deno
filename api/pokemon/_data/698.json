@@ -1,0 +1,43 @@
+{
+  "id": "698",
+  "name": "AMAURA",
+  "types": [
+    "Rock",
+    "Ice"
+  ],
+  "number": 698,
+  "stats": {
+    "stamina": 184,
+    "attack": 124,
+    "defence": 109
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "FROST_BREATH_FAST",
+    "MIRROR_COAT"
+  ],
+  "chargeMoves": [
+    "WEATHER_BALL_ICE",
+    "ANCIENT_POWER",
+    "AURORA_BEAM",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/698.gif",
+      "width": 52,
+      "height": 90
+    },
+    "shinyAnimated": {
+      "url": "img/698_shiny.gif",
+      "width": 52,
+      "height": 90
+    }
+  }
+}

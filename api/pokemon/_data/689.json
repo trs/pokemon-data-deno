@@ -1,0 +1,43 @@
+{
+  "id": "689",
+  "name": "BARBARACLE",
+  "types": [
+    "Rock",
+    "Water"
+  ],
+  "number": 689,
+  "stats": {
+    "stamina": 176,
+    "attack": 194,
+    "defence": 205
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "MUD_SLAP_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "SKULL_BASH",
+    "CROSS_CHOP",
+    "STONE_EDGE",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/689.gif",
+      "width": 118,
+      "height": 109
+    },
+    "shinyAnimated": {
+      "url": "img/689_shiny.gif",
+      "width": 118,
+      "height": 109
+    }
+  }
+}

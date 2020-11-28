@@ -1,0 +1,43 @@
+{
+  "id": "695",
+  "name": "HELIOLISK",
+  "types": [
+    "Electric",
+    "Normal"
+  ],
+  "number": 695,
+  "stats": {
+    "stamina": 158,
+    "attack": 219,
+    "defence": 168
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "VOLT_SWITCH_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "PARABOLIC_CHARGE",
+    "BULLDOZE",
+    "THUNDERBOLT",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/695.gif",
+      "width": 71,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/695_shiny.gif",
+      "width": 71,
+      "height": 78
+    }
+  }
+}

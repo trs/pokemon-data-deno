@@ -1,0 +1,52 @@
+{
+  "id": "658",
+  "name": "GRENINJA",
+  "types": [
+    "Water",
+    "Dark"
+  ],
+  "number": 658,
+  "stats": {
+    "stamina": 176,
+    "attack": 223,
+    "defence": 152
+  },
+  "quickMoves": [
+    "FEINT_ATTACK_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "AERIAL_ACE",
+    "SURF",
+    "HYDRO_PUMP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/658.png",
+      "width": 237,
+      "height": 142
+    },
+    "shiny": {
+      "url": "img/658_shiny.png",
+      "width": 237,
+      "height": 142
+    },
+    "normalAnimated": {
+      "url": "img/658.gif",
+      "width": 131,
+      "height": 76
+    },
+    "shinyAnimated": {
+      "url": "img/658_shiny.gif",
+      "width": 131,
+      "height": 76
+    }
+  }
+}

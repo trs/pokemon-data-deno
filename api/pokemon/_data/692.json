@@ -1,0 +1,40 @@
+{
+  "id": "692",
+  "name": "CLAUNCHER",
+  "types": [
+    "Water"
+  ],
+  "number": 692,
+  "stats": {
+    "stamina": 137,
+    "attack": 108,
+    "defence": 117
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "CRABHAMMER",
+    "AQUA_JET"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/692.gif",
+      "width": 70,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "img/692_shiny.gif",
+      "width": 70,
+      "height": 52
+    }
+  }
+}

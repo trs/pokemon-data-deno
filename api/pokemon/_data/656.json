@@ -1,0 +1,50 @@
+{
+  "id": "656",
+  "name": "FROAKIE",
+  "types": [
+    "Water"
+  ],
+  "number": 656,
+  "stats": {
+    "stamina": 121,
+    "attack": 122,
+    "defence": 84
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "AERIAL_ACE",
+    "SURF"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/656.png",
+      "width": 94,
+      "height": 109
+    },
+    "shiny": {
+      "url": "img/656_shiny.png",
+      "width": 94,
+      "height": 109
+    },
+    "normalAnimated": {
+      "url": "img/656.gif",
+      "width": 45,
+      "height": 52
+    },
+    "shinyAnimated": {
+      "url": "img/656_shiny.gif",
+      "width": 45,
+      "height": 52
+    }
+  }
+}

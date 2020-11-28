@@ -1,0 +1,51 @@
+{
+  "id": "661",
+  "name": "FLETCHLING",
+  "types": [
+    "Normal",
+    "Flying"
+  ],
+  "number": 661,
+  "stats": {
+    "stamina": 128,
+    "attack": 95,
+    "defence": 80
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "HEAT_WAVE",
+    "SWIFT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/661.png",
+      "width": 64,
+      "height": 87
+    },
+    "shiny": {
+      "url": "img/661_shiny.png",
+      "width": 64,
+      "height": 87
+    },
+    "normalAnimated": {
+      "url": "img/661.gif",
+      "width": 47,
+      "height": 43
+    },
+    "shinyAnimated": {
+      "url": "img/661_shiny.gif",
+      "width": 47,
+      "height": 43
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "699",
+  "name": "AURORUS",
+  "types": [
+    "Rock",
+    "Ice"
+  ],
+  "number": 699,
+  "stats": {
+    "stamina": 265,
+    "attack": 186,
+    "defence": 163
+  },
+  "quickMoves": [
+    "POWDER_SNOW_FAST",
+    "FROST_BREATH_FAST",
+    "MIRROR_COAT",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "WEATHER_BALL_ICE",
+    "ANCIENT_POWER",
+    "BLIZZARD",
+    "THUNDERBOLT",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/699.gif",
+      "width": 67,
+      "height": 123
+    },
+    "shinyAnimated": {
+      "url": "img/699_shiny.gif",
+      "width": 67,
+      "height": 123
+    }
+  }
+}

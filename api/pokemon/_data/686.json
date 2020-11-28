@@ -1,0 +1,40 @@
+{
+  "id": "686",
+  "name": "INKAY",
+  "types": [
+    "Dark",
+    "Psychic"
+  ],
+  "number": 686,
+  "stats": {
+    "stamina": 142,
+    "attack": 98,
+    "defence": 95
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "NIGHT_SLASH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/686.gif",
+      "width": 68,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "img/686_shiny.gif",
+      "width": 68,
+      "height": 61
+    }
+  }
+}

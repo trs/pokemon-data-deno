@@ -1,0 +1,41 @@
+{
+  "id": "694",
+  "name": "HELIOPTILE",
+  "types": [
+    "Electric",
+    "Normal"
+  ],
+  "number": 694,
+  "stats": {
+    "stamina": 127,
+    "attack": 115,
+    "defence": 78
+  },
+  "quickMoves": [
+    "QUICK_ATTACK_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "PARABOLIC_CHARGE",
+    "BULLDOZE",
+    "DISCHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/694.gif",
+      "width": 58,
+      "height": 54
+    },
+    "shinyAnimated": {
+      "url": "img/694_shiny.gif",
+      "width": 58,
+      "height": 54
+    }
+  }
+}

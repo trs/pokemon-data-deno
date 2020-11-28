@@ -1,0 +1,50 @@
+{
+  "id": "654",
+  "name": "BRAIXEN",
+  "types": [
+    "Fire"
+  ],
+  "number": 654,
+  "stats": {
+    "stamina": 153,
+    "attack": 171,
+    "defence": 130
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "FLAMETHROWER",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/654.png",
+      "width": 139,
+      "height": 161
+    },
+    "shiny": {
+      "url": "img/654_shiny.png",
+      "width": 139,
+      "height": 161
+    },
+    "normalAnimated": {
+      "url": "img/654.gif",
+      "width": 74,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "img/654_shiny.gif",
+      "width": 74,
+      "height": 86
+    }
+  }
+}

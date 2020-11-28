@@ -1,0 +1,41 @@
+{
+  "id": "676",
+  "name": "FURFROU",
+  "types": [
+    "Normal"
+  ],
+  "number": 676,
+  "stats": {
+    "stamina": 181,
+    "attack": 164,
+    "defence": 167
+  },
+  "quickMoves": [
+    "TAKE_DOWN_FAST",
+    "BITE_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "SURF",
+    "DARK_PULSE",
+    "GRASS_KNOT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/676.gif",
+      "width": 47,
+      "height": 84
+    },
+    "shinyAnimated": {
+      "url": "img/676_shiny.gif",
+      "width": 47,
+      "height": 84
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "717",
+  "name": "YVELTAL",
+  "types": [
+    "Dark",
+    "Flying"
+  ],
+  "number": 717,
+  "stats": {
+    "stamina": 270,
+    "attack": 275,
+    "defence": 203
+  },
+  "quickMoves": [
+    "SUCKER_PUNCH_FAST",
+    "SNARL_FAST",
+    "GUST_FAST"
+  ],
+  "chargeMoves": [
+    "DARK_PULSE",
+    "HURRICANE",
+    "FOCUS_BLAST",
+    "HYPER_BEAM",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/717.gif",
+      "width": 201,
+      "height": 188
+    },
+    "shinyAnimated": {
+      "url": "img/717_shiny.gif",
+      "width": 201,
+      "height": 188
+    }
+  }
+}

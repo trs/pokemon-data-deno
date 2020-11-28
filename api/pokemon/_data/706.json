@@ -1,0 +1,41 @@
+{
+  "id": "706",
+  "name": "GOODRA",
+  "types": [
+    "Dragon"
+  ],
+  "number": 706,
+  "stats": {
+    "stamina": 207,
+    "attack": 220,
+    "defence": 242
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "DRAGON_BREATH_FAST"
+  ],
+  "chargeMoves": [
+    "DRACO_METEOR",
+    "SLUDGE_WAVE",
+    "MUDDY_WATER",
+    "POWER_WHIP"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/706.gif",
+      "width": 60,
+      "height": 102
+    },
+    "shinyAnimated": {
+      "url": "img/706_shiny.gif",
+      "width": 60,
+      "height": 102
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "715",
+  "name": "NOIVERN",
+  "types": [
+    "Flying",
+    "Dragon"
+  ],
+  "number": 715,
+  "stats": {
+    "stamina": 198,
+    "attack": 205,
+    "defence": 175
+  },
+  "quickMoves": [
+    "AIR_SLASH_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "DRACO_METEOR",
+    "HURRICANE",
+    "HEAT_WAVE",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/715.png",
+      "width": 252,
+      "height": 165
+    },
+    "shiny": {
+      "url": "img/715_shiny.png",
+      "width": 252,
+      "height": 165
+    },
+    "normalAnimated": {
+      "url": "img/715.gif",
+      "width": 184,
+      "height": 156
+    },
+    "shinyAnimated": {
+      "url": "img/715_shiny.gif",
+      "width": 184,
+      "height": 156
+    }
+  }
+}

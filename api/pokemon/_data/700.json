@@ -1,0 +1,40 @@
+{
+  "id": "700",
+  "name": "SYLVEON",
+  "types": [
+    "Fairy"
+  ],
+  "number": 700,
+  "stats": {
+    "stamina": 216,
+    "attack": 203,
+    "defence": 205
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "MOONBLAST",
+    "DAZZLING_GLEAM",
+    "DRAINING_KISS"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/700.gif",
+      "width": 59,
+      "height": 86
+    },
+    "shinyAnimated": {
+      "url": "img/700_shiny.gif",
+      "width": 59,
+      "height": 86
+    }
+  }
+}

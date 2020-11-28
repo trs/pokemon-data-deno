@@ -1,0 +1,53 @@
+{
+  "id": "655",
+  "name": "DELPHOX",
+  "types": [
+    "Fire",
+    "Psychic"
+  ],
+  "number": 655,
+  "stats": {
+    "stamina": 181,
+    "attack": 230,
+    "defence": 189
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "FIRE_SPIN_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "FLAMETHROWER",
+    "FLAME_CHARGE",
+    "FIRE_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/655.png",
+      "width": 155,
+      "height": 186
+    },
+    "shiny": {
+      "url": "img/655_shiny.png",
+      "width": 155,
+      "height": 186
+    },
+    "normalAnimated": {
+      "url": "img/655.gif",
+      "width": 95,
+      "height": 110
+    },
+    "shinyAnimated": {
+      "url": "img/655_shiny.gif",
+      "width": 95,
+      "height": 110
+    }
+  }
+}

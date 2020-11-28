@@ -1,0 +1,52 @@
+{
+  "id": "667",
+  "name": "LITLEO",
+  "types": [
+    "Fire",
+    "Normal"
+  ],
+  "number": 667,
+  "stats": {
+    "stamina": 158,
+    "attack": 139,
+    "defence": 112
+  },
+  "quickMoves": [
+    "FIRE_FANG_FAST",
+    "TACKLE_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "CRUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/667.png",
+      "width": 91,
+      "height": 119
+    },
+    "shiny": {
+      "url": "img/667_shiny.png",
+      "width": 91,
+      "height": 119
+    },
+    "normalAnimated": {
+      "url": "img/667.gif",
+      "width": 51,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "img/667_shiny.gif",
+      "width": 51,
+      "height": 61
+    }
+  }
+}

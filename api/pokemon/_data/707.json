@@ -1,0 +1,52 @@
+{
+  "id": "707",
+  "name": "KLEFKI",
+  "types": [
+    "Steel",
+    "Fairy"
+  ],
+  "number": 707,
+  "stats": {
+    "stamina": 149,
+    "attack": 160,
+    "defence": 179
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "FLASH_CANNON",
+    "PLAY_ROUGH",
+    "DRAINING_KISS",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/707.png",
+      "width": 63,
+      "height": 111
+    },
+    "shiny": {
+      "url": "img/707_shiny.png",
+      "width": 63,
+      "height": 111
+    },
+    "normalAnimated": {
+      "url": "img/707.gif",
+      "width": 69,
+      "height": 88
+    },
+    "shinyAnimated": {
+      "url": "img/707_shiny.gif",
+      "width": 69,
+      "height": 88
+    }
+  }
+}

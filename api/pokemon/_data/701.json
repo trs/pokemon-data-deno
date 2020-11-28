@@ -1,0 +1,43 @@
+{
+  "id": "701",
+  "name": "HAWLUCHA",
+  "types": [
+    "Fighting",
+    "Flying"
+  ],
+  "number": 701,
+  "stats": {
+    "stamina": 186,
+    "attack": 195,
+    "defence": 153
+  },
+  "quickMoves": [
+    "WING_ATTACK_FAST",
+    "LOW_KICK_FAST",
+    "POISON_JAB_FAST"
+  ],
+  "chargeMoves": [
+    "FLYING_PRESS",
+    "SKY_ATTACK",
+    "X_SCISSOR",
+    "POWER_UP_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/701.gif",
+      "width": 98,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "img/701_shiny.gif",
+      "width": 98,
+      "height": 72
+    }
+  }
+}

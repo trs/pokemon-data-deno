@@ -1,0 +1,38 @@
+{
+  "id": "710",
+  "name": "PUMPKABOO",
+  "types": [
+    "Ghost",
+    "Grass"
+  ],
+  "number": 710,
+  "stats": {},
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "GRASS_KNOT",
+    "SHADOW_SNEAK",
+    "FOUL_PLAY",
+    "EARTHQUAKE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/710.gif",
+      "width": 56,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/710_shiny.gif",
+      "width": 56,
+      "height": 59
+    }
+  }
+}

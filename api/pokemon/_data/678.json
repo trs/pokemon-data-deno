@@ -1,0 +1,50 @@
+{
+  "id": "678",
+  "name": "MEOWSTIC",
+  "types": [
+    "Psychic"
+  ],
+  "number": 678,
+  "stats": {
+    "stamina": 179,
+    "attack": 166,
+    "defence": 167
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "ENERGY_BALL",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/678.png",
+      "width": 129,
+      "height": 148
+    },
+    "shiny": {
+      "url": "img/678_shiny.png",
+      "width": 129,
+      "height": 148
+    },
+    "normalAnimated": {
+      "url": "img/678.gif",
+      "width": 55,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "img/678_shiny.gif",
+      "width": 55,
+      "height": 72
+    }
+  }
+}

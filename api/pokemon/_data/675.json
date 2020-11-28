@@ -1,0 +1,43 @@
+{
+  "id": "675",
+  "name": "PANGORO",
+  "types": [
+    "Fighting",
+    "Dark"
+  ],
+  "number": 675,
+  "stats": {
+    "stamina": 216,
+    "attack": 226,
+    "defence": 146
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "SNARL_FAST",
+    "BULLET_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "CLOSE_COMBAT",
+    "NIGHT_SLASH",
+    "IRON_HEAD",
+    "ROCK_SLIDE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/675.gif",
+      "width": 97,
+      "height": 102
+    },
+    "shinyAnimated": {
+      "url": "img/675_shiny.gif",
+      "width": 97,
+      "height": 102
+    }
+  }
+}

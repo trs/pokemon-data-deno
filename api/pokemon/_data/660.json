@@ -1,0 +1,52 @@
+{
+  "id": "660",
+  "name": "DIGGERSBY",
+  "types": [
+    "Normal",
+    "Ground"
+  ],
+  "number": 660,
+  "stats": {
+    "stamina": 198,
+    "attack": 112,
+    "defence": 155
+  },
+  "quickMoves": [
+    "MUD_SHOT_FAST",
+    "QUICK_ATTACK_FAST"
+  ],
+  "chargeMoves": [
+    "DIG",
+    "HYPER_BEAM",
+    "EARTHQUAKE",
+    "FIRE_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/660.png",
+      "width": 197,
+      "height": 175
+    },
+    "shiny": {
+      "url": "img/660_shiny.png",
+      "width": 197,
+      "height": 175
+    },
+    "normalAnimated": {
+      "url": "img/660.gif",
+      "width": 121,
+      "height": 105
+    },
+    "shinyAnimated": {
+      "url": "img/660_shiny.gif",
+      "width": 121,
+      "height": 105
+    }
+  }
+}

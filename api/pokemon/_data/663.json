@@ -1,0 +1,53 @@
+{
+  "id": "663",
+  "name": "TALONFLAME",
+  "types": [
+    "Fire",
+    "Flying"
+  ],
+  "number": 663,
+  "stats": {
+    "stamina": 186,
+    "attack": 176,
+    "defence": 155
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "FIRE_SPIN_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "BRAVE_BIRD",
+    "FIRE_BLAST",
+    "FLAME_CHARGE",
+    "HURRICANE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/663.png",
+      "width": 256,
+      "height": 218
+    },
+    "shiny": {
+      "url": "img/663_shiny.png",
+      "width": 256,
+      "height": 218
+    },
+    "normalAnimated": {
+      "url": "img/663.gif",
+      "width": 152,
+      "height": 185
+    },
+    "shinyAnimated": {
+      "url": "img/663_shiny.gif",
+      "width": 152,
+      "height": 185
+    }
+  }
+}

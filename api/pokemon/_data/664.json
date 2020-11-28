@@ -1,0 +1,48 @@
+{
+  "id": "664",
+  "name": "SCATTERBUG",
+  "types": [
+    "Bug"
+  ],
+  "number": 664,
+  "stats": {
+    "stamina": 116,
+    "attack": 63,
+    "defence": 63
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/664.png",
+      "width": 37,
+      "height": 61
+    },
+    "shiny": {
+      "url": "img/664_shiny.png",
+      "width": 37,
+      "height": 61
+    },
+    "normalAnimated": {
+      "url": "img/664.gif",
+      "width": 38,
+      "height": 56
+    },
+    "shinyAnimated": {
+      "url": "img/664_shiny.gif",
+      "width": 38,
+      "height": 56
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "684",
+  "name": "SWIRLIX",
+  "types": [
+    "Fairy"
+  ],
+  "number": 684,
+  "stats": {
+    "stamina": 158,
+    "attack": 109,
+    "defence": 119
+  },
+  "quickMoves": [
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DRAINING_KISS",
+    "ENERGY_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/684.gif",
+      "width": 47,
+      "height": 49
+    },
+    "shinyAnimated": {
+      "url": "img/684_shiny.gif",
+      "width": 47,
+      "height": 49
+    }
+  }
+}

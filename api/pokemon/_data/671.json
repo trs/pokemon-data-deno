@@ -1,0 +1,42 @@
+{
+  "id": "671",
+  "name": "FLORGES",
+  "types": [
+    "Fairy"
+  ],
+  "number": 671,
+  "stats": {
+    "stamina": 186,
+    "attack": 212,
+    "defence": 244
+  },
+  "quickMoves": [
+    "VINE_WHIP_FAST",
+    "TACKLE_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "MOONBLAST",
+    "PETAL_BLIZZARD",
+    "PSYCHIC",
+    "DISARMING_VOICE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/671.gif",
+      "width": 80,
+      "height": 100
+    },
+    "shinyAnimated": {
+      "url": "img/671_shiny.gif",
+      "width": 80,
+      "height": 100
+    }
+  }
+}

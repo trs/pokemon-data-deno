@@ -1,0 +1,41 @@
+{
+  "id": "705",
+  "name": "SLIGGOO",
+  "types": [
+    "Dragon"
+  ],
+  "number": 705,
+  "stats": {
+    "stamina": 169,
+    "attack": 159,
+    "defence": 176
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_PULSE",
+    "SLUDGE_WAVE",
+    "MUDDY_WATER",
+    "WATER_PULSE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/705.gif",
+      "width": 42,
+      "height": 82
+    },
+    "shinyAnimated": {
+      "url": "img/705_shiny.gif",
+      "width": 42,
+      "height": 82
+    }
+  }
+}

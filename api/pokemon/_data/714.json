@@ -1,0 +1,51 @@
+{
+  "id": "714",
+  "name": "NOIBAT",
+  "types": [
+    "Flying",
+    "Dragon"
+  ],
+  "number": 714,
+  "stats": {
+    "stamina": 120,
+    "attack": 83,
+    "defence": 73
+  },
+  "quickMoves": [
+    "WING_ATTACK_FAST",
+    "BITE_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_PULSE",
+    "AIR_CUTTER",
+    "HEAT_WAVE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/714.png",
+      "width": 98,
+      "height": 118
+    },
+    "shiny": {
+      "url": "img/714_shiny.png",
+      "width": 98,
+      "height": 118
+    },
+    "normalAnimated": {
+      "url": "img/714.gif",
+      "width": 85,
+      "height": 96
+    },
+    "shinyAnimated": {
+      "url": "img/714_shiny.gif",
+      "width": 85,
+      "height": 96
+    }
+  }
+}

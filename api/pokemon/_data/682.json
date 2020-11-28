@@ -1,0 +1,39 @@
+{
+  "id": "682",
+  "name": "SPRITZEE",
+  "types": [
+    "Fairy"
+  ],
+  "number": 682,
+  "stats": {
+    "stamina": 186,
+    "attack": 110,
+    "defence": 113
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "DRAINING_KISS",
+    "THUNDERBOLT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/682.gif",
+      "width": 69,
+      "height": 61
+    },
+    "shinyAnimated": {
+      "url": "img/682_shiny.gif",
+      "width": 69,
+      "height": 61
+    }
+  }
+}

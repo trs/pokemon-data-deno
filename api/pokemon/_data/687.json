@@ -1,0 +1,42 @@
+{
+  "id": "687",
+  "name": "MALAMAR",
+  "types": [
+    "Dark",
+    "Psychic"
+  ],
+  "number": 687,
+  "stats": {
+    "stamina": 200,
+    "attack": 177,
+    "defence": 165
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "PSYCHO_CUT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "FOUL_PLAY",
+    "SUPER_POWER",
+    "HYPER_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/687.gif",
+      "width": 130,
+      "height": 105
+    },
+    "shinyAnimated": {
+      "url": "img/687_shiny.gif",
+      "width": 130,
+      "height": 105
+    }
+  }
+}

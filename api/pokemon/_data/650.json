@@ -1,0 +1,50 @@
+{
+  "id": "650",
+  "name": "CHESPIN",
+  "types": [
+    "Grass"
+  ],
+  "number": 650,
+  "stats": {
+    "stamina": 148,
+    "attack": 110,
+    "defence": 106
+  },
+  "quickMoves": [
+    "TAKE_DOWN_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "SEED_BOMB",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/650.png",
+      "width": 88,
+      "height": 122
+    },
+    "shiny": {
+      "url": "img/650_shiny.png",
+      "width": 88,
+      "height": 122
+    },
+    "normalAnimated": {
+      "url": "img/650.gif",
+      "width": 50,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/650_shiny.gif",
+      "width": 50,
+      "height": 64
+    }
+  }
+}

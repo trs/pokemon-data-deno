@@ -1,0 +1,41 @@
+{
+  "id": "688",
+  "name": "BINACLE",
+  "types": [
+    "Rock",
+    "Water"
+  ],
+  "number": 688,
+  "stats": {
+    "stamina": 123,
+    "attack": 96,
+    "defence": 120
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "MUD_SLAP_FAST"
+  ],
+  "chargeMoves": [
+    "ANCIENT_POWER",
+    "CROSS_CHOP",
+    "DIG"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/688.gif",
+      "width": 76,
+      "height": 71
+    },
+    "shinyAnimated": {
+      "url": "img/688_shiny.gif",
+      "width": 76,
+      "height": 71
+    }
+  }
+}

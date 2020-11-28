@@ -1,0 +1,38 @@
+{
+  "id": "711",
+  "name": "GOURGEIST",
+  "types": [
+    "Ghost",
+    "Grass"
+  ],
+  "number": 711,
+  "stats": {},
+  "quickMoves": [
+    "HEX_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY",
+    "FIRE_BLAST"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/711.gif",
+      "width": 53,
+      "height": 83
+    },
+    "shinyAnimated": {
+      "url": "img/711_shiny.gif",
+      "width": 53,
+      "height": 83
+    }
+  }
+}

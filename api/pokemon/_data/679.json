@@ -1,0 +1,37 @@
+{
+  "id": "679",
+  "name": "HONEDGE",
+  "types": [
+    "Steel",
+    "Ghost"
+  ],
+  "number": 679,
+  "stats": {},
+  "quickMoves": [
+    "TACKLE_FAST",
+    "FURY_CUTTER_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "IRON_HEAD",
+    "GYRO_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/679.gif",
+      "width": 76,
+      "height": 79
+    },
+    "shinyAnimated": {
+      "url": "img/679_shiny.gif",
+      "width": 76,
+      "height": 79
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "674",
+  "name": "PANCHAM",
+  "types": [
+    "Fighting"
+  ],
+  "number": 674,
+  "stats": {
+    "stamina": 167,
+    "attack": 145,
+    "defence": 107
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "LOW_SWEEP",
+    "CRUNCH",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/674.gif",
+      "width": 47,
+      "height": 64
+    },
+    "shinyAnimated": {
+      "url": "img/674_shiny.gif",
+      "width": 47,
+      "height": 64
+    }
+  }
+}

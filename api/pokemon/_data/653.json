@@ -1,0 +1,50 @@
+{
+  "id": "653",
+  "name": "FENNEKIN",
+  "types": [
+    "Fire"
+  ],
+  "number": 653,
+  "stats": {
+    "stamina": 120,
+    "attack": 116,
+    "defence": 102
+  },
+  "quickMoves": [
+    "SCRATCH_FAST",
+    "EMBER_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "FLAMETHROWER",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/653.png",
+      "width": 113,
+      "height": 125
+    },
+    "shiny": {
+      "url": "img/653_shiny.png",
+      "width": 113,
+      "height": 125
+    },
+    "normalAnimated": {
+      "url": "img/653.gif",
+      "width": 51,
+      "height": 59
+    },
+    "shinyAnimated": {
+      "url": "img/653_shiny.gif",
+      "width": 51,
+      "height": 59
+    }
+  }
+}

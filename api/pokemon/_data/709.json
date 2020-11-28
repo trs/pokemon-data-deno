@@ -1,0 +1,41 @@
+{
+  "id": "709",
+  "name": "TREVENANT",
+  "types": [
+    "Ghost",
+    "Grass"
+  ],
+  "number": 709,
+  "stats": {
+    "stamina": 198,
+    "attack": 201,
+    "defence": 154
+  },
+  "quickMoves": [
+    "SHADOW_CLAW_FAST",
+    "SUCKER_PUNCH_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/709.gif",
+      "width": 114,
+      "height": 100
+    },
+    "shinyAnimated": {
+      "url": "img/709_shiny.gif",
+      "width": 114,
+      "height": 100
+    }
+  }
+}

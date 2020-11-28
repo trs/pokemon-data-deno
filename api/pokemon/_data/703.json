@@ -1,0 +1,41 @@
+{
+  "id": "703",
+  "name": "CARBINK",
+  "types": [
+    "Rock",
+    "Fairy"
+  ],
+  "number": 703,
+  "stats": {
+    "stamina": 137,
+    "attack": 95,
+    "defence": 285
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "ROCK_THROW_FAST"
+  ],
+  "chargeMoves": [
+    "ROCK_SLIDE",
+    "MOONBLAST",
+    "POWER_GEM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/703.gif",
+      "width": 54,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/703_shiny.gif",
+      "width": 54,
+      "height": 57
+    }
+  }
+}

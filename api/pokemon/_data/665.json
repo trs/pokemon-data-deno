@@ -1,0 +1,38 @@
+{
+  "id": "665",
+  "name": "SPEWPA",
+  "types": [
+    "Bug"
+  ],
+  "number": 665,
+  "stats": {
+    "stamina": 128,
+    "attack": 48,
+    "defence": 89
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "STRUGGLE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/665.gif",
+      "width": 44,
+      "height": 43
+    },
+    "shinyAnimated": {
+      "url": "img/665_shiny.gif",
+      "width": 44,
+      "height": 43
+    }
+  }
+}

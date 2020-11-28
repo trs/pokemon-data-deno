@@ -1,0 +1,41 @@
+{
+  "id": "685",
+  "name": "SLURPUFF",
+  "types": [
+    "Fairy"
+  ],
+  "number": 685,
+  "stats": {
+    "stamina": 193,
+    "attack": 168,
+    "defence": 163
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "PLAY_ROUGH",
+    "ENERGY_BALL",
+    "FLAMETHROWER",
+    "DRAINING_KISS"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/685.gif",
+      "width": 68,
+      "height": 70
+    },
+    "shinyAnimated": {
+      "url": "img/685_shiny.gif",
+      "width": 68,
+      "height": 70
+    }
+  }
+}

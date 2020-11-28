@@ -1,0 +1,42 @@
+{
+  "id": "713",
+  "name": "AVALUGG",
+  "types": [
+    "Ice"
+  ],
+  "number": 713,
+  "stats": {
+    "stamina": 216,
+    "attack": 196,
+    "defence": 240
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "ICE_FANG_FAST",
+    "MIRROR_COAT"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "AVALANCHE",
+    "EARTHQUAKE",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/713.gif",
+      "width": 121,
+      "height": 57
+    },
+    "shinyAnimated": {
+      "url": "img/713_shiny.gif",
+      "width": 121,
+      "height": 57
+    }
+  }
+}

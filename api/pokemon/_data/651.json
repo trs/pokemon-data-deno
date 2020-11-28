@@ -1,0 +1,50 @@
+{
+  "id": "651",
+  "name": "QUILLADIN",
+  "types": [
+    "Grass"
+  ],
+  "number": 651,
+  "stats": {
+    "stamina": 156,
+    "attack": 146,
+    "defence": 156
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "RAZOR_LEAF_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "ENERGY_BALL",
+    "BODY_SLAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/651.png",
+      "width": 158,
+      "height": 149
+    },
+    "shiny": {
+      "url": "img/651_shiny.png",
+      "width": 158,
+      "height": 149
+    },
+    "normalAnimated": {
+      "url": "img/651.gif",
+      "width": 73,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/651_shiny.gif",
+      "width": 73,
+      "height": 68
+    }
+  }
+}

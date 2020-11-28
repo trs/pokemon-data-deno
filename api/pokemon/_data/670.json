@@ -1,0 +1,40 @@
+{
+  "id": "670",
+  "name": "FLOETTE",
+  "types": [
+    "Fairy"
+  ],
+  "number": 670,
+  "stats": {
+    "stamina": 144,
+    "attack": 136,
+    "defence": 151
+  },
+  "quickMoves": [
+    "VINE_WHIP_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DAZZLING_GLEAM",
+    "PETAL_BLIZZARD",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/670.gif",
+      "width": 61,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/670_shiny.gif",
+      "width": 61,
+      "height": 95
+    }
+  }
+}

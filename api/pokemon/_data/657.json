@@ -1,0 +1,50 @@
+{
+  "id": "657",
+  "name": "FROGADIER",
+  "types": [
+    "Water"
+  ],
+  "number": 657,
+  "stats": {
+    "stamina": 144,
+    "attack": 168,
+    "defence": 114
+  },
+  "quickMoves": [
+    "POUND_FAST",
+    "BUBBLE_FAST"
+  ],
+  "chargeMoves": [
+    "NIGHT_SLASH",
+    "AERIAL_ACE",
+    "SURF"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/657.png",
+      "width": 161,
+      "height": 126
+    },
+    "shiny": {
+      "url": "img/657_shiny.png",
+      "width": 161,
+      "height": 126
+    },
+    "normalAnimated": {
+      "url": "img/657.gif",
+      "width": 73,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/657_shiny.gif",
+      "width": 73,
+      "height": 58
+    }
+  }
+}

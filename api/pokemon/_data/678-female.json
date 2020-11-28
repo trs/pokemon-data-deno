@@ -1,0 +1,50 @@
+{
+  "id": "678-female",
+  "name": "MEOWSTIC",
+  "types": [
+    "Psychic"
+  ],
+  "number": 678,
+  "stats": {
+    "stamina": 179,
+    "attack": 166,
+    "defence": 167
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "CHARM_FAST"
+  ],
+  "chargeMoves": [
+    "PSYCHIC",
+    "ENERGY_BALL",
+    "SHADOW_BALL"
+  ],
+  "forms": [
+    {
+      "name": "Female",
+      "code": "female"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/678-female.png",
+      "width": 135,
+      "height": 151
+    },
+    "shiny": {
+      "url": "img/678-female_shiny.png",
+      "width": 135,
+      "height": 151
+    },
+    "normalAnimated": {
+      "url": "img/678-female.gif",
+      "width": 55,
+      "height": 72
+    },
+    "shinyAnimated": {
+      "url": "img/678-female_shiny.gif",
+      "width": 55,
+      "height": 72
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "669",
+  "name": "FLABEBE",
+  "types": [
+    "Fairy"
+  ],
+  "number": 669,
+  "stats": {
+    "stamina": 127,
+    "attack": 108,
+    "defence": 120
+  },
+  "quickMoves": [
+    "VINE_WHIP_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DAZZLING_GLEAM",
+    "PETAL_BLIZZARD",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/669.gif",
+      "width": 76,
+      "height": 78
+    },
+    "shinyAnimated": {
+      "url": "img/669_shiny.gif",
+      "width": 76,
+      "height": 78
+    }
+  }
+}

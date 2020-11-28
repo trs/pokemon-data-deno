@@ -1,0 +1,41 @@
+{
+  "id": "683",
+  "name": "AROMATISSE",
+  "types": [
+    "Fairy"
+  ],
+  "number": 683,
+  "stats": {
+    "stamina": 226,
+    "attack": 173,
+    "defence": 150
+  },
+  "quickMoves": [
+    "CHARM_FAST",
+    "CHARGE_BEAM_FAST"
+  ],
+  "chargeMoves": [
+    "MOONBLAST",
+    "THUNDERBOLT",
+    "PSYCHIC",
+    "DRAINING_KISS"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/683.gif",
+      "width": 67,
+      "height": 80
+    },
+    "shinyAnimated": {
+      "url": "img/683_shiny.gif",
+      "width": 67,
+      "height": 80
+    }
+  }
+}

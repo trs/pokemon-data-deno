@@ -1,0 +1,52 @@
+{
+  "id": "668",
+  "name": "PYROAR",
+  "types": [
+    "Fire",
+    "Normal"
+  ],
+  "number": 668,
+  "stats": {
+    "stamina": 200,
+    "attack": 221,
+    "defence": 149
+  },
+  "quickMoves": [
+    "FIRE_FANG_FAST",
+    "TAKE_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "FLAME_CHARGE",
+    "SOLAR_BEAM",
+    "DARK_PULSE",
+    "OVERHEAT"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/668.png",
+      "width": 166,
+      "height": 197
+    },
+    "shiny": {
+      "url": "img/668_shiny.png",
+      "width": 166,
+      "height": 197
+    },
+    "normalAnimated": {
+      "url": "img/668.gif",
+      "width": 79,
+      "height": 99
+    },
+    "shinyAnimated": {
+      "url": "img/668_shiny.gif",
+      "width": 79,
+      "height": 99
+    }
+  }
+}

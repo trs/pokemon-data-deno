@@ -1,0 +1,40 @@
+{
+  "id": "704",
+  "name": "GOOMY",
+  "types": [
+    "Dragon"
+  ],
+  "number": 704,
+  "stats": {
+    "stamina": 128,
+    "attack": 101,
+    "defence": 112
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "DRAGON_PULSE",
+    "SLUDGE_WAVE",
+    "MUDDY_WATER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/704.gif",
+      "width": 39,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/704_shiny.gif",
+      "width": 39,
+      "height": 50
+    }
+  }
+}

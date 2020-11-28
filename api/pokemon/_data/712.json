@@ -1,0 +1,39 @@
+{
+  "id": "712",
+  "name": "BERGMITE",
+  "types": [
+    "Ice"
+  ],
+  "number": 712,
+  "stats": {
+    "stamina": 146,
+    "attack": 117,
+    "defence": 120
+  },
+  "quickMoves": [
+    "BITE_FAST",
+    "MIRROR_COAT"
+  ],
+  "chargeMoves": [
+    "CRUNCH",
+    "ICY_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/712.gif",
+      "width": 50,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/712_shiny.gif",
+      "width": 50,
+      "height": 60
+    }
+  }
+}

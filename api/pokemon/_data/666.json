@@ -1,0 +1,43 @@
+{
+  "id": "666",
+  "name": "VIVILLON",
+  "types": [
+    "Bug",
+    "Flying"
+  ],
+  "number": 666,
+  "stats": {
+    "stamina": 190,
+    "attack": 176,
+    "defence": 103
+  },
+  "quickMoves": [
+    "BUG_BITE_FAST",
+    "GUST_FAST",
+    "STRUGGLE_BUG_FAST"
+  ],
+  "chargeMoves": [
+    "BUG_BUZZ",
+    "AERIAL_ACE",
+    "ENERGY_BALL",
+    "HURRICANE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/666.gif",
+      "width": 104,
+      "height": 104
+    },
+    "shinyAnimated": {
+      "url": "img/666_shiny.gif",
+      "width": 104,
+      "height": 104
+    }
+  }
+}

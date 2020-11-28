@@ -1,0 +1,41 @@
+{
+  "id": "696",
+  "name": "TYRUNT",
+  "types": [
+    "Rock",
+    "Dragon"
+  ],
+  "number": 696,
+  "stats": {
+    "stamina": 151,
+    "attack": 158,
+    "defence": 123
+  },
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "STOMP",
+    "ANCIENT_POWER",
+    "DRAGON_CLAW"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/696.gif",
+      "width": 65,
+      "height": 68
+    },
+    "shinyAnimated": {
+      "url": "img/696_shiny.gif",
+      "width": 65,
+      "height": 68
+    }
+  }
+}

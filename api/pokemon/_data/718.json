@@ -1,0 +1,40 @@
+{
+  "id": "718",
+  "name": "YVELTAL",
+  "types": [
+    "Dragon",
+    "Ground"
+  ],
+  "number": 718,
+  "stats": {},
+  "quickMoves": [
+    "DRAGON_TAIL_FAST",
+    "BITE_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "OUTRAGE",
+    "EARTHQUAKE",
+    "CRUNCH",
+    "HYPER_BEAM",
+    "BULLDOZE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/718.gif",
+      "width": 201,
+      "height": 188
+    },
+    "shinyAnimated": {
+      "url": "img/718_shiny.gif",
+      "width": 201,
+      "height": 188
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "662",
+  "name": "FLETCHINDER",
+  "types": [
+    "Fire",
+    "Flying"
+  ],
+  "number": 662,
+  "stats": {
+    "stamina": 158,
+    "attack": 145,
+    "defence": 110
+  },
+  "quickMoves": [
+    "PECK_FAST",
+    "EMBER_FAST",
+    "STEEL_WING_FAST"
+  ],
+  "chargeMoves": [
+    "AERIAL_ACE",
+    "HEAT_WAVE",
+    "FLAME_CHARGE"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/662.png",
+      "width": 197,
+      "height": 134
+    },
+    "shiny": {
+      "url": "img/662_shiny.png",
+      "width": 197,
+      "height": 134
+    },
+    "normalAnimated": {
+      "url": "img/662.gif",
+      "width": 109,
+      "height": 107
+    },
+    "shinyAnimated": {
+      "url": "img/662_shiny.gif",
+      "width": 109,
+      "height": 107
+    }
+  }
+}

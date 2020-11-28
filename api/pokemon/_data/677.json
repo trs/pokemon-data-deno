@@ -1,0 +1,50 @@
+{
+  "id": "677",
+  "name": "ESPURR",
+  "types": [
+    "Psychic"
+  ],
+  "number": 677,
+  "stats": {
+    "stamina": 158,
+    "attack": 120,
+    "defence": 114
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "SCRATCH_FAST"
+  ],
+  "chargeMoves": [
+    "PSYSHOCK",
+    "ENERGY_BALL",
+    "PSYCHIC"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/677.png",
+      "width": 96,
+      "height": 120
+    },
+    "shiny": {
+      "url": "img/677_shiny.png",
+      "width": 96,
+      "height": 120
+    },
+    "normalAnimated": {
+      "url": "img/677.gif",
+      "width": 47,
+      "height": 58
+    },
+    "shinyAnimated": {
+      "url": "img/677_shiny.gif",
+      "width": 47,
+      "height": 58
+    }
+  }
+}

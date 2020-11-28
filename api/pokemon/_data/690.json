@@ -1,0 +1,42 @@
+{
+  "id": "690",
+  "name": "SKRELP",
+  "types": [
+    "Poison",
+    "Water"
+  ],
+  "number": 690,
+  "stats": {
+    "stamina": 137,
+    "attack": 109,
+    "defence": 109
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "ACID_FAST"
+  ],
+  "chargeMoves": [
+    "AQUA_TAIL",
+    "WATER_PULSE",
+    "TWISTER",
+    "SLUDGE_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/690.gif",
+      "width": 43,
+      "height": 77
+    },
+    "shinyAnimated": {
+      "url": "img/690_shiny.gif",
+      "width": 43,
+      "height": 77
+    }
+  }
+}

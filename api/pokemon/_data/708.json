@@ -1,0 +1,41 @@
+{
+  "id": "708",
+  "name": "PHANTUMP",
+  "types": [
+    "Ghost",
+    "Grass"
+  ],
+  "number": 708,
+  "stats": {
+    "stamina": 125,
+    "attack": 125,
+    "defence": 103
+  },
+  "quickMoves": [
+    "ASTONISH_FAST",
+    "TACKLE_FAST"
+  ],
+  "chargeMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/708.gif",
+      "width": 67,
+      "height": 60
+    },
+    "shinyAnimated": {
+      "url": "img/708_shiny.gif",
+      "width": 67,
+      "height": 60
+    }
+  }
+}

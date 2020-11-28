@@ -1,0 +1,41 @@
+{
+  "id": "702",
+  "name": "DEDENNE",
+  "types": [
+    "Electric",
+    "Fairy"
+  ],
+  "number": 702,
+  "stats": {
+    "stamina": 167,
+    "attack": 164,
+    "defence": 134
+  },
+  "quickMoves": [
+    "TACKLE_FAST",
+    "THUNDER_SHOCK_FAST"
+  ],
+  "chargeMoves": [
+    "PARABOLIC_CHARGE",
+    "DISCHARGE",
+    "PLAY_ROUGH"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/702.gif",
+      "width": 68,
+      "height": 50
+    },
+    "shinyAnimated": {
+      "url": "img/702_shiny.gif",
+      "width": 68,
+      "height": 50
+    }
+  }
+}

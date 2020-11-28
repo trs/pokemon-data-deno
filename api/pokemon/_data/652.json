@@ -1,0 +1,53 @@
+{
+  "id": "652",
+  "name": "CHESNAUGHT",
+  "types": [
+    "Grass",
+    "Fighting"
+  ],
+  "number": 652,
+  "stats": {
+    "stamina": 204,
+    "attack": 201,
+    "defence": 204
+  },
+  "quickMoves": [
+    "LOW_KICK_FAST",
+    "RAZOR_LEAF_FAST",
+    "VINE_WHIP_FAST"
+  ],
+  "chargeMoves": [
+    "GYRO_BALL",
+    "ENERGY_BALL",
+    "SUPER_POWER",
+    "SOLAR_BEAM"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/652.png",
+      "width": 224,
+      "height": 212
+    },
+    "shiny": {
+      "url": "img/652_shiny.png",
+      "width": 224,
+      "height": 212
+    },
+    "normalAnimated": {
+      "url": "img/652.gif",
+      "width": 128,
+      "height": 106
+    },
+    "shinyAnimated": {
+      "url": "img/652_shiny.gif",
+      "width": 128,
+      "height": 106
+    }
+  }
+}

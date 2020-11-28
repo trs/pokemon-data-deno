@@ -1,0 +1,40 @@
+{
+  "id": "672",
+  "name": "SKIDDO",
+  "types": [
+    "Grass"
+  ],
+  "number": 672,
+  "stats": {
+    "stamina": 165,
+    "attack": 123,
+    "defence": 102
+  },
+  "quickMoves": [
+    "ZEN_HEADBUTT_FAST",
+    "ROCK_SMASH_FAST"
+  ],
+  "chargeMoves": [
+    "BRICK_BREAK",
+    "ROCK_SLIDE",
+    "SEED_BOMB"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/672.gif",
+      "width": 48,
+      "height": 63
+    },
+    "shinyAnimated": {
+      "url": "img/672_shiny.gif",
+      "width": 48,
+      "height": 63
+    }
+  }
+}

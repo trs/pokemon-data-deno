@@ -1,0 +1,41 @@
+{
+  "id": "693",
+  "name": "CLAWITZER",
+  "types": [
+    "Water"
+  ],
+  "number": 693,
+  "stats": {
+    "stamina": 174,
+    "attack": 221,
+    "defence": 171
+  },
+  "quickMoves": [
+    "WATER_GUN_FAST",
+    "SMACK_DOWN_FAST"
+  ],
+  "chargeMoves": [
+    "WATER_PULSE",
+    "DARK_PULSE",
+    "ICE_BEAM",
+    "CRABHAMMER"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normalAnimated": {
+      "url": "img/693.gif",
+      "width": 138,
+      "height": 95
+    },
+    "shinyAnimated": {
+      "url": "img/693_shiny.gif",
+      "width": 138,
+      "height": 95
+    }
+  }
+}
