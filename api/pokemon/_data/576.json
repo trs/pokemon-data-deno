@@ -26,6 +26,16 @@
     }
   ],
   "images": {
+    "normal": {
+      "url": "img/576.png",
+      "width": 140,
+      "height": 217
+    },
+    "shiny": {
+      "url": "img/576_shiny.png",
+      "width": 140,
+      "height": 217
+    },
     "normalAnimated": {
       "url": "img/576.gif",
       "width": 62,

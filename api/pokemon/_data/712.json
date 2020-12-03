@@ -12,11 +12,12 @@
   },
   "quickMoves": [
     "BITE_FAST",
-    "MIRROR_COAT"
+    "TACKLE_FAST"
   ],
   "chargeMoves": [
     "CRUNCH",
-    "ICY_WIND"
+    "ICY_WIND",
+    "MIRROR_COAT"
   ],
   "forms": [
     {

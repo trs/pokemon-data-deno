@@ -12,14 +12,14 @@
   },
   "quickMoves": [
     "BITE_FAST",
-    "ICE_FANG_FAST",
-    "MIRROR_COAT"
+    "ICE_FANG_FAST"
   ],
   "chargeMoves": [
     "CRUNCH",
     "AVALANCHE",
     "EARTHQUAKE",
-    "BODY_SLAM"
+    "BODY_SLAM",
+    "MIRROR_COAT"
   ],
   "forms": [
     {
