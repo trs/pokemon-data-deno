@@ -1,6 +1,6 @@
 {
   "id": "669",
-  "name": "FLABEBE",
+  "name": "Flabébé",
   "types": [
     "Fairy"
   ],
@@ -25,16 +25,5 @@
       "code": "normal"
     }
   ],
-  "images": {
-    "normalAnimated": {
-      "url": "img/669.gif",
-      "width": 76,
-      "height": 78
-    },
-    "shinyAnimated": {
-      "url": "img/669_shiny.gif",
-      "width": 76,
-      "height": 78
-    }
-  }
+  "images": {}
 }

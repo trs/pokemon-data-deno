@@ -1,6 +1,6 @@
 {
   "id": "718",
-  "name": "YVELTAL",
+  "name": "Zygarde",
   "types": [
     "Dragon",
     "Ground"
@@ -28,13 +28,13 @@
   "images": {
     "normalAnimated": {
       "url": "img/718.gif",
-      "width": 201,
-      "height": 188
+      "width": 96,
+      "height": 107
     },
     "shinyAnimated": {
       "url": "img/718_shiny.gif",
-      "width": 201,
-      "height": 188
+      "width": 96,
+      "height": 107
     }
   }
 }

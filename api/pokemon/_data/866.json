@@ -1,0 +1,43 @@
+{
+  "id": "866",
+  "name": "MR_RIME",
+  "types": [
+    "Ice",
+    "Psychic"
+  ],
+  "number": 866,
+  "stats": {
+    "stamina": 190,
+    "attack": 212,
+    "defence": 179
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "ZEN_HEADBUTT_FAST",
+    "ICE_SHARD_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "ICE_PUNCH",
+    "ICY_WIND"
+  ],
+  "forms": [
+    {
+      "name": "Normal",
+      "code": "normal"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/866.png",
+      "width": 154,
+      "height": 163
+    },
+    "shiny": {
+      "url": "img/866_shiny.png",
+      "width": 154,
+      "height": 163
+    }
+  }
+}

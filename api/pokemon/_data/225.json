@@ -29,12 +29,12 @@
     "normal": {
       "url": "img/225.png",
       "width": 103,
-      "height": 125
+      "height": 126
     },
     "shiny": {
       "url": "img/225_shiny.png",
       "width": 103,
-      "height": 125
+      "height": 126
     },
     "normalAnimated": {
       "url": "img/225.gif",

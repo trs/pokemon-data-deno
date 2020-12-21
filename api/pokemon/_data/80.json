@@ -29,13 +29,13 @@
   "images": {
     "normal": {
       "url": "img/80.png",
-      "width": 215,
-      "height": 158
+      "width": 216,
+      "height": 159
     },
     "shiny": {
       "url": "img/80_shiny.png",
-      "width": 215,
-      "height": 158
+      "width": 216,
+      "height": 159
     },
     "normalAnimated": {
       "url": "img/80.gif",

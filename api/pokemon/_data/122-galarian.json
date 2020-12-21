@@ -1,0 +1,41 @@
+{
+  "id": "122-galarian",
+  "name": "Mr. Mime",
+  "types": [
+    "Ice",
+    "Psychic"
+  ],
+  "number": 122,
+  "stats": {
+    "stamina": 137,
+    "attack": 183,
+    "defence": 169
+  },
+  "quickMoves": [
+    "CONFUSION_FAST",
+    "ZEN_HEADBUTT_FAST"
+  ],
+  "chargeMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "ICE_PUNCH"
+  ],
+  "forms": [
+    {
+      "name": "Galarian",
+      "code": "galarian"
+    }
+  ],
+  "images": {
+    "normal": {
+      "url": "img/122-galarian.png",
+      "width": 157,
+      "height": 175
+    },
+    "shiny": {
+      "url": "img/122-galarian_shiny.png",
+      "width": 157,
+      "height": 175
+    }
+  }
+}
